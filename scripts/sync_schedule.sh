@@ -32,25 +32,32 @@ if [ ! -f "$CONF" ]; then
 fi
 # shellcheck disable=SC1090
 source "$CONF"
-if [ -z "${SHEET_ID:-}" ]; then
-  log "SHEET_ID empty in .sync.env — skip"
+if [ -z "${ROS_CSV_URL:-}" ] && [ -z "${SHEET_ID:-}" ]; then
+  log "neither ROS_CSV_URL nor SHEET_ID set in .sync.env — skip"
   exit 0
 fi
 
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
-XLSX="$TMP/ros.xlsx"
 
-# 1. Fetch the sheet as xlsx.
-code="$(curl -s -L -o "$XLSX" -w '%{http_code}' \
-  "https://docs.google.com/spreadsheets/d/$SHEET_ID/export?format=xlsx")"
-if [ "$code" != "200" ] || head -c2 "$XLSX" | grep -q '<'; then
-  log "fetch failed (http $code) — is the sheet shared 'Anyone with link: Viewer'?"
+# 1. Fetch the ROS Chart. Prefer the Publish-to-web CSV of just the
+#    "ROS Chart (auto)" tab (anonymous, no PII); fall back to the full-file
+#    xlsx export if only SHEET_ID is configured.
+if [ -n "${ROS_CSV_URL:-}" ]; then
+  SRCFILE="$TMP/ros.csv"
+  FETCH_URL="$ROS_CSV_URL"
+else
+  SRCFILE="$TMP/ros.xlsx"
+  FETCH_URL="https://docs.google.com/spreadsheets/d/$SHEET_ID/export?format=xlsx"
+fi
+code="$(curl -s -L -o "$SRCFILE" -w '%{http_code}' "$FETCH_URL")"
+if [ "$code" != "200" ] || head -c2 "$SRCFILE" | grep -q '<'; then
+  log "fetch failed (http $code) — is the ROS tab Published to web (CSV) / the file link-shared?"
   exit 1
 fi
 
 # 2. Regenerate schedule.json into a temp file.
-if ! python3 "$SRC/scripts/normalize_schedule.py" "$XLSX" "$TMP/schedule.json" >>"$LOG" 2>&1; then
+if ! python3 "$SRC/scripts/normalize_schedule.py" "$SRCFILE" "$TMP/schedule.json" >>"$LOG" 2>&1; then
   log "normalize_schedule.py failed — keeping current schedule"
   exit 1
 fi

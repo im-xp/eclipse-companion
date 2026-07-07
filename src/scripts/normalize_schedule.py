@@ -1,8 +1,13 @@
-"""Normalize the IE26 Master ROS xlsx into schedule.json for the companion app.
+"""Normalize the IE26 Master ROS into schedule.json for the companion app.
 
 Public-safe: drops emails, phones, stage-manager contacts. Keeps only what renders.
+
+Input (arg 1) is either:
+  - the full workbook (.xlsx) — reads the "ROS Chart (auto)" tab, or
+  - a single-tab CSV — the auto-sync fetches the "ROS Chart (auto)" tab via the
+    sheet's Publish-to-web CSV so the master sheet's PII tabs stay private.
 """
-import openpyxl, json, os, re, sys, datetime
+import json, os, re, sys, datetime
 from datetime import datetime as datetime_cls, timezone
 
 SRC = sys.argv[1] if len(sys.argv) > 1 else "ros.xlsx"
@@ -18,9 +23,21 @@ DAY_MAP = {
     "Monday 10 August": "2026-08-10",
 }
 
-wb = openpyxl.load_workbook(SRC, data_only=True)
-ws = wb["ROS Chart (auto)"]
-rows = list(ws.iter_rows(values_only=True))
+
+def load_rows(path):
+    """Rows as value-tuples (header first) from a CSV or the ROS xlsx tab."""
+    if path.lower().endswith((".csv", ".tsv")):
+        import csv
+        delim = "\t" if path.lower().endswith(".tsv") else ","
+        # utf-8-sig strips the BOM Google prepends to published CSV.
+        with open(path, newline="", encoding="utf-8-sig") as f:
+            return [tuple(r) for r in csv.reader(f, delimiter=delim)]
+    import openpyxl
+    wb = openpyxl.load_workbook(path, data_only=True)
+    return list(wb["ROS Chart (auto)"].iter_rows(values_only=True))
+
+
+rows = load_rows(SRC)
 header = [str(h).strip() if h else "" for h in rows[0]]
 idx = {h: i for i, h in enumerate(header)}
 
@@ -39,7 +56,8 @@ unknown_days = {}
 for row in rows[1:]:
     billing = get(row, "Lineup-Ready Billing")
     day_raw = get(row, "Day of the Week")
-    start = row[idx["Start Time"]]
+    si = idx.get("Start Time")
+    start = row[si] if si is not None and si < len(row) else None
     stage = get(row, "Stage")
     if not billing or not day_raw or start is None or not stage:
         continue
