@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { ARTICLES, CATEGORY_LABELS, type ArticleCategory } from "@/data/articles";
+import { ARTICLES, type ArticleCategory } from "@/data/articles";
 import { ArticleCard } from "@/components/ArticleCard";
 
 export const metadata: Metadata = {
   title: "Guides — Iceland Eclipse",
 };
 
+// Articles keep their categories in data, but the guides page now shows them as
+// one unified grid (Andrew, 2026-07-07) — quick-guides first, then the rest.
 const CATEGORY_ORDER: ArticleCategory[] = ["quick-guides", "highlights-news"];
-
-const CATEGORY_ACCENTS: Record<ArticleCategory, string> = {
-  "quick-guides": "text-aurora-cyan",
-  "highlights-news": "text-solar-corona",
-};
+const orderedArticles = CATEGORY_ORDER.flatMap((category) =>
+  ARTICLES.filter((a) => a.category === category)
+);
 
 export default function GuidesPage() {
   return (
@@ -27,26 +27,18 @@ export default function GuidesPage() {
         </p>
       </section>
 
-      {CATEGORY_ORDER.map((category) => {
-        const articles = ARTICLES.filter((a) => a.category === category);
-        return (
-          <section key={category} className="pb-12">
-            <h2 className={`eyebrow ${CATEGORY_ACCENTS[category]}`}>
-              {CATEGORY_LABELS[category]}
-            </h2>
-            <div className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {articles.map((article) => (
-                <ArticleCard
-                  key={article.slug}
-                  article={article}
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                  showSummary
-                />
-              ))}
-            </div>
-          </section>
-        );
-      })}
+      <section className="pb-12">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {orderedArticles.map((article) => (
+            <ArticleCard
+              key={article.slug}
+              article={article}
+              sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+              showSummary
+            />
+          ))}
+        </div>
+      </section>
     </div>
   );
 }
