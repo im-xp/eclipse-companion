@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-eclipse-black: #03040a;
+  --color-deep-space: #07142b;
+  --color-midnight-blue: #102a46;
+  --color-basalt-grey: #2a2f33;
+  --color-ash-grey: #a7aaa6;
+  --color-glacier-mist: #e8f0ee;
+  --color-moon-white: #f7f4ea;
+  --color-aurora-cyan: #1fe0d0;
+  --color-eclipse-orange: #f47a3d;
+  --color-solar-corona: #ffc85a;
+  --color-northern-violet: #6e4aa8;
+  --color-signal-yellow: #efff2a;
+
+  --font-display: var(--font-montserrat), "Helvetica Neue", Arial, sans-serif;
+  --font-sans: var(--font-raleway), "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-space-mono), "IBM Plex Mono", monospace;
+
+  --radius-card: 20px;
+  --radius-soft: 12px;
+  --radius-pill: 999px;
+}
+
+body {
+  background: var(--color-eclipse-black);
+  color: var(--color-moon-white);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.container-page {
+  width: 100%;
+  max-width: 1440px;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+@media (min-width: 768px) {
+  .container-page {
+    padding-inline: 2.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .container-page {
+    padding-inline: 4rem;
+  }
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 11px;
+}
+
+::selection {
+  background: var(--color-solar-corona);
+  color: var(--color-eclipse-black);
+}

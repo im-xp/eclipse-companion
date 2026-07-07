@@ -1,0 +1,25 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# vercel
+.vercel/
+
+# env files (keep the *.example templates)
+.env
+.env.*
+.sync.env
+!.env.example
+!.sync.env.example
+
+# schedule-sync runtime artifacts
+.sync.lock
+sync.log
+
+# os
+.DS_Store
