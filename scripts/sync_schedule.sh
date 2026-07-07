@@ -19,8 +19,36 @@ SRC="$ROOT/src"
 CONF="$ROOT/.sync.env"
 LOG="$ROOT/sync.log"
 LOCK="$ROOT/.sync.lock"
+ALERT_STATE="$ROOT/.sync.alert"     # last failure signature + timestamp (throttle)
+PAT_ENV="$HOME/.hermes/profiles/pat/.env"
+PAT_HEALTH="C0B47TV8U00"            # #pat-health (Pat bot must be a member)
 
 log() { echo "$(date -u '+%Y-%m-%dT%H:%M:%SZ') $*" >>"$LOG"; }
+
+# Post a failure alert to #pat-health as the Pat bot. Throttled: the same
+# failure signature stays quiet for 6h so a persistent breakage (e.g. the ROS
+# tab left unpublished) doesn't ping every 30 min. Never aborts the script.
+# Success clears the state via `alert_clear`, so a fresh failure alerts at once.
+alert() {
+  local sig="$1" msg="$2" now token
+  now="$(date +%s)"
+  if [ -f "$ALERT_STATE" ]; then
+    local last_sig last_ts
+    last_sig="$(sed -n 1p "$ALERT_STATE" 2>/dev/null)"
+    last_ts="$(sed -n 2p "$ALERT_STATE" 2>/dev/null)"
+    if [ "$last_sig" = "$sig" ] && [ $((now - ${last_ts:-0})) -lt 21600 ]; then
+      log "alert suppressed (same issue <6h): $sig"; return 0
+    fi
+  fi
+  printf '%s\n%s\n' "$sig" "$now" >"$ALERT_STATE"
+  if [ ! -f "$PAT_ENV" ]; then log "cannot alert — no pat env at $PAT_ENV"; return 0; fi
+  token="$(grep -E '^SLACK_BOT_TOKEN=' "$PAT_ENV" | cut -d= -f2-)"
+  if [ -z "$token" ]; then log "cannot alert — no SLACK_BOT_TOKEN"; return 0; fi
+  curl -s -H "Authorization: Bearer $token" -H 'Content-type: application/json' \
+    --data "$(python3 -c 'import json,sys;print(json.dumps({"channel":sys.argv[1],"text":sys.argv[2]}))' "$PAT_HEALTH" "$msg")" \
+    "https://slack.com/api/chat.postMessage" >>"$LOG" 2>&1 || log "alert post failed"
+}
+alert_clear() { [ -f "$ALERT_STATE" ] && { rm -f "$ALERT_STATE"; log "pipeline healthy — cleared alert state"; } || true; }
 
 # Single-flight: never let two syncs (or a slow deploy) overlap.
 exec 9>"$LOCK"
@@ -53,14 +81,28 @@ fi
 code="$(curl -s -L -o "$SRCFILE" -w '%{http_code}' "$FETCH_URL")"
 if [ "$code" != "200" ] || head -c2 "$SRCFILE" | grep -q '<'; then
   log "fetch failed (http $code) — is the ROS tab Published to web (CSV) / the file link-shared?"
+  alert "fetch" "🔴 *Eclipse schedule sync: can't read the ROS sheet* (HTTP $code)
+
+*Impact:* the companion-app schedule has stopped auto-updating from the ROS sheet.
+*Likely cause:* the \"ROS Chart (auto)\" tab is no longer Published to web, or its CSV URL changed.
+*Next step:* re-publish that tab (File → Share → Publish to web → CSV) and update ROS_CSV_URL in ~/imxp/eclipse-companion/.sync.env."
   exit 1
 fi
 
 # 2. Regenerate schedule.json into a temp file.
 if ! python3 "$SRC/scripts/normalize_schedule.py" "$SRCFILE" "$TMP/schedule.json" >>"$LOG" 2>&1; then
   log "normalize_schedule.py failed — keeping current schedule"
+  alert "normalize" "🔴 *Eclipse schedule sync: couldn't parse the ROS sheet*
+
+*Impact:* schedule NOT updated — the app is still showing the previous version (safe, not broken).
+*Likely cause:* a column was renamed/removed or the tab layout changed in the ROS sheet.
+*Next step:* check ~/imxp/eclipse-companion/sync.log for the Python error."
   exit 1
 fi
+
+# Fetch + parse both worked — the pipeline is healthy, so reset the alert
+# throttle (a later failure will alert immediately rather than being suppressed).
+alert_clear
 
 # 3. Deploy only if the meaningful content changed (ignore generatedAt).
 changed="$(python3 - "$TMP/schedule.json" "$SRC/data/schedule.json" <<'PY'
@@ -83,12 +125,13 @@ cp "$TMP/schedule.json" "$SRC/data/schedule.json"
 log "schedule changed — deploying to production"
 cd "$SRC"
 url="$(vercel --prod --yes --scope imxp 2>>"$LOG" | grep -oE 'https://[a-z0-9-]+\.vercel\.app' | head -1 || true)"
-log "deployed: ${url:-unknown}"
+if [ -z "$url" ]; then
+  log "deploy failed — schedule.json updated locally but prod may be stale"
+  alert "deploy" "🔴 *Eclipse schedule sync: deploy to production failed*
 
-# 4. Optional Slack heads-up in #imxp-simplefi.
-if [ "${SLACK_NOTIFY:-0}" = "1" ] && [ -f "$HOME/.hermes/profiles/pat/.env" ]; then
-  token="$(grep -E '^SLACK_BOT_TOKEN=' "$HOME/.hermes/profiles/pat/.env" | cut -d= -f2-)"
-  curl -s -H "Authorization: Bearer $token" -H 'Content-type: application/json' \
-    --data '{"channel":"C0B4CPNJ9T6","text":"📅 Companion Guide schedule just auto-updated from the ROS sheet — live now."}' \
-    "https://slack.com/api/chat.postMessage" >>"$LOG" 2>&1 || true
+*Impact:* a new schedule was generated from the ROS sheet but the live app didn't update — attendees still see the old schedule.
+*Next step:* check ~/imxp/eclipse-companion/sync.log for the Vercel error, then redeploy from ~/imxp/eclipse-companion/src with: vercel --prod --yes --scope imxp"
+  exit 1
 fi
+log "deployed: $url"
+# No Slack post on success — #pat-health only hears about failures (Jon, 2026-07-07).
