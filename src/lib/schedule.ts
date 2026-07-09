@@ -54,6 +54,11 @@ export function getSchedule(): Schedule {
   // the ROS sheet never wipes them.
   const sideQuests = sideQuestData as ScheduleEvent[];
   const events = [...data.events.filter((e) => !e.isHostBlock), ...sideQuests]
+    // Only confirmed events are published — the Status column is the on/off
+    // switch. schedule.json is already confirmed-only (normalize_schedule.py
+    // drops the rest), so this gates the side quests and anything unconfirmed
+    // that ever slips through.
+    .filter((e) => e.status === "confirmed")
     .map((e) => {
       // Side quests may carry their own socials; otherwise join by artist name.
       const socials = e.socials ?? getSocials(e.artist);
