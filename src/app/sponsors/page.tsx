@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import sponsorsData from "@/data/sponsors.json";
 
 export const metadata: Metadata = {
@@ -34,11 +33,11 @@ function PartnerCard({ partner }: { partner: Partner }) {
     <>
       <div className="flex h-20 items-center justify-center rounded-xl bg-moon-white/5">
         {partner.logo ? (
-          <Image
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
             src={partner.logo}
             alt={partner.name}
-            width={160}
-            height={64}
+            loading="lazy"
             className="max-h-12 w-auto object-contain"
           />
         ) : (

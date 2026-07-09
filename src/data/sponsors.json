@@ -4,31 +4,106 @@
     {
       "title": "Iceland Partners",
       "partners": [
-        { "name": "Snæfellsbær", "category": "Municipal Partner", "website": "https://www.snb.is", "logo": null },
-        { "name": "66°North", "category": "Apparel Partner", "website": "https://www.66north.is", "logo": null },
-        { "name": "Snæfellsjökull National Park", "category": "National Park", "website": "https://www.snaefellsjokull.is", "logo": null },
-        { "name": "Icelandic Glacial Water", "category": "Beverage Partner", "website": "https://icelandicglacial.com", "logo": null },
-        { "name": "Einstök Beer", "category": "Beverage Partner", "website": "https://einstokbeer.com", "logo": null },
-        { "name": "Askur", "category": "Beverage Partner", "website": null, "logo": null }
+        {
+          "name": "Snæfellsbær",
+          "category": "Municipal Partner",
+          "website": "https://www.snb.is",
+          "logo": "/sponsors/snaefellsbaer.png"
+        },
+        {
+          "name": "66°North",
+          "category": "Apparel Partner",
+          "website": "https://www.66north.is",
+          "logo": "/sponsors/66north.svg"
+        },
+        {
+          "name": "Snæfellsjökull National Park",
+          "category": "National Park",
+          "website": "https://www.snaefellsjokull.is",
+          "logo": "/sponsors/snaefellsjokull.png"
+        },
+        {
+          "name": "Icelandic Glacial Water",
+          "category": "Beverage Partner",
+          "website": "https://icelandicglacial.com",
+          "logo": "/sponsors/icelandic-glacial.png"
+        },
+        {
+          "name": "Einstök Beer",
+          "category": "Beverage Partner",
+          "website": "https://einstokbeer.com",
+          "logo": "/sponsors/einstok.jpg"
+        },
+        {
+          "name": "Askur",
+          "category": "Beverage Partner",
+          "website": null,
+          "logo": null
+        }
       ]
     },
     {
       "title": "Partners",
       "partners": [
-        { "name": "Audiopool", "category": "Music/Tech Partner", "website": null, "logo": null },
-        { "name": "Vivo Barefoot", "category": "Footwear Partner", "website": "https://www.vivobarefoot.com", "logo": null },
-        { "name": "Playing For Change", "category": "Cause Partner", "website": "https://www.playingforchange.com", "logo": null },
-        { "name": "Unify", "category": "Ceremony/Program Partner", "website": "https://unify.org", "logo": null },
-        { "name": "Amnesia Ibiza", "category": "Talent/Programming Partner", "website": "https://www.amnesia.es", "logo": null },
-        { "name": "Free From Sleep", "category": "Talent/Programming Partner", "website": "https://www.freefromsleep.com", "logo": null },
-        { "name": "Visit West Iceland", "category": "Tourism Partner", "website": "https://www.west.is", "logo": null }
+        {
+          "name": "Audiopool",
+          "category": "Music/Tech Partner",
+          "website": null,
+          "logo": null
+        },
+        {
+          "name": "Vivo Barefoot",
+          "category": "Footwear Partner",
+          "website": "https://www.vivobarefoot.com",
+          "logo": "/sponsors/vivobarefoot.png"
+        },
+        {
+          "name": "Playing For Change",
+          "category": "Cause Partner",
+          "website": "https://www.playingforchange.com",
+          "logo": "/sponsors/playing-for-change.png"
+        },
+        {
+          "name": "Unify",
+          "category": "Ceremony/Program Partner",
+          "website": "https://unify.org",
+          "logo": "/sponsors/unify.png"
+        },
+        {
+          "name": "Amnesia Ibiza",
+          "category": "Talent/Programming Partner",
+          "website": "https://www.amnesia.es",
+          "logo": "/sponsors/amnesia.png"
+        },
+        {
+          "name": "Free From Sleep",
+          "category": "Talent/Programming Partner",
+          "website": "https://www.freefromsleep.com",
+          "logo": "/sponsors/free-from-sleep.webp"
+        },
+        {
+          "name": "Visit West Iceland",
+          "category": "Tourism Partner",
+          "website": "https://www.west.is",
+          "logo": "/sponsors/visit-west-iceland.png"
+        }
       ]
     },
     {
       "title": "Producers",
       "partners": [
-        { "name": "IMXP", "category": "Co-Producer", "website": "https://www.imxp.org", "logo": null },
-        { "name": "Secret Solstice", "category": "Co-Producer", "website": "https://secretsolstice.is", "logo": null }
+        {
+          "name": "IMXP",
+          "category": "Co-Producer",
+          "website": "https://www.imxp.org",
+          "logo": "/sponsors/imxp.png"
+        },
+        {
+          "name": "Secret Solstice",
+          "category": "Co-Producer",
+          "website": "https://secretsolstice.is",
+          "logo": "/sponsors/secret-solstice.png"
+        }
       ]
     }
   ]
