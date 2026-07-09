@@ -12,13 +12,9 @@ import { SocialRow } from "@/components/SocialRow";
 export function EventDetailSheet({
   event,
   onClose,
-  isFav,
-  onToggleFav,
 }: {
   event: ScheduleEvent | null;
   onClose: () => void;
-  isFav: boolean;
-  onToggleFav: () => void;
 }) {
   useEffect(() => {
     if (!event) return;
@@ -70,19 +66,6 @@ export function EventDetailSheet({
               <p className="mt-0.5 text-[13px] leading-snug text-moon-white/75">{e.title}</p>
             )}
           </div>
-          <button
-            type="button"
-            onClick={onToggleFav}
-            aria-pressed={isFav}
-            aria-label={isFav ? `Remove ${e.artist} from my plan` : `Add ${e.artist} to my plan`}
-            className={`-m-1.5 shrink-0 p-1.5 transition-colors ${
-              isFav ? "text-signal-yellow" : "text-moon-white/30 hover:text-moon-white/70"
-            }`}
-          >
-            <svg viewBox="0 0 24 24" fill={isFav ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6">
-              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-            </svg>
-          </button>
         </div>
 
         <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1">

@@ -3,14 +3,12 @@
 import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import type { Schedule, ScheduleEvent } from "@/lib/schedule";
-import { eventKey, useFavorites } from "@/lib/favorites";
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
 import { LineupList } from "@/components/LineupView";
 import { TimelineGrid } from "@/components/TimelineGrid";
 import { SocialRow } from "@/components/SocialRow";
 import {
   addMinutes,
-  eventsOverlap,
   festivalDate,
   festivalNow,
   formatDayTab,
@@ -37,11 +35,9 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
     : festivalDays[0];
   const [day, setDay] = useState(defaultDay);
   const [stageFilter, setStageFilter] = useState<string | null>(null);
-  const [favOnly, setFavOnly] = useState(false);
   const [expanded, setExpanded] = useState<string | null>(null);
   const [view, setView] = useState<"schedule" | "lineup">("schedule");
   const [mode, setMode] = useState<"timeline" | "list">("timeline");
-  const { favorites, toggleFavorite } = useFavorites();
 
   const isFestivalToday = festivalDays.includes(now.date);
 
@@ -58,9 +54,6 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
     const savedStage = localStorage.getItem("ie:schedule:stage");
     if (savedStage && schedule.stages.includes(savedStage)) {
       setStageFilter(savedStage);
-    }
-    if (localStorage.getItem("ie:schedule:favonly") === "1") {
-      setFavOnly(true);
     }
     if (localStorage.getItem("ie:schedule:view") === "lineup") {
       setView("lineup");
@@ -91,40 +84,15 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
     }
   }, [stageFilter]);
 
-  useEffect(() => {
-    if (favOnly) {
-      localStorage.setItem("ie:schedule:favonly", "1");
-    } else {
-      localStorage.removeItem("ie:schedule:favonly");
-    }
-  }, [favOnly]);
-
   const dayEvents = useMemo(
     () =>
       schedule.events.filter(
         (e) =>
           festivalDate(e) === day &&
-          (!stageFilter || e.stage === stageFilter) &&
-          (!favOnly || favorites.has(eventKey(e)))
+          (!stageFilter || e.stage === stageFilter)
       ),
-    [schedule.events, day, stageFilter, favOnly, favorites]
+    [schedule.events, day, stageFilter]
   );
-
-  const clashKeys = useMemo(() => {
-    const clashes = new Set<string>();
-    const favEvents = schedule.events.filter((e) => favorites.has(eventKey(e)));
-    for (let i = 0; i < favEvents.length; i++) {
-      for (let j = i + 1; j < favEvents.length; j++) {
-        const a = favEvents[i];
-        const b = favEvents[j];
-        if (eventsOverlap(a, b)) {
-          clashes.add(eventKey(a));
-          clashes.add(eventKey(b));
-        }
-      }
-    }
-    return clashes;
-  }, [schedule.events, favorites]);
 
   const timeGroups = useMemo(() => {
     const groups = new Map<string, ScheduleEvent[]>();
@@ -147,7 +115,7 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
 
   return (
     <div>
-      <div className="sticky top-16 z-30 border-b border-moon-white/10 bg-eclipse-black/85 backdrop-blur-md">
+      <div className="sticky top-16 z-40 border-b border-moon-white/10 bg-eclipse-black/85 backdrop-blur-md">
         <div className="container-page">
           <div className="flex gap-1 pt-3">
             {(
@@ -231,22 +199,6 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
           <div className="flex gap-2 overflow-x-auto pb-3 [scrollbar-width:none]">
             <button
               type="button"
-              onClick={() => setFavOnly((v) => !v)}
-              aria-pressed={favOnly}
-              className={`flex shrink-0 items-center gap-1.5 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
-                favOnly
-                  ? "border-signal-yellow bg-signal-yellow text-eclipse-black"
-                  : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
-              }`}
-            >
-              <svg viewBox="0 0 24 24" fill={favOnly ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-3">
-                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-              </svg>
-              My picks
-              {favorites.size > 0 && <span className="font-bold">{favorites.size}</span>}
-            </button>
-            <button
-              type="button"
               onClick={() => setStageFilter(null)}
               className={`shrink-0 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
                 stageFilter === null
@@ -292,9 +244,6 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
           day={day}
           stages={stagesForDay}
           stageFilter={stageFilter}
-          favOnly={favOnly}
-          favorites={favorites}
-          toggleFavorite={toggleFavorite}
           now={now}
           isToday={isFestivalToday && day === now.date}
         />
@@ -302,9 +251,7 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
       <div className="container-page pt-4">
         {timeGroups.length === 0 && (
           <p className="py-16 text-center text-moon-white/50">
-            {favOnly
-              ? "Nothing hearted for this day yet. Tap the heart on any event to build your plan."
-              : "Nothing scheduled for this day yet."}
+            Nothing scheduled for this day yet.
           </p>
         )}
         {timeGroups.map(([time, events]) => (
@@ -323,9 +270,6 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
               {events.map((e, i) => {
                 const st = stageStyle(e.stage);
                 const key = `${e.date}-${e.start}-${e.stage}-${e.artist}-${i}`;
-                const favKey = eventKey(e);
-                const isFav = favorites.has(favKey);
-                const hasClash = isFav && clashKeys.has(favKey);
                 const live = isLive(e, realNow);
                 const open = expanded === key;
                 const hasDetail = Boolean(
@@ -411,16 +355,6 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
                               {e.category}
                             </span>
                           )}
-                          {hasClash && (
-                            <span className="flex items-center gap-1 rounded-pill bg-eclipse-orange/15 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.12em] text-eclipse-orange">
-                              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="size-2.5">
-                                <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" />
-                                <path d="M12 9v4" />
-                                <path d="M12 17h.01" />
-                              </svg>
-                              Overlaps
-                            </span>
-                          )}
                         </div>
                         {open && (
                           <div className="mt-3 border-t border-moon-white/10 pt-3">
@@ -453,22 +387,6 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
                           </div>
                         )}
                       </div>
-                      <button
-                        type="button"
-                        onClick={(ev) => {
-                          ev.stopPropagation();
-                          toggleFavorite(favKey);
-                        }}
-                        aria-pressed={isFav}
-                        aria-label={isFav ? `Remove ${e.artist} from my schedule` : `Add ${e.artist} to my schedule`}
-                        className={`-m-1.5 shrink-0 p-1.5 transition-colors ${
-                          isFav ? "text-signal-yellow" : "text-moon-white/30 hover:text-moon-white/70"
-                        }`}
-                      >
-                        <svg viewBox="0 0 24 24" fill={isFav ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5">
-                          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-                        </svg>
-                      </button>
                     </div>
                   </article>
                 );

@@ -2,7 +2,6 @@
 
 import { useMemo, useState } from "react";
 import type { Schedule, ScheduleEvent } from "@/lib/schedule";
-import { eventKey } from "@/lib/favorites";
 import { stageStyle } from "@/lib/schedule-meta";
 import { addMinutes, festivalDate, slotMinutes } from "@/lib/schedule-time";
 import { EventDetailSheet } from "@/components/EventDetailSheet";
@@ -29,9 +28,6 @@ export function TimelineGrid({
   day,
   stages,
   stageFilter,
-  favOnly,
-  favorites,
-  toggleFavorite,
   now,
   isToday,
 }: {
@@ -39,9 +35,6 @@ export function TimelineGrid({
   day: string;
   stages: string[];
   stageFilter: string | null;
-  favOnly: boolean;
-  favorites: ReadonlySet<string>;
-  toggleFavorite: (key: string) => void;
   now: { date: string; minutes: number };
   isToday: boolean;
 }) {
@@ -51,10 +44,9 @@ export function TimelineGrid({
       schedule.events.filter(
         (e) =>
           festivalDate(e) === day &&
-          (!stageFilter || e.stage === stageFilter) &&
-          (!favOnly || favorites.has(eventKey(e)))
+          (!stageFilter || e.stage === stageFilter)
       ),
-    [schedule.events, day, stageFilter, favOnly, favorites]
+    [schedule.events, day, stageFilter]
   );
 
   const rows = useMemo(() => {
@@ -78,9 +70,7 @@ export function TimelineGrid({
     return (
       <div className="container-page pt-4">
         <p className="py-16 text-center text-moon-white/50">
-          {favOnly
-            ? "Nothing hearted for this day yet. Tap the heart on any set to build your plan."
-            : "Nothing scheduled for this day yet."}
+          Nothing scheduled for this day yet.
         </p>
       </div>
     );
@@ -97,16 +87,18 @@ export function TimelineGrid({
   return (
     <>
     <div
-      className="overflow-auto [scrollbar-width:thin]"
+      className="overflow-auto [scrollbar-width:thin] border-y border-moon-white/10 bg-deep-space/30"
       style={{ height: "calc(100dvh - 16rem)", minHeight: "22rem" }}
     >
       <div
         className="grid"
         style={{ gridTemplateColumns: `${TIME_W}px repeat(${rows.length}, ${COL_W}px)` }}
       >
-        {/* header row: sticky corner + stage columns */}
+        {/* header row: sticky corner + stage columns. Kept below the page's
+            sticky filter bar (z-40) so the stage labels never ride up over the
+            stage selectors when the page and grid scroll together. */}
         <div
-          className="sticky left-0 top-0 z-40 border-b border-r border-moon-white/10 bg-eclipse-black"
+          className="sticky left-0 top-0 z-30 border-b border-r border-moon-white/10 bg-eclipse-black"
           style={{ height: HEADER_H }}
         />
         {rows.map((stage) => {
@@ -114,8 +106,8 @@ export function TimelineGrid({
           return (
             <div
               key={stage}
-              className="sticky top-0 z-30 flex items-center gap-1.5 border-b border-l border-moon-white/10 bg-eclipse-black px-2"
-              style={{ height: HEADER_H }}
+              className="sticky top-0 z-20 flex items-center gap-1.5 border-l border-moon-white/10 bg-eclipse-black px-2"
+              style={{ height: HEADER_H, borderBottom: `2px solid ${st.color}` }}
             >
               <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: st.color }} />
               <span className="truncate font-display text-[11px] font-extrabold uppercase tracking-[-0.01em] text-moon-white/90">
@@ -153,20 +145,18 @@ export function TimelineGrid({
             <div
               key={stage}
               className="relative border-l border-moon-white/8"
-              style={{ height: bodyH, backgroundImage: HOUR_LINES }}
+              style={{ height: bodyH, backgroundImage: HOUR_LINES, backgroundColor: `${st.color}12` }}
             >
               {colEvents.map((e, i) => {
                 const top = (slotMinutes(e.start) - range.start) * PPM_Y;
                 const height = Math.max(e.durationMin * PPM_Y - 2, MIN_BLOCK_H);
-                const favKey = eventKey(e);
-                const isFav = favorites.has(favKey);
                 const live =
                   isToday &&
                   now.minutes >= slotMinutes(e.start) &&
                   now.minutes < slotMinutes(e.start) + e.durationMin;
                 return (
                   <div
-                    key={`${favKey}-${i}`}
+                    key={`${e.stage}-${e.start}-${e.artist}-${i}`}
                     role="button"
                     tabIndex={0}
                     onClick={() => setDetail(e)}
@@ -181,24 +171,10 @@ export function TimelineGrid({
                     } ${live ? "ring-2 ring-moon-white ring-offset-1 ring-offset-eclipse-black" : ""}`}
                     style={{ top, height, backgroundColor: st.color }}
                   >
-                    <div className="flex items-start justify-between gap-1">
+                    <div className="flex items-start gap-1">
                       <span className="font-display text-[12px] font-extrabold uppercase leading-[1.1] tracking-[-0.01em] text-eclipse-black line-clamp-2">
                         {e.artist}
                       </span>
-                      <button
-                        type="button"
-                        onClick={(ev) => {
-                          ev.stopPropagation();
-                          toggleFavorite(favKey);
-                        }}
-                        aria-pressed={isFav}
-                        aria-label={isFav ? `Remove ${e.artist} from my plan` : `Add ${e.artist} to my plan`}
-                        className="-m-0.5 shrink-0 p-0.5 text-eclipse-black"
-                      >
-                        <svg viewBox="0 0 24 24" fill={isFav ? "currentColor" : "none"} stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-3.5">
-                          <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
-                        </svg>
-                      </button>
                     </div>
                     {e.title && height > 52 && (
                       <span className="mt-0.5 text-[10px] leading-tight text-eclipse-black/75 line-clamp-2">
@@ -222,12 +198,7 @@ export function TimelineGrid({
         })}
       </div>
     </div>
-    <EventDetailSheet
-      event={detail}
-      onClose={() => setDetail(null)}
-      isFav={detail ? favorites.has(eventKey(detail)) : false}
-      onToggleFav={() => detail && toggleFavorite(eventKey(detail))}
-    />
+    <EventDetailSheet event={detail} onClose={() => setDetail(null)} />
     </>
   );
 }
