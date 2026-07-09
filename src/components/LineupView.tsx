@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useMemo, useState } from "react";
-import type { Schedule, ScheduleEvent } from "@/lib/schedule";
+import { buildSpeakerIndex, type Schedule, type ScheduleEvent } from "@/lib/schedule";
 import type { SocialLink } from "@/lib/socials";
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
 import { SocialRow } from "@/components/SocialRow";
@@ -29,20 +29,19 @@ export function LineupList({ schedule }: { schedule: Schedule }) {
   const [expanded, setExpanded] = useState<string | null>(null);
 
   const entries = useMemo(() => {
-    const map = new Map<string, LineupEntry>();
-    for (const e of schedule.events) {
-      const entry =
-        map.get(e.artist) ??
-        ({ artist: e.artist, headshot: null, categories: [], bio: null, tagline: null, socials: [], sets: [] } as LineupEntry);
-      if (e.headshot && !entry.headshot) entry.headshot = e.headshot;
-      if (e.category && !entry.categories.includes(e.category)) entry.categories.push(e.category);
-      if (e.bio && !entry.bio) entry.bio = e.bio;
-      if (e.tagline && !entry.tagline) entry.tagline = e.tagline;
-      if (e.socials?.length && !entry.socials.length) entry.socials = e.socials;
-      entry.sets.push(e);
-      map.set(e.artist, entry);
-    }
-    return [...map.values()].sort((a, b) => a.artist.localeCompare(b.artist, "en"));
+    // Build from the shared speaker index so each panelist gets their own entry
+    // (panels are one merged event but list every speaker in speakers[]).
+    return [...buildSpeakerIndex(schedule.events).values()]
+      .map((p) => ({
+        artist: p.name,
+        headshot: p.headshot,
+        bio: p.bio,
+        tagline: p.tagline,
+        socials: p.socials,
+        sets: p.sets,
+        categories: [...new Set(p.sets.map((s) => s.category).filter((c): c is string => Boolean(c)))],
+      } as LineupEntry))
+      .sort((a, b) => a.artist.localeCompare(b.artist, "en"));
   }, [schedule.events]);
 
   const filtered = entries.filter(

@@ -250,7 +250,12 @@ export function TimelineGrid({
         })}
       </div>
     </div>
-    <EventDetailSheet event={detail} onClose={() => setDetail(null)} />
+    <EventDetailSheet
+      event={detail}
+      schedule={schedule}
+      onClose={() => setDetail(null)}
+      onSelectEvent={setDetail}
+    />
     </>
   );
 }

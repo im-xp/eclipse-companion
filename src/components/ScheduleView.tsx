@@ -2,7 +2,12 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { eventLabels, type Schedule, type ScheduleEvent } from "@/lib/schedule";
+import {
+  eventLabels,
+  eventSpeakers,
+  type Schedule,
+  type ScheduleEvent,
+} from "@/lib/schedule";
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
 import { LineupList } from "@/components/LineupView";
 import { TimelineGrid } from "@/components/TimelineGrid";
@@ -311,12 +316,14 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
               {events.map((e, i) => {
                 const st = stageStyle(e.stage);
                 const { primary, secondary } = eventLabels(e);
+                const speakers = eventSpeakers(e);
+                const isPanel = speakers.length > 1;
                 const key = `${e.date}-${e.start}-${e.stage}-${e.artist}-${i}`;
                 const live = isLive(e, realNow);
                 const open = expanded === key;
-                const hasDetail = Boolean(
-                  e.bio || e.tagline || e.link || e.socials?.length
-                );
+                const hasDetail = isPanel
+                  ? speakers.some((s) => s.bio || s.tagline || s.socials.length || s.link)
+                  : Boolean(e.bio || e.tagline || e.link || e.socials?.length);
                 return (
                   <article
                     key={key}
@@ -332,7 +339,17 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
                     }`}
                   >
                     <div className="flex items-start gap-3">
-                      {e.headshot ? (
+                      {isPanel ? (
+                        <div
+                          className="flex size-11 shrink-0 flex-col items-center justify-center rounded-full border border-moon-white/15 font-display font-extrabold leading-none"
+                          style={{ color: st.color }}
+                        >
+                          <span className="text-sm">{speakers.length}</span>
+                          <span className="mt-0.5 font-mono text-[7px] uppercase tracking-[0.12em] text-moon-white/45">
+                            Panel
+                          </span>
+                        </div>
+                      ) : e.headshot ? (
                         <Image
                           src={e.headshot}
                           alt=""
@@ -398,7 +415,27 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
                             </span>
                           )}
                         </div>
-                        {open && (
+                        {open && isPanel && (
+                          <div className="mt-3 flex flex-col gap-2.5 border-t border-moon-white/10 pt-3">
+                            {speakers.map((s) => (
+                              <div key={s.name}>
+                                <p className="font-display text-[13px] font-bold uppercase tracking-[-0.01em] text-moon-white">
+                                  {s.name}
+                                </p>
+                                {s.tagline && (
+                                  <p className="eyebrow mt-0.5 text-solar-corona">{s.tagline}</p>
+                                )}
+                                {s.bio && (
+                                  <p className="mt-1 text-[13px] leading-relaxed text-moon-white/70">
+                                    {s.bio}
+                                  </p>
+                                )}
+                                <SocialRow socials={s.socials} className="mt-2" />
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                        {open && !isPanel && (
                           <div className="mt-3 border-t border-moon-white/10 pt-3">
                             {e.tagline && (
                               <p className="eyebrow mb-1.5 text-solar-corona">
