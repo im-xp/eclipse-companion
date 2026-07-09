@@ -12,11 +12,12 @@ import { EventDetailSheet } from "@/components/EventDetailSheet";
 // columns is a clash.
 const TIME_W = 46; // px, sticky time gutter
 const COL_W = 150; // px, per-stage column — wide enough for titles
-// px per minute (hour = 138px). Tuned up from 1.3 so a short talk leads with a
-// multi-line title AND the performer without a tap: at 2.3 a 30-min block is
-// ~67px, which clears 3 title lines + the performer instead of clipping the
-// last line. The day scrolls a bit more, which a calendar grid expects.
-const PPM_Y = 2.3;
+// px per minute (hour = 180px). Tuned up from 1.3→2.3→3.0 so a short talk leads
+// with its full multi-line title AND the performer without a tap: at 3.0 a
+// 30-min block is ~88px, which clears the 76px threshold for 5 title lines +
+// the performer instead of clipping the title to fit the speaker name. The day
+// scrolls a bit more, which a calendar grid expects.
+const PPM_Y = 3.0;
 const HEADER_H = 40; // px, sticky stage-header row
 const MIN_BLOCK_H = 30; // keep very short sets readable
 
