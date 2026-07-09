@@ -36,6 +36,18 @@ export interface Schedule {
   events: ScheduleEvent[];
 }
 
+// What an event leads with. Talks/sessions are known by their title (the
+// performer is secondary); acts/ceremonies with no title ARE their own name,
+// so we fall back to the artist as the headline rather than show a blank line.
+export function eventLabels(e: ScheduleEvent): {
+  primary: string;
+  secondary: string | null;
+} {
+  return e.title
+    ? { primary: e.title, secondary: e.artist }
+    : { primary: e.artist, secondary: null };
+}
+
 export function getSchedule(): Schedule {
   const data = scheduleData as Schedule;
   // Side quests live in their own file so regenerating schedule.json from

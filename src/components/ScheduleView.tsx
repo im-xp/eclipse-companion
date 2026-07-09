@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { Schedule, ScheduleEvent } from "@/lib/schedule";
+import { eventLabels, type Schedule, type ScheduleEvent } from "@/lib/schedule";
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
 import { LineupList } from "@/components/LineupView";
 import { TimelineGrid } from "@/components/TimelineGrid";
@@ -310,6 +310,7 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
             <div className="flex min-w-0 flex-1 flex-col gap-2 border-l border-moon-white/10 pl-4">
               {events.map((e, i) => {
                 const st = stageStyle(e.stage);
+                const { primary, secondary } = eventLabels(e);
                 const key = `${e.date}-${e.start}-${e.stage}-${e.artist}-${i}`;
                 const live = isLive(e, realNow);
                 const open = expanded === key;
@@ -349,9 +350,9 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
                         </div>
                       )}
                       <div className="min-w-0 flex-1">
-                        <div className="flex items-center gap-2">
-                          <h3 className="truncate font-display text-[15px] font-extrabold uppercase tracking-[-0.01em] text-moon-white">
-                            {e.artist}
+                        <div className="flex items-start gap-2">
+                          <h3 className="line-clamp-2 font-display text-[15px] font-extrabold uppercase leading-tight tracking-[-0.01em] text-moon-white">
+                            {primary}
                           </h3>
                           {live && (
                             <span className="flex shrink-0 items-center gap-1.5 rounded-pill bg-aurora-cyan/15 px-2 py-0.5 font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-aurora-cyan">
@@ -365,9 +366,9 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
                             </span>
                           )}
                         </div>
-                        {e.title && (
-                          <p className="mt-0.5 line-clamp-2 text-[13px] leading-snug text-moon-white/75">
-                            {e.title}
+                        {secondary && (
+                          <p className="mt-0.5 truncate text-[13px] leading-snug text-moon-white/60">
+                            {secondary}
                           </p>
                         )}
                         <div className="mt-1.5 flex flex-wrap items-center gap-x-3 gap-y-1">

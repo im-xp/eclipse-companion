@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useEffect } from "react";
-import type { ScheduleEvent } from "@/lib/schedule";
+import { eventLabels, type ScheduleEvent } from "@/lib/schedule";
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
 import { addMinutes } from "@/lib/schedule-time";
 import { SocialRow } from "@/components/SocialRow";
@@ -26,6 +26,7 @@ export function EventDetailSheet({
   if (!event) return null;
   const st = stageStyle(event.stage);
   const e = event;
+  const { primary, secondary } = eventLabels(e);
 
   return (
     <div
@@ -35,7 +36,7 @@ export function EventDetailSheet({
       <div
         role="dialog"
         aria-modal="true"
-        aria-label={e.artist}
+        aria-label={primary}
         onClick={(ev) => ev.stopPropagation()}
         style={{ borderTopColor: st.color, borderTopWidth: "4px" }}
         className="max-h-[85dvh] w-full max-w-md overflow-y-auto rounded-t-[20px] border-x border-b border-moon-white/10 bg-deep-space p-5 pb-[calc(1.25rem+env(safe-area-inset-bottom))] sm:rounded-[20px] sm:border"
@@ -60,10 +61,10 @@ export function EventDetailSheet({
           )}
           <div className="min-w-0 flex-1">
             <h2 className="font-display text-lg font-extrabold uppercase leading-tight tracking-[-0.01em] text-moon-white">
-              {e.artist}
+              {primary}
             </h2>
-            {e.title && (
-              <p className="mt-0.5 text-[13px] leading-snug text-moon-white/75">{e.title}</p>
+            {secondary && (
+              <p className="mt-0.5 text-[13px] leading-snug text-moon-white/75">{secondary}</p>
             )}
           </div>
         </div>

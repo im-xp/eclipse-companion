@@ -1,7 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { Schedule, ScheduleEvent } from "@/lib/schedule";
+import { eventLabels, type Schedule, type ScheduleEvent } from "@/lib/schedule";
 import { stageStyle } from "@/lib/schedule-meta";
 import { addMinutes, festivalDate, slotMinutes } from "@/lib/schedule-time";
 import { EventDetailSheet } from "@/components/EventDetailSheet";
@@ -173,6 +173,17 @@ export function TimelineGrid({
                   isToday &&
                   now.minutes >= slotMinutes(e.start) &&
                   now.minutes < slotMinutes(e.start) + e.durationMin;
+                const { primary, secondary } = eventLabels(e);
+                // The grid already encodes start & duration by the block's
+                // position and height, so in a tight block the time label is
+                // the first thing to shed and the performer the second —
+                // everything shows in full when tapped. We hand the title as
+                // much room as the block has: reveal more lines and the extras
+                // only as height allows, so a 25-min sliver still leads with a
+                // legible name instead of three cramped half-lines.
+                const showTime = height >= 66;
+                const showSecondary = Boolean(secondary) && height >= 46;
+                const primaryLines = height < 40 ? 2 : height < 76 ? 3 : 5;
                 return (
                   <div
                     key={`${e.stage}-${e.start}-${e.artist}-${i}`}
@@ -185,24 +196,35 @@ export function TimelineGrid({
                         setDetail(e);
                       }
                     }}
-                    className={`absolute inset-x-1 flex cursor-pointer flex-col overflow-hidden rounded-[10px] px-2 py-1.5 ${
+                    title={secondary ? `${primary} — ${secondary}` : primary}
+                    className={`absolute inset-x-1 flex cursor-pointer flex-col overflow-hidden rounded-[10px] px-2 ${
+                      height < 46 ? "py-1" : "py-1.5"
+                    } ${
                       e.status === "pending" ? "opacity-70" : ""
                     } ${live ? "ring-2 ring-moon-white ring-offset-1 ring-offset-eclipse-black" : ""}`}
                     style={{ top, height, backgroundColor: st.color }}
                   >
-                    <div className="flex items-start gap-1">
-                      <span className="font-display text-[12px] font-extrabold uppercase leading-[1.1] tracking-[-0.01em] text-eclipse-black line-clamp-2">
-                        {e.artist}
-                      </span>
-                    </div>
-                    {e.title && height > 52 && (
-                      <span className="mt-0.5 text-[10px] leading-tight text-eclipse-black/75 line-clamp-2">
-                        {e.title}
+                    <span
+                      className="font-display text-[12px] font-extrabold uppercase leading-[1.12] tracking-[-0.01em] text-eclipse-black"
+                      style={{
+                        display: "-webkit-box",
+                        WebkitLineClamp: primaryLines,
+                        WebkitBoxOrient: "vertical",
+                        overflow: "hidden",
+                      }}
+                    >
+                      {primary}
+                    </span>
+                    {showSecondary && (
+                      <span className="mt-0.5 truncate text-[10px] font-semibold leading-tight text-eclipse-black/70">
+                        {secondary}
                       </span>
                     )}
-                    <span className="mt-auto font-mono text-[9px] font-bold uppercase tracking-[0.06em] text-eclipse-black/70">
-                      {e.start}–{addMinutes(e.start, e.durationMin)}
-                    </span>
+                    {showTime && (
+                      <span className="mt-auto pt-0.5 font-mono text-[9px] font-bold uppercase tracking-[0.06em] text-eclipse-black/65">
+                        {e.start}–{addMinutes(e.start, e.durationMin)}
+                      </span>
+                    )}
                   </div>
                 );
               })}
