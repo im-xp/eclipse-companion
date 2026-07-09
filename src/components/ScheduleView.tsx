@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Schedule, ScheduleEvent } from "@/lib/schedule";
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
 import { LineupList } from "@/components/LineupView";
@@ -38,6 +38,24 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
   const [expanded, setExpanded] = useState<string | null>(null);
   const [view, setView] = useState<"schedule" | "lineup">("schedule");
   const [mode, setMode] = useState<"timeline" | "list">("timeline");
+
+  // Edge-fade the stage-filter row so it's obvious it scrolls when the day has
+  // more stages than fit. Fades appear only on the side(s) with hidden chips.
+  const chipScrollRef = useRef<HTMLDivElement>(null);
+  const [chipFade, setChipFade] = useState({ left: false, right: false });
+  const updateChipFade = useCallback(() => {
+    const el = chipScrollRef.current;
+    if (!el) return;
+    setChipFade({
+      left: el.scrollLeft > 4,
+      right: el.scrollLeft + el.clientWidth < el.scrollWidth - 4,
+    });
+  }, []);
+  useEffect(() => {
+    updateChipFade();
+    window.addEventListener("resize", updateChipFade);
+    return () => window.removeEventListener("resize", updateChipFade);
+  }, [updateChipFade, day, view]);
 
   const isFestivalToday = festivalDays.includes(now.date);
 
@@ -196,40 +214,60 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
               ))}
             </div>
             <span className="h-5 w-px shrink-0 bg-moon-white/15" />
-            <div className="flex min-w-0 flex-1 gap-2 overflow-x-auto [scrollbar-width:none]">
-              <button
-                type="button"
-                onClick={() => setStageFilter(null)}
-                className={`shrink-0 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
-                  stageFilter === null
-                    ? "border-moon-white bg-moon-white text-eclipse-black"
-                    : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
+            <div className="relative min-w-0 flex-1">
+              <div
+                ref={chipScrollRef}
+                onScroll={updateChipFade}
+                className="flex gap-2 overflow-x-auto [scrollbar-width:none]"
+              >
+                <button
+                  type="button"
+                  onClick={() => setStageFilter(null)}
+                  className={`shrink-0 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
+                    stageFilter === null
+                      ? "border-moon-white bg-moon-white text-eclipse-black"
+                      : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
+                  }`}
+                >
+                  All stages
+                </button>
+                {stagesForDay.map((s) => {
+                  const st = stageStyle(s);
+                  const active = stageFilter === s;
+                  return (
+                    <button
+                      key={s}
+                      type="button"
+                      onClick={() => setStageFilter(active ? null : s)}
+                      className={`flex shrink-0 items-center gap-2 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
+                        active
+                          ? "border-moon-white bg-moon-white text-eclipse-black"
+                          : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
+                      }`}
+                    >
+                      <span
+                        className="size-2 rounded-full"
+                        style={{ backgroundColor: st.color }}
+                      />
+                      {st.label}
+                    </button>
+                  );
+                })}
+              </div>
+              <div
+                className={`pointer-events-none absolute inset-y-0 left-0 w-8 bg-gradient-to-r from-eclipse-black to-transparent transition-opacity duration-200 ${
+                  chipFade.left ? "opacity-100" : "opacity-0"
+                }`}
+              />
+              <div
+                className={`pointer-events-none absolute inset-y-0 right-0 flex w-12 items-center justify-end bg-gradient-to-l from-eclipse-black to-transparent pr-0.5 transition-opacity duration-200 ${
+                  chipFade.right ? "opacity-100" : "opacity-0"
                 }`}
               >
-                All stages
-              </button>
-              {stagesForDay.map((s) => {
-                const st = stageStyle(s);
-                const active = stageFilter === s;
-                return (
-                  <button
-                    key={s}
-                    type="button"
-                    onClick={() => setStageFilter(active ? null : s)}
-                    className={`flex shrink-0 items-center gap-2 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
-                      active
-                        ? "border-moon-white bg-moon-white text-eclipse-black"
-                        : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
-                    }`}
-                  >
-                    <span
-                      className="size-2 rounded-full"
-                      style={{ backgroundColor: st.color }}
-                    />
-                    {st.label}
-                  </button>
-                );
-              })}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="size-3.5 text-moon-white/70">
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </div>
             </div>
           </div>
             </>

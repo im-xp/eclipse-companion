@@ -123,10 +123,13 @@ export function TimelineGrid({
           );
         })}
 
-        {/* body row: sticky time gutter + stage columns */}
+        {/* body row: sticky time gutter + stage columns. `sticky` doubles as the
+            containing block for the absolute hour labels, so no explicit
+            position:relative (which would clobber the sticky and let the times
+            scroll away horizontally). */}
         <div
           className="sticky left-0 z-20 bg-eclipse-black"
-          style={{ height: bodyH, position: "relative" }}
+          style={{ height: bodyH }}
         >
           {hours.map((h) => (
             <span
