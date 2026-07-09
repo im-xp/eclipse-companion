@@ -116,7 +116,7 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
   return (
     <div>
       <div className="sticky top-16 z-40 border-b border-moon-white/10 bg-eclipse-black/85 backdrop-blur-md">
-        <div className="container-page">
+        <div className="mx-auto w-full max-w-4xl px-6">
           <div className="flex gap-1 pt-3">
             {(
               [
@@ -172,7 +172,7 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
               );
             })}
           </div>
-          <div className="flex items-center gap-2 pb-3">
+          <div className="flex items-center gap-3 pb-3">
             <div className="flex shrink-0 rounded-pill border border-moon-white/15 p-0.5">
               {(
                 [
@@ -195,41 +195,42 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
                 </button>
               ))}
             </div>
-          </div>
-          <div className="flex gap-2 overflow-x-auto pb-3 [scrollbar-width:none]">
-            <button
-              type="button"
-              onClick={() => setStageFilter(null)}
-              className={`shrink-0 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
-                stageFilter === null
-                  ? "border-moon-white bg-moon-white text-eclipse-black"
-                  : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
-              }`}
-            >
-              All stages
-            </button>
-            {stagesForDay.map((s) => {
-              const st = stageStyle(s);
-              const active = stageFilter === s;
-              return (
-                <button
-                  key={s}
-                  type="button"
-                  onClick={() => setStageFilter(active ? null : s)}
-                  className={`flex shrink-0 items-center gap-2 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
-                    active
-                      ? "border-moon-white bg-moon-white text-eclipse-black"
-                      : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
-                  }`}
-                >
-                  <span
-                    className="size-2 rounded-full"
-                    style={{ backgroundColor: st.color }}
-                  />
-                  {st.label}
-                </button>
-              );
-            })}
+            <span className="h-5 w-px shrink-0 bg-moon-white/15" />
+            <div className="flex min-w-0 flex-1 gap-2 overflow-x-auto [scrollbar-width:none]">
+              <button
+                type="button"
+                onClick={() => setStageFilter(null)}
+                className={`shrink-0 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
+                  stageFilter === null
+                    ? "border-moon-white bg-moon-white text-eclipse-black"
+                    : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
+                }`}
+              >
+                All stages
+              </button>
+              {stagesForDay.map((s) => {
+                const st = stageStyle(s);
+                const active = stageFilter === s;
+                return (
+                  <button
+                    key={s}
+                    type="button"
+                    onClick={() => setStageFilter(active ? null : s)}
+                    className={`flex shrink-0 items-center gap-2 rounded-pill border px-3.5 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
+                      active
+                        ? "border-moon-white bg-moon-white text-eclipse-black"
+                        : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
+                    }`}
+                  >
+                    <span
+                      className="size-2 rounded-full"
+                      style={{ backgroundColor: st.color }}
+                    />
+                    {st.label}
+                  </button>
+                );
+              })}
+            </div>
           </div>
             </>
           )}
@@ -239,16 +240,18 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
       {view === "lineup" ? (
         <LineupList schedule={schedule} />
       ) : mode === "timeline" ? (
-        <TimelineGrid
-          schedule={schedule}
-          day={day}
-          stages={stagesForDay}
-          stageFilter={stageFilter}
-          now={now}
-          isToday={isFestivalToday && day === now.date}
-        />
+        <div className="mx-auto w-full max-w-4xl px-6 pt-4">
+          <TimelineGrid
+            schedule={schedule}
+            day={day}
+            stages={stagesForDay}
+            stageFilter={stageFilter}
+            now={now}
+            isToday={isFestivalToday && day === now.date}
+          />
+        </div>
       ) : (
-      <div className="container-page pt-4">
+      <div className="mx-auto w-full max-w-4xl px-6 pt-4">
         {timeGroups.length === 0 && (
           <p className="py-16 text-center text-moon-white/50">
             Nothing scheduled for this day yet.

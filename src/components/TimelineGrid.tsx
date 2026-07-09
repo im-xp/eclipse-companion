@@ -87,12 +87,18 @@ export function TimelineGrid({
   return (
     <>
     <div
-      className="overflow-auto [scrollbar-width:thin] border-y border-moon-white/10 bg-deep-space/30"
-      style={{ height: "calc(100dvh - 16rem)", minHeight: "22rem" }}
+      className="overflow-auto [scrollbar-width:thin] rounded-2xl border border-moon-white/10 bg-deep-space/30 shadow-[0_1px_0_0_rgba(255,255,255,0.04)_inset]"
+      // 21rem ≈ fixed header (4rem) + sticky control bar (10rem) + bottom nav
+      // (5rem) + breathing room, so the card scrolls internally and its bottom
+      // always clears the nav on both phone and desktop.
+      style={{ maxHeight: "calc(100dvh - 21rem)" }}
     >
       <div
         className="grid"
-        style={{ gridTemplateColumns: `${TIME_W}px repeat(${rows.length}, ${COL_W}px)` }}
+        style={{
+          gridTemplateColumns: `${TIME_W}px repeat(${rows.length}, minmax(${COL_W}px, 1fr))`,
+          minWidth: TIME_W + rows.length * COL_W,
+        }}
       >
         {/* header row: sticky corner + stage columns. Kept below the page's
             sticky filter bar (z-40) so the stage labels never ride up over the
@@ -126,7 +132,7 @@ export function TimelineGrid({
             <span
               key={h}
               className="absolute right-1.5 font-mono text-[9px] font-bold uppercase tracking-[0.06em] text-moon-white/45"
-              style={{ top: (h - range.start) * PPM_Y - 5 }}
+              style={{ top: Math.max(1, (h - range.start) * PPM_Y - 5) }}
             >
               {hourLabel(h)}
             </span>
