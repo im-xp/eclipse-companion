@@ -179,15 +179,23 @@ export function TimelineGrid({
                   now.minutes >= slotMinutes(e.start) &&
                   now.minutes < slotMinutes(e.start) + e.durationMin;
                 const { primary, secondary } = eventLabels(e);
-                // The grid already encodes start & duration by the block's
-                // position and height, so in a tight block the time label is
-                // the first thing to shed and the performer the second — the
-                // full record shows when tapped. We hand the title as much room
-                // as the block has: reveal more lines and the extras only as
-                // height allows.
-                const showTime = height >= 66;
-                const showSecondary = Boolean(secondary) && height >= 46;
-                const primaryLines = height < 40 ? 2 : height < 76 ? 3 : 5;
+                // Title leads and must never be clipped to make room for the
+                // extras, so we BUDGET its line count from the space left after
+                // them rather than guessing by height. The time footer is
+                // redundant (position + height already encode it), so only
+                // sets of 40 min+ show it — short 25/30-min blocks give all
+                // their room to the title + performer. Everything shows on tap.
+                const TITLE_LINE = 13.44; // 12px title × 1.12 leading
+                const content = height - 12; // minus py-1.5 top+bottom
+                const showTime = e.durationMin >= 40;
+                const showSecondary =
+                  Boolean(secondary) && content - 15 >= 2 * TITLE_LINE;
+                const avail =
+                  content - (showSecondary ? 15 : 0) - (showTime ? 13 : 0);
+                const primaryLines = Math.max(
+                  1,
+                  Math.min(6, Math.floor(avail / TITLE_LINE))
+                );
                 return (
                   <div
                     key={`${e.stage}-${e.start}-${e.artist}-${i}`}
