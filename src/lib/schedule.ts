@@ -1,6 +1,23 @@
 import scheduleData from "@/data/schedule.json";
 import sideQuestData from "@/data/side-quests.json";
 import { getSocials, type SocialLink } from "@/lib/socials";
+import { stageStyle } from "@/lib/schedule-meta";
+
+// The order stages appear in the schedule UI, by chip label (Elliot 2026-07-09).
+const STAGE_ORDER = [
+  "Eclipse",
+  "Aurora",
+  "Afterglow",
+  "Polaris",
+  "Cosmic Connection",
+  "Sacred Fire",
+  "Röstin",
+];
+
+function stageRank(label: string): number {
+  const i = STAGE_ORDER.indexOf(label);
+  return i === -1 ? STAGE_ORDER.length : i;
+}
 
 export interface EventLink {
   label: string;
@@ -178,7 +195,12 @@ export function getSchedule(): Schedule {
   );
   return {
     ...data,
-    stages: [...data.stages, "SIDE QUESTS"],
+    // Fixed stage order (Elliot 2026-07-09), keyed by the label shown on the
+    // chips. Any stage not in the list (Daybreak, Starseeds, Side Quests)
+    // falls to the end in its original order.
+    stages: [...data.stages, "SIDE QUESTS"].sort(
+      (a, b) => stageRank(stageStyle(a).label) - stageRank(stageStyle(b).label)
+    ),
     events,
   };
 }

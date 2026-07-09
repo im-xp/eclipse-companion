@@ -61,16 +61,25 @@ export function TimelineGrid({
     [schedule.events, day, stageFilter]
   );
 
+  // The time range spans the WHOLE day (every stage), independent of the stage
+  // filter, so the time axis stays anchored to the start of the day. Deriving
+  // it from the filtered events made a single-stage view start at that stage's
+  // first set — so the axis jumped to a different time per stage.
+  const dayEvents = useMemo(
+    () => schedule.events.filter((e) => festivalDate(e) === day),
+    [schedule.events, day]
+  );
+
   const rows = useMemo(() => {
     const present = new Set(events.map((e) => e.stage));
     return stages.filter((s) => present.has(s));
   }, [stages, events]);
 
   const range = useMemo(() => {
-    if (events.length === 0) return null;
+    if (dayEvents.length === 0) return null;
     let min = Infinity;
     let max = -Infinity;
-    for (const e of events) {
+    for (const e of dayEvents) {
       const start = slotMinutes(e.start);
       min = Math.min(min, start);
       max = Math.max(max, start + e.durationMin);
@@ -79,7 +88,7 @@ export function TimelineGrid({
       start: Math.min(Math.floor(min / 60) * 60, DAY_FLOOR_START),
       end: Math.max(Math.ceil(max / 60) * 60, DAY_FLOOR_END),
     };
-  }, [events]);
+  }, [dayEvents]);
 
   if (!range || rows.length === 0) {
     return (
