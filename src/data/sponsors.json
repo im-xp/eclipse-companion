@@ -8,7 +8,7 @@
           "name": "Snæfellsbær",
           "category": "Municipal Partner",
           "website": "https://www.snb.is",
-          "logo": "/sponsors/snaefellsbaer.png"
+          "logo": "/sponsors/snaefellsbaer.svg"
         },
         {
           "name": "66°North",
@@ -20,7 +20,7 @@
           "name": "Snæfellsjökull National Park",
           "category": "National Park",
           "website": "https://www.snaefellsjokull.is",
-          "logo": "/sponsors/snaefellsjokull.png"
+          "logo": "/sponsors/snaefellsjokull.svg"
         },
         {
           "name": "Icelandic Glacial Water",
@@ -32,7 +32,7 @@
           "name": "Einstök Beer",
           "category": "Beverage Partner",
           "website": "https://einstokbeer.com",
-          "logo": "/sponsors/einstok.jpg"
+          "logo": "/sponsors/einstok.png"
         },
         {
           "name": "Askur",
@@ -55,13 +55,13 @@
           "name": "Vivo Barefoot",
           "category": "Footwear Partner",
           "website": "https://www.vivobarefoot.com",
-          "logo": "/sponsors/vivobarefoot.png"
+          "logo": null
         },
         {
           "name": "Playing For Change",
           "category": "Cause Partner",
           "website": "https://www.playingforchange.com",
-          "logo": "/sponsors/playing-for-change.png"
+          "logo": "/sponsors/playing-for-change.svg"
         },
         {
           "name": "Unify",
@@ -85,7 +85,7 @@
           "name": "Visit West Iceland",
           "category": "Tourism Partner",
           "website": "https://www.west.is",
-          "logo": "/sponsors/visit-west-iceland.png"
+          "logo": "/sponsors/visit-west-iceland.svg"
         }
       ]
     },
@@ -102,7 +102,7 @@
           "name": "Secret Solstice",
           "category": "Co-Producer",
           "website": "https://secretsolstice.is",
-          "logo": "/sponsors/secret-solstice.png"
+          "logo": null
         }
       ]
     }

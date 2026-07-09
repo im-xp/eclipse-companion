@@ -17,7 +17,9 @@ type Group = { title: string; partners: Partner[] };
 
 const GROUPS = (sponsorsData.groups as Group[]) ?? [];
 
-// Until logo assets land, fall back to a wordmark tile built from the initials.
+// Most partners have a sourced logo; the few without a sourceable asset
+// (e.g. Askur, Audiopool, Vivobarefoot, Secret Solstice) fall back to a
+// wordmark tile built from the initials.
 function initials(name: string): string {
   return name
     .replace(/[^\p{L}\p{N} ]/gu, "")
@@ -31,14 +33,14 @@ function initials(name: string): string {
 function PartnerCard({ partner }: { partner: Partner }) {
   const inner = (
     <>
-      <div className="flex h-20 items-center justify-center rounded-xl bg-moon-white/5">
+      <div className="flex h-24 items-center justify-center rounded-xl bg-moon-white/5 px-3">
         {partner.logo ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
             src={partner.logo}
             alt={partner.name}
             loading="lazy"
-            className="max-h-12 w-auto object-contain"
+            className="max-h-16 max-w-full w-auto object-contain"
           />
         ) : (
           <span className="font-display text-2xl font-extrabold uppercase tracking-[-0.02em] text-moon-white/80">
