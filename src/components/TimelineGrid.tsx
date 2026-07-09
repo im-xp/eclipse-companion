@@ -12,7 +12,10 @@ import { EventDetailSheet } from "@/components/EventDetailSheet";
 // columns is a clash.
 const TIME_W = 46; // px, sticky time gutter
 const COL_W = 150; // px, per-stage column — wide enough for titles
-const PPM_Y = 1.3; // px per minute (hour = 78px)
+// px per minute (hour = 120px). Tuned up from 1.3 so even a 25-min talk gets
+// a ~48px block — enough to lead with a multi-line title AND the performer
+// without a tap. The day scrolls a bit more, which a calendar grid expects.
+const PPM_Y = 2.0;
 const HEADER_H = 40; // px, sticky stage-header row
 const MIN_BLOCK_H = 30; // keep very short sets readable
 
@@ -176,11 +179,10 @@ export function TimelineGrid({
                 const { primary, secondary } = eventLabels(e);
                 // The grid already encodes start & duration by the block's
                 // position and height, so in a tight block the time label is
-                // the first thing to shed and the performer the second —
-                // everything shows in full when tapped. We hand the title as
-                // much room as the block has: reveal more lines and the extras
-                // only as height allows, so a 25-min sliver still leads with a
-                // legible name instead of three cramped half-lines.
+                // the first thing to shed and the performer the second — the
+                // full record shows when tapped. We hand the title as much room
+                // as the block has: reveal more lines and the extras only as
+                // height allows.
                 const showTime = height >= 66;
                 const showSecondary = Boolean(secondary) && height >= 46;
                 const primaryLines = height < 40 ? 2 : height < 76 ? 3 : 5;
@@ -196,7 +198,6 @@ export function TimelineGrid({
                         setDetail(e);
                       }
                     }}
-                    title={secondary ? `${primary} — ${secondary}` : primary}
                     className={`absolute inset-x-1 flex cursor-pointer flex-col overflow-hidden rounded-[10px] px-2 ${
                       height < 46 ? "py-1" : "py-1.5"
                     } ${
