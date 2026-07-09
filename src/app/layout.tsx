@@ -3,6 +3,7 @@ import { Montserrat, Raleway, Space_Mono } from "next/font/google";
 import "./globals.css";
 import { AppHeader, AppNav } from "@/components/AppChrome";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
+import { Analytics } from "@/components/Analytics";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -77,6 +78,7 @@ export default function RootLayout({
         <main className="pt-16 pb-20 min-h-dvh">{children}</main>
         <AppNav />
         <ServiceWorkerRegister />
+        <Analytics />
       </body>
     </html>
   );

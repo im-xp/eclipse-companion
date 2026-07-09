@@ -1,0 +1,13 @@
+{
+  "_comment": "Attendee FAQ, synced from Notion by scripts/sync_faq.sh. Categories mirror the Notion hub; `items` fill in once the sync is wired to the Notion database (see FAQ_SYNC_SETUP below / .sync.env.example). Until a category has items, the page links out to the live Notion hub.",
+  "hubUrl": "https://app.notion.com/p/imxp/Attendee-FAQ-366ec4424fdb8070bb32eb47bcd7fe7f",
+  "generatedAt": null,
+  "categories": [
+    { "title": "Key Event Info", "items": [] },
+    { "title": "Travel & Packing", "items": [] },
+    { "title": "Campgrounds", "items": [] },
+    { "title": "Meals", "items": [] },
+    { "title": "Programming", "items": [] },
+    { "title": "General", "items": [] }
+  ]
+}

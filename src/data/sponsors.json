@@ -1,0 +1,35 @@
+{
+  "_comment": "Seeded from the partner sheet (confirmed + 'YES on app' rows). Refreshed by scripts/sync_sponsors.sh once Andrew finishes adding links. `logo` is a path under /public/sponsors/; when null the page renders a wordmark fallback.",
+  "groups": [
+    {
+      "title": "Iceland Partners",
+      "partners": [
+        { "name": "Snæfellsbær", "category": "Municipal Partner", "website": "https://www.snb.is", "logo": null },
+        { "name": "66°North", "category": "Apparel Partner", "website": "https://www.66north.is", "logo": null },
+        { "name": "Snæfellsjökull National Park", "category": "National Park", "website": "https://www.snaefellsjokull.is", "logo": null },
+        { "name": "Icelandic Glacial Water", "category": "Beverage Partner", "website": "https://icelandicglacial.com", "logo": null },
+        { "name": "Einstök Beer", "category": "Beverage Partner", "website": "https://einstokbeer.com", "logo": null },
+        { "name": "Askur", "category": "Beverage Partner", "website": null, "logo": null }
+      ]
+    },
+    {
+      "title": "Partners",
+      "partners": [
+        { "name": "Audiopool", "category": "Music/Tech Partner", "website": null, "logo": null },
+        { "name": "Vivo Barefoot", "category": "Footwear Partner", "website": "https://www.vivobarefoot.com", "logo": null },
+        { "name": "Playing For Change", "category": "Cause Partner", "website": "https://www.playingforchange.com", "logo": null },
+        { "name": "Unify", "category": "Ceremony/Program Partner", "website": "https://unify.org", "logo": null },
+        { "name": "Amnesia Ibiza", "category": "Talent/Programming Partner", "website": "https://www.amnesia.es", "logo": null },
+        { "name": "Free From Sleep", "category": "Talent/Programming Partner", "website": "https://www.freefromsleep.com", "logo": null },
+        { "name": "Visit West Iceland", "category": "Tourism Partner", "website": "https://www.west.is", "logo": null }
+      ]
+    },
+    {
+      "title": "Producers",
+      "partners": [
+        { "name": "IMXP", "category": "Co-Producer", "website": "https://www.imxp.org", "logo": null },
+        { "name": "Secret Solstice", "category": "Co-Producer", "website": "https://secretsolstice.is", "logo": null }
+      ]
+    }
+  ]
+}

@@ -16,6 +16,13 @@ const PPM_Y = 1.3; // px per minute (hour = 78px)
 const HEADER_H = 40; // px, sticky stage-header row
 const MIN_BLOCK_H = 30; // keep very short sets readable
 
+// A day's canvas auto-fits its events, but a sparse day (e.g. the arrival day,
+// with a single evening ceremony) would collapse to a ~2h sliver that reads as
+// a bug. Floor every day to noon–midnight; this only ever pads, never clips —
+// earlier/later events still expand the range past these bounds.
+const DAY_FLOOR_START = 12 * 60; // 12:00
+const DAY_FLOOR_END = 24 * 60; // 24:00
+
 const HOUR_LINES = `repeating-linear-gradient(to bottom, rgba(255,255,255,0.06) 0, rgba(255,255,255,0.06) 1px, transparent 1px, transparent ${60 * PPM_Y}px)`;
 
 function hourLabel(slot: number): string {
@@ -63,7 +70,10 @@ export function TimelineGrid({
       min = Math.min(min, start);
       max = Math.max(max, start + e.durationMin);
     }
-    return { start: Math.floor(min / 60) * 60, end: Math.ceil(max / 60) * 60 };
+    return {
+      start: Math.min(Math.floor(min / 60) * 60, DAY_FLOOR_START),
+      end: Math.max(Math.ceil(max / 60) * 60, DAY_FLOOR_END),
+    };
   }, [events]);
 
   if (!range || rows.length === 0) {

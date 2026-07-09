@@ -21,6 +21,32 @@ const SECTIONS = [
     blurb: "Field notes and essentials for the eclipse, the land, and the gathering.",
     accent: "text-eclipse-orange",
   },
+  {
+    href: "/faq",
+    title: "Attendee FAQ",
+    blurb: "Answers on travel, packing, campgrounds, meals and the programme.",
+    accent: "text-aurora-cyan",
+  },
+  {
+    href: "/sponsors",
+    title: "Partners",
+    blurb: "The partners and producers making the gathering possible.",
+    accent: "text-solar-corona",
+  },
+];
+
+// External upsell links (Fever). Open in a new tab so attendees keep the app.
+const QUICK_LINKS = [
+  {
+    href: "https://feverup.com/m/570327",
+    title: "Shuttles",
+    blurb: "Book your ride to and from the site.",
+  },
+  {
+    href: "https://feverup.com/m/474974?session_ids=296955961",
+    title: "Experiences",
+    blurb: "Add-on tours and experiences around the peninsula.",
+  },
 ];
 
 export default function HomePage() {
@@ -37,6 +63,34 @@ export default function HomePage() {
           Everything you need on the ground: the festival map, the full
           schedule, and guides to the gathering.
         </p>
+      </section>
+
+      <section className="pb-12">
+        <h2 className="eyebrow text-aurora-cyan">Plan your trip</h2>
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+          {QUICK_LINKS.map((q) => (
+            <a
+              key={q.href}
+              href={q.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center justify-between gap-4 rounded-[20px] border border-moon-white/10 bg-deep-space/60 p-5 transition-all duration-200 hover:border-moon-white/25 hover:-translate-y-0.5"
+            >
+              <span>
+                <span className="block font-display text-lg font-extrabold uppercase tracking-[-0.02em] text-moon-white">
+                  {q.title}
+                </span>
+                <span className="mt-1 block text-sm text-moon-white/70 leading-relaxed">
+                  {q.blurb}
+                </span>
+              </span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-4 shrink-0 text-moon-white/50 group-hover:text-moon-white transition-colors">
+                <path d="M7 17 17 7" />
+                <path d="M7 7h10v10" />
+              </svg>
+            </a>
+          ))}
+        </div>
       </section>
 
       <section className="pb-12">

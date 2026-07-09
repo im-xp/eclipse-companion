@@ -6,6 +6,19 @@ import { usePathname } from "next/navigation";
 
 const NAV_ITEMS = [
   {
+    href: "/",
+    label: "Home",
+    // exact: "/" is a prefix of every path, so match it exactly or Home would
+    // stay highlighted on Map/Schedule/Guides too.
+    exact: true,
+    icon: (
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5">
+        <path d="M3 10.5 12 3l9 7.5" />
+        <path d="M5 9.5V21h14V9.5" />
+      </svg>
+    ),
+  },
+  {
     href: "/map",
     label: "Map",
     icon: (
@@ -73,7 +86,9 @@ export function AppNav() {
     <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-moon-white/10 backdrop-blur-md bg-eclipse-black/80 pb-[env(safe-area-inset-bottom)]">
       <div className="mx-auto flex max-w-md items-stretch justify-around">
         {NAV_ITEMS.map((item) => {
-          const active = pathname.startsWith(item.href);
+          const active = item.exact
+            ? pathname === item.href
+            : pathname.startsWith(item.href);
           return (
             <Link
               key={item.href}
