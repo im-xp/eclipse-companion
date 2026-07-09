@@ -61,8 +61,11 @@ for row in rows[1:]:
     stage = get(row, "Stage")
     if not billing or not day_raw or start is None or not stage:
         continue
+    # Only "Confirmed" rows go public. Anything else (Pending, blank, draft…)
+    # is withheld from the schedule — the Status column is the on/off switch:
+    # flip a row to Confirmed to publish it, back to Pending to pull it.
     status = (get(row, "Status") or "").lower()
-    if status not in ("confirmed", "pending"):
+    if status != "confirmed":
         continue
     date = DAY_MAP.get(day_raw.strip())
     if not date:
@@ -89,7 +92,7 @@ for row in rows[1:]:
         "artist": billing,
         "title": None if is_host_block else title,
         "isHostBlock": is_host_block,
-        "status": "confirmed" if status == "confirmed" else "pending",
+        "status": "confirmed",
         "category": get(row, "Category"),
         "subcategory": get(row, "subcategory"),
         "date": date,
