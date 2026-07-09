@@ -116,7 +116,7 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
   return (
     <div>
       <div className="sticky top-16 z-40 border-b border-moon-white/10 bg-eclipse-black/85 backdrop-blur-md">
-        <div className="mx-auto w-full max-w-4xl px-6">
+        <div className="container-page">
           <div className="flex gap-1 pt-3">
             {(
               [
@@ -240,7 +240,7 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
       {view === "lineup" ? (
         <LineupList schedule={schedule} />
       ) : mode === "timeline" ? (
-        <div className="mx-auto w-full max-w-4xl px-6 pt-4">
+        <div className="container-page pt-4">
           <TimelineGrid
             schedule={schedule}
             day={day}
@@ -251,7 +251,7 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
           />
         </div>
       ) : (
-      <div className="mx-auto w-full max-w-4xl px-6 pt-4">
+      <div className="container-page pt-4">
         {timeGroups.length === 0 && (
           <p className="py-16 text-center text-moon-white/50">
             Nothing scheduled for this day yet.

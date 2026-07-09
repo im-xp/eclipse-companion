@@ -22,10 +22,26 @@ const spaceMono = Space_Mono({
   variable: "--font-space-mono",
 });
 
+const SHARE_DESCRIPTION =
+  "Festival map, schedule, and guides. Iceland Eclipse, Snæfellsnes Peninsula, 11–15 August 2026.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://app.icelandeclipse.com"),
   title: "Iceland Eclipse — Festival Companion",
-  description:
-    "Festival map, schedule, and guides. Iceland Eclipse, Snæfellsnes Peninsula, 11–15 August 2026.",
+  description: SHARE_DESCRIPTION,
+  // opengraph-image.tsx is picked up automatically and attached to both cards.
+  openGraph: {
+    title: "Iceland Eclipse — Festival Guide",
+    description: SHARE_DESCRIPTION,
+    url: "https://app.icelandeclipse.com",
+    siteName: "Iceland Eclipse",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Iceland Eclipse — Festival Guide",
+    description: SHARE_DESCRIPTION,
+  },
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
