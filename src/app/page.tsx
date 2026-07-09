@@ -16,9 +16,9 @@ const SECTIONS = [
     accent: "text-solar-corona",
   },
   {
-    href: "/profile",
-    title: "My Profile",
-    blurb: "Sign in with your email to see your participation profile.",
+    href: "/guides",
+    title: "Guides",
+    blurb: "Field notes and essentials for the eclipse, the land, and the gathering.",
     accent: "text-eclipse-orange",
   },
 ];
@@ -35,7 +35,7 @@ export default function HomePage() {
         </h1>
         <p className="mt-5 max-w-xl text-moon-white/70 leading-relaxed">
           Everything you need on the ground: the festival map, the full
-          schedule, and your personal participation profile.
+          schedule, and guides to the gathering.
         </p>
       </section>
 

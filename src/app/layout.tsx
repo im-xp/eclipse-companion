@@ -25,7 +25,7 @@ const spaceMono = Space_Mono({
 export const metadata: Metadata = {
   title: "Iceland Eclipse — Festival Companion",
   description:
-    "Festival map, schedule, and your participation profile. Iceland Eclipse, Snæfellsnes Peninsula, 11–15 August 2026.",
+    "Festival map, schedule, and guides. Iceland Eclipse, Snæfellsnes Peninsula, 11–15 August 2026.",
   manifest: "/manifest.webmanifest",
   appleWebApp: {
     capable: true,
