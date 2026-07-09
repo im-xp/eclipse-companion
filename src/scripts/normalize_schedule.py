@@ -76,10 +76,18 @@ for row in rows[1:]:
     elif isinstance(start, datetime.datetime):
         start_s = start.strftime("%H:%M")
     else:
-        m = re.match(r"(\d{1,2}):(\d{2})", str(start))
+        # CSV export gives the DISPLAYED cell string, e.g. "5:00 PM" — parse the
+        # 12-hour AM/PM form (the xlsx path above gets real time objects). A bare
+        # "HH:MM" with no AM/PM is treated as already-24-hour.
+        m = re.match(r"(\d{1,2}):(\d{2})\s*([AaPp][Mm])?", str(start).strip())
         if not m:
             continue
-        start_s = f"{int(m.group(1)):02d}:{m.group(2)}"
+        hour, minute, ampm = int(m.group(1)), m.group(2), (m.group(3) or "").lower()
+        if ampm == "pm" and hour != 12:
+            hour += 12
+        elif ampm == "am" and hour == 12:
+            hour = 0
+        start_s = f"{hour:02d}:{minute}"
     dur_raw = get(row, "Duration") or ""
     m = re.search(r"(\d+)", dur_raw)
     duration_min = int(m.group(1)) if m else 60
