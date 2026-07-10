@@ -22,10 +22,11 @@ const SECTIONS = [
     accent: "text-eclipse-orange",
   },
   {
-    href: "/faq",
+    href: "https://icelandeclipse.com/faq",
     title: "Attendee FAQ",
     blurb: "Answers on travel, packing, campgrounds, meals and the programme.",
     accent: "text-aurora-cyan",
+    external: true,
   },
   {
     href: "/sponsors",
@@ -113,29 +114,52 @@ export default function HomePage() {
       </section>
 
       <section className="grid gap-4 pb-16 sm:grid-cols-3">
-        {SECTIONS.map((s) => (
-          <Link
-            key={s.href}
-            href={s.href}
-            className="group rounded-[20px] border border-moon-white/10 bg-deep-space/60 p-6 transition-all duration-200 hover:border-moon-white/25 hover:-translate-y-0.5"
-          >
-            <h2
-              className={`font-display font-extrabold uppercase tracking-[-0.02em] text-2xl ${s.accent}`}
+        {SECTIONS.map((s) => {
+          const cardClass =
+            "group rounded-[20px] border border-moon-white/10 bg-deep-space/60 p-6 transition-all duration-200 hover:border-moon-white/25 hover:-translate-y-0.5";
+          const inner = (
+            <>
+              <h2
+                className={`font-display font-extrabold uppercase tracking-[-0.02em] text-2xl ${s.accent}`}
+              >
+                {s.title}
+              </h2>
+              <p className="mt-2 text-sm text-moon-white/70 leading-relaxed">
+                {s.blurb}
+              </p>
+              <span className="eyebrow mt-5 inline-flex items-center gap-2 text-moon-white/60 group-hover:text-moon-white transition-colors">
+                Open
+                {s.external ? (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-3.5">
+                    <path d="M7 17 17 7" />
+                    <path d="M7 7h10v10" />
+                  </svg>
+                ) : (
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-3.5">
+                    <path d="M5 12h14" />
+                    <path d="m12 5 7 7-7 7" />
+                  </svg>
+                )}
+              </span>
+            </>
+          );
+
+          return s.external ? (
+            <a
+              key={s.href}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={cardClass}
             >
-              {s.title}
-            </h2>
-            <p className="mt-2 text-sm text-moon-white/70 leading-relaxed">
-              {s.blurb}
-            </p>
-            <span className="eyebrow mt-5 inline-flex items-center gap-2 text-moon-white/60 group-hover:text-moon-white transition-colors">
-              Open
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-3.5">
-                <path d="M5 12h14" />
-                <path d="m12 5 7 7-7 7" />
-              </svg>
-            </span>
-          </Link>
-        ))}
+              {inner}
+            </a>
+          ) : (
+            <Link key={s.href} href={s.href} className={cardClass}>
+              {inner}
+            </Link>
+          );
+        })}
       </section>
     </div>
   );

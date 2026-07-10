@@ -193,12 +193,27 @@ export function TimelineGrid({
                 // sets of 40 min+ show it — short 25/30-min blocks give all
                 // their room to the title + performer. Everything shows on tap.
                 const TITLE_LINE = 13.44; // 12px title × 1.12 leading
+                const FOOTER_LINE = 13; // 9px mono footer row (category / time)
                 const content = height - 12; // minus py-1.5 top+bottom
                 const showTime = e.durationMin >= 40;
                 const showSecondary =
                   Boolean(secondary) && content - 15 >= 2 * TITLE_LINE;
+                // Content-type tag rides the bottom footer. It only earns a row
+                // when, after also reserving the secondary + time lines, at
+                // least one title line still fits — the title never yields its
+                // last line to the tag.
+                const showCategory =
+                  Boolean(e.category) &&
+                  content -
+                    (showSecondary ? 15 : 0) -
+                    (showTime ? FOOTER_LINE : 0) -
+                    FOOTER_LINE >=
+                    TITLE_LINE;
                 const avail =
-                  content - (showSecondary ? 15 : 0) - (showTime ? 13 : 0);
+                  content -
+                  (showSecondary ? 15 : 0) -
+                  (showTime ? FOOTER_LINE : 0) -
+                  (showCategory ? FOOTER_LINE : 0);
                 const primaryLines = Math.max(
                   1,
                   Math.min(6, Math.floor(avail / TITLE_LINE))
@@ -238,9 +253,18 @@ export function TimelineGrid({
                         {secondary}
                       </span>
                     )}
-                    {showTime && (
-                      <span className="mt-auto pt-0.5 font-mono text-[9px] font-bold uppercase tracking-[0.06em] text-eclipse-black/65">
-                        {e.start}–{addMinutes(e.start, e.durationMin)}
+                    {(showCategory || showTime) && (
+                      <span className="mt-auto pt-0.5">
+                        {showCategory && (
+                          <span className="block truncate font-mono text-[9px] font-bold uppercase tracking-[0.06em] text-eclipse-black/75">
+                            {e.category}
+                          </span>
+                        )}
+                        {showTime && (
+                          <span className="block font-mono text-[9px] font-bold uppercase tracking-[0.06em] text-eclipse-black/60">
+                            {e.start}–{addMinutes(e.start, e.durationMin)}
+                          </span>
+                        )}
                       </span>
                     )}
                   </div>

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-09T16:30:03+00:00",
+ "generatedAt": "2026-07-09T18:30:02+00:00",
  "days": [
   "2026-08-11",
   "2026-08-12",
@@ -147,8 +147,8 @@
    "emcee": null
   },
   {
-   "artist": "BEing the Change: Identity",
-   "title": "Ipek Williamson",
+   "artist": "Ipek Williamson",
+   "title": "BEing the Change: Identity, Energy & Conscious Creation",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -158,25 +158,8 @@
    "start": "10:30",
    "durationMin": 25,
    "stage": "AFTERGLOW (Dome)",
-   "headshot": null,
-   "bio": null,
-   "tagline": null,
-   "emcee": "Austin Mao"
-  },
-  {
-   "artist": "Energy & Conscious Creation",
-   "title": "Ipek Williamson",
-   "isHostBlock": false,
-   "status": "confirmed",
-   "category": "Inner Space",
-   "subcategory": null,
-   "date": "2026-08-12",
-   "day": "Wednesday 12 August",
-   "start": "10:30",
-   "durationMin": 25,
-   "stage": "AFTERGLOW (Dome)",
-   "headshot": null,
-   "bio": null,
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ipek-williamson.jpg",
+   "bio": "Ipek Williamson designs immersive experiences that shift people from reactive living into aligned expression rooted in clarity and presence. Through meditation, dialogue, and embodied practices, she supports authentic connection with self, relationship, and the unseen dimensions of awareness.",
    "tagline": null,
    "emcee": "Austin Mao"
   },
@@ -349,6 +332,23 @@
    "bio": "Michael Jelen is a media-tech founder and live experience innovator building Ekho, a platform that transforms music into a fan-powered force. His work merges technology, performance, and collective energy to turn audiences into active participants.",
    "tagline": null,
    "emcee": "Michael Graziano"
+  },
+  {
+   "artist": "Rock Thomas",
+   "title": "Power of Community and Connections",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Community Space",
+   "subcategory": null,
+   "date": "2026-08-12",
+   "day": "Wednesday 12 August",
+   "start": "11:30",
+   "durationMin": 45,
+   "stage": "POLARIS",
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Rock%20Thomas.jpeg",
+   "bio": "Co-founder of Go-bundance, 37 years in Real Estate as a broker owner, Best Selling Author, Speaker, Millionaire Mentor, father, son, and world traveller!",
+   "tagline": null,
+   "emcee": null
   },
   {
    "artist": "Rohan Roberts",
@@ -636,6 +636,40 @@
    "stage": "POLARIS",
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Mo%20Majumdar.jpg",
    "bio": "When I was in medical school, I witnessed my first eclipse in the UK.  Although I wasnt in the path of totality, we have as a family witnessed several more. Through my medical training, I have since been fortunate enough to provide medical care at multiple medical festivals.  My children have grown up with the eclipse.",
+   "tagline": null,
+   "emcee": "Ezra Bookman"
+  },
+  {
+   "artist": "Safiyah Majumdar",
+   "title": "Eclipse Chaser Panel",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Community Space",
+   "subcategory": null,
+   "date": "2026-08-12",
+   "day": "Wednesday 12 August",
+   "start": "14:45",
+   "durationMin": 45,
+   "stage": "POLARIS",
+   "headshot": null,
+   "bio": null,
+   "tagline": null,
+   "emcee": "Ezra Bookman"
+  },
+  {
+   "artist": "Julie Majumdar",
+   "title": "Eclipse Chaser Panel",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Community Space",
+   "subcategory": null,
+   "date": "2026-08-12",
+   "day": "Wednesday 12 August",
+   "start": "14:45",
+   "durationMin": 45,
+   "stage": "POLARIS",
+   "headshot": null,
+   "bio": null,
    "tagline": null,
    "emcee": "Ezra Bookman"
   },
@@ -1286,23 +1320,6 @@
    "emcee": "Rick Doblin"
   },
   {
-   "artist": "Cynthia Cramblett & Benjamin Moore",
-   "title": "The God Molecule & Sacred Union",
-   "isHostBlock": false,
-   "status": "confirmed",
-   "category": "Inner Space",
-   "subcategory": null,
-   "date": "2026-08-13",
-   "day": "Thursday 13 August",
-   "start": "11:00",
-   "durationMin": 50,
-   "stage": "AFTERGLOW (Dome)",
-   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/benjamin-moore-cynthia-cramblett.png",
-   "bio": "Benjamin Moore, a former U.S. Army Staff Sergeant, and Cynthia Cramblett co-lead The Sacred Synthesis, blending ceremonial leadership, somatic healing, and entheogenic facilitation to help people find meaning, stability, and peace.",
-   "tagline": null,
-   "emcee": "Rick Doblin"
-  },
-  {
    "artist": "Michael Zuckerman",
    "title": "Refugee Cities: From AID to Investment",
    "isHostBlock": false,
@@ -1406,7 +1423,7 @@
   },
   {
    "artist": "Bryant Maxwell",
-   "title": "How Art & Science Shape Life in Extreme Places",
+   "title": "SciArt Exchange: How Art & Science Shape Life in Extreme Places",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Outer Space",
@@ -1423,7 +1440,7 @@
   },
   {
    "artist": "Ben Haldeman",
-   "title": "How Art & Science Shape Life in Extreme Places",
+   "title": "SciArt Exchange: How Art & Science Shape Life in Extreme Places",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Outer Space",
@@ -1440,7 +1457,7 @@
   },
   {
    "artist": "Sian Proctor, Dr.",
-   "title": "How Art & Science Shape Life in Extreme Places",
+   "title": "SciArt Exchange: How Art & Science Shape Life in Extreme Places",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Outer Space",
@@ -1457,7 +1474,7 @@
   },
   {
    "artist": "Richelle Ellis",
-   "title": "How Art & Science Shape Life in Extreme Places",
+   "title": "SciArt Exchange: How Art & Science Shape Life in Extreme Places",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Outer Space",
@@ -1490,7 +1507,7 @@
    "emcee": "David Webber"
   },
   {
-   "artist": "Fred",
+   "artist": "Fred Olafsson",
    "title": "Gathers Gathering Panel",
    "isHostBlock": false,
    "status": "confirmed",
@@ -1507,7 +1524,24 @@
    "emcee": "David Webber"
   },
   {
-   "artist": "Mitch",
+   "artist": "Isis Indriya",
+   "title": "Gathers Gathering Panel",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Community Space",
+   "subcategory": null,
+   "date": "2026-08-13",
+   "day": "Thursday 13 August",
+   "start": "12:30",
+   "durationMin": 45,
+   "stage": "AURORA (Electronic Tent)",
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/isis-indriya.webp",
+   "bio": "Isis Indriya is an educator, ceremonialist, and founder of the Academy of Oracle Arts and Imaginal Community.",
+   "tagline": null,
+   "emcee": "David Webber"
+  },
+  {
+   "artist": "Mitch Morales",
    "title": "Gathers Gathering Panel",
    "isHostBlock": false,
    "status": "confirmed",
@@ -1593,7 +1627,7 @@
   },
   {
    "artist": "SciArt Exchange",
-   "title": "Design your habitat",
+   "title": "Design your Habitat",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Outer Space",
@@ -2272,7 +2306,7 @@
    "emcee": null
   },
   {
-   "artist": "Mar T b2b Luca Donzelli",
+   "artist": "Luca Donzelli",
    "title": null,
    "isHostBlock": false,
    "status": "confirmed",
@@ -2283,8 +2317,8 @@
    "start": "21:00",
    "durationMin": 90,
    "stage": "AURORA (Electronic Tent)",
-   "headshot": null,
-   "bio": null,
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/LucaDonzellimain.jpeg",
+   "bio": "Rooted in the Tuscan club scene and now a fixture in Ibiza’s summer circuit, Florentine DJ and producer Luca Donzelli brings a refined, groove-driven approach to house and tech-house, with a residency at Amnesia Ibiza’s Pyramid party cementing his reputation on the international stage.",
    "tagline": null,
    "emcee": null
   },
@@ -2302,23 +2336,6 @@
    "stage": "ECLIPSE (Main Stage)",
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/kenny-dope.jpg",
    "bio": "Kenny 'Dope' Gonzalez is one half of legendary house duo Masters at Work and one of America's most important house music producers, active for over 30 years.",
-   "tagline": null,
-   "emcee": null
-  },
-  {
-   "artist": "Amélie Ravalec & Vincent Ravalec",
-   "title": "SOLSTICE/ SUMARSÓLSTÖÐUR",
-   "isHostBlock": false,
-   "status": "confirmed",
-   "category": "Digital Space",
-   "subcategory": null,
-   "date": "2026-08-13",
-   "day": "Thursday 13 August",
-   "start": "21:00",
-   "durationMin": 120,
-   "stage": "Röstin Film Premiers",
-   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/amelie-ravalec-vincent-ravalec.webp",
-   "bio": "About their Solstice Series: All over the world, artists are called upon through dreams and visions by a cosmic entity, the Architecture. To prevent earth’s collapse and restore balance to the universe, they must explore forgotten memories and transform their creations into powerful acts of restoration, rewriting the past and reshaping the future to heal reality itself.",
    "tagline": null,
    "emcee": null
   },
@@ -2528,7 +2545,7 @@
   },
   {
    "artist": "Kevin Russell",
-   "title": "AI: Symbiotic vs Sycophantic Singularity",
+   "title": "Ai: Symbiotic vs Sycophantic Singularity?",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Digital Space",
@@ -2545,7 +2562,7 @@
   },
   {
    "artist": "Sara Ahmadian",
-   "title": "AI: Symbiotic vs Sycophantic Singularity",
+   "title": "Ai: Symbiotic vs Sycophantic Singularity?",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Digital Space",
@@ -2562,7 +2579,7 @@
   },
   {
    "artist": "Gabor Szorad",
-   "title": "AI: Symbiotic vs Sycophantic Singularity",
+   "title": "Ai: Symbiotic vs Sycophantic Singularity?",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Digital Space",
@@ -2579,7 +2596,7 @@
   },
   {
    "artist": "Rohan Roberts",
-   "title": "AI: Symbiotic vs Sycophantic Singularity",
+   "title": "Ai: Symbiotic vs Sycophantic Singularity?",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Digital Space",
@@ -2596,7 +2613,7 @@
   },
   {
    "artist": "Tannya Jajal",
-   "title": "AI: Symbiotic vs Sycophantic Singularity",
+   "title": "Ai: Symbiotic vs Sycophantic Singularity?",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Digital Space",
@@ -2935,23 +2952,6 @@
    "emcee": "Gwen Riley"
   },
   {
-   "artist": "MaryLiz Bender",
-   "title": "Overview Effect Panel",
-   "isHostBlock": false,
-   "status": "confirmed",
-   "category": "Outer Space",
-   "subcategory": null,
-   "date": "2026-08-14",
-   "day": "Friday 14 August",
-   "start": "13:45",
-   "durationMin": 45,
-   "stage": "AFTERGLOW (Dome)",
-   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/maryliz-bender.jpg",
-   "bio": "MaryLiz Bender is a musician and music technology educator specializing in cosmic perspective meditation and teaching others to integrate technology with music.",
-   "tagline": null,
-   "emcee": null
-  },
-  {
    "artist": "Ron Garan",
    "title": "Overview Effect Panel",
    "isHostBlock": false,
@@ -3016,6 +3016,23 @@
    "stage": "AFTERGLOW (Dome)",
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jason-silva.jpeg",
    "bio": "Jason Silva is an American filmmaker and public speaker known for philosophical short films at the intersection of technology, creativity, and human consciousness.",
+   "tagline": null,
+   "emcee": null
+  },
+  {
+   "artist": "Sian Proctor, Dr.",
+   "title": "Overview Effect Panel",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Outer Space",
+   "subcategory": "Astronaut",
+   "date": "2026-08-14",
+   "day": "Friday 14 August",
+   "start": "13:45",
+   "durationMin": 45,
+   "stage": "AFTERGLOW (Dome)",
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sian-proctor.jpg",
+   "bio": "Dr. Proctor made history as the first African-American woman to pilot a spacecraft on SpaceX's Inspiration4 mission. As a geoscientist and space artist, she blends scientific expertise with the profound perspective gained from viewing Earth from orbit, creating artwork that captures out planet's beauty and fragility.",
    "tagline": null,
    "emcee": null
   },
@@ -3341,23 +3358,6 @@
    "bio": "Ben Sol is an Icelandic DJ and electronic music producer known for his work with underground techno collective Træangular.",
    "tagline": null,
    "emcee": null
-  },
-  {
-   "artist": "Imogen Heap",
-   "title": "Mimu Gloves",
-   "isHostBlock": false,
-   "status": "confirmed",
-   "category": "Digital Space",
-   "subcategory": null,
-   "date": "2026-08-14",
-   "day": "Friday 14 August",
-   "start": "16:45",
-   "durationMin": 50,
-   "stage": "AFTERGLOW (Dome)",
-   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/imogen-heap.jpg",
-   "bio": "Imogen Heap is a British musician and technology innovator who created the Mi.Mu Gloves — wearable instruments that translate hand gestures into music, pioneering new modes of live performance.",
-   "tagline": null,
-   "emcee": "MaryLiz"
   },
   {
    "artist": "Adam Stark",
@@ -4262,7 +4262,7 @@
   },
   {
    "artist": "Simeon Schnapper",
-   "title": "How Psychedelics Are Shaping the Future of Mental Health",
+   "title": "How Psychedelics are Shaping the Future of Mental Health",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -4279,7 +4279,7 @@
   },
   {
    "artist": "Rose Uzunova",
-   "title": "How Psychedelics Are Shaping the Future of Mental Health",
+   "title": "How Psychedelics are Shaping the Future of Mental Health",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -4296,7 +4296,7 @@
   },
   {
    "artist": "Sara María Júlíusdóttir",
-   "title": "How Psychedelics Are Shaping the Future of Mental Health",
+   "title": "How Psychedelics are Shaping the Future of Mental Health",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -4313,7 +4313,7 @@
   },
   {
    "artist": "Rick Doblin, Dr.",
-   "title": "How Psychedelics Are Shaping the Future of Mental Health",
+   "title": "How Psychedelics are Shaping the Future of Mental Health",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -4568,7 +4568,7 @@
   },
   {
    "artist": "Emily Bilbao",
-   "title": "Future Tech Panel (No AI)",
+   "title": "Future Tech Panel (NO AI)",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Digital Space",
@@ -4585,7 +4585,7 @@
   },
   {
    "artist": "Jordan Amadio, Dr.",
-   "title": "Future Tech Panel (No AI)",
+   "title": "Future Tech Panel (NO AI)",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Digital Space",
@@ -4602,7 +4602,7 @@
   },
   {
    "artist": "JT Marino",
-   "title": "Future Tech Panel (No AI)",
+   "title": "Future Tech Panel (NO AI)",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Digital Space",
@@ -4619,7 +4619,7 @@
   },
   {
    "artist": "Linea Avey",
-   "title": "Future Tech Panel (No AI)",
+   "title": "Future Tech Panel (NO AI)",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Digital Space",
