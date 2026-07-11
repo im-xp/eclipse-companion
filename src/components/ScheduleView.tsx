@@ -9,8 +9,10 @@ import {
   type ScheduleEvent,
 } from "@/lib/schedule";
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
+import { eventKey, useFavorites } from "@/lib/favorites";
 import { LineupList } from "@/components/LineupView";
 import { TimelineGrid } from "@/components/TimelineGrid";
+import { HeartButton } from "@/components/HeartButton";
 import { SocialRow } from "@/components/SocialRow";
 import {
   addMinutes,
@@ -28,7 +30,15 @@ function isLive(event: ScheduleEvent, now: { date: string; minutes: number }): b
   return now.minutes >= start && now.minutes < start + event.durationMin;
 }
 
-export function ScheduleView({ schedule }: { schedule: Schedule }) {
+export function ScheduleView({
+  schedule,
+  loggedIn = false,
+}: {
+  schedule: Schedule;
+  loggedIn?: boolean;
+}) {
+  const { favorites, toggleFavorite } = useFavorites();
+  const [favOnly, setFavOnly] = useState(false);
   const realNow = useMemo(() => nowInReykjavik(), []);
   const now = useMemo(() => festivalNow(realNow), [realNow]);
   const festivalDays = useMemo(
@@ -112,9 +122,10 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
       schedule.events.filter(
         (e) =>
           festivalDate(e) === day &&
-          (!stageFilter || e.stage === stageFilter)
+          (!stageFilter || e.stage === stageFilter) &&
+          (!favOnly || favorites.has(eventKey(e)))
       ),
-    [schedule.events, day, stageFilter]
+    [schedule.events, day, stageFilter, favOnly, favorites]
   );
 
   const timeGroups = useMemo(() => {
@@ -218,6 +229,31 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
                 </button>
               ))}
             </div>
+            {loggedIn && (
+              <button
+                type="button"
+                onClick={() => setFavOnly((v) => !v)}
+                aria-pressed={favOnly}
+                className={`flex shrink-0 items-center gap-1.5 rounded-pill border px-3 py-1.5 font-mono text-[10px] uppercase tracking-[0.12em] transition-colors ${
+                  favOnly
+                    ? "border-signal-yellow bg-signal-yellow text-eclipse-black"
+                    : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
+                }`}
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  className="size-3"
+                  fill="currentColor"
+                  aria-hidden
+                >
+                  <path d="M12 21s-7.5-4.6-10-9.5C.8 8 2.6 5 6 5c2.1 0 3.4 1.2 4.5 2.6C11.6 6.2 12.9 5 15 5c3.4 0 5.2 3 4 6.5C21.5 16.4 12 21 12 21z" />
+                </svg>
+                Saved
+                {favorites.size > 0 && (
+                  <span className="font-bold">{favorites.size}</span>
+                )}
+              </button>
+            )}
             <span className="h-5 w-px shrink-0 bg-moon-white/15" />
             <div className="relative min-w-0 flex-1">
               <div
@@ -291,13 +327,19 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
             stageFilter={stageFilter}
             now={now}
             isToday={isFestivalToday && day === now.date}
+            loggedIn={loggedIn}
+            favOnly={favOnly}
+            favorites={favorites}
+            toggleFavorite={toggleFavorite}
           />
         </div>
       ) : (
       <div className="container-page pt-4">
         {timeGroups.length === 0 && (
           <p className="py-16 text-center text-moon-white/50">
-            Nothing scheduled for this day yet.
+            {favOnly
+              ? "No saved events on this day — tap the heart on a set to save it."
+              : "Nothing scheduled for this day yet."}
           </p>
         )}
         {timeGroups.map(([time, events]) => (
@@ -466,6 +508,13 @@ export function ScheduleView({ schedule }: { schedule: Schedule }) {
                           </div>
                         )}
                       </div>
+                      {loggedIn && (
+                        <HeartButton
+                          active={favorites.has(eventKey(e))}
+                          onToggle={() => toggleFavorite(eventKey(e))}
+                          className="mt-0.5"
+                        />
+                      )}
                     </div>
                   </article>
                 );

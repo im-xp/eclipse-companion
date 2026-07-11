@@ -13,6 +13,7 @@ import {
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
 import { addMinutes } from "@/lib/schedule-time";
 import { SocialRow } from "@/components/SocialRow";
+import { HeartButton } from "@/components/HeartButton";
 
 function Avatar({
   name,
@@ -64,11 +65,17 @@ export function EventDetailSheet({
   schedule,
   onClose,
   onSelectEvent,
+  canSave = false,
+  isSaved = false,
+  onToggleSave,
 }: {
   event: ScheduleEvent | null;
   schedule: Schedule;
   onClose: () => void;
   onSelectEvent?: (e: ScheduleEvent) => void;
+  canSave?: boolean;
+  isSaved?: boolean;
+  onToggleSave?: () => void;
 }) {
   const [openSpeaker, setOpenSpeaker] = useState<string | null>(null);
   // Collapse any expanded speaker when the sheet switches events — the
@@ -150,6 +157,9 @@ export function EventDetailSheet({
               </p>
             )}
           </div>
+          {canSave && onToggleSave && (
+            <HeartButton active={isSaved} onToggle={onToggleSave} size={24} />
+          )}
         </div>
 
         <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1">

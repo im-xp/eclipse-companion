@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import { eventLabels, type Schedule, type ScheduleEvent } from "@/lib/schedule";
 import { stageStyle } from "@/lib/schedule-meta";
 import { addMinutes, festivalDate, slotMinutes } from "@/lib/schedule-time";
+import { eventKey } from "@/lib/favorites";
 import { EventDetailSheet } from "@/components/EventDetailSheet";
 
 // Vertical festival grid: stages are columns (wide, so titles have room),
@@ -40,6 +41,10 @@ export function TimelineGrid({
   stageFilter,
   now,
   isToday,
+  loggedIn = false,
+  favOnly = false,
+  favorites,
+  toggleFavorite,
 }: {
   schedule: Schedule;
   day: string;
@@ -47,16 +52,24 @@ export function TimelineGrid({
   stageFilter: string | null;
   now: { date: string; minutes: number };
   isToday: boolean;
+  loggedIn?: boolean;
+  favOnly?: boolean;
+  favorites?: ReadonlySet<string>;
+  toggleFavorite?: (key: string) => void;
 }) {
   const [detail, setDetail] = useState<ScheduleEvent | null>(null);
+  const saved = favorites ?? new Set<string>();
+  // favOnly filters the rendered blocks only — never dayEvents/range below, so
+  // the time axis stays anchored to the full day even when few sets are saved.
   const events = useMemo(
     () =>
       schedule.events.filter(
         (e) =>
           festivalDate(e) === day &&
-          (!stageFilter || e.stage === stageFilter)
+          (!stageFilter || e.stage === stageFilter) &&
+          (!favOnly || saved.has(eventKey(e)))
       ),
-    [schedule.events, day, stageFilter]
+    [schedule.events, day, stageFilter, favOnly, saved]
   );
 
   // The time range spans the WHOLE day (every stage), independent of the stage
@@ -237,6 +250,16 @@ export function TimelineGrid({
                     } ${live ? "ring-2 ring-moon-white ring-offset-1 ring-offset-eclipse-black" : ""}`}
                     style={{ top, height, backgroundColor: st.color }}
                   >
+                    {loggedIn && saved.has(eventKey(e)) && (
+                      <svg
+                        viewBox="0 0 24 24"
+                        className="absolute right-1 top-1 size-3 text-eclipse-black/55"
+                        fill="currentColor"
+                        aria-hidden
+                      >
+                        <path d="M12 21s-7.5-4.6-10-9.5C.8 8 2.6 5 6 5c2.1 0 3.4 1.2 4.5 2.6C11.6 6.2 12.9 5 15 5c3.4 0 5.2 3 4 6.5C21.5 16.4 12 21 12 21z" />
+                      </svg>
+                    )}
                     <span
                       className="font-display text-[12px] font-extrabold uppercase leading-[1.12] tracking-[-0.01em] text-eclipse-black"
                       style={{
@@ -286,6 +309,13 @@ export function TimelineGrid({
       schedule={schedule}
       onClose={() => setDetail(null)}
       onSelectEvent={setDetail}
+      canSave={loggedIn}
+      isSaved={detail ? saved.has(eventKey(detail)) : false}
+      onToggleSave={
+        toggleFavorite && detail
+          ? () => toggleFavorite(eventKey(detail))
+          : undefined
+      }
     />
     </>
   );
