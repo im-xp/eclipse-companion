@@ -39,7 +39,7 @@ function monthKey(d: Date): string {
 }
 
 export function EventsCalendar({ sessions }: { sessions: LumaSession[] }) {
-  const [view, setView] = useState<View>("upcoming");
+  const [view, setView] = useState<View>("calendar");
 
   const dated = useMemo(
     () =>
