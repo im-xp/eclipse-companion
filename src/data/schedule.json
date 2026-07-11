@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-09T18:30:02+00:00",
+ "generatedAt": "2026-07-11T20:30:03+00:00",
  "days": [
   "2026-08-11",
   "2026-08-12",
@@ -11,6 +11,7 @@
  "stages": [
   "AFTERGLOW (Dome)",
   "AURORA (Electronic Tent)",
+  "All Stages",
   "CAMPSITE YOGA",
   "COSMIC CONNECTION (Wellness)",
   "ECLIPSE (Main Stage)",
@@ -199,7 +200,7 @@
   },
   {
    "artist": "Justin Natoli",
-   "title": "Queerness as a psychedelic practice",
+   "title": "Queerness as a Spiritual Practice",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -522,7 +523,7 @@
   },
   {
    "artist": "Jason Silva",
-   "title": "Psychedlic Puppets Show on Feelings",
+   "title": "Films on Feelings",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -844,6 +845,40 @@
    "emcee": null
   },
   {
+   "artist": "Eclipse",
+   "title": null,
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": null,
+   "subcategory": null,
+   "date": "2026-08-12",
+   "day": "Wednesday 12 August",
+   "start": "16:45",
+   "durationMin": 135,
+   "stage": "All Stages",
+   "headshot": null,
+   "bio": null,
+   "tagline": null,
+   "emcee": null
+  },
+  {
+   "artist": "Totality",
+   "title": null,
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": null,
+   "subcategory": null,
+   "date": "2026-08-12",
+   "day": "Wednesday 12 August",
+   "start": "17:45",
+   "durationMin": 15,
+   "stage": "All Stages",
+   "headshot": null,
+   "bio": null,
+   "tagline": null,
+   "emcee": null
+  },
+  {
    "artist": "Poranguí",
    "title": null,
    "isHostBlock": false,
@@ -946,7 +981,7 @@
    "emcee": null
   },
   {
-   "artist": "Eduardo Castillo Presents 'The Overview Effect'",
+   "artist": "Eduardo Castillo presents 'The Overview Effect'",
    "title": null,
    "isHostBlock": false,
    "status": "confirmed",
@@ -1678,7 +1713,7 @@
   },
   {
    "artist": "Aneil Mallavarapu",
-   "title": "The End of Enlightenment",
+   "title": "The End of the Enlightenment",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -2029,7 +2064,7 @@
    "durationMin": 60,
    "stage": "AURORA (Electronic Tent)",
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/cell7.jpeg",
-   "bio": "Cell7 is an Icelandic electronic producer creating dark, atmospheric compositions that explore technology and consciousness through experimental electronic soundscapes.",
+   "bio": "Cell7 is a trailblazer in Icelandic hip hop, one of the few women to break through in a male dominated scene. Her album Is Anybody Listening? won the Icelandic Music Award for Best Hip Hop Album, and now she's back with Deep Cuts.",
    "tagline": null,
    "emcee": null
   },
@@ -3785,7 +3820,7 @@
    "emcee": null
   },
   {
-   "artist": "CloZee",
+   "artist": "CloZee with Live visuals by Android Jones",
    "title": null,
    "isHostBlock": false,
    "status": "confirmed",
@@ -4177,7 +4212,7 @@
   },
   {
    "artist": "Austin Mao",
-   "title": "Have a Great Trip: The Science of Safer, Smarter Psychedelic Experiences",
+   "title": "Have a Great Trip",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -4262,7 +4297,7 @@
   },
   {
    "artist": "Simeon Schnapper",
-   "title": "How Psychedelics are Shaping the Future of Mental Health",
+   "title": "How Ethnogenic Medicines are Shaping the Future of Mental Health",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -4279,7 +4314,7 @@
   },
   {
    "artist": "Rose Uzunova",
-   "title": "How Psychedelics are Shaping the Future of Mental Health",
+   "title": "How Ethnogenic Medicines are Shaping the Future of Mental Health",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -4296,7 +4331,7 @@
   },
   {
    "artist": "Sara María Júlíusdóttir",
-   "title": "How Psychedelics are Shaping the Future of Mental Health",
+   "title": "How Ethnogenic Medicines are Shaping the Future of Mental Health",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -4313,7 +4348,7 @@
   },
   {
    "artist": "Rick Doblin, Dr.",
-   "title": "How Psychedelics are Shaping the Future of Mental Health",
+   "title": "How Ethnogenic Medicines are Shaping the Future of Mental Health",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Inner Space",
@@ -4410,23 +4445,6 @@
    "stage": "ECLIPSE (Main Stage)",
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/nightmares-on-wax.jpg",
    "bio": "Nightmares on Wax is George Herbert Evelyn — credited with inventing the 'chillout' genre on Warp Records since 1990, blending soul, hip-hop, and electronic music into warm, hypnotic sets.",
-   "tagline": null,
-   "emcee": null
-  },
-  {
-   "artist": "Lambert Hogenhout",
-   "title": "Tech and Happiness: developing a personal and collective strategy",
-   "isHostBlock": false,
-   "status": "confirmed",
-   "category": "Digital Space",
-   "subcategory": "Technologist",
-   "date": "2026-08-15",
-   "day": "Saturday 15 August",
-   "start": "13:15",
-   "durationMin": 25,
-   "stage": "AFTERGLOW (Dome)",
-   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/lambert-hogenhout.jpg",
-   "bio": "Lambert Hogenhout is Chief Data and AI at the United Nations Secretariat. He is also an author, keynote speaker and advisor on AI and responsible use of technology. He is a researcher at the Institute for Calculated Futures where he studies the effects of technology on society.",
    "tagline": null,
    "emcee": null
   },
@@ -5020,8 +5038,8 @@
    "start": "20:15",
    "durationMin": 45,
    "stage": "POLARIS",
-   "headshot": null,
-   "bio": null,
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Shanin%20Blake.jpeg",
+   "bio": "Shanin Blake is a self-made, genre-bending musician and visionary artist blending ethereal vocals, conscious lyricism, and raw emotional power. With over 3 million followers and reels topping 25 million views, she records and releases her music completely DIY. A single mother who rose from living out of a van, Shanin has headlined sold-out U.S. tours and built a fiercely loyal fanbase drawn to her story of healing, resilience, and rise.",
    "tagline": null,
    "emcee": null
   },
