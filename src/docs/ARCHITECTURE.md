@@ -67,10 +67,14 @@ The festival lineup is **NOT from Luma** — it comes from the "IE26 Master ROS"
 Google Sheet. Luma is a separate attendance/calendar concern.
 
 - Cron on hermes runs `scripts/sync_schedule.sh` (every ~30 min): fetches the
-  sheet as xlsx (public link-share, credential-free) → `src/scripts/
-  normalize_schedule.py` → `src/data/schedule.json` → deploys. Alerts to
-  `#pat-health` (as Pat) on failure, throttled 6h. ⚠️ This pipeline auto-deploys
-  the schedule; be aware of prod-deploy coupling before editing it.
+  ROS "ROS Chart (auto)" tab as CSV (`ROS_CSV_URL` in `.sync.env`, public
+  link-share, credential-free) → `normalize_schedule.py` → `schedule.json` →
+  `vercel --prod`, only if content changed (generatedAt ignored). Alerts to
+  `#pat-health` (as Pat) on failure, throttled 6h.
+- ⚠️ It regenerates + deploys **in the `main` worktree** (`~/imxp/eclipse-
+  companion-prod`), NOT the dev checkout — so prod stays `main`-only. Consequence:
+  the dev checkout's `schedule.json` is NOT auto-refreshed anymore; regenerate it
+  by hand for staging if needed (`ROS_CSV_URL` → `normalize_schedule.py`).
 - `normalize_schedule.py` drops PII and emits per-event objects: `artist, title,
   isHostBlock, status, category, subcategory, date, day, start, durationMin,
   stage, headshot, bio, tagline, emcee`. **No `id` field in the source data.**
@@ -96,9 +100,16 @@ token). `src/lib/email.ts` sends via `sendEmailWithTemplate`.
 ## Deploy / env mechanics
 
 - **No Git integration** on the Vercel project (`rootDirectory` unset, `link`
-  none). Push to GitHub deploys nothing. Deploy manually **from `src/`**:
-  `vercel --scope imxp` = Preview (staging), `vercel --prod --scope imxp` = prod.
-  Then re-point the alias: `vercel alias set <dep-url> <alias> --scope imxp`.
+  none). Push to GitHub deploys nothing. Deploys are manual, run **from `src/`**.
+- **Staging (Preview):** `vercel --scope imxp` from the dev checkout
+  (`~/imxp/eclipse-companion`, rides feature branches), then
+  `vercel alias set <dep-url> imxp-eclipse-staging.vercel.app --scope imxp`.
+- **Production:** ONLY from the dedicated worktree pinned to `main`,
+  `~/imxp/eclipse-companion-prod` — `vercel --prod --scope imxp` from its `src/`.
+  Never `--prod` from the dev checkout (it would ship whatever feature branch is
+  checked out). The schedule cron enforces this (deploys from the worktree, with
+  a guard that refuses if it's not on main). After an intentional promotion,
+  refresh the worktree: `git -C ~/imxp/eclipse-companion-prod merge --ff-only main`.
 - **Environments:** Preview = staging (`imxp-eclipse-staging.vercel.app`, gated by
   `STAGING_PASSWORD`, `src/proxy.ts`). Production = `app.icelandeclipse.com` /
   `app.eclipse.is` (ungated). Dev = local.
