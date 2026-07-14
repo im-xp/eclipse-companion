@@ -9,11 +9,20 @@ export const metadata: Metadata = {
   title: "My Profile — Iceland Eclipse",
 };
 
-export default async function ProfilePage() {
+export default async function ProfilePage({
+  searchParams,
+}: {
+  searchParams: Promise<{ login?: string }>;
+}) {
+  const { login } = await searchParams;
   const session = await getSession();
 
   if (!session) {
-    return <LoginForm mode={authMode()} />;
+    const notice =
+      login === "expired"
+        ? "That sign-in link expired or was already used. Enter your email to get a new one."
+        : undefined;
+    return <LoginForm mode={authMode()} notice={notice} />;
   }
 
   const profile = await getProfileForEmail(session.email);

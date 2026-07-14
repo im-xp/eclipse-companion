@@ -1,17 +1,32 @@
 import { NextResponse } from "next/server";
 import {
   SESSION_COOKIE,
+  createLoginToken,
   createSessionToken,
   sessionCookieOptions,
 } from "@/lib/auth";
+import { sendMagicLink } from "@/lib/email";
 import {
   isDemoMode,
   isListMode,
+  isMagicMode,
   lookupCustomerByEmail,
   requestLoginCode,
 } from "@/lib/profile";
 
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+/**
+ * Base URL used to build the magic link that gets emailed. Prefer the
+ * configured production origin so links point at app.icelandeclipse.com even
+ * when the handler runs on a *.vercel.app deployment URL; fall back to the
+ * request origin in dev/preview.
+ */
+function appBaseUrl(request: Request): string {
+  const configured = process.env.APP_BASE_URL;
+  if (configured) return configured.replace(/\/+$/, "");
+  return new URL(request.url).origin;
+}
 
 export async function POST(request: Request): Promise<NextResponse> {
   let email: unknown;
@@ -57,6 +72,29 @@ export async function POST(request: Request): Promise<NextResponse> {
       sessionCookieOptions()
     );
     return res;
+  }
+
+  if (isMagicMode()) {
+    // Magic link: possession proof via a single-use link we email. We look the
+    // email up server-side, but ALWAYS return the same response whether or not
+    // it maps to a participant — otherwise the endpoint becomes an email
+    // enumeration oracle. A link is only minted + sent for a real match.
+    let profile;
+    try {
+      profile = await lookupCustomerByEmail(normalized);
+    } catch {
+      return NextResponse.json({ error: "lookup_failed" }, { status: 502 });
+    }
+    if (profile) {
+      const token = createLoginToken(normalized, profile.customer_id);
+      const link = `${appBaseUrl(request)}/api/auth/magic?token=${encodeURIComponent(token)}`;
+      try {
+        await sendMagicLink(normalized, link);
+      } catch {
+        return NextResponse.json({ error: "send_failed" }, { status: 502 });
+      }
+    }
+    return NextResponse.json({ ok: true, linkSent: true });
   }
 
   // Live: possession proof — the API emails a 6-digit EdgeOS login code,

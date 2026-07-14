@@ -7,18 +7,26 @@ import type { AuthMode } from "@/lib/profile";
 export function LoginForm({
   mode,
   notFoundEmail,
+  notice,
 }: {
   mode: AuthMode;
   notFoundEmail?: string;
+  notice?: string;
 }) {
-  // demo + list both sign in from the email alone; only live needs a code.
-  const emailOnly = mode !== "live";
+  const submitLabel =
+    mode === "live"
+      ? "Email me a login code"
+      : mode === "magic"
+        ? "Email me a login link"
+        : "View my profile";
   const router = useRouter();
   const [email, setEmail] = useState("");
   const [code, setCode] = useState("");
-  const [step, setStep] = useState<"email" | "code">("email");
+  const [step, setStep] = useState<"email" | "code" | "sent">("email");
   const [error, setError] = useState<string | null>(
-    notFoundEmail ? `No participant found for ${notFoundEmail}.` : null
+    notFoundEmail
+      ? `No participant found for ${notFoundEmail}.`
+      : (notice ?? null)
   );
   const [busy, setBusy] = useState(false);
 
@@ -33,8 +41,13 @@ export function LoginForm({
         body: JSON.stringify({ email }),
       });
       if (res.ok) {
-        const body = (await res.json()) as { codeSent?: boolean };
-        if (body.codeSent) {
+        const body = (await res.json()) as {
+          codeSent?: boolean;
+          linkSent?: boolean;
+        };
+        if (body.linkSent) {
+          setStep("sent");
+        } else if (body.codeSent) {
           setStep("code");
         } else {
           router.refresh();
@@ -118,13 +131,29 @@ export function LoginForm({
                 disabled={busy}
                 className="rounded-pill border border-signal-yellow bg-signal-yellow px-7 py-3.5 font-mono text-[12px] font-bold uppercase tracking-[0.08em] text-eclipse-black transition-all duration-200 hover:-translate-y-0.5 hover:border-solar-corona hover:bg-solar-corona disabled:cursor-not-allowed disabled:opacity-50"
               >
-                {busy
-                  ? "Working…"
-                  : emailOnly
-                    ? "View my profile"
-                    : "Email me a login code"}
+                {busy ? "Working…" : submitLabel}
               </button>
             </form>
+          </>
+        )}
+
+        {step === "sent" && (
+          <>
+            <p className="mt-3 text-sm leading-relaxed text-moon-white/65">
+              If <span className="text-moon-white">{email}</span> is registered,
+              we just emailed a sign-in link. Open it on this device to view your
+              profile — it expires in 15 minutes and works once.
+            </p>
+            <button
+              type="button"
+              onClick={() => {
+                setStep("email");
+                setError(null);
+              }}
+              className="mt-6 font-mono text-[10px] uppercase tracking-[0.12em] text-moon-white/50 transition-colors hover:text-moon-white"
+            >
+              Use a different email
+            </button>
           </>
         )}
 

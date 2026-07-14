@@ -66,19 +66,22 @@ export interface CustomerProfile {
   } | null;
 }
 
-export type AuthMode = "demo" | "list" | "live";
+export type AuthMode = "demo" | "list" | "live" | "magic";
 
 /**
- * Three login modes:
+ * Login modes:
  *  - demo: any email signs in and sees the bundled sample profile (no API).
  *  - list: any email that exists in the participation API signs straight in
  *    to their REAL profile — no possession proof. Bypasses auth, so it is
  *    for gated staging only (see the STAGING_PASSWORD middleware).
- *  - live: EdgeOS emails a 6-digit code the participant must submit. The
- *    real launch mode; also what the native app will hand us.
+ *  - live: EdgeOS emails a 6-digit code the participant must submit.
+ *  - magic: we email a single-use sign-in link (SES). Possession proof without
+ *    a code to type — the public launch mode for the companion app.
  */
 export function authMode(): AuthMode {
   switch (process.env.AUTH_MODE) {
+    case "magic":
+      return "magic";
     case "live":
       return "live";
     case "list":
@@ -98,6 +101,10 @@ export function isListMode(): boolean {
 
 export function isLiveMode(): boolean {
   return authMode() === "live";
+}
+
+export function isMagicMode(): boolean {
+  return authMode() === "magic";
 }
 
 /**
