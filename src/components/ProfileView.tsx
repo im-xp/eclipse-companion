@@ -83,18 +83,6 @@ export function ProfileView({
         </p>
       </section>
 
-      {edgeos?.check_in_code && (
-        <section className="mt-6 rounded-[20px] border border-signal-yellow/40 bg-deep-space/70 p-6 text-center">
-          <p className="eyebrow text-moon-white/60">Check-in code</p>
-          <p className="mt-2 font-mono text-4xl font-bold tracking-[0.18em] text-signal-yellow">
-            {edgeos.check_in_code}
-          </p>
-          <p className="mt-2 text-xs text-moon-white/50">
-            Show this at The Gate
-          </p>
-        </section>
-      )}
-
       <section className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4">
         <Stat
           label="Score"

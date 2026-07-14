@@ -108,7 +108,7 @@ export function LoginForm({
           <>
             <p className="mt-3 text-sm leading-relaxed text-moon-white/65">
               Enter the email you registered with to see your participation
-              profile, ticket details and check-in code.
+              profile and ticket details.
             </p>
             {mode === "demo" && (
               <p className="mt-3 rounded-soft border border-solar-corona/30 bg-solar-corona/10 px-3 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-solar-corona">
