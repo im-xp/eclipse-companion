@@ -7,7 +7,7 @@ Input (arg 1) is either:
   - a single-tab CSV — the auto-sync fetches the "ROS Chart (auto)" tab via the
     sheet's Publish-to-web CSV so the master sheet's PII tabs stay private.
 """
-import json, os, re, sys, datetime
+import hashlib, json, os, re, sys, datetime
 from datetime import datetime as datetime_cls, timezone
 
 SRC = sys.argv[1] if len(sys.argv) > 1 else "ros.xlsx"
@@ -113,6 +113,25 @@ for row in rows[1:]:
         "tagline": get(row, "website TAGLINE"),
         "emcee": get(row, "Emcee"),
     })
+
+# Stable, content-derived event id. Deliberately EXCLUDES start/duration so a
+# reschedule doesn't change the id (which would orphan a participant's saved
+# heart). Panels enter as one row per speaker with the same title/stage/slot, so
+# titled rows key on the title (all speakers collapse to the one merged event's
+# id); untitled acts key on the artist, with an occurrence index so the same
+# artist playing twice on a stage/day stays two distinct ids. See favorites
+# analysis note in docs/ARCHITECTURE.md.
+_id_seen: dict[str, int] = {}
+for e in events:
+    title = (e["title"] or "").strip().lower()
+    if title:
+        keyed = f"{e['date']}|{e['stage']}|t:{title}"
+    else:
+        base = f"{e['date']}|{e['stage']}|a:{(e['artist'] or '').strip().lower()}"
+        n = _id_seen.get(base, 0)
+        _id_seen[base] = n + 1
+        keyed = base if n == 0 else f"{base}|#{n}"
+    e["id"] = "e_" + hashlib.sha1(keyed.encode("utf-8")).hexdigest()[:12]
 
 events.sort(key=lambda e: (e["date"], e["start"], e["stage"]))
 stages = sorted({e["stage"] for e in events})

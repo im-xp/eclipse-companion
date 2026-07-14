@@ -37,6 +37,10 @@ export interface Speaker {
 }
 
 export interface ScheduleEvent {
+  // Stable, content-derived id from normalize_schedule.py (excludes start time
+  // so reschedules don't orphan saved hearts). Optional because schedule.json
+  // predates it; eventKey() falls back to the composite key until a re-sync.
+  id?: string;
   artist: string;
   title: string | null;
   isHostBlock: boolean;

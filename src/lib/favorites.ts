@@ -7,11 +7,11 @@ const STORAGE_KEY = "ie:schedule:favorites";
 const SYNC_URL = "/api/profile/favorites";
 const PUSH_DEBOUNCE_MS = 2000;
 
-// start is included to disambiguate repeat slots (10 collisions without it,
-// 3 with); the tradeoff is a heart drops if a set's start time changes when
-// the schedule is regenerated from the ROS sheet.
+// Prefer the stable, content-derived id (normalize_schedule.py) — it excludes
+// start time, so a reschedule no longer orphans a saved heart. Fall back to the
+// legacy composite key for any schedule.json emitted before ids existed.
 export function eventKey(e: ScheduleEvent): string {
-  return `${e.date}|${e.stage}|${e.start}|${e.artist}`;
+  return e.id ?? `${e.date}|${e.stage}|${e.start}|${e.artist}`;
 }
 
 interface StoredFavorites {

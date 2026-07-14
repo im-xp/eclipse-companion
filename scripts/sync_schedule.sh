@@ -16,6 +16,13 @@ export PATH="/home/jon/.nvm/versions/node/v22.22.2/bin:/usr/local/bin:/usr/bin:/
 
 ROOT="/home/jon/imxp/eclipse-companion"
 SRC="$ROOT/src"
+# Production is deployed from a dedicated worktree pinned to `main`, NEVER from
+# this dev checkout (which rides feature branches like feat/profile-staging).
+# Otherwise a schedule change would ship whatever branch is checked out to prod.
+# Regenerate + compare + deploy all happen in PROD_SRC. After an intentional
+# promotion (merge into main), refresh it: git -C "$PROD_TREE" merge --ff-only main
+PROD_TREE="/home/jon/imxp/eclipse-companion-prod"
+PROD_SRC="$PROD_TREE/src"
 CONF="$ROOT/.sync.env"
 LOG="$ROOT/sync.log"
 LOCK="$ROOT/.sync.lock"
@@ -65,6 +72,19 @@ if [ -z "${ROS_CSV_URL:-}" ] && [ -z "${SHEET_ID:-}" ]; then
   exit 0
 fi
 
+# Safety invariant: prod is only ever deployed from the pinned-main worktree.
+# If it's missing or not on main, refuse to deploy rather than risk shipping a
+# feature branch to production.
+if [ ! -d "$PROD_SRC" ] || [ "$(git -C "$PROD_TREE" branch --show-current 2>/dev/null)" != "main" ]; then
+  log "prod worktree missing or not on main — refusing to deploy"
+  alert "prodtree" "🔴 *Eclipse schedule sync: prod deploy tree not ready*
+
+*Impact:* schedule NOT deployed (safe — prod unchanged).
+*Cause:* $PROD_TREE is missing or not on main.
+*Next step:* recreate it: git -C ~/imxp/eclipse-companion worktree add $PROD_TREE main"
+  exit 1
+fi
+
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
@@ -90,7 +110,7 @@ if [ "$code" != "200" ] || head -c2 "$SRCFILE" | grep -q '<'; then
 fi
 
 # 2. Regenerate schedule.json into a temp file.
-if ! python3 "$SRC/scripts/normalize_schedule.py" "$SRCFILE" "$TMP/schedule.json" >>"$LOG" 2>&1; then
+if ! python3 "$PROD_SRC/scripts/normalize_schedule.py" "$SRCFILE" "$TMP/schedule.json" >>"$LOG" 2>&1; then
   log "normalize_schedule.py failed — keeping current schedule"
   alert "normalize" "🔴 *Eclipse schedule sync: couldn't parse the ROS sheet*
 
@@ -105,7 +125,7 @@ fi
 alert_clear
 
 # 3. Deploy only if the meaningful content changed (ignore generatedAt).
-changed="$(python3 - "$TMP/schedule.json" "$SRC/data/schedule.json" <<'PY'
+changed="$(python3 - "$TMP/schedule.json" "$PROD_SRC/data/schedule.json" <<'PY'
 import json, sys
 def norm(p):
     try:
@@ -121,16 +141,16 @@ if [ "$changed" = "0" ]; then
   exit 0
 fi
 
-cp "$TMP/schedule.json" "$SRC/data/schedule.json"
-log "schedule changed — deploying to production"
-cd "$SRC"
+cp "$TMP/schedule.json" "$PROD_SRC/data/schedule.json"
+log "schedule changed — deploying main to production"
+cd "$PROD_SRC"
 url="$(vercel --prod --yes --scope imxp 2>>"$LOG" | grep -oE 'https://[a-z0-9-]+\.vercel\.app' | head -1 || true)"
 if [ -z "$url" ]; then
   log "deploy failed — schedule.json updated locally but prod may be stale"
   alert "deploy" "🔴 *Eclipse schedule sync: deploy to production failed*
 
 *Impact:* a new schedule was generated from the ROS sheet but the live app didn't update — attendees still see the old schedule.
-*Next step:* check ~/imxp/eclipse-companion/sync.log for the Vercel error, then redeploy from ~/imxp/eclipse-companion/src with: vercel --prod --yes --scope imxp"
+*Next step:* check ~/imxp/eclipse-companion/sync.log for the Vercel error, then redeploy from ~/imxp/eclipse-companion-prod/src with: vercel --prod --yes --scope imxp"
   exit 1
 fi
 log "deployed: $url"

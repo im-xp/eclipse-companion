@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-11T20:30:03+00:00",
+ "generatedAt": "2026-07-14T23:12:30+00:00",
  "days": [
   "2026-08-11",
   "2026-08-12",
@@ -43,7 +43,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_1ebf8fbb501e"
   },
   {
    "artist": "AWARË",
@@ -60,7 +61,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/aware.jpg",
    "bio": "Born from the creative synergy of dear friends Bogdan and Matias, AWARË builds immersive sonic ceremonies — intertwined harmonies and live instrumentation converging into collective celebration.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_73a8665bb59c"
   },
   {
    "artist": "Atma Silvia Bök",
@@ -77,7 +79,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/atma-silvia-bok.jpg",
    "bio": "Atma Silvia Bök is an Osho meditation facilitator at Leiðin heim healing center in Reykjavík, leading dynamic meditation and family constellation sessions.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_daa6cac7d672"
   },
   {
    "artist": "Óli Björn Karlsson",
@@ -94,7 +97,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/oli-bjorn-karlsson.png",
    "bio": "Óli Björn is a yoga teacher trained in Hatha Vinyasa and the Solar Yoga lineage. A community creator devoted to bringing people together. His work focuses on holding supportive spaces for movement, exploration, and connection.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_8bee2409b451"
   },
   {
    "artist": "Mary Dohrmann, Dr.",
@@ -111,7 +115,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Mary%20Dohrmann.jpeg",
    "bio": "Dr. Mary Dohrmann is the creator of the NeuroWellness Protocol™ and founder of The Rose Institute, known for her precision work in neuro-informed mental health and elite performance. Integrating qEEG, neurotechnology, and psychedelic-assisted care, she works globally with high-performing individuals and leaders to optimize brain function, emotional regulation, and human longevity.",
    "tagline": null,
-   "emcee": "Austin Mao"
+   "emcee": "Austin Mao",
+   "id": "e_cfc178dfc717"
   },
   {
    "artist": "Michael Graziano",
@@ -128,7 +133,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/michael-graziano.jpg",
    "bio": "Michael Graziano is the youngest Canadian to visit all 193 UN countries, swimming with sharks in Fiji and training with Masai warriors in Kenya. Today he's Co-Founder, President, and CEO of Mindful Media.",
    "tagline": null,
-   "emcee": "Michael Graziano"
+   "emcee": "Michael Graziano",
+   "id": "e_199359a40471"
   },
   {
    "artist": "Roz Dimon",
@@ -145,7 +151,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/roz-dimon.jpg",
    "bio": "Roz Dimon has been in the forefront of digital media art in NYC since the 1980s. Her work is in major museum collections including the 9/11 Memorial Museum and The Abraham Lincoln Presidential Library and Museum.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_77f3e3a68f94"
   },
   {
    "artist": "Ipek Williamson",
@@ -162,7 +169,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ipek-williamson.jpg",
    "bio": "Ipek Williamson designs immersive experiences that shift people from reactive living into aligned expression rooted in clarity and presence. Through meditation, dialogue, and embodied practices, she supports authentic connection with self, relationship, and the unseen dimensions of awareness.",
    "tagline": null,
-   "emcee": "Austin Mao"
+   "emcee": "Austin Mao",
+   "id": "e_d41ef00ace93"
   },
   {
    "artist": "Christian Van Camp",
@@ -179,7 +187,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/christian-van-camp.jpg",
    "bio": "Holistic Lifestyle & Performance Coach and founder of CVC Wellness — helping individuals optimize health through ancestral living principles, functional movement, and nature-based practices.",
    "tagline": null,
-   "emcee": "Michael Graziano"
+   "emcee": "Michael Graziano",
+   "id": "e_ce8d3567965e"
   },
   {
    "artist": "Paul Dougherty, Dr.",
@@ -196,7 +205,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Paul%20Dougherty.jpg",
    "bio": "Paul J. Dougherty, M.D. is a nationally recognized leader in laser and lens-based vision surgery. He is the founder of the Andrew Dougherty Vision Foundation and co-founder of the Vision Innovation Institute, advancing access to cutting-edge eye care worldwide. Dr. Dougherty graduated first in his class at UCLA Medical School and completed a fellowship with LASIK pioneer Dr. Richard Lindstrom. He has led FDA clinical trials, authored a LASIK consumer guide, and taught surgeons around the globe. His work has been featured in The Oprah Winfrey Show, ABC Nightline, The Doctors, and other national media.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_d49a12ad7f75"
   },
   {
    "artist": "Justin Natoli",
@@ -213,7 +223,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/justin-natoli.jpg",
    "bio": "Justin Natoli, JD, LMFT is a psychotherapist, psychedelic educator, and founder of the Queer Medicine Community. He speaks internationally on psychedelics, sexuality, and authenticity, and advises the Chacruna Institute for Psychedelic Plant Medicines.",
    "tagline": null,
-   "emcee": "Austin Mao"
+   "emcee": "Austin Mao",
+   "id": "e_963ea7095a01"
   },
   {
    "artist": "Alex & Jennifer Moscow",
@@ -230,7 +241,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Alex%20%26%20Jennifer%20Moscow.jpg",
    "bio": "Alex and Jennifer Moscow are co-founders of The Vision Amplifier Experience — a breakthrough modality combining breathwork, visualization, and live DJ'd music to help leaders access clarity and vision from their future self. With over a decade in the coaching and transformational space, they've delivered live experiences and programs for top organizations including EO, YPO, Tiger 21, Genius Network, Maverick, and many others.",
    "tagline": null,
-   "emcee": "Michael Graziano"
+   "emcee": "Michael Graziano",
+   "id": "e_d2ed9c3a1fd4"
   },
   {
    "artist": "Michael Turner",
@@ -247,7 +259,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/michael-turner.jpg",
    "bio": "Michael Turner is a social innovation advocate working to replace youth detention in the USA with therapeutic ranch-based programs and nature-based healing.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_048c1b459b12"
   },
   {
    "artist": "Jackie Knechtel",
@@ -264,7 +277,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jackie-knechtel.png",
    "bio": "Jackie Knechtel is co-founder of the Flow Consciousness Institute and an international speaker, facilitator, coach, and super-connector. For more than a decade, she has devoted her work to designing transformational trainings and global experiences that support deep inner work and healing, and guiding individuals and communities into greater states of presence, coherence, and flow.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_c5689fa7e0a8"
   },
   {
    "artist": "Kayla Knopp",
@@ -281,7 +295,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Austin Mao"
+   "emcee": "Austin Mao",
+   "id": "e_978e60782671"
   },
   {
    "artist": "Chandra Khalifian",
@@ -298,7 +313,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Austin Mao"
+   "emcee": "Austin Mao",
+   "id": "e_978e60782671"
   },
   {
    "artist": "Skylar Kelsven",
@@ -315,7 +331,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Austin Mao"
+   "emcee": "Austin Mao",
+   "id": "e_978e60782671"
   },
   {
    "artist": "Michael Jelen",
@@ -332,7 +349,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/michael-jelen.jpg",
    "bio": "Michael Jelen is a media-tech founder and live experience innovator building Ekho, a platform that transforms music into a fan-powered force. His work merges technology, performance, and collective energy to turn audiences into active participants.",
    "tagline": null,
-   "emcee": "Michael Graziano"
+   "emcee": "Michael Graziano",
+   "id": "e_d5bd95f8583e"
   },
   {
    "artist": "Rock Thomas",
@@ -349,7 +367,26 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Rock%20Thomas.jpeg",
    "bio": "Co-founder of Go-bundance, 37 years in Real Estate as a broker owner, Best Selling Author, Speaker, Millionaire Mentor, father, son, and world traveller!",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_79610e2421b1"
+  },
+  {
+   "artist": "David Osborn",
+   "title": "Power of Community and Connections",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Community Space",
+   "subcategory": null,
+   "date": "2026-08-12",
+   "day": "Wednesday 12 August",
+   "start": "11:30",
+   "durationMin": 45,
+   "stage": "POLARIS",
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/David%20Osborn.png",
+   "bio": null,
+   "tagline": null,
+   "emcee": null,
+   "id": "e_79610e2421b1"
   },
   {
    "artist": "Rohan Roberts",
@@ -366,7 +403,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rohan-roberts.png",
    "bio": "Rohan Roberts is a Dubai-based education strategist, author, and speaker who explores the intersection of technology, consciousness, and culture. Drawing on over 25 years in international education, he brings systems thinking and philosophical curiosity to conversations about human potential, transformation, and the future we are collectively shaping.",
    "tagline": null,
-   "emcee": "Amelie Schoenenwald"
+   "emcee": "Amelie Schoenenwald",
+   "id": "e_f8223632a6f5"
   },
   {
    "artist": "Cyberdelic Nexus",
@@ -383,7 +421,26 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_8e6d16f34d56"
+  },
+  {
+   "artist": "Shen Tong  沈彤",
+   "title": "Pre-Eclipse Prep",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Cosmic Space",
+   "subcategory": null,
+   "date": "2026-08-12",
+   "day": "Wednesday 12 August",
+   "start": "12:30",
+   "durationMin": 60,
+   "stage": "COSMIC CONNECTION (Wellness)",
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Shen%20Tong.jpg",
+   "bio": "Shen Tong is a writer, contemplative practitioner, field-holder, and founder of TheFutureCo, working at the bridge between consciousness practice and civilizational design. From Tiananmen in 1989 through Occupy and four decades of building, his life's thread has been oneness: One Earth, One Humanity.",
+   "tagline": null,
+   "emcee": null,
+   "id": "e_a4c6cd4aeffc"
   },
   {
    "artist": "Hinrik Jóhannesson",
@@ -400,7 +457,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/hinrik-johannesson.jpg",
    "bio": "Hinrik Jóhannesson is an Icelandic nature guide leading wilderness expeditions combining sauna, cold plunge therapy, and nature-based spirituality in Iceland's landscapes.",
    "tagline": null,
-   "emcee": "Heidrun Maria"
+   "emcee": "Heidrun Maria",
+   "id": "e_568deb81a9ac"
   },
   {
    "artist": "Samantha Tauber",
@@ -417,7 +475,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/samantha-tauber.jpg",
    "bio": "Samantha Tauber is the Founder, Artist, and Creator of VNCCII and the Galacta.i.ssance Universe (Galaxy, Authentic/Artistic Intelligence, Renaisance). Her debut novel 'VNCCII: The Awakening of a Divine Warrior' will soon be on its way to the Moon, and preserved for one million years via NanoFiche in the Galactic Library Preservation for Humanity.",
    "tagline": null,
-   "emcee": "Amelie Schoenenwald"
+   "emcee": "Amelie Schoenenwald",
+   "id": "e_4ab00e130122"
   },
   {
    "artist": "Carl Hayden Smith",
@@ -434,7 +493,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/carl-hayden-smith.webp",
    "bio": "Co-founder of the Cyberdelics Society and Museum of Consciousness. UEL Associate Professor with 30 years exploring technology as a catalyst for expanding human perception.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_3529071a8951"
   },
   {
    "artist": "Gunnar Ólafsson",
@@ -451,7 +511,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/gunnar-olafsson.jpg",
    "bio": "11th-generation Fisherman and keeper of Icelandic coastal heritage — living the ancient rhythms of the sea and sharing stories of a way of life that has shaped this land for centuries.",
    "tagline": null,
-   "emcee": "Heidrun Maria"
+   "emcee": "Heidrun Maria",
+   "id": "e_9c770bdf04d7"
   },
   {
    "artist": "Roberto Carlino",
@@ -468,11 +529,12 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/roberto-carlino.jpeg",
    "bio": "Roberto Carlino has spent the past decade turning science fiction into reality, from free-flying robots aboard the International Space Station to solar sails and next-generation satellites.",
    "tagline": null,
-   "emcee": "Amelie Schoenenwald"
+   "emcee": "Amelie Schoenenwald",
+   "id": "e_83814547a496"
   },
   {
-   "artist": "Shen Tong  沈彤",
-   "title": "Pre-Eclipse Prep",
+   "artist": "Kim Booth",
+   "title": "Icelandic Nature Connection & Sound Healing",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Cosmic Space",
@@ -482,10 +544,29 @@
    "start": "13:30",
    "durationMin": 60,
    "stage": "COSMIC CONNECTION (Wellness)",
-   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Shen%20Tong.jpg",
-   "bio": "Shen Tong is a writer, contemplative practitioner, field-holder, and founder of TheFutureCo, working at the bridge between consciousness practice and civilizational design. From Tiananmen in 1989 through Occupy and four decades of building, his life's thread has been oneness: One Earth, One Humanity.",
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/kim-booth.jpeg",
+   "bio": "Kim Booth is a creative producer with Cosmic Pineapple, focused on consciousness-expanding events that combine art, music, and transformative practices.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fcd21d79cb78"
+  },
+  {
+   "artist": "Johanna Maggy",
+   "title": "Icelandic Nature Connection & Sound Healing",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Cosmic Space",
+   "subcategory": null,
+   "date": "2026-08-12",
+   "day": "Wednesday 12 August",
+   "start": "13:30",
+   "durationMin": 60,
+   "stage": "COSMIC CONNECTION (Wellness)",
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/johanna-maggy.jpg",
+   "bio": "Johanna Maggy is an Icelandic artist and cultural facilitator who works in community arts and cultural preservation.",
+   "tagline": null,
+   "emcee": null,
+   "id": "e_fcd21d79cb78"
   },
   {
    "artist": "Tristan Semmelhack",
@@ -502,7 +583,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tristan-semmelhack.jpeg",
    "bio": "Tristan Semmelhack, Co-Founder & CTO, has spent 10+ years building flying vehicles, from bedroom quadcopters to Zipline's Delivery Droid, and now leads engineering at Reflect Orbital.",
    "tagline": null,
-   "emcee": "Amelie Schoenenwald"
+   "emcee": "Amelie Schoenenwald",
+   "id": "e_2dc3ba61e2f5"
   },
   {
    "artist": "Emily Bilbao",
@@ -519,7 +601,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/emily-bilbao.png",
    "bio": "Emily is a public policy expert whose work spans the White House, State Department, and emerging technology innovation.",
    "tagline": null,
-   "emcee": "Amelie Schoenenwald"
+   "emcee": "Amelie Schoenenwald",
+   "id": "e_2dc3ba61e2f5"
   },
   {
    "artist": "Jason Silva",
@@ -536,24 +619,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jason-silva.jpeg",
    "bio": "Jason Silva is an American filmmaker and public speaker known for philosophical short films at the intersection of technology, creativity, and human consciousness.",
    "tagline": null,
-   "emcee": null
-  },
-  {
-   "artist": "Johanna Maggy",
-   "title": "Icelandic Nature Talk",
-   "isHostBlock": false,
-   "status": "confirmed",
-   "category": "Community Space",
-   "subcategory": null,
-   "date": "2026-08-12",
-   "day": "Wednesday 12 August",
-   "start": "14:00",
-   "durationMin": 25,
-   "stage": "POLARIS",
-   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/johanna-maggy.jpg",
-   "bio": "Johanna Maggy is an Icelandic artist and cultural facilitator who works in community arts and cultural preservation.",
-   "tagline": null,
-   "emcee": "Heidrun Maria"
+   "emcee": null,
+   "id": "e_24307ff4664d"
   },
   {
    "artist": "Alex Grey & Allyson Grey",
@@ -570,7 +637,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/alex-allyson-grey.png",
    "bio": "Alex Grey & Allyson Grey are visionary artists and co-founders of Chapel of Sacred Mirrors (CoSM), a sanctuary for visionary art and creativity",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_c314c12c273b"
   },
   {
    "artist": "Lóránt Czárán",
@@ -587,11 +655,12 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/lorant-czaran.jpg",
    "bio": "Lóránt Czárán is a space law and policy researcher specializing in international space governance and the legal and regulatory dimensions of space exploration and commercialization.",
    "tagline": null,
-   "emcee": "Ari Eisenstat"
+   "emcee": "Ari Eisenstat",
+   "id": "e_5ecee0d52a02"
   },
   {
-   "artist": "Kim Booth",
-   "title": "Cosmic Pineapple: Sound Healing",
+   "artist": "Tinna María",
+   "title": "Sacred Heart Soundjourney",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Cosmic Space",
@@ -601,10 +670,11 @@
    "start": "14:30",
    "durationMin": 60,
    "stage": "COSMIC CONNECTION (Wellness)",
-   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/kim-booth.jpeg",
-   "bio": "Kim Booth is a creative producer with Cosmic Pineapple, focused on consciousness-expanding events that combine art, music, and transformative practices.",
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tinna-maria.jpg",
+   "bio": "Craniosacral therapist and healer with over 23 years of practice, devoted to helping people find inner peace and live in their authenticity through sound journeys and sacred space.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_1aa33b38bf46"
   },
   {
    "artist": "Stephen Brooks",
@@ -621,7 +691,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Stephen%20Brooks.jpeg",
    "bio": "An ecological community builder and permaculturist with decades of experience designing regenerative systems and intentional communities in Costa Rica.",
    "tagline": null,
-   "emcee": "Ezra Bookman"
+   "emcee": "Ezra Bookman",
+   "id": "e_04b5151a502a"
   },
   {
    "artist": "Mo Majumdar",
@@ -638,7 +709,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Mo%20Majumdar.jpg",
    "bio": "When I was in medical school, I witnessed my first eclipse in the UK.  Although I wasnt in the path of totality, we have as a family witnessed several more. Through my medical training, I have since been fortunate enough to provide medical care at multiple medical festivals.  My children have grown up with the eclipse.",
    "tagline": null,
-   "emcee": "Ezra Bookman"
+   "emcee": "Ezra Bookman",
+   "id": "e_04b5151a502a"
   },
   {
    "artist": "Safiyah Majumdar",
@@ -655,7 +727,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Ezra Bookman"
+   "emcee": "Ezra Bookman",
+   "id": "e_04b5151a502a"
   },
   {
    "artist": "Julie Majumdar",
@@ -672,7 +745,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Ezra Bookman"
+   "emcee": "Ezra Bookman",
+   "id": "e_04b5151a502a"
   },
   {
    "artist": "Christopher Huie",
@@ -689,7 +763,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/christopher-huie.jpg",
    "bio": "Christopher Huie is a Virgin Galactic astronaut and aerospace engineer who flew on the Unity 25 spaceflight mission.",
    "tagline": null,
-   "emcee": "Ari Eisenstat"
+   "emcee": "Ari Eisenstat",
+   "id": "e_d9d01469fcf0"
   },
   {
    "artist": "Ayla Schafer",
@@ -706,7 +781,26 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ayla-schafer.jpg",
    "bio": "Ayla Schafer is a folk musician and ceremony facilitator known for her soulful voice and sacred songs. She leads music-based healing circles blending Celtic and world music traditions.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_81865ef5d5c2"
+  },
+  {
+   "artist": "Sofiah Thom",
+   "title": "Temple Body Activation",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Dance",
+   "subcategory": null,
+   "date": "2026-08-12",
+   "day": "Wednesday 12 August",
+   "start": "15:30",
+   "durationMin": 60,
+   "stage": "AFTERGLOW (Dome)",
+   "headshot": null,
+   "bio": null,
+   "tagline": null,
+   "emcee": null,
+   "id": "e_191feac1fa17"
   },
   {
    "artist": "Sian Proctor, Dr.",
@@ -723,7 +817,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sian-proctor.jpg",
    "bio": "Dr. Proctor made history as the first African-American woman to pilot a spacecraft on SpaceX's Inspiration4 mission. As a geoscientist and space artist, she blends scientific expertise with the profound perspective gained from viewing Earth from orbit, creating artwork that captures out planet's beauty and fragility.",
    "tagline": null,
-   "emcee": "Ari Eisenstat"
+   "emcee": "Ari Eisenstat",
+   "id": "e_97086bd89efa"
   },
   {
    "artist": "Christopher Breedlove",
@@ -740,24 +835,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/christopher-breedlove.jpg",
    "bio": "Christopher Breedlove builds systems, stories, and spaces that bring people together. Drawing from decades of work with Burning Man, Burners Without Borders, and grassroots cultural movements, he explores how creativity, participation, and regenerative culture can shape more connected futures.",
    "tagline": null,
-   "emcee": "Ezra Bookman"
-  },
-  {
-   "artist": "Sofiah Thom",
-   "title": "Temple Body Activation",
-   "isHostBlock": false,
-   "status": "confirmed",
-   "category": "Dance",
-   "subcategory": null,
-   "date": "2026-08-12",
-   "day": "Wednesday 12 August",
-   "start": "15:45",
-   "durationMin": 60,
-   "stage": "AFTERGLOW (Dome)",
-   "headshot": null,
-   "bio": null,
-   "tagline": null,
-   "emcee": null
+   "emcee": "Ezra Bookman",
+   "id": "e_a61d4576878f"
   },
   {
    "artist": "ECLIPSE Ceremony",
@@ -774,7 +853,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_851a74bbfc9e"
   },
   {
    "artist": "Ron Garan",
@@ -791,7 +871,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ron-garan.jpg",
    "bio": "Ron Garan is a former NASA astronaut, fighter pilot, and author known for his 'orbital perspective' framework advocating for global cooperation and environmental stewardship.",
    "tagline": null,
-   "emcee": "Ari Eisenstat"
+   "emcee": "Ari Eisenstat",
+   "id": "e_66fb48276823"
   },
   {
    "artist": "Ezra Bookman",
@@ -808,7 +889,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ezra-bookman.jpg",
    "bio": "Nationally recognized ritual designer and founder of Ritualist — the first creative studio for secular ritual design — creating large-scale participatory ceremonies at Hammerstein Ballroom and beyond.",
    "tagline": null,
-   "emcee": "Ezra Bookman"
+   "emcee": "Ezra Bookman",
+   "id": "e_60a79f1d223e"
   },
   {
    "artist": "ECLIPSE Ceremony",
@@ -825,7 +907,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_4bca415eee8e"
   },
   {
    "artist": "Högni",
@@ -842,7 +925,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/hogni.webp",
    "bio": "Högni Egilsson is an Icelandic musician and member of Hjaltalín, known for his distinctive voice and experimental approach blending indie rock with electronic and orchestral elements.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_2571b1060535"
   },
   {
    "artist": "Eclipse",
@@ -859,7 +943,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f787d27103a6"
   },
   {
    "artist": "Totality",
@@ -876,7 +961,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_ac80019f1a3f"
   },
   {
    "artist": "Poranguí",
@@ -893,7 +979,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/porangui.jpg",
    "bio": "Poranguí is a world-renowned musician, healer, and producer, weaving ancestral songs and\nindigenous rhythms to uplift and transform audiences worldwide.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_07e322a5e485"
   },
   {
    "artist": "Ásgeir",
@@ -910,7 +997,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/asgeir.jpg",
    "bio": "Ásgeir Trausti Einarsson is an Icelandic singer-songwriter known for ethereal folk-pop and a distinctive falsetto. His debut became one of Iceland's best-selling debut albums of all time.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f753878ad092"
   },
   {
    "artist": "Test Shot Starfish",
@@ -927,7 +1015,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/test-shot-starfish.jpg",
    "bio": "Test Shot Starfish is an electronic music duo of Kyle Schember and Ryan Stuit creating space-inspired ambient and IDM.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_cd192bd07203"
   },
   {
    "artist": "Allen Hulsey",
@@ -941,10 +1030,11 @@
    "start": "19:00",
    "durationMin": 60,
    "stage": "AFTERGLOW (Dome)",
-   "headshot": null,
-   "bio": null,
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/allen-hulsey.jpg",
+   "bio": "Allen Hulsey is a musician, producer, and founder of Abaq Records, blending electronic music with ethnic instruments and classical training. He's performed worldwide, from Burning Man to The Brooklyn Mirage.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_c6c9c30ee190"
   },
   {
    "artist": "Amaresh Kollipara",
@@ -961,7 +1051,8 @@
    "headshot": "https://storage.googleapis.com/egypt-eclipse/participants/amaresh-kollipara.jpg",
    "bio": "Space investor and entrepreneur working at the frontier of exploration, backing the founders building humanity's next chapter beyond Earth.",
    "tagline": null,
-   "emcee": "Ari Eisenstat"
+   "emcee": "Ari Eisenstat",
+   "id": "e_ba39960daf90"
   },
   {
    "artist": "Emilíana Torrini",
@@ -978,7 +1069,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/emiliana-torrini.jpg",
    "bio": "Emilíana Torrini is an Icelandic singer-songwriter known for her distinctive voice and critically acclaimed albums, recognized internationally for 'Gollum's Song' from The Lord of the Rings.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_94c9c981acd0"
   },
   {
    "artist": "Eduardo Castillo presents 'The Overview Effect'",
@@ -995,7 +1087,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/eduardo-castillo.jpeg",
    "bio": "Eduardo Castillo's live presentation combines music and visuals to explore how eclipses mirror the mysteries of consciousness, through electronic music and multimedia.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_0a19f3e80e21"
   },
   {
    "artist": "Darren Aronofsky",
@@ -1012,7 +1105,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/darren-aronofsky-preferred.jpg",
    "bio": "Academy Award-nominated director of Pi, Requiem for a Dream, Black Swan, and The Fountain. A lifelong environmentalist who filmed Noah in Iceland — returning to the land that shaped his vision.",
    "tagline": null,
-   "emcee": "Ari Eisenstat"
+   "emcee": "Ari Eisenstat",
+   "id": "e_b54609ab881a"
   },
   {
    "artist": "Luana Schwengber",
@@ -1029,7 +1123,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/luana-schwengber.jpeg",
    "bio": "Luana is a Brazilian DJ, singer, and ceremonialist sharing music at conscious gatherings across Bali, Tulum, Europe, and Latin America.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_51dd907451db"
   },
   {
    "artist": "Heimir Logi",
@@ -1046,7 +1141,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/heimir-logi.jpeg",
    "bio": "Heimir Logi was raised among horses on Iceland's north coast, where nature shapes every life. He spends his summers riding the highlands alone, and lives outside Reykjavík rather than the city, tending his own sweat lodge for thirty years.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_12d14a31be72"
   },
   {
    "artist": "Booka Shade (Live)",
@@ -1063,7 +1159,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/booka-shade-live.jpg",
    "bio": "Berlin-based duo Walter Merziger and Arno Kammermeier, co-founders of Get Physical Music. Named one of RA's Top 5 live acts in the world — they've headlined Coachella, Glastonbury, and Red Rocks.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_5f5f646450a5"
   },
   {
    "artist": "Brent Pella",
@@ -1080,7 +1177,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/brent-pella.png",
    "bio": "Brent Pella is a stand-up comedian whose digital content often satirizes spirituality, psychedelics, and the absurdities of modern culture.",
    "tagline": null,
-   "emcee": "Ari Eisenstat"
+   "emcee": "Ari Eisenstat",
+   "id": "e_2078a9dec571"
   },
   {
    "artist": "Tristan Baylis",
@@ -1097,7 +1195,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tristan-baylis.jpg",
    "bio": "Tristan Baylis is an Emmy and Peabody winner sound designer. With over 11 years of experince, currently the creative director at Gigantic studios. Projects we have worked on include, Poor things, NOPE, American Symphony, The Great Hack, The First Wave.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_5f26a0c03bce"
   },
   {
    "artist": "DJ Brownie",
@@ -1114,7 +1213,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dj%20brownie.jpg",
    "bio": "DJ Brownie (Marc Brownstein), bassist of The Disco Biscuits and co-founder of HeadCount and Camp Bisco, brings jam-scene DNA to groove-driven house sets.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_8373d62646e4"
   },
   {
    "artist": "Dhamika",
@@ -1131,7 +1231,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dhamika.jpg",
    "bio": "Dhamika is a Swedish electronic producer creating ambient, chillout, and downtempo soundscapes inspired by trance roots.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_240ab9129e87"
   },
   {
    "artist": "Gathering of the Tribes: Prayers, Songs and Stories from Traditions Around the World",
@@ -1148,7 +1249,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_e3b1cdedb839"
   },
   {
    "artist": "David Heilbroner",
@@ -1165,7 +1267,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/david-heilbroner.jpeg",
    "bio": "Emmy-winning documentary filmmaker known for films exploring justice, civil rights, and social issues — creating work that illuminates the human stories behind important social questions.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f3a8a80ce400"
   },
   {
    "artist": "Orang Volante",
@@ -1182,7 +1285,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/orang-volante.jpg",
    "bio": "Orang Volante, born Atli Már Þorvaldsson, is a producer and DJ from Reykjavík, Iceland,and is known for his soulful house music and superb production skill",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_ef6db48db4c9"
   },
   {
    "artist": "Bloomurian ft. Saoirse Watters",
@@ -1199,7 +1303,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/bloomurian-ft-saoirse-watters.jpg",
    "bio": "Bloomurian is an electronic music collaboration featuring vocalist Saoirse Watters, known for haunting, atmospheric music combining downtempo beats with ethereal vocals.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_9a960ff66eec"
   },
   {
    "artist": "Maribou State",
@@ -1216,7 +1321,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/maribou-state.jpeg",
    "bio": "UK duo Chris Davids and Liam Ivory. Architects of an organic electronic sound — bass-heavy and melodic, weaving UK club music, vintage soul and field recordings from across the world.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_2ed2edc32f71"
   },
   {
    "artist": "REW",
@@ -1233,7 +1339,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rew.png",
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_88fa9d83e8c9"
   },
   {
    "artist": "Suduaya",
@@ -1250,7 +1357,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Suduaya.jpeg",
    "bio": "Suduaya is a French psy-dub, chill, and progressive producer and guitarist whose ethereal soundscapes blend hypnotic melodies, driving basslines, and live guitar. Since 2011 his music has carried listeners into expansive, celestial realms.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_0e033efd26cd"
   },
   {
    "artist": "Haraldur Erlendsson, Dr.",
@@ -1267,7 +1375,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/haraldur-erlendsson.jpg",
    "bio": "Dr. Haraldur Erlendsson is an Icelandic psychiatrist, and author of The Völva's Path & Ein Sat Hún Úti: The Ancient Practice of Sitting Out. He is National President of the Theosophical Society in Iceland and has spent decades recovering the spiritual technology encoded in the Old Norse sagas and Eddic poetry.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_946f5c5919d5"
   },
   {
    "artist": "Agzilla",
@@ -1284,7 +1393,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/agzilla.jpg",
    "bio": "Agzilla helped pioneer Reykjavík's underground rave scene, spinning Drum & Bass since 1990. A longtime part of Goldie's Metalheadz circle, he toured the US on the Timeless tour and released his debut album, Cats Can Hear Ultrasound, on Metalheadz in 2019.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_7bc7ec8abb61"
   },
   {
    "artist": "Captain Hook",
@@ -1301,7 +1411,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/captain-hook.jpg",
    "bio": "Captain Hook is the stage name of Israeli psytrance producer Reshef Harari, a prominent figure in the international psytrance scene known for his progressive and full-on psytrance tracks.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_962d70e16fb6"
   },
   {
    "artist": "The Blue Lions",
@@ -1318,7 +1429,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/the-blue-lions.jpeg",
    "bio": "The Blue Lions are Sikh warrior musicians from the Akali Nihang Singh lineage, performing sacred kirtan that blends mantra and raga to uplift mind and spirit. Their path embodies seva, devotion, sovereignty, and joyful service to all creation.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_8ea7153bed29"
   },
   {
    "artist": "Marisa Radha Weppner",
@@ -1335,7 +1447,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/marisa-radha-weppner.jpg",
    "bio": "Marisa Radha Weppner is a Nosara Yoga Master Educator, Ketamine Therapist and a Somatic Experiencing Practitioner. Her offerings aim to create a state of union within oneself for a felt sense of the ineffable.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_df307013b712"
   },
   {
    "artist": "Cynthia Cramblett & Benjamin Moore",
@@ -1352,7 +1465,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/benjamin-moore-cynthia-cramblett.png",
    "bio": "Benjamin Moore, a former U.S. Army Staff Sergeant, and Cynthia Cramblett co-lead The Sacred Synthesis, blending ceremonial leadership, somatic healing, and entheogenic facilitation to help people find meaning, stability, and peace.",
    "tagline": null,
-   "emcee": "Rick Doblin"
+   "emcee": "Rick Doblin",
+   "id": "e_fd29cf1be296"
   },
   {
    "artist": "Michael Zuckerman",
@@ -1369,7 +1483,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/michael-zuckerman.jpeg",
    "bio": "Michael Zuckerman is the founder of Kisoro Art Island in Uganda, working at the intersection of art, ecology, and global human migration through creative community projects.",
    "tagline": null,
-   "emcee": "David Webber"
+   "emcee": "David Webber",
+   "id": "e_0a189b3cb44e"
   },
   {
    "artist": "Ishkayah",
@@ -1386,7 +1501,26 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/isa-cali.jpg",
    "bio": "Isa (Ishkayah) is here on planet earth as a light worker, channel, ceremonialist and shamanic guide, and holds sacred space for healing and activation, using  her voice and instruments. Her medicine collective One Light Tribe, was founded in 2013 and based in the Bay Area, California and extends to Sacha, her retreat center on Lake Atitlán, Guatemala.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_dae9277d4e6d"
+  },
+  {
+   "artist": "Edge City Community Demo Day",
+   "title": "Telamon Ardavanis",
+   "isHostBlock": false,
+   "status": "confirmed",
+   "category": "Community Space",
+   "subcategory": null,
+   "date": "2026-08-13",
+   "day": "Thursday 13 August",
+   "start": "11:00",
+   "durationMin": 50,
+   "stage": "POLARIS",
+   "headshot": null,
+   "bio": null,
+   "tagline": null,
+   "emcee": null,
+   "id": "e_96fdd17462b5"
   },
   {
    "artist": "Tony Cho",
@@ -1403,7 +1537,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tony-cho.jpg",
    "bio": "Tony Cho is an urban planning researcher and futurist with Future of Cities, working on sustainable urban development and smart city initiatives for more livable, resilient environments.",
    "tagline": null,
-   "emcee": "David Webber"
+   "emcee": "David Webber",
+   "id": "e_29ce1e67a5ce"
   },
   {
    "artist": "Ben Rein, Dr.",
@@ -1420,7 +1555,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ben-rein.jpg",
    "bio": "Ben Rein, PhD is an award-winning neuroscientist, author, and renowned science communicator. He serves as the Chief Science Officer of the Mind Science Foundation, Adjunct Lecturer at Stanford University, and Clinical Assistant Professor at SUNY Buffalo. He has published over 20 peer-reviewed papers on the neuroscience of social behavior, and is the author of Why Brains Need Friends: The Neuroscience of Social Connection.",
    "tagline": null,
-   "emcee": "Rick Doblin"
+   "emcee": "Rick Doblin",
+   "id": "e_c6c2a8ecdf3a"
   },
   {
    "artist": "Steven Blumenfeld",
@@ -1437,7 +1573,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/steven-blumenfeld.jpg",
    "bio": "Steven Blumenfeld is the CTO of Burning Man Project, working on technology infrastructure and digital experiences for large-scale events that support human connection and creativity.",
    "tagline": null,
-   "emcee": "David Webber"
+   "emcee": "David Webber",
+   "id": "e_2d8d217c2174"
   },
   {
    "artist": "Shanti Faiia",
@@ -1454,7 +1591,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/SHANTI%20FAIIA.jpg",
    "bio": "Shanti is a healer, and a yoga and breathwork teacher. She guides people to return to themselves and to become embodied spirits from a place of ease and grounded presence, allowing a reclamation of sovereignty and wholeness.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_9b603d3988b5"
   },
   {
    "artist": "Bryant Maxwell",
@@ -1471,7 +1609,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/bryant-maxwell.jpg",
    "bio": "Bryant Maxwell is a communications strategist and creative working at the nexus of art, science, and systems thinking. Through SciArt Exchange, he crafts experiences that translate complex futures into human stories that inspire action.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_85c69239e9f8"
   },
   {
    "artist": "Ben Haldeman",
@@ -1488,7 +1627,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ben-haldeman.webp",
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_85c69239e9f8"
   },
   {
    "artist": "Sian Proctor, Dr.",
@@ -1505,7 +1645,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sian-proctor.jpg",
    "bio": "Dr. Proctor made history as the first African-American woman to pilot a spacecraft on SpaceX's Inspiration4 mission. As a geoscientist and space artist, she blends scientific expertise with the profound perspective gained from viewing Earth from orbit, creating artwork that captures out planet's beauty and fragility.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_85c69239e9f8"
   },
   {
    "artist": "Richelle Ellis",
@@ -1522,7 +1663,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/richelle-ellis.jpg",
    "bio": "Richelle Ellis is an artist, curator, and nonprofit director whose work explores planetary connectivity through immersive art, storytelling, and research.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_85c69239e9f8"
   },
   {
    "artist": "Chris Decker",
@@ -1539,7 +1681,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "David Webber"
+   "emcee": "David Webber",
+   "id": "e_8307692ef0bd"
   },
   {
    "artist": "Fred Olafsson",
@@ -1556,7 +1699,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "David Webber"
+   "emcee": "David Webber",
+   "id": "e_8307692ef0bd"
   },
   {
    "artist": "Isis Indriya",
@@ -1573,7 +1717,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/isis-indriya.webp",
    "bio": "Isis Indriya is an educator, ceremonialist, and founder of the Academy of Oracle Arts and Imaginal Community.",
    "tagline": null,
-   "emcee": "David Webber"
+   "emcee": "David Webber",
+   "id": "e_8307692ef0bd"
   },
   {
    "artist": "Mitch Morales",
@@ -1590,7 +1735,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "David Webber"
+   "emcee": "David Webber",
+   "id": "e_8307692ef0bd"
   },
   {
    "artist": "Rechulski",
@@ -1607,7 +1753,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/RECHULSKI.jpg",
    "bio": "DJ & Producer known for his deeply hypnotic and spellbinding sets, and for founding the legendary event series, collective and label Sheik N Beik in NYC, as well as the Okeechobee Music & Arts Festival in Florida. Rechulski is also the co-founder of Sungai Design and sits on the Board of Sungai Watch, helping clean Indonesia’s rivers from plastic pollution.",
    "tagline": null,
-   "emcee": "David Webber"
+   "emcee": "David Webber",
+   "id": "e_8307692ef0bd"
   },
   {
    "artist": "Tim Mullen",
@@ -1624,11 +1771,12 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tim-mullen.jpg",
    "bio": "Dr. Tim Mullen is a neuroscientist, entrepreneur, and investor with over two decades of leadership in neurotechnology innovation, working with leading government, academic, and industry organizations. He is a founder of multiple neurotech companies and leads neurotech investments at Lionheart Ventures.",
    "tagline": null,
-   "emcee": "Jordan Amadio + Tim Mullen"
+   "emcee": "Jordan Amadio + Tim Mullen",
+   "id": "e_db27906b1d6a"
   },
   {
-   "artist": "Tinna María",
-   "title": "Sacred Heart Soundjourney",
+   "artist": "Júlía Óttarsdóttir",
+   "title": "Sound Healing",
    "isHostBlock": false,
    "status": "confirmed",
    "category": "Cosmic Space",
@@ -1638,10 +1786,11 @@
    "start": "13:00",
    "durationMin": 60,
    "stage": "COSMIC CONNECTION (Wellness)",
-   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tinna-maria.jpg",
-   "bio": "Craniosacral therapist and healer with over 23 years of practice, devoted to helping people find inner peace and live in their authenticity through sound journeys and sacred space.",
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/julia-ottarsdottir.webp",
+   "bio": "Icelandic ceremonialist and embodiment facilitator creating cacao ceremonies, retreats, and transformational experiences rooted in heart-centered consciousness.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_d64f3bdd6930"
   },
   {
    "artist": "Jordan Amadio, Dr.",
@@ -1658,7 +1807,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jordan-amadio.jpeg",
    "bio": "Dr. Jordan Amadio is a neuroscientist and consciousness researcher who explores the intersection of brain science, human potential, and transformative experiences.",
    "tagline": null,
-   "emcee": "Jordan Amadio + Tim Mullen"
+   "emcee": "Jordan Amadio + Tim Mullen",
+   "id": "e_8bf6bbd5b3d6"
   },
   {
    "artist": "SciArt Exchange",
@@ -1675,7 +1825,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sciart-exchange.jpg",
    "bio": "Sci Art Exchange bridges science and art communities, fostering collaboration between scientists, artists, and technologists through programs at the intersection of science and creative expression.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_e481725b9802"
   },
   {
    "artist": "Taylor Bright",
@@ -1692,7 +1843,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/taylor-bright.jpg",
    "bio": "Taye is a mycologist, naturalist, and educator exploring the intersections of fungal ecology, conservation, and community science. Currently pursuing her MSc, she researches fungal biodiversity within rare and threatened ecosystems in California.",
    "tagline": null,
-   "emcee": "Stephen Brooks"
+   "emcee": "Stephen Brooks",
+   "id": "e_fd399b3cc931"
   },
   {
    "artist": "Hjaltalín",
@@ -1709,7 +1861,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/hjaltalin.jpg",
    "bio": "Hjaltalín is an Icelandic indie rock band known for orchestral arrangements and theatrical performances blending indie rock with classical and folk elements, earning international recognition.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_9633cd84bb7e"
   },
   {
    "artist": "Aneil Mallavarapu",
@@ -1726,7 +1879,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/aneil-mallavarapu.jpg",
    "bio": "Dr. Aneil Mallavarapu is a scientist, inventor, and investor with a PhD from UCSF. His work in systems biology led to Harvard's Virtual Cell Program, and today he invests in AI and health tech alongside 23andMe co-founder Linda Avey.",
    "tagline": null,
-   "emcee": "Jordan Amadio + Tim Mullen"
+   "emcee": "Jordan Amadio + Tim Mullen",
+   "id": "e_d15272e3de35"
   },
   {
    "artist": "Tucker Garrison",
@@ -1743,7 +1897,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tucker-garrison.webp",
    "bio": "Tucker Garrison co-founded Imlak'esh Organics after a life-changing trip through Peru, connecting with farmers and superfood growers from the Amazon to the Andes. Today he brings that same spirit of adventure to the mission.",
    "tagline": null,
-   "emcee": "Stephen Brooks"
+   "emcee": "Stephen Brooks",
+   "id": "e_33668412b8bf"
   },
   {
    "artist": "Atma Silvia Bök",
@@ -1760,7 +1915,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/atma-silvia-bok.jpg",
    "bio": "Atma Silvia Bök is an Osho meditation facilitator at Leiðin heim healing center in Reykjavík, leading dynamic meditation and family constellation sessions.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_b59f2a8c354f"
   },
   {
    "artist": "Illi Adato",
@@ -1777,7 +1933,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/illi-adato.png",
    "bio": "Illi Adato is an internationally renowned, therapist, group facilitator and teacher in the field of Systemic - Family Constellations and Systemic Ritual®️. He is a developer of unique and powerful therapeutic modalities that brings Consciousness qualities into the core of the healing process.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_b59f2a8c354f"
   },
   {
    "artist": "Moli G.ott.",
@@ -1794,7 +1951,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/moli-gott.png",
    "bio": "Moli is a innovation hacker which led the permaculture movement in Iceland while connecting to the land through rituals and reflection.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f98725c936eb"
   },
   {
    "artist": "Jonathan Schooler",
@@ -1809,9 +1967,10 @@
    "durationMin": 25,
    "stage": "AFTERGLOW (Dome)",
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jonathan-schooler.jpeg",
-   "bio": null,
+   "bio": "Jonathan Schooler, PhD, is a Distinguished Professor at UC Santa Barbara studying consciousness and mindfulness, with over 270 publications and 50,000+ citations, and a six-time Highly Cited Researcher Award winner.",
    "tagline": null,
-   "emcee": "Jordan Amadio + Tim Mullen"
+   "emcee": "Jordan Amadio + Tim Mullen",
+   "id": "e_fe674c6bd817"
   },
   {
    "artist": "Joycelyn Longdon",
@@ -1828,7 +1987,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/joycelyn-longdon.webp",
    "bio": "Joycelyn Longdon is an award-winning doctoral researcher, technologist and writer bridging the worlds of ecology, technology and environmental justice.",
    "tagline": null,
-   "emcee": "Stephen Brooks"
+   "emcee": "Stephen Brooks",
+   "id": "e_194e1f314a0e"
   },
   {
    "artist": "Amanda Gregory",
@@ -1843,9 +2003,10 @@
    "durationMin": 25,
    "stage": "AFTERGLOW (Dome)",
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/amanda-gregory.jpeg",
-   "bio": null,
+   "bio": "Amanda Gregory is an opera singer and consciousness researcher pioneering neuro-music, translating the harmonic architectures of consciousness into immersive sound. She's a PhD candidate at UC Santa Barbara's META Lab.",
    "tagline": null,
-   "emcee": "Jordan Amadio + Tim Mullen"
+   "emcee": "Jordan Amadio + Tim Mullen",
+   "id": "e_194af88b3efd"
   },
   {
    "artist": "Lindsay Brandon",
@@ -1862,7 +2023,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/lindsay-brandon.jpg",
    "bio": "Lindsay Brandon is the founder of Permaculture Canada and Armagarden. She finds her passion in weaving people back into the fabric of nature. By reading the stories written in the landscape, she creates harmony between inhabitants and the land through regenerative design systems.",
    "tagline": null,
-   "emcee": "Stephen Brooks"
+   "emcee": "Stephen Brooks",
+   "id": "e_4db49a255e2f"
   },
   {
    "artist": "Carbon Based Lifeforms w/ Alex Grey & Allyson Grey  Live Painting",
@@ -1879,7 +2041,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_bd5eaabe82d6"
   },
   {
    "artist": "Brainblock Closing",
@@ -1896,7 +2059,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Jordan Amadio + Tim Mullen"
+   "emcee": "Jordan Amadio + Tim Mullen",
+   "id": "e_3d363630e978"
   },
   {
    "artist": "Ebtesam",
@@ -1913,7 +2077,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Ebtesam.jpeg",
    "bio": "Ebtesam Mahmoud is an Egyptian spiritual guide, Egyptologist, and founder of a mystery school dedicated to Ancient Egyptian wisdom. Through sacred teachings and temple journeys, she helps seekers deepen their connection to themselves, the divine, and the timeless mysteries of Egypt.",
    "tagline": null,
-   "emcee": "Sahara Rose"
+   "emcee": "Sahara Rose",
+   "id": "e_354b5a09fbaa"
   },
   {
    "artist": "Gudrun Bergmann",
@@ -1930,7 +2095,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/gudrun-bergmann.jpg",
    "bio": "Gudrun \"Runa\" Bergmann been a the forefront of the self-empowement since 1990, running workshops, events and writing books. An intuitive since childhood, an astrologer and lover of the land I live on.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_328ba0996df3"
   },
   {
    "artist": "Jason Achilles",
@@ -1947,7 +2113,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jason-achilles.jpg",
    "bio": "Touring multi-instrumentalist Jason Achilles divides his time between live performance, record production, orchestral composition, public speaking events from coast to coast and a healthy 'side gig' as an aerospace innovator. He has been featured prominently in WIRED Magazine, television news programs, and numerous multimedia appearances (CBC, NPR, Planetary Radio etc.) following successful efforts with NASA to capture the first sounds from Mars.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_11ddcaa20932"
   },
   {
    "artist": "Davíð Svanur",
@@ -1964,7 +2131,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/david-svanur.jpg",
    "bio": "David Svanur is an Icelandic electronic music producer blending Nordic influences with modern electronic dance music to create melodic, evocative productions.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f374d2b499cf"
   },
   {
    "artist": "Katy Bohinc",
@@ -1981,7 +2149,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/katy-bohinc.jpg",
    "bio": "Katy Bohinc is Founder and CEO of The Ratio, working at the intersection of technology, policy, and equitable access.",
    "tagline": null,
-   "emcee": "Sahara Rose"
+   "emcee": "Sahara Rose",
+   "id": "e_adf1c7ff377c"
   },
   {
    "artist": "Quantic (DJ set)",
@@ -1998,7 +2167,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/quantic-dj-set.jpg",
    "bio": "British producer, musician, and DJ Will Holland. Two decades of globe-trotting music rooted in funk, jazz, cumbia, and soul — from Colombia to New York, every record earns its passport stamps.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_644bd6a467d3"
   },
   {
    "artist": "Lunacy: The Explosive Past",
@@ -2015,7 +2185,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Sahara Rose"
+   "emcee": "Sahara Rose",
+   "id": "e_b444412e4b6c"
   },
   {
    "artist": "and Future",
@@ -2032,7 +2203,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Sahara Rose"
+   "emcee": "Sahara Rose",
+   "id": "e_b444412e4b6c"
   },
   {
    "artist": "of Earth’s Strange Moon",
@@ -2049,7 +2221,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Sahara Rose"
+   "emcee": "Sahara Rose",
+   "id": "e_b444412e4b6c"
   },
   {
    "artist": "Cell7",
@@ -2066,7 +2239,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/cell7.jpeg",
    "bio": "Cell7 is a trailblazer in Icelandic hip hop, one of the few women to break through in a male dominated scene. Her album Is Anybody Listening? won the Icelandic Music Award for Best Hip Hop Album, and now she's back with Deep Cuts.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_2de35502b8f5"
   },
   {
    "artist": "Android Jones",
@@ -2083,7 +2257,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/android-jones.jpg",
    "bio": "Android Jones is a digital painter known for layered psychedelic artworks and immersive live performances using a custom built digital setup. His work focuses on spirituality and altered states of consciousness, blending technology and visionary art in what he calls Electro-Mineralism.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_441bbac0ddc6"
   },
   {
    "artist": "CEREMONY: TEMPLE OF THE BIRD TRIBES",
@@ -2100,7 +2275,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_9899f6dc35d9"
   },
   {
    "artist": "Josh Draper",
@@ -2117,7 +2293,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/josh-draper.jpeg",
    "bio": "Joshua Draper is an improv practitioner and facilitator trained at the Second City Training Center and Improv Olympic in Chicago. With over a decade of experience in improvisation and stand-up comedy, he brings a playful, grounded approach to performance and personal development through his workshop Grow Through Play.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f5ec811aae45"
   },
   {
    "artist": "Brent Pella",
@@ -2134,7 +2311,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/brent-pella.png",
    "bio": "Brent Pella is a stand-up comedian whose digital content often satirizes spirituality, psychedelics, and the absurdities of modern culture.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f5ec811aae45"
   },
   {
    "artist": "CiCi",
@@ -2151,7 +2329,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/cici.jpg",
    "bio": "Cici is an Irish DJ and producer known for eclectic sets blending techno, house, acid, and electro.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_96dfc46f7951"
   },
   {
    "artist": "Ryan Hope",
@@ -2168,7 +2347,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ryan-hope.jpeg",
    "bio": "Ryan Hope is an electronic music producer who performs both solo and as part of the duo Gabriels. Known for creating soulful electronic music that blends house, disco, and contemporary R&B influences.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_07177bb6b9bf"
   },
   {
    "artist": "Him Gone Ape",
@@ -2185,7 +2365,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/him-gone-ape.jpg",
    "bio": "Him Gone Ape is an anagram persona of Imogen Heap focused on raw, improvised musical experimentation.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_a1fbf58a245b"
   },
   {
    "artist": "Blankiflúr",
@@ -2202,7 +2383,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/blankiflur.jpeg",
    "bio": "Blankiflur is the multi-dimensional creative alter-ego of Icelandic musical artist Inga Birna Friðjónsdóttir.\nKnown for her soaring outer-worldly voice, dynamic and genre-defying arrangements, and unique blend of electronic pop and ethereal songwriting,  she all at once carves a deep musical space that is truly a one of a kind experience.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_bf6f576822d4"
   },
   {
    "artist": "Nitin",
@@ -2219,7 +2401,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/nitin.jpg",
    "bio": "Toronto-raised DJ who started spinning at Detroit's legendary Shelter club at age 17. Co-founder of No. 19 Music, named for Article 19 of the Declaration of Human Rights: Freedom of Expression.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_e767323e3560"
   },
   {
    "artist": "Ella Knight",
@@ -2236,7 +2419,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ella-knight.jpeg",
    "bio": "London DJ, singer, and founder of Madame Jazz. Rinse FM resident and Gilles Peterson's Future Bubblers alumna — fusing Disco, House, Garage, and Afro rhythms into genre-crossing sets.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_bf607ad55f33"
   },
   {
    "artist": "Vincent Bruneau",
@@ -2253,7 +2437,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/vincent-bruneau.jpg",
    "bio": "Vincent Bruneau is a serial entrepreneur and talented magician who turned his mastery of audience engagement into Sparkup, a tool that transforms meetings and events into truly interactive experiences.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_acfed95531c9"
   },
   {
    "artist": "Rave Mehta",
@@ -2270,7 +2455,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_a65513d12a06"
   },
   {
    "artist": "The Blue Lions",
@@ -2287,7 +2473,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/the-blue-lions.jpeg",
    "bio": "The Blue Lions are Sikh warrior musicians from the Akali Nihang Singh lineage, performing sacred kirtan that blends mantra and raga to uplift mind and spirit. Their path embodies seva, devotion, sovereignty, and joyful service to all creation.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_808da7b28d05"
   },
   {
    "artist": "Reorientate",
@@ -2304,7 +2491,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_4a068a7c876a"
   },
   {
    "artist": "Reggie Watts",
@@ -2321,7 +2509,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/reggie-watts.jpg",
    "bio": "Reggie Watts is an American comedian, musician, and beatboxer whose entirely improvised sets — built from voice, keyboard, and a looping machine — delight and disorient in equal measure.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_608c05e4729e"
   },
   {
    "artist": "TRPTYCH",
@@ -2338,7 +2527,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/trptych.jpg",
    "bio": "TRPTYCH is a healing trio weaving Icelandic nature and cosmic soundscapes through instruments, voice, and presence. May their music hold you, move you, and bring you home to yourself.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_1cf777e293df"
   },
   {
    "artist": "Luca Donzelli",
@@ -2355,7 +2545,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/LucaDonzellimain.jpeg",
    "bio": "Rooted in the Tuscan club scene and now a fixture in Ibiza’s summer circuit, Florentine DJ and producer Luca Donzelli brings a refined, groove-driven approach to house and tech-house, with a residency at Amnesia Ibiza’s Pyramid party cementing his reputation on the international stage.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_06b61af34060"
   },
   {
    "artist": "Kenny Dope",
@@ -2372,7 +2563,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/kenny-dope.jpg",
    "bio": "Kenny 'Dope' Gonzalez is one half of legendary house duo Masters at Work and one of America's most important house music producers, active for over 30 years.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_43e7ea6e4069"
   },
   {
    "artist": "Amélie Ravalec & Vincent Ravalec",
@@ -2389,7 +2581,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/amelie-ravalec-vincent-ravalec.webp",
    "bio": "About their Solstice Series: All over the world, artists are called upon through dreams and visions by a cosmic entity, the Architecture. To prevent earth’s collapse and restore balance to the universe, they must explore forgotten memories and transform their creations into powerful acts of restoration, rewriting the past and reshaping the future to heal reality itself.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_43d6b4c19f2f"
   },
   {
    "artist": "Tao Txana",
@@ -2406,7 +2599,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tao-txana.jpeg",
    "bio": "Tao Txana is a ceremonial leader, ethno-musician, and visionary artist of Anatolian Turkic origin. A lifelong student of plant shamanism and animistic cultures, he bridges sacred music, ceremony, and ancestral wisdom, allied with indigenous elders.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_45c2f3a97c81"
   },
   {
    "artist": "Macro/micro",
@@ -2423,7 +2617,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/macromicro.jpg",
    "bio": "Macro/micro is the electronic music project of Tommy Simpson.  Based in Los Angeles, his music is a search for deeper, intuitive truths about the relationship between inner and outer space.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_deebde34b874"
   },
   {
    "artist": "Allen Hulsey + Vincent Bruneau",
@@ -2440,7 +2635,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_3188ad8c1419"
   },
   {
    "artist": "Art Department",
@@ -2457,7 +2653,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/artdepartment.jpeg",
    "bio": "The project of Canadian DJ and producer Jonny White, Art Department emerged from the Toronto underground to become one of electronic music’s most decorated acts, known for a raw, synth-driven sound that earned DC10 residency, a Beatport Track of the Year, and consistent recognition from outlets across the dance music world.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_680f909b7575"
   },
   {
    "artist": "berlioz",
@@ -2474,7 +2671,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/berlioz.jpg",
    "bio": "Berlioz is a British jazz house producer born in Cape Town, whose music combining electronic production with jazz influences has been described as 'if Matisse made house music.'",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_76cac3c06aac"
   },
   {
    "artist": "Ruby Chase",
@@ -2491,7 +2689,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ruby-chase.webp",
    "bio": "Singer, writer, producer, DJ, and social alchemist whose ritualistic live sets weave global dance music with ethereal vocals — turning the dance floor into ceremony. Electric Forest to Red Rocks.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_3ba366536fdb"
   },
   {
    "artist": "East Forest",
@@ -2508,7 +2707,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/east-forest.webp",
    "bio": "East Forest is Trevor Oswalt — American multi-instrumentalist known for cinematic, meditative music blending ambient, classical, and world influences toward healing and awakening.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fea8a9b8a68e"
   },
   {
    "artist": "Tiga",
@@ -2525,7 +2725,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/TIGA.jpeg",
    "bio": "A Montreal-born DJ, producer, and founder of Turbo Recordings, Tiga has spent decades shaping underground electronic music with a catalog that bridges techno’s raw edge and pop’s infectious sensibility, earning him a place among the genre’s most distinctive and enduring voices",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_9a0b2d7f5f57"
   },
   {
    "artist": "Patrick Kronfli",
@@ -2542,7 +2743,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/patrick-kronfli.png",
    "bio": "Patrick Kronfli is a community organizer and social entrepreneur with Unify, a global movement bringing people together through events centered on shared values and collective action.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f1b4a679e3c5"
   },
   {
    "artist": "Airi-Triin Teder",
@@ -2559,7 +2761,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/airi-triin-teder.jpg",
    "bio": "Airi is a traveling yoga teacher and women’s retreat host who weaves together Vinyasa, Yin, and different yogic traditions into soulful, empowering experiences. Her classes are rooted in embodiment and intuitive, feel-good movement - inviting students to move with awareness, awaken their inner fire, soften into their bodies, and leave feeling grounded, radiant and deeply connected.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_b8a6f7d40628"
   },
   {
    "artist": "Yoga Moves",
@@ -2576,7 +2779,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Rohan Roberts"
+   "emcee": "Rohan Roberts",
+   "id": "e_54ac4ab65b5b"
   },
   {
    "artist": "Kevin Russell",
@@ -2593,7 +2797,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/kevin-russell.jpg",
    "bio": "Futurist and co-founder of The Observatory Project exploring human-AI collaboration and the future of humanity.",
    "tagline": null,
-   "emcee": "Matt McCibben"
+   "emcee": "Matt McCibben",
+   "id": "e_704e8449b3d7"
   },
   {
    "artist": "Sara Ahmadian",
@@ -2610,7 +2815,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sara-ahmadian.png",
    "bio": "Sara Ahmadian is a Venture Advisor across emerging markets specializing in building startup ecosystems and expanding access to frontier technologies like AI.",
    "tagline": null,
-   "emcee": "Matt McCibben"
+   "emcee": "Matt McCibben",
+   "id": "e_704e8449b3d7"
   },
   {
    "artist": "Gabor Szorad",
@@ -2627,7 +2833,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/gabor-szorad.webp",
    "bio": "Gabor Szórád has lead companies from 5 to 8,200 people and has worked full-time on AI since GPT-3.5 launched — both through SaferAI (AI safety NGO) and helping founders use AI as a slingshot against larger competitors. He is currently writing a book on AI and human wisdom, and believes the most important AI question isn't \"what can it do?\" but \"what does it give back to us?\"",
    "tagline": null,
-   "emcee": "Matt McCibben"
+   "emcee": "Matt McCibben",
+   "id": "e_704e8449b3d7"
   },
   {
    "artist": "Rohan Roberts",
@@ -2644,7 +2851,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rohan-roberts.png",
    "bio": "Rohan Roberts is a Dubai-based education strategist, author, and speaker who explores the intersection of technology, consciousness, and culture. Drawing on over 25 years in international education, he brings systems thinking and philosophical curiosity to conversations about human potential, transformation, and the future we are collectively shaping.",
    "tagline": null,
-   "emcee": "Matt McCibben"
+   "emcee": "Matt McCibben",
+   "id": "e_704e8449b3d7"
   },
   {
    "artist": "Tannya Jajal",
@@ -2658,10 +2866,11 @@
    "start": "11:00",
    "durationMin": 50,
    "stage": "AURORA (Electronic Tent)",
-   "headshot": null,
-   "bio": null,
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tannya-jajal.avif",
+   "bio": "Tannya Jajal is a keynote speaker and Founder/CEO of AIDEN, an AI education company on a mission to help humans become truly extraordinary in the age of AI. An ultramarathoner, she's spoken at 40+ conferences worldwide.",
    "tagline": null,
-   "emcee": "Matt McCibben"
+   "emcee": "Matt McCibben",
+   "id": "e_704e8449b3d7"
   },
   {
    "artist": "Hinrik Jóhannesson",
@@ -2678,7 +2887,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/hinrik-johannesson.jpg",
    "bio": "Hinrik Jóhannesson is an Icelandic nature guide leading wilderness expeditions combining sauna, cold plunge therapy, and nature-based spirituality in Iceland's landscapes.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_6527bc29ac2e"
   },
   {
    "artist": "EDGE CITY: LIGHTING OPEN MIC BLOCK",
@@ -2695,7 +2905,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_287fc52af561"
   },
   {
    "artist": "Brittany Kaiser",
@@ -2712,7 +2923,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/brittany-kaiser.jpg",
    "bio": "Brittany Kaiser is a data rights activist and whistleblower featured in The Great Hack, advocating for digital privacy, data ownership, and decentralization in the age of AI.",
    "tagline": null,
-   "emcee": "Matt McCibben"
+   "emcee": "Matt McCibben",
+   "id": "e_ba8183ccd7cc"
   },
   {
    "artist": "Heiðrún María",
@@ -2729,7 +2941,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/heidrun-maria.png",
    "bio": "Heiðrún María is a native Icelandic healer, ceremonialist, and retreat facilitator guiding people back home to their hearts, bodies, and the land. With deep intuition and sensitivity, she bridges realms to help others remember the magic within and all around.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_10680cb46d82"
   },
   {
    "artist": "Daniel Leeb",
@@ -2746,7 +2959,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_d5640ee51c47"
   },
   {
    "artist": "Hjörtur Smárason",
@@ -2763,7 +2977,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_d5640ee51c47"
   },
   {
    "artist": "Matthew Devlen",
@@ -2780,7 +2995,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_d5640ee51c47"
   },
   {
    "artist": "Yasmine El Baggari",
@@ -2797,7 +3013,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/yasmine-el-baggari.jpg",
    "bio": "Yasmine El Baggari is a travel and experience researcher with Voyaj, working on meaningful, sustainable, and transformative travel experiences for conscious tourism.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_ead5f203e313"
   },
   {
    "artist": "David Helgason",
@@ -2814,7 +3031,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/david-Helgason.jpeg",
    "bio": "David is a climate tech investor at Transition, where he searches for solutions to global warming and its nexus of interlinked crises. Many years ago he founded Unity. His background is in programming, many unfinished degrees, creating companies, and helping entrepreneurs.",
    "tagline": null,
-   "emcee": "Matt McCibben"
+   "emcee": "Matt McCibben",
+   "id": "e_32dccf8da73d"
   },
   {
    "artist": "Mundi Vondi",
@@ -2831,7 +3049,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Matt McCibben"
+   "emcee": "Matt McCibben",
+   "id": "e_32dccf8da73d"
   },
   {
    "artist": "Ubaldo Ciminieri",
@@ -2848,7 +3067,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ubaldo-ciminieri.png",
    "bio": "Ubaldo “The Space Ace” Ciminieri is a cosmic connector, podcast producer and host, and visionary space entrepreneur on a mission to unite the galaxy’s brightest minds and pave the way for a sustainable human future among the stars.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_dc7ad176397a"
   },
   {
    "artist": "Colleen McLeod Garner",
@@ -2865,7 +3085,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/colleen-mcleod-garner.jpg",
    "bio": "Colleen McLeod Garner is Business Development and Marketing Manager at Paragon Space Development and a PhD researcher in human factors in space. She blends global innovation, space policy, and hospitality expertise to help create normalcy beyond Earth.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_dc7ad176397a"
   },
   {
    "artist": "Amelie Schoenenwald, Dr.",
@@ -2882,7 +3103,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/amelie-schoenenwald.jpg",
    "bio": "Amelie is a member of the ESA Astronaut Class of 2022, selected from over 23,000 applicants across Europe. Her mission is to ignite passion for science and for life itself in the people around her.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_dc7ad176397a"
   },
   {
    "artist": "Antonio Peronace",
@@ -2899,7 +3121,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/antonio-peronace.jpg",
    "bio": "Antonio Peronace is a program manager with Space for Humanity's Citizen Astronaut Program, expanding access to space for diverse individuals to use the orbital perspective for positive change.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_dc7ad176397a"
   },
   {
    "artist": "Kevin Russell",
@@ -2916,7 +3139,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/kevin-russell.jpg",
    "bio": "Futurist and co-founder of The Observatory Project exploring human-AI collaboration and the future of humanity.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_dc7ad176397a"
   },
   {
    "artist": "Leanne Falco",
@@ -2933,7 +3157,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/leanne-falco.jpg",
    "bio": "Leanne Falco weaves frequencies, tones, and ancient melodies into a deeply harmonizing sound experience. Her offerings include her signature Ayaharmony essential oil journey, a holy water blessing, and an anointing ritual to protect the aura.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f606830bd1dc"
   },
   {
    "artist": "Karlakórinn Heiðbjört",
@@ -2950,7 +3175,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/karlakorinn-heidbjort.jpg",
    "bio": "Karlakórinn Heiðbjört is an Icelandic male choir known for powerful vocal performances and a contemporary approach to choral music spanning traditional Icelandic songs and modern compositions.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_de4de0dec1cc"
   },
   {
    "artist": "Samwise",
@@ -2967,7 +3193,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/samwise.jpg",
    "bio": "Samwise is an Icelandic electronic music producer known for melodic and atmospheric compositions that combine electronic production with Nordic influences and cinematic soundscapes.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fd275e22cd15"
   },
   {
    "artist": "Jake Groshong",
@@ -2984,7 +3211,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jake-groshong.jpg",
    "bio": "Jake is a global leader using music and culture to drive social change, growing Playing for Change into a worldwide nonprofit spanning 140+ locations in 27 countries and mobilizing a community of over 1,200 changemakers.",
    "tagline": null,
-   "emcee": "Gwen Riley"
+   "emcee": "Gwen Riley",
+   "id": "e_2251a1a95a1e"
   },
   {
    "artist": "Ron Garan",
@@ -3001,7 +3229,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ron-garan.jpg",
    "bio": "Ron Garan is a former NASA astronaut, fighter pilot, and author known for his 'orbital perspective' framework advocating for global cooperation and environmental stewardship.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fec1e7d28e89"
   },
   {
    "artist": "Rick Doblin, Dr.",
@@ -3018,7 +3247,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rick-doblin.jpg",
    "bio": "Rick Doblin, Ph.D., is the founder and president of the 40-year-old Multidisciplinary Association for Psychedelic Studies (MAPS). His professional goal is to help develop legal contexts for the beneficial uses of psychedelics and marijuana, primarily as prescription medicines but also for personal growth for otherwise healthy people.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fec1e7d28e89"
   },
   {
    "artist": "Eduardo Castillo",
@@ -3035,7 +3265,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/eduardo-castillo.jpeg",
    "bio": "Eduardo Castillo is a musician and co-founder of Habitas, creating immersive experiences through music, community, and storytelling",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fec1e7d28e89"
   },
   {
    "artist": "Jason Silva",
@@ -3052,7 +3283,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jason-silva.jpeg",
    "bio": "Jason Silva is an American filmmaker and public speaker known for philosophical short films at the intersection of technology, creativity, and human consciousness.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fec1e7d28e89"
   },
   {
    "artist": "Sian Proctor, Dr.",
@@ -3069,7 +3301,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sian-proctor.jpg",
    "bio": "Dr. Proctor made history as the first African-American woman to pilot a spacecraft on SpaceX's Inspiration4 mission. As a geoscientist and space artist, she blends scientific expertise with the profound perspective gained from viewing Earth from orbit, creating artwork that captures out planet's beauty and fragility.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fec1e7d28e89"
   },
   {
    "artist": "Dr Chrispy",
@@ -3086,7 +3319,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dr-chrispy.jpg",
    "bio": "Australian astronaut, aeronautical engineer, and music producer who worked at NASA — creating space-inspired music from real mission data and bringing the cosmos to the dance floor.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_78beb5378867"
   },
   {
    "artist": "Brien Egan",
@@ -3103,7 +3337,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Brien%20Egan.jpg",
    "bio": "Maestro Rev. Brien is an author, Shipibo lineage maestro shaman, sound healer, and ordained minister with 25+ years teaching spirituality. Founder of the Sound Healing Conservatory, he and his wife Amy run Brave New School in Virginia.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_207cfd1f7b5f"
   },
   {
    "artist": "Johanna Maggy",
@@ -3120,7 +3355,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/johanna-maggy.jpg",
    "bio": "Johanna Maggy is an Icelandic artist and cultural facilitator who works in community arts and cultural preservation.",
    "tagline": null,
-   "emcee": "Gwen Riley"
+   "emcee": "Gwen Riley",
+   "id": "e_7bc8fb4cf883"
   },
   {
    "artist": "Amaresh Kollipara",
@@ -3137,7 +3373,8 @@
    "headshot": "https://storage.googleapis.com/egypt-eclipse/participants/amaresh-kollipara.jpg",
    "bio": "Space investor and entrepreneur working at the frontier of exploration, backing the founders building humanity's next chapter beyond Earth.",
    "tagline": null,
-   "emcee": "Gwen Riley"
+   "emcee": "Gwen Riley",
+   "id": "e_7bc8fb4cf883"
   },
   {
    "artist": "Kyter",
@@ -3154,7 +3391,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Gwen Riley"
+   "emcee": "Gwen Riley",
+   "id": "e_301fd0645eac"
   },
   {
    "artist": "Coco Reilly",
@@ -3171,7 +3409,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Gwen Riley"
+   "emcee": "Gwen Riley",
+   "id": "e_301fd0645eac"
   },
   {
    "artist": "Néfur",
@@ -3188,7 +3427,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/nefur.jpg",
    "bio": "Catalan-born, Reykjavík-based artist who makes music with glaciers — field recordings, voice, and electronics woven into intimate meditations on Arctic landscapes and impermanence.",
    "tagline": null,
-   "emcee": "Gwen Riley"
+   "emcee": "Gwen Riley",
+   "id": "e_301fd0645eac"
   },
   {
    "artist": "Ryan Horst",
@@ -3203,9 +3443,10 @@
    "durationMin": 45,
    "stage": "AFTERGLOW (Dome)",
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ryan-horst.JPG",
-   "bio": null,
+   "bio": "Ryan Horst is CEO of Altcoin Pro, a business strategist and sales expert who's mentored 200+ entrepreneurs. He applies his background in psychology and communication to make crypto investing accessible and practical.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_35ebb8f8e9f7"
   },
   {
    "artist": "Mason Lynaugh",
@@ -3222,7 +3463,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/mason-lynaugh.jpg",
    "bio": "Mason Lee Lynaugh is the Executive Director of Stand With Crypto, America's largest crypto advocacy organization representing over 2.7 million advocates nationwide. As SWC's first hire, he built the organization's grassroots operation from the ground up, expanding chapters to all 50 states and helping get the GENIUS Act signed into law.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_35ebb8f8e9f7"
   },
   {
    "artist": "Matt McCibben",
@@ -3239,7 +3481,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_35ebb8f8e9f7"
   },
   {
    "artist": "Carla Rose",
@@ -3256,7 +3499,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/carla-rose.webp",
    "bio": "Carla Rose is an Icelandic DJ and producer who has become a prominent figure in Reykjavík's electronic music scene, known for energetic sets spanning house, techno, and experimental music.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_439b11e3ef7d"
   },
   {
    "artist": "The Wizard Devin Person",
@@ -3273,7 +3517,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/The%20Wizard%20Devin%20Person.jpg",
    "bio": "Devin Person lives his life as an unfolding answer to the question, \"What would a modern day wizard do?\" So far, that has ranged widely from granting wishes for commuters on the New York Subway, to hosting the hypersigil podcast This Podcast is a Ritual, and helping clients around the world create lasting, meaningful change through his hypnotherapy practice. Sitting at the crossroads of the silly and the sacred, Person believes the wizard is precisely the archetype we need for these deeply weird times.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_c12502add778"
   },
   {
    "artist": "Zero 7 (DJ Set)",
@@ -3290,7 +3535,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/zero-7-dj-set.jpg",
    "bio": "British downtempo duo Henry Binns and Sam Hardaker. Their Mercury Prize-nominated debut Simple Things defined the early-2000s chill-out era — and introduced a then-unknown Sia to the world.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_37de6dc598e9"
   },
   {
    "artist": "JT Marino",
@@ -3304,10 +3550,11 @@
    "start": "15:45",
    "durationMin": 25,
    "stage": "AFTERGLOW (Dome)",
-   "headshot": null,
-   "bio": null,
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jt-marino.jpg",
+   "bio": "JT Marino co-founded Tuft & Needle, disrupting the mattress industry with e-commerce, and now leads Marino, a conscious-focused R&D lab. Featured in Forbes and Recode, he's a frequent keynote speaker at SXSW and Startup Grind.",
    "tagline": null,
-   "emcee": "MaryLiz"
+   "emcee": "MaryLiz",
+   "id": "e_bdfc0019c504"
   },
   {
    "artist": "Emily Fletcher",
@@ -3324,7 +3571,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/emily-fletcher.webp",
    "bio": "Founder of Ziva Meditation. Author of \"Stress Less, Accomplish More\". Mama of the cutest little kid ever.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_51dca2468cec"
   },
   {
    "artist": "Brigitte Huff",
@@ -3341,7 +3589,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_51dca2468cec"
   },
   {
    "artist": "Jamie Thompson",
@@ -3358,7 +3607,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_51dca2468cec"
   },
   {
    "artist": "Anouk Wipprecht",
@@ -3375,7 +3625,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/anouk-wipprecht.jpg",
    "bio": "Anouk Wipprecht is a pioneering FashionTech designer and engineer known for robotic, interactive garments at the intersection of wearable technology and fashion.",
    "tagline": null,
-   "emcee": "MaryLiz"
+   "emcee": "MaryLiz",
+   "id": "e_5d2c5848d84c"
   },
   {
    "artist": "BenSöl",
@@ -3392,7 +3643,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/bensol.jpg",
    "bio": "Ben Sol is an Icelandic DJ and electronic music producer known for his work with underground techno collective Træangular.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_88ee3ee450f3"
   },
   {
    "artist": "Adam Stark",
@@ -3409,7 +3661,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "MaryLiz"
+   "emcee": "MaryLiz",
+   "id": "e_f9f478c7bd40"
   },
   {
    "artist": "Kathi Geiger",
@@ -3426,7 +3679,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "MaryLiz"
+   "emcee": "MaryLiz",
+   "id": "e_f9f478c7bd40"
   },
   {
    "artist": "Alex Grey & Allyson Grey",
@@ -3443,7 +3697,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/alex-allyson-grey.png",
    "bio": "Alex Grey & Allyson Grey are visionary artists and co-founders of Chapel of Sacred Mirrors (CoSM), a sanctuary for visionary art and creativity",
    "tagline": null,
-   "emcee": "Brent Pella"
+   "emcee": "Brent Pella",
+   "id": "e_cf8b593c5fa3"
   },
   {
    "artist": "Android Jones",
@@ -3460,7 +3715,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/android-jones.jpg",
    "bio": "Android Jones is a digital painter known for layered psychedelic artworks and immersive live performances using a custom built digital setup. His work focuses on spirituality and altered states of consciousness, blending technology and visionary art in what he calls Electro-Mineralism.",
    "tagline": null,
-   "emcee": "Brent Pella"
+   "emcee": "Brent Pella",
+   "id": "e_cf8b593c5fa3"
   },
   {
    "artist": "Amanda Sage",
@@ -3477,7 +3733,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/amanda-sage.jpg",
    "bio": "Visionary painter trained under Ernst Fuchs in Vienna — her luminous figure paintings have shown internationally at galleries, Burning Man, and the Chapel of Sacred Mirrors.",
    "tagline": null,
-   "emcee": "Brent Pella"
+   "emcee": "Brent Pella",
+   "id": "e_cf8b593c5fa3"
   },
   {
    "artist": "Chris Dyer",
@@ -3494,7 +3751,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/chris-dyer.png",
    "bio": "Chris Dyer is a Peruvian-Canadian painter. A staple of the Visionary Art Movement for the past few decades, he combines Street Art expressions like Muralism and Skate graphics into his unique interdimentional Expression o Psychedelic Alien self!",
    "tagline": null,
-   "emcee": "Brent Pella"
+   "emcee": "Brent Pella",
+   "id": "e_cf8b593c5fa3"
   },
   {
    "artist": "CEREMONY: WOLF",
@@ -3511,7 +3769,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_605ef55141c4"
   },
   {
    "artist": "Hjálmar",
@@ -3528,7 +3787,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/hjalmar.jpg",
    "bio": "Hjálmar is an Icelandic band combining reggae and electronic music with Caribbean influences — known for their unique cultural fusion and energetic live performances.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_cce59d61e667"
   },
   {
    "artist": "annu",
@@ -3545,7 +3805,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/annu.jpg",
    "bio": "Future Dream Pop artist using synthesizers and MI.MU gloves to let gesture conduct sound and light — crafting audio-visual worlds where the vast Cosmos and the boundless interior meet.",
    "tagline": null,
-   "emcee": "MaryLiz"
+   "emcee": "MaryLiz",
+   "id": "e_10122d118885"
   },
   {
    "artist": "Adam Stark",
@@ -3562,7 +3823,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "MaryLiz"
+   "emcee": "MaryLiz",
+   "id": "e_10122d118885"
   },
   {
    "artist": "Kathi Geiger",
@@ -3579,7 +3841,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "MaryLiz"
+   "emcee": "MaryLiz",
+   "id": "e_10122d118885"
   },
   {
    "artist": "Josh Draper",
@@ -3596,7 +3859,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/josh-draper.jpeg",
    "bio": "Joshua Draper is an improv practitioner and facilitator trained at the Second City Training Center and Improv Olympic in Chicago. With over a decade of experience in improvisation and stand-up comedy, he brings a playful, grounded approach to performance and personal development through his workshop Grow Through Play.",
    "tagline": null,
-   "emcee": "MaryLiz"
+   "emcee": "MaryLiz",
+   "id": "e_10122d118885"
   },
   {
    "artist": "Gio Israel",
@@ -3613,7 +3877,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Gio%20Israel.jpeg",
    "bio": "Gio Israel is the creator and director of Seekers, building the world’s largest accessible collection of human wisdom. For two decades, he has documented rituals and ceremonies globally. An initiated Sufi (Mevlevi Order), he co-founded Frequency (acquired), led strategy for Midburn (Burning Man’s largest regional event), and built the world’s largest ceremonial instrument collection on Splice.",
    "tagline": null,
-   "emcee": "Brent Pella"
+   "emcee": "Brent Pella",
+   "id": "e_7481f7cf0cf2"
   },
   {
    "artist": "Sísý Ey",
@@ -3630,7 +3895,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sisy-ey.jpg",
    "bio": "Sísý Ey is an Icelandic house band of three sisters blending soulful vocals with electronic dance music.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_83c689a51fe6"
   },
   {
    "artist": "Vök",
@@ -3647,7 +3913,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/vok.jpeg",
    "bio": "Vök is an Icelandic electronic band from Reykjavík known for their ethereal dream-pop sound combining electronic production with indie sensibilities, celebrated for emotionally resonant music.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_b9f9543fbcc3"
   },
   {
    "artist": "Kayla Knopp",
@@ -3664,7 +3931,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Brent Pella"
+   "emcee": "Brent Pella",
+   "id": "e_fff1821796bf"
   },
   {
    "artist": "Chandra Khalifian",
@@ -3681,7 +3949,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Brent Pella"
+   "emcee": "Brent Pella",
+   "id": "e_fff1821796bf"
   },
   {
    "artist": "Skylar Kelsven",
@@ -3698,7 +3967,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Brent Pella"
+   "emcee": "Brent Pella",
+   "id": "e_fff1821796bf"
   },
   {
    "artist": "dj. flugvél og geimskip",
@@ -3715,7 +3985,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dj-flugvel-og-geimskip.jpg",
    "bio": "dj. flugvél og geimskip is Icelandic artist Steinunn Harðardóttir, creating surreal electronic music blending storytelling, poetry, and performance.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_ab1924754a28"
   },
   {
    "artist": "Ali Love",
@@ -3732,7 +4003,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ali-love.jpg",
    "bio": "Ali Love is a London-born DJ, singer, and songwriter, known for collaborations with Justice, Chemical Brothers, and Hot Natured.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_4ca062e2e8ea"
   },
   {
    "artist": "RJD2",
@@ -3749,7 +4021,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rjd2.jpg",
    "bio": "Ramble Jon Krohn, known as RJD2, is an American musician and producer, owner of RJ's Electrical Connections, and known for his work across hip-hop and electronic music including Soul Position.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_997dd96ed146"
   },
   {
    "artist": "Bear Kittay presents Topia",
@@ -3766,7 +4039,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_ebcb9216069a"
   },
   {
    "artist": "Erik Hammer",
@@ -3783,7 +4057,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/erik-hammer.jpeg",
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_18f1943e8f4d"
   },
   {
    "artist": "Freedom Fighters",
@@ -3800,7 +4075,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/freedom-fighters.jpg",
    "bio": "The psychedelic project of Israeli producer Shahaf Efrat — seven Beatport #1s, three albums, and headline sets at OZORA, Tomorrowland, and Rainbow Serpent.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_47c311deca7a"
   },
   {
    "artist": "Rojelio Carrillo Carrillo",
@@ -3817,7 +4093,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rojelio-carrillo.png",
    "bio": "Rojelio Carrillo Carrillo is a Marakame — a ceremonial leader and shaman of the Wixarika people of Mexico — carrying the living traditions of his ancestors through story, prayer, and sacred ceremony.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_b8d29c322ac4"
   },
   {
    "artist": "CloZee with Live visuals by Android Jones",
@@ -3834,7 +4111,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/clozee.webp",
    "bio": "Chloé Herry, known as CloZee, is a French DJ and producer blending UK bass, dubstep, and world music into an organic, rhythmic sound that evokes a spiritual electronic atmosphere.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_a769f5571dac"
   },
   {
    "artist": "Mendeleyev",
@@ -3851,7 +4129,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/mendeleyev.jpeg",
    "bio": "Mendeleyev (Lev Allan-Blitz) is a baritone singer-songwriter, producer, and Berklee alum — a Season 17 NBC Voice standout, spreading soulful funk-folk across stages worldwide.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_963d1d87e615"
   },
   {
    "artist": "Joaqopelli Tribute: GDubz & Mena Domina",
@@ -3868,7 +4147,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/gdubz-joaqopelli-tribute.jpg",
    "bio": "GDubz is a DJ blending hip-hop, dubstep, and Indigenous powwow sounds into high-energy electronic performances.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_da3cca12385d"
   },
   {
    "artist": "Gio Israel",
@@ -3885,7 +4165,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Gio%20Israel.jpeg",
    "bio": "Gio Israel is the creator and director of Seekers, building the world’s largest accessible collection of human wisdom. For two decades, he has documented rituals and ceremonies globally. An initiated Sufi (Mevlevi Order), he co-founded Frequency (acquired), led strategy for Midburn (Burning Man’s largest regional event), and built the world’s largest ceremonial instrument collection on Splice.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_4201b9fbdcb1"
   },
   {
    "artist": "Winter Jendayi",
@@ -3902,7 +4183,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/winter-jendayi.jpg",
    "bio": "Winter Jendayi is a singer, musician, and ceremonialist rooted in earth-based healing arts, with over a decade of devoted study in Indigenous traditions and a deep reclamation of her ancestral ways. Her music—woven from sacred study and lineage—carries the medicines of the Four Directions, and her voice, described as both angelic and strong, has brought healing to many.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fb3aa64c5d2b"
   },
   {
    "artist": "Desert Hearts",
@@ -3919,7 +4201,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/desert-hearts.jpg",
    "bio": "Desert Hearts is a California house and techno collective spreading love and community through festivals, music, and global events.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_307080aa966b"
   },
   {
    "artist": "VNCCII",
@@ -3936,7 +4219,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/vnccii.jpeg",
    "bio": "VNCCII is the intergalactic, futuristic alter ego of Samantha Tauber, a Sydney-born, London-based multimedia artist, music producer, and creative technologist",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_8f2ec740297c"
   },
   {
    "artist": "Apashe & Brass Orchestra",
@@ -3953,7 +4237,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/apashe-brass-orchestra.jpeg",
    "bio": "sold-out shows from Madison Square Garden to the Sydney Opera House.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_2518b62ee5b2"
   },
   {
    "artist": "Bear Kittay Topia Band Jam",
@@ -3970,7 +4255,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_270ee450836f"
   },
   {
    "artist": "East Forest",
@@ -3987,7 +4273,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/east-forest.webp",
    "bio": "East Forest is Trevor Oswalt — American multi-instrumentalist known for cinematic, meditative music blending ambient, classical, and world influences toward healing and awakening.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_b2268def1dc6"
   },
   {
    "artist": "Klaki",
@@ -4004,7 +4291,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/klaki.jpg",
    "bio": "Icelandic composer Gísli Brynjarsson — his cinematic electronic sound, layered with live saxophone, vocals, and neoclassical textures, builds immersive worlds designed to deepen wellbeing.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_778dbd4846ac"
   },
   {
    "artist": "ANNA",
@@ -4021,7 +4309,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/anna.jpg",
    "bio": "Brazilian DJ Ana Miranda began at her father's São Paulo nightclub at 14. A global techno force with releases on Afterlife, Drumcode, and Kompakt — she's played Coachella, Time Warp, and Sónar.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_51bce9979d03"
   },
   {
    "artist": "Sacred Explorer",
@@ -4038,7 +4327,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sacred-explorer.jpg",
    "bio": "SACRED EXPLORER, the luminous project of Jose Manuel Elias Verdera, is a visionary guide and experience designer weaving ancient wisdom, ritual, and innovation. For over two decades he has curated transformative pilgrimages, ceremonies, and immersive global gatherings.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_a52fe1924831"
   },
   {
    "artist": "Above & Beyond",
@@ -4055,7 +4345,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/above-and-beyond.jpg",
    "bio": "Above & Beyond have led electronic music for two decades. Founders of\n  Anjunabeats and Anjunadeep, two-time GRAMMY nominees, and hosts of Group    \n  Therapy radio, reaching millions every Friday.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_6db4196d7750"
   },
   {
    "artist": "Natural Symphony",
@@ -4072,7 +4363,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/natural-symphony.jpg",
    "bio": "London-based sound and light artist Joey creates techno, ambient, and DNB using plants and biofeedback devices as instruments — a Glastonbury, Burning Man, and Barbican performer.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_d6731d59e4d3"
   },
   {
    "artist": "Nick Warren",
@@ -4089,7 +4381,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/nick-warren.jpeg",
    "bio": "Nick Warren is a British DJ and producer known for his influential Global Underground mix series and decades of shaping the progressive house and electronic music scenes.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_eafd5949d696"
   },
   {
    "artist": "BigRedMachine",
@@ -4106,7 +4399,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/bigredmachine.jpg",
    "bio": "BigRedMachine is a DJ and community builder who co-founded ETHDenver",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_c876cf559e55"
   },
   {
    "artist": "Dave Clarke",
@@ -4123,7 +4417,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dave-clarke.jpg",
    "bio": "Dave Clarke, known as 'The Baron of Techno,' is a British DJ and producer who has been a prominent figure in electronic music since the early 1990s, celebrated for his hard-hitting techno.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_15e0ef6cdec0"
   },
   {
    "artist": "John 00 Fleming",
@@ -4140,7 +4435,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/john-00-fleming.webp",
    "bio": "John 00 Fleming is a British DJ, producer, and founder of JOOF Recordings, a leading figure in psytrance and progressive trance for over two decades.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_9c90bf302bec"
   },
   {
    "artist": "exos",
@@ -4157,7 +4453,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/exos.jpg",
    "bio": "Exos is an Icelandic techno DJ and producer active since the mid-1990s with influential dub techno releases.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_0644aca76f33"
   },
   {
    "artist": "Lisa Love Rueff",
@@ -4174,7 +4471,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Lisa%20love%20Rueff.jpg",
    "bio": "Lisa Rueff is a transformational guide, sound healer, and facilitator of heart-centered experiences that bridge ancient wisdom with modern, science-informed practices. She creates immersive spaces that support nervous system regulation, emotional release, and deep inner connection through breathwork, sound healing, meditation, and somatic practices. She offers powerful group activations and intimate integration spaces designed to help participants feel grounded, open, and deeply connected to their hearts.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_4c8db408df2a"
   },
   {
    "artist": "Rise N Thrive",
@@ -4191,7 +4489,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_111e593ae76f"
   },
   {
    "artist": "INNA",
@@ -4208,7 +4507,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_9e9342e57f5a"
   },
   {
    "artist": "Austin Mao",
@@ -4225,7 +4525,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/austin-mao.jpg",
    "bio": "Austin Mao is the founder of Ceremonia, a platform for plant medicine and consciousness exploration through ceremonial experiences and programs rooted in ancient wisdom traditions.",
    "tagline": null,
-   "emcee": "Chandra Khalifian"
+   "emcee": "Chandra Khalifian",
+   "id": "e_efe968037a1c"
   },
   {
    "artist": "Victor Gressier",
@@ -4242,7 +4543,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/victor-gressier.jpg",
    "bio": "Victor Gressier is a voice and sound facilitator with roots in Iceland, on a long path of learning through world traditions of song and ceremony. With training at the Globe Institute and time studying in the Amazon, he creates vibrant spaces where people reconnect to trust, presence, and the freedom of their voice.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_820d5af9973d"
   },
   {
    "artist": "Luana Schwengber",
@@ -4259,24 +4561,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/luana-schwengber.jpeg",
    "bio": "Luana is a Brazilian DJ, singer, and ceremonialist sharing music at conscious gatherings across Bali, Tulum, Europe, and Latin America.",
    "tagline": null,
-   "emcee": null
-  },
-  {
-   "artist": "EDGE CITY: LIGHTING OPEN MIC BLOCK",
-   "title": "Telamon Ardavanis",
-   "isHostBlock": false,
-   "status": "confirmed",
-   "category": "Community Space",
-   "subcategory": null,
-   "date": "2026-08-15",
-   "day": "Saturday 15 August",
-   "start": "11:00",
-   "durationMin": 50,
-   "stage": "POLARIS",
-   "headshot": null,
-   "bio": null,
-   "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_820d5af9973d"
   },
   {
    "artist": "Rick Doblin, Dr.",
@@ -4293,7 +4579,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rick-doblin.jpg",
    "bio": "Rick Doblin, Ph.D., is the founder and president of the 40-year-old Multidisciplinary Association for Psychedelic Studies (MAPS). His professional goal is to help develop legal contexts for the beneficial uses of psychedelics and marijuana, primarily as prescription medicines but also for personal growth for otherwise healthy people.",
    "tagline": null,
-   "emcee": "Chandra Khalifian"
+   "emcee": "Chandra Khalifian",
+   "id": "e_203c8da40406"
   },
   {
    "artist": "Simeon Schnapper",
@@ -4310,7 +4597,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/simeon-schnapper.jpeg",
    "bio": "Simeon Schnapper is an investor and philanthropist with JLS Fund, supporting innovative projects in consciousness, wellness, and social impact that promote human potential.",
    "tagline": null,
-   "emcee": "Chandra Khalifian"
+   "emcee": "Chandra Khalifian",
+   "id": "e_a6e88c0c3b69"
   },
   {
    "artist": "Rose Uzunova",
@@ -4327,7 +4615,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Rose%20Uzunova.jpg",
    "bio": "RosE Uzunova is CCO at the Psychedelic Science Funders Collaborative (PSFC). Rose is a community architect, bridge-builder, and strategic connector. As a facilitator, she guides individuals into embodied leadership and groups into collective coherence, creating spaces where meaningful collaboration and transformative ideas can emerge",
    "tagline": null,
-   "emcee": "Chandra Khalifian"
+   "emcee": "Chandra Khalifian",
+   "id": "e_a6e88c0c3b69"
   },
   {
    "artist": "Sara María Júlíusdóttir",
@@ -4344,7 +4633,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sara-maria-juliusdottir.jpeg",
    "bio": "Icelandic advocate with Eden Foundation exploring solar eclipse phenomena, environmental consciousness, and ancestral wisdom.",
    "tagline": null,
-   "emcee": "Chandra Khalifian"
+   "emcee": "Chandra Khalifian",
+   "id": "e_a6e88c0c3b69"
   },
   {
    "artist": "Rick Doblin, Dr.",
@@ -4361,7 +4651,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rick-doblin.jpg",
    "bio": "Rick Doblin, Ph.D., is the founder and president of the 40-year-old Multidisciplinary Association for Psychedelic Studies (MAPS). His professional goal is to help develop legal contexts for the beneficial uses of psychedelics and marijuana, primarily as prescription medicines but also for personal growth for otherwise healthy people.",
    "tagline": null,
-   "emcee": "Chandra Khalifian"
+   "emcee": "Chandra Khalifian",
+   "id": "e_a6e88c0c3b69"
   },
   {
    "artist": "Illi Adato",
@@ -4378,7 +4669,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/illi-adato.png",
    "bio": "Illi Adato is an internationally renowned, therapist, group facilitator and teacher in the field of Systemic - Family Constellations and Systemic Ritual®️. He is a developer of unique and powerful therapeutic modalities that brings Consciousness qualities into the core of the healing process.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_7d18672e128c"
   },
   {
    "artist": "Freyr Friðfinnsson",
@@ -4395,7 +4687,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/freyr-fridfinnsson.jpg",
    "bio": "Freyr Friðfinnsson works with KLAK Icelandic Startups, supporting founders and strengthening the Nordic innovation ecosystem.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_fabff839cd9f"
   },
   {
    "artist": "Amanda Sage",
@@ -4412,7 +4705,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/amanda-sage.jpg",
    "bio": "Visionary painter trained under Ernst Fuchs in Vienna — her luminous figure paintings have shown internationally at galleries, Burning Man, and the Chapel of Sacred Mirrors.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_852e0c0324ce"
   },
   {
    "artist": "Alex Grey & Allyson Grey",
@@ -4429,7 +4723,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/alex-allyson-grey.png",
    "bio": "Alex Grey & Allyson Grey are visionary artists and co-founders of Chapel of Sacred Mirrors (CoSM), a sanctuary for visionary art and creativity",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_852e0c0324ce"
   },
   {
    "artist": "Nightmares on Wax",
@@ -4446,7 +4741,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/nightmares-on-wax.jpg",
    "bio": "Nightmares on Wax is George Herbert Evelyn — credited with inventing the 'chillout' genre on Warp Records since 1990, blending soul, hip-hop, and electronic music into warm, hypnotic sets.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_66384ac60382"
   },
   {
    "artist": "DJ Andrea Jóns",
@@ -4463,7 +4759,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dj-andrea-jons.jpg",
    "bio": "DJ Andrea Jóns is an electronic music DJ known for diverse sets spanning multiple genres, celebrated for her ability to create energetic and engaging dance experiences.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_0f9610e647b2"
   },
   {
    "artist": "Red Owl Medicine Woman",
@@ -4480,7 +4777,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/red-owl-medicine-woman.jpeg",
    "bio": "Red Owl Medicine Woman has devoted four decades to women's mysteries: womb wisdom, pregnancy, and birth. A birth keeper for 300+ families in Ibiza, Shamanic practitioner and Priestess of Brigid, she holds Red Tents and circles as sacred space.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_6a7d8afbdbcd"
   },
   {
    "artist": "Janeya Griffin",
@@ -4497,7 +4795,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/janeya-griffin.jpg",
    "bio": "Janeya Griffin is a space equity advocate associated with the Equity Space Alliance Association, working to ensure diverse representation and equal access in space exploration and the space industry.",
    "tagline": null,
-   "emcee": "Chris Huie"
+   "emcee": "Chris Huie",
+   "id": "e_7eab38971c29"
   },
   {
    "artist": "Gabor Szorad",
@@ -4514,7 +4813,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/gabor-szorad.webp",
    "bio": "Gabor Szórád has lead companies from 5 to 8,200 people and has worked full-time on AI since GPT-3.5 launched — both through SaferAI (AI safety NGO) and helping founders use AI as a slingshot against larger competitors. He is currently writing a book on AI and human wisdom, and believes the most important AI question isn't \"what can it do?\" but \"what does it give back to us?\"",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_bb18c3ba797e"
   },
   {
    "artist": "Space For Humanity",
@@ -4531,7 +4831,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/space-for-humanity.png",
    "bio": "Space for Humanity is a non-profit that provides citizens access to space through its Citizen Astronaut Program, using the orbital perspective to inspire positive change on Earth.",
    "tagline": null,
-   "emcee": "Chris Huie"
+   "emcee": "Chris Huie",
+   "id": "e_9be64d5ea8da"
   },
   {
    "artist": "Olafur Sigurvinsson",
@@ -4548,7 +4849,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Olafur%20Sigurvinsson.jpeg",
    "bio": "Building the digital infrastructure of tomorrow. 30+ years pioneering ISPs, data centers, and AI-powered edge computing across Europe.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_0a3ed7bd320f"
   },
   {
    "artist": "Alexander Layendecker, Dr.",
@@ -4565,7 +4867,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/alexander-layendecker.webp",
    "bio": "Dr. Alexander Layendecker is founder and Director of the Advanced SpaceLife Research Institute, pioneering research on human sexuality and reproduction in off-Earth environments. A former USAF Combat Search and Rescue pilot, he bridges space operations with human futures in space.",
    "tagline": null,
-   "emcee": "Chris Huie"
+   "emcee": "Chris Huie",
+   "id": "e_5927e9757afc"
   },
   {
    "artist": "Ari Eisenstat",
@@ -4582,7 +4885,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ari-eisenstat.jpg",
    "bio": "International Futurist at University of Hawaiʻi Research Organization — where futures studies meets lived experience as a person with disabilities, reimagining how we build more inclusive worlds.",
    "tagline": null,
-   "emcee": "Chris Huie"
+   "emcee": "Chris Huie",
+   "id": "e_5927e9757afc"
   },
   {
    "artist": "Emily Bilbao",
@@ -4599,7 +4903,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/emily-bilbao.png",
    "bio": "Emily is a public policy expert whose work spans the White House, State Department, and emerging technology innovation.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f5efd74a9d8b"
   },
   {
    "artist": "Jordan Amadio, Dr.",
@@ -4616,7 +4921,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jordan-amadio.jpeg",
    "bio": "Dr. Jordan Amadio is a neuroscientist and consciousness researcher who explores the intersection of brain science, human potential, and transformative experiences.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f5efd74a9d8b"
   },
   {
    "artist": "JT Marino",
@@ -4630,10 +4936,11 @@
    "start": "15:00",
    "durationMin": 50,
    "stage": "AFTERGLOW (Dome)",
-   "headshot": null,
-   "bio": null,
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jt-marino.jpg",
+   "bio": "JT Marino co-founded Tuft & Needle, disrupting the mattress industry with e-commerce, and now leads Marino, a conscious-focused R&D lab. Featured in Forbes and Recode, he's a frequent keynote speaker at SXSW and Startup Grind.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f5efd74a9d8b"
   },
   {
    "artist": "Linea Avey",
@@ -4647,10 +4954,11 @@
    "start": "15:00",
    "durationMin": 50,
    "stage": "AFTERGLOW (Dome)",
-   "headshot": null,
-   "bio": null,
+   "headshot": "https://storage.googleapis.com/icelandeclipse/participants/linea-avey.webp",
+   "bio": "Linda Avey is a founding general partner at Humain Ventures and founder of 23andMe, a pioneer in digital health and genetic research now advising Colossal Biosciences and Stanford Medical Center.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f5efd74a9d8b"
   },
   {
    "artist": "Scarlett de la torre",
@@ -4667,7 +4975,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/scarlett-de-la-torre.png",
    "bio": "Sound healer and vocal facilitator specializing in voice activation and harmonic meditation — using the voice as a primary instrument for healing and transformation.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_b0bd1c464a5a"
   },
   {
    "artist": "Ben Haldeman",
@@ -4684,7 +4993,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ben-haldeman.webp",
    "bio": null,
    "tagline": null,
-   "emcee": "Chris Huie"
+   "emcee": "Chris Huie",
+   "id": "e_85c3e5a6176e"
   },
   {
    "artist": "Mitch Morales",
@@ -4701,7 +5011,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": "Chris Huie"
+   "emcee": "Chris Huie",
+   "id": "e_85c3e5a6176e"
   },
   {
    "artist": "Alex Jay & DJ McLov3n",
@@ -4718,7 +5029,8 @@
    "headshot": null,
    "bio": "DJ McLov3n has spent 20+ years building dance floors from Austin house parties to Electric Forest, while Alex J. Moscow has spent 14 years crafting transformative live experiences for top entrepreneurs. Together, pure energy.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_9b6b6fa565e2"
   },
   {
    "artist": "Dr Chrispy",
@@ -4735,7 +5047,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dr-chrispy.jpg",
    "bio": "Australian astronaut, aeronautical engineer, and music producer who worked at NASA — creating space-inspired music from real mission data and bringing the cosmos to the dance floor.",
    "tagline": null,
-   "emcee": "Jason Achiles"
+   "emcee": "Jason Achiles",
+   "id": "e_6e97aecd8c0e"
   },
   {
    "artist": "Magnús Jensson",
@@ -4752,7 +5065,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/magnus-jensson.png",
    "bio": "Magnús is the architect of the Ásatrú temple in Reykjavík",
    "tagline": null,
-   "emcee": "Ruth Daniel"
+   "emcee": "Ruth Daniel",
+   "id": "e_e9e54b14bb67"
   },
   {
    "artist": "Nik Halik",
@@ -4769,7 +5083,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/nik-halik.jpeg",
    "bio": "Nik Halik is a #1 Wall Street Journal bestselling author, entrepreneur, astronaut candidate, and extreme adventurer. Founder of 5 Day Weekend®, he has explored 175+ countries and pushed human limits from Everest skies to Titanic depths.",
    "tagline": null,
-   "emcee": "Jason Achiles"
+   "emcee": "Jason Achiles",
+   "id": "e_0345ce8f84c1"
   },
   {
    "artist": "Ruth Daniel",
@@ -4786,7 +5101,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ruth-daniel.jpg",
    "bio": "Ruth Daniel is a multi-award-winning cultural producer, musician, and social entrepreneur, and the CEO and Artistic Director of the international NGO In Place of War. Through her work across music, art, and activist - including projects like EarthSonic - she connects artists, communities, and researchers worldwide to use creativity as a catalyst for social and environmental change.",
    "tagline": null,
-   "emcee": "Ruth Daniel"
+   "emcee": "Ruth Daniel",
+   "id": "e_47d121ad6dd5"
   },
   {
    "artist": "Fox Train Safari",
@@ -4803,7 +5119,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/fox-train-safari.jpg",
    "bio": "A soulful funky R&B Pop group",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_286d9fcbf9c1"
   },
   {
    "artist": "FRDRK",
@@ -4820,7 +5137,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/frdrk.webp",
    "bio": "FRDRK is a British singer, songwriter, DJ, and musician known for appearing on the reality TV show Made in Chelsea",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_3dd32bb21528"
   },
   {
    "artist": "CEREMONY",
@@ -4837,7 +5155,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_a93012ac7958"
   },
   {
    "artist": "Henk Rogers",
@@ -4854,7 +5173,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Henk%20Rogers.jpg",
    "bio": "Henk Rogers, creator of Tetris, is founder of Blue Planet Alliance, dedicating his later career to fighting climate change through renewable energy transitions and environmental sustainability.",
    "tagline": null,
-   "emcee": "Jason Achiles"
+   "emcee": "Jason Achiles",
+   "id": "e_67e253474009"
   },
   {
    "artist": "Néfur",
@@ -4871,7 +5191,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/nefur.jpg",
    "bio": "Catalan-born, Reykjavík-based artist who makes music with glaciers — field recordings, voice, and electronics woven into intimate meditations on Arctic landscapes and impermanence.",
    "tagline": null,
-   "emcee": "Ruth Daniel"
+   "emcee": "Ruth Daniel",
+   "id": "e_d98c6b524150"
   },
   {
    "artist": "gugusar",
@@ -4888,7 +5209,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/gugusar.jpg",
    "bio": "gugusar is an electronic music producer creating experimental compositions that blend ambient and rhythmic elements, exploring themes of nature and technology through electronic soundscapes.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_ae1a2286fdf8"
   },
   {
    "artist": "Intergalactic Transmission: Showcase",
@@ -4905,7 +5227,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_5876ab2a1d41"
   },
   {
    "artist": "Daði Freyr",
@@ -4922,7 +5245,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dadi-freyr.jpg",
    "bio": "Daði Freyr Pétursson is an Icelandic musician who gained international fame at Eurovision, known for catchy electronic pop and a distinctive retro style that has made him a defining Icelandic voice.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_734322fec9f7"
   },
   {
    "artist": "Android Jones",
@@ -4939,7 +5263,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/android-jones.jpg",
    "bio": "Android Jones is a digital painter known for layered psychedelic artworks and immersive live performances using a custom built digital setup. His work focuses on spirituality and altered states of consciousness, blending technology and visionary art in what he calls Electro-Mineralism.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_d13c534829d2"
   },
   {
    "artist": "Martha Jones",
@@ -4956,7 +5281,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_d13c534829d2"
   },
   {
    "artist": "Jamie Clarke (Either)",
@@ -4973,7 +5299,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jamie-clarke-either.jpg",
    "bio": "Founder of Either Recording, an electronic music label built on an uncompromising approach to forward-thinking sound — driven by the belief that music should push edges, not meet expectations.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_4fc373d2a8c0"
   },
   {
    "artist": "Curawaka",
@@ -4990,7 +5317,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/curawaka.jpeg",
    "bio": "Norwegian-Mexican-Argentine collective blending ceremonial rhythms, traditional instruments, and powerful vocals into conscious cross-cultural music with millions of streams worldwide.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_db51012d7e72"
   },
   {
    "artist": "Fear N Love",
@@ -5007,7 +5335,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/fear-n-love.jpg",
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_b4ddb004468b"
   },
   {
    "artist": "Nana Marina Cruz",
@@ -5024,7 +5353,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_1ebc101b88ef"
   },
   {
    "artist": "Shanin Blake",
@@ -5041,7 +5371,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Shanin%20Blake.jpeg",
    "bio": "Shanin Blake is a self-made, genre-bending musician and visionary artist blending ethereal vocals, conscious lyricism, and raw emotional power. With over 3 million followers and reels topping 25 million views, she records and releases her music completely DIY. A single mother who rose from living out of a van, Shanin has headlined sold-out U.S. tours and built a fiercely loyal fanbase drawn to her story of healing, resilience, and rise.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_b757bba2b941"
   },
   {
    "artist": "James Ellington",
@@ -5058,7 +5389,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/james-ellington.jpg",
    "bio": "James Ellington is a producer, DJ, film composer, and co-founder of the electronic music collective RVDIOVCTIVE. Known for his eclectic sets, he creates dynamic musical journeys that balance infectious grooves with thoughtful listening",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_42a2fb9c9f1d"
   },
   {
    "artist": "Justin Sloe (Droog)",
@@ -5075,7 +5407,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/justin-sloe-droog.jpg",
    "bio": "One-third of LA underground collective Droog and co-founder of the Culprit label. A two-decade fixture of deep house and techno who's played Fabric London, Crosstown Rebels, and beyond.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_ef316b061411"
   },
   {
    "artist": "Arc De Soleil",
@@ -5092,7 +5425,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/arc-de-soleil.jpeg",
    "bio": "Arc De Soleil is the psychedelic world-funk project of composer Daniel Kadawatha, blending surf guitar, soul, and global grooves.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_95b26d2d856d"
   },
   {
    "artist": "Kári Viðarsson",
@@ -5109,7 +5443,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/kari-vidarsson.jpg",
    "bio": "Kári Viðarsson is the Owner of The Freezer, an award-winning cultural hub and hostel in a repurposed fish factory on Snæfellsnes. He is an actor, activist, and entrepreneur who has spent a decade breathing life into Iceland's west.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_838647dcea53"
   },
   {
    "artist": "Elliot From Earth",
@@ -5126,7 +5461,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/elliot-from-earth.jpg",
    "bio": "Elliot From Earth is a New Orleans-based DJ and event producer known for sending dance floors into orbit. His selections playfully bounce between house, techno, and bass-heavy bangers,  delivering a fresh sound that perfectly matches the moment",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_c00a5b31cb1d"
   },
   {
    "artist": "Hólmar “Acid Tourist”",
@@ -5143,7 +5479,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_721bb916cacc"
   },
   {
    "artist": "Ida Engberg",
@@ -5160,7 +5497,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ida-engberg.jpg",
    "bio": "Ida Engberg is a Swedish DJ and producer, one of the most prominent figures in the Nordic electronic music scene, known for energetic techno and house sets at major festivals worldwide.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_7fda064fd1a7"
   },
   {
    "artist": "Ceremonial Fireside Jam",
@@ -5177,7 +5515,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_9fab1307749d"
   },
   {
    "artist": "Rayconen",
@@ -5194,7 +5533,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rayconen.png",
    "bio": "Tenerife-born DJ with Italian roots, spinning since 14. Resident at Papagayo Tenerife, he's played Blue Marlin Ibiza, Pacha Barcelona, and FIB Benicàssim — winning Heineken Rising Stars 2024.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_3dcc2af1f2dc"
   },
   {
    "artist": "Rechulski",
@@ -5211,7 +5551,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/RECHULSKI.jpg",
    "bio": "DJ & Producer known for his deeply hypnotic and spellbinding sets, and for founding the legendary event series, collective and label Sheik N Beik in NYC, as well as the Okeechobee Music & Arts Festival in Florida. Rechulski is also the co-founder of Sungai Design and sits on the Board of Sungai Watch, helping clean Indonesia’s rivers from plastic pollution.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_f12fbb74a6c7"
   },
   {
    "artist": "GusGus",
@@ -5228,7 +5569,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/gusgus.jpg",
    "bio": "Icelandic electronic band from Reykjavík formed in 1995, blending techno, house, and ambient across three decades of boundary-pushing music. One of Iceland's most internationally recognized acts.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_42415c707876"
   },
   {
    "artist": "TRAVELER",
@@ -5245,7 +5587,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/traveler.jpg",
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_20a9bd040afb"
   },
   {
    "artist": "DJ Margeir",
@@ -5262,7 +5605,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dj-margeir.webp",
    "bio": "DJ Margeir is an Icelandic DJ and electronic music producer who has been a prominent figure in Iceland's electronic music scene. Known for his energetic sets and diverse musical selection.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_705ba12d1027"
   },
   {
    "artist": "Solar Simon",
@@ -5279,7 +5623,8 @@
    "headshot": "https://storage.googleapis.com/icelandeclipse/participants/solar-simon.jpg",
    "bio": "Solar Simon is a pioneering eclipse DJ and event creator known for originating the solar eclipse party movement. For over three decades he has produced global eclipse gatherings and closes festivals with curated eclipse-themed sets celebrating community, music, and cosmic wonder.",
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_96645dd15d62"
   },
   {
    "artist": "VisionQuest",
@@ -5296,7 +5641,8 @@
    "headshot": null,
    "bio": null,
    "tagline": null,
-   "emcee": null
+   "emcee": null,
+   "id": "e_27cab28faa8c"
   }
  ]
 }
