@@ -6,9 +6,13 @@
 set -u
 
 DOC="src/docs/ARCHITECTURE.md"
-# File paths whose behavior the architecture doc describes. Keep in sync with
-# the doc's sections (auth, favorites, schedule pipeline, email, deploy).
-PATTERNS='^src/lib/(auth|favorites|profile|schedule|email)|^src/app/api/(auth|profile)/|^src/scripts/normalize_schedule|^scripts/sync_schedule|^src/proxy\.ts'
+# Paths that usually mean the architecture doc is now stale. Two kinds:
+#  - documented subsystems (auth, favorites, schedule, email, deploy), and
+#  - structural signals of a NEW subsystem: any API route, a new dependency,
+#    middleware/proxy, or a top-level config change.
+# This is only a heuristic — the EOD routine is the comprehensive reviewer that
+# judges whether ANY change is architecturally significant. Extend as the app grows.
+PATTERNS='^src/lib/(auth|favorites|profile|schedule|email)|^src/app/api/|^src/scripts/normalize_schedule|^scripts/sync_schedule|^src/proxy\.ts|^src/package\.json|^src/next\.config|^src/middleware\.ts'
 ZERO="0000000000000000000000000000000000000000"
 
 flagged=0
