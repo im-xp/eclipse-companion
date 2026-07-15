@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useDict } from "@/lib/i18n/LocaleProvider";
 import type { Dict } from "@/lib/i18n";
+import { LanguageToggle } from "@/components/LanguageToggle";
 
 const navItems = (dict: Dict) => [
   {
@@ -83,7 +84,12 @@ export function AppHeader() {
             </Link>
           ))}
         </nav>
-        <span className="eyebrow text-ash-grey">{dict.nav.dates}</span>
+        <span className="flex items-center gap-3">
+          <span className="eyebrow hidden text-ash-grey sm:inline">
+            {dict.nav.dates}
+          </span>
+          <LanguageToggle />
+        </span>
       </div>
     </header>
   );

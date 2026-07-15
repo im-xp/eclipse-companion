@@ -28,6 +28,12 @@ async function sha256Hex(input: string): Promise<string> {
 }
 
 function pickLocale(req: NextRequest): Locale {
+  // TEMPORARY (testing phase, Jon 2026-07-15): the header language toggle
+  // sets a `lang` cookie that overrides the domain/geo default on every
+  // environment, so Icelandic can be reviewed without an Icelandic IP.
+  // Remove this block + components/LanguageToggle.tsx to go toggle-less.
+  const chosen = req.cookies.get("lang")?.value;
+  if (chosen === "en" || chosen === "is") return chosen;
   // Vercel overwrites x-vercel-ip-country on ALL its deployments (previews
   // included), so staging can't spoof the geo path with a header. Dev and
   // preview builds honor an explicit override instead; production never does.
