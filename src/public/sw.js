@@ -3,7 +3,9 @@
 // signal), cache fallback when truly offline; stale-while-revalidate for
 // hashed static assets and artist headshots; network-only for API/auth.
 // Bump VERSION on any strategy change to retire old caches.
-const VERSION = "ie-v1";
+// v2: [locale] segment restructure changed RSC payload shapes — a clean cache
+// avoids serving pre-i18n cached RSC against the new router tree.
+const VERSION = "ie-v2";
 const PRECACHE = `ie-precache-${VERSION}`;
 const RUNTIME = `ie-runtime-${VERSION}`;
 

@@ -15,7 +15,16 @@
     "bio": "Guests enter 500+ metres of paths carved through layers of blue glacial ice more than 10,000 years old, descending into an ice chamber where the natural acoustics of the crystal caves become the venue. Includes roundtrip transport from the festival and a short tour of the glacier cave system.",
     "tagline": "$600 · 100 guests · Roundtrip transport included",
     "emcee": null,
-    "link": { "label": "Secure your spot", "href": "http://feverup.com/m/474974" }
+    "link": {
+      "label": "Secure your spot",
+      "href": "http://feverup.com/m/474974"
+    },
+    "is": {
+      "title": "Inn í jökulinn — tónleikar í íshvelfingu Langjökuls",
+      "bio": "Gestir ganga um rúmlega 500 metra af göngum sem höggvin eru gegnum lög af bláum jökulís, meira en 10.000 ára gömlum, og halda niður í íshvelfingu þar sem náttúrulegur hljómburður kristalhellanna verður að tónleikastað. Innifalið er far frá hátíðinni og til baka ásamt stuttri skoðunarferð um íshellakerfið.",
+      "tagline": "$600 · 100 gestir · Far báðar leiðir innifalið",
+      "linkLabel": "Tryggðu þér miða"
+    }
   },
   {
     "artist": "Nightmares on Wax (DJ set)",
@@ -33,7 +42,16 @@
     "bio": "Guests enter 500+ metres of paths carved through layers of blue glacial ice more than 10,000 years old, descending into an ice chamber where the natural acoustics of the crystal caves become the venue. Includes roundtrip transport from the festival and a short tour of the glacier cave system.",
     "tagline": "$600 · 100 guests · Roundtrip transport included",
     "emcee": null,
-    "link": { "label": "Secure your spot", "href": "http://feverup.com/m/474974" }
+    "link": {
+      "label": "Secure your spot",
+      "href": "http://feverup.com/m/474974"
+    },
+    "is": {
+      "title": "Inn í jökulinn — tónleikar í íshvelfingu Langjökuls",
+      "bio": "Gestir ganga um rúmlega 500 metra af göngum sem höggvin eru gegnum lög af bláum jökulís, meira en 10.000 ára gömlum, og halda niður í íshvelfingu þar sem náttúrulegur hljómburður kristalhellanna verður að tónleikastað. Innifalið er far frá hátíðinni og til baka ásamt stuttri skoðunarferð um íshellakerfið.",
+      "tagline": "$600 · 100 gestir · Far báðar leiðir innifalið",
+      "linkLabel": "Tryggðu þér miða"
+    }
   },
   {
     "artist": "Ásgeir",
@@ -51,7 +69,16 @@
     "bio": "An intimate, acoustic performance inside Vatnshellir Lava Cave, an 8,000-year-old lava tube beside the Snæfellsjökull stratovolcano — the fictional gateway to the subterranean world in Jules Verne's Journey to the Centre of the Earth. Includes roundtrip transport from the festival.",
     "tagline": "$400 · 50 guests · Roundtrip transport included",
     "emcee": null,
-    "link": { "label": "Secure your spot", "href": "http://feverup.com/m/474974" }
+    "link": {
+      "label": "Secure your spot",
+      "href": "http://feverup.com/m/474974"
+    },
+    "is": {
+      "title": "Hraunhellirinn — órafmagnaðir tónleikar í Vatnshelli, 8.000 ára gömlum hraunhelli",
+      "bio": "Nánir, órafmagnaðir tónleikar í Vatnshelli, 8.000 ára gömlum hraunhelli við eldkeiluna Snæfellsjökul — hliðið að undirheimunum í skáldsögu Jules Verne, Leyndardómum Snæfellsjökuls. Innifalið er far frá hátíðinni og til baka.",
+      "tagline": "$400 · 50 gestir · Far báðar leiðir innifalið",
+      "linkLabel": "Tryggðu þér miða"
+    }
   },
   {
     "artist": "Emilíana Torrini",
@@ -69,7 +96,16 @@
     "bio": "An intimate, acoustic performance inside Vatnshellir Lava Cave, an 8,000-year-old lava tube beside the Snæfellsjökull stratovolcano — the fictional gateway to the subterranean world in Jules Verne's Journey to the Centre of the Earth. Includes roundtrip transport from the festival.",
     "tagline": "$400 · 50 guests · Roundtrip transport included",
     "emcee": null,
-    "link": { "label": "Secure your spot", "href": "http://feverup.com/m/474974" }
+    "link": {
+      "label": "Secure your spot",
+      "href": "http://feverup.com/m/474974"
+    },
+    "is": {
+      "title": "Hraunhellirinn — órafmagnaðir tónleikar í Vatnshelli, 8.000 ára gömlum hraunhelli",
+      "bio": "Nánir, órafmagnaðir tónleikar í Vatnshelli, 8.000 ára gömlum hraunhelli við eldkeiluna Snæfellsjökul — hliðið að undirheimunum í skáldsögu Jules Verne, Leyndardómum Snæfellsjökuls. Innifalið er far frá hátíðinni og til baka.",
+      "tagline": "$400 · 50 gestir · Far báðar leiðir innifalið",
+      "linkLabel": "Tryggðu þér miða"
+    }
   },
   {
     "artist": "Högni",
@@ -87,6 +123,15 @@
     "bio": "An intimate midday performance inside Ingjaldshólskirkja, a historic church just a short walk from the festival grounds. Högni rose to prominence with Hjaltalín and GusGus and has become one of Iceland's most celebrated contemporary composers.",
     "tagline": "$150 · 80 guests",
     "emcee": null,
-    "link": { "label": "Secure your spot", "href": "http://feverup.com/m/474974" }
+    "link": {
+      "label": "Secure your spot",
+      "href": "http://feverup.com/m/474974"
+    },
+    "is": {
+      "title": "Ingjaldshólskirkja — hádegistónleikar í sögufrægu kirkjunni við hátíðarsvæðið",
+      "bio": "Nánir hádegistónleikar í Ingjaldshólskirkju, sögufrægri kirkju í göngufæri frá hátíðarsvæðinu. Högni vakti fyrst athygli með Hjaltalín og GusGus og er í dag eitt ástsælasta samtímatónskáld Íslands.",
+      "tagline": "$150 · 80 gestir",
+      "linkLabel": "Tryggðu þér miða"
+    }
   }
 ]

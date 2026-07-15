@@ -13,6 +13,8 @@ import {
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
 import { addMinutes } from "@/lib/schedule-time";
 import { SocialRow } from "@/components/SocialRow";
+import { useDict, useLocale } from "@/lib/i18n/LocaleProvider";
+import { getDict, type Locale } from "@/lib/i18n";
 
 function Avatar({
   name,
@@ -48,10 +50,13 @@ function Avatar({
   );
 }
 
-function setLabel(e: ScheduleEvent): string {
+function setLabel(e: ScheduleEvent, locale: Locale): string {
   const d = new Date(`${e.date}T12:00:00Z`);
-  const dow = d.toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" });
-  const { primary } = eventLabels(e);
+  const dow = d.toLocaleDateString(getDict(locale).dateLocale, {
+    weekday: "short",
+    timeZone: "UTC",
+  });
+  const { primary } = eventLabels(e, locale);
   return `${dow} ${e.start} · ${primary}`;
 }
 
@@ -70,6 +75,8 @@ export function EventDetailSheet({
   onClose: () => void;
   onSelectEvent?: (e: ScheduleEvent) => void;
 }) {
+  const locale = useLocale();
+  const dict = useDict();
   const [openSpeaker, setOpenSpeaker] = useState<string | null>(null);
   // Collapse any expanded speaker when the sheet switches events — the
   // render-phase reset React recommends over a setState-in-effect.
@@ -92,9 +99,9 @@ export function EventDetailSheet({
   );
 
   if (!event) return null;
-  const st = stageStyle(event.stage);
+  const st = stageStyle(event.stage, locale);
   const e = event;
-  const { primary } = eventLabels(e);
+  const { primary } = eventLabels(e, locale);
   const speakers = eventSpeakers(e);
   const isPanel = speakers.length > 1;
 
@@ -179,7 +186,7 @@ export function EventDetailSheet({
         ) : (
           <div className="mt-4">
             <p className="eyebrow mb-2 text-moon-white/50">
-              {speakers.length} speakers · tap for bio & sessions
+              {dict.schedule.speakersTapHint(speakers.length)}
             </p>
             <div className="flex flex-col gap-1.5">
               {speakers.map((s) => {
@@ -225,7 +232,7 @@ export function EventDetailSheet({
                         <SocialRow socials={s.socials} className="mt-2.5" />
                         {alsoIn.length > 0 && (
                           <div className="mt-3">
-                            <p className="eyebrow mb-1.5 text-moon-white/45">Also appearing</p>
+                            <p className="eyebrow mb-1.5 text-moon-white/45">{dict.schedule.alsoAppearing}</p>
                             <div className="flex flex-col gap-1">
                               {alsoIn.map((x, i) => (
                                 <button
@@ -239,7 +246,7 @@ export function EventDetailSheet({
                                     className="size-1.5 shrink-0 rounded-full"
                                     style={{ backgroundColor: stageStyle(x.stage).color }}
                                   />
-                                  {setLabel(x)}
+                                  {setLabel(x, locale)}
                                 </button>
                               ))}
                             </div>
@@ -247,7 +254,7 @@ export function EventDetailSheet({
                         )}
                         {!s.bio && !s.socials.length && alsoIn.length === 0 && (
                           <p className="text-[12px] italic text-moon-white/40">
-                            No bio yet.
+                            {dict.schedule.noBio}
                           </p>
                         )}
                       </div>

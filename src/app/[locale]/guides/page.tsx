@@ -1,29 +1,36 @@
 import type { Metadata } from "next";
-import { ARTICLES, type ArticleCategory } from "@/data/articles";
+import { getArticles, type ArticleCategory } from "@/data/articles";
 import { ArticleCard } from "@/components/ArticleCard";
+import { asLocale, getDict } from "@/lib/i18n";
 
-export const metadata: Metadata = {
-  title: "Guides — Iceland Eclipse",
-};
+interface PageProps {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  return { title: getDict(asLocale((await params).locale)).guides.metaTitle };
+}
 
 // Articles keep their categories in data, but the guides page now shows them as
 // one unified grid (Andrew, 2026-07-07) — quick-guides first, then the rest.
 const CATEGORY_ORDER: ArticleCategory[] = ["quick-guides", "highlights-news"];
-const orderedArticles = CATEGORY_ORDER.flatMap((category) =>
-  ARTICLES.filter((a) => a.category === category)
-);
 
-export default function GuidesPage() {
+export default async function GuidesPage({ params }: PageProps) {
+  const locale = asLocale((await params).locale);
+  const dict = getDict(locale);
+  const articles = getArticles(locale);
+  const orderedArticles = CATEGORY_ORDER.flatMap((category) =>
+    articles.filter((a) => a.category === category)
+  );
   return (
     <div className="container-page">
       <section className="pt-12 pb-8 sm:pt-16">
-        <p className="eyebrow text-aurora-cyan">Know Before You Go</p>
+        <p className="eyebrow text-aurora-cyan">{dict.guides.eyebrow}</p>
         <h1 className="mt-4 font-display font-extrabold uppercase text-moon-white text-[clamp(2rem,6vw,3.5rem)] leading-[0.95] tracking-[-0.035em]">
-          Guides
+          {dict.guides.title}
         </h1>
         <p className="mt-4 max-w-xl leading-relaxed text-moon-white/70">
-          Everything worth reading before and during the gathering: packing,
-          camping, the eclipse itself, and what makes this peninsula special.
+          {dict.guides.intro}
         </p>
       </section>
 

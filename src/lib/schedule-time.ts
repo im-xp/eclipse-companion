@@ -1,4 +1,5 @@
 import type { ScheduleEvent } from "@/lib/schedule";
+import { getDict, type Locale } from "@/lib/i18n";
 
 // Sets that start before 06:00 belong to the previous night's lineup
 // (Elliot, 2026-07-06): a Friday 00:30 set lists under Thursday.
@@ -37,10 +38,18 @@ export function absoluteMinutes(e: ScheduleEvent): number {
   return Date.parse(`${e.date}T00:00:00Z`) / 60000 + toMinutes(e.start);
 }
 
-export function formatDayTab(date: string): { dow: string; dom: string } {
+export function formatDayTab(
+  date: string,
+  locale: Locale = "en"
+): { dow: string; dom: string } {
   const d = new Date(`${date}T12:00:00Z`);
   return {
-    dow: d.toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" }),
+    // Intl carries Icelandic weekday names natively; is-IS shorts end in a
+    // period ("mið.") which the mono uppercase styling wears fine.
+    dow: d.toLocaleDateString(getDict(locale).dateLocale, {
+      weekday: "short",
+      timeZone: "UTC",
+    }),
     dom: String(d.getUTCDate()),
   };
 }

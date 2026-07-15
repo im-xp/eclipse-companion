@@ -5,6 +5,7 @@ import { eventLabels, type Schedule, type ScheduleEvent } from "@/lib/schedule";
 import { stageStyle } from "@/lib/schedule-meta";
 import { addMinutes, festivalDate, slotMinutes } from "@/lib/schedule-time";
 import { EventDetailSheet } from "@/components/EventDetailSheet";
+import { useDict, useLocale } from "@/lib/i18n/LocaleProvider";
 
 // Vertical festival grid: stages are columns (wide, so titles have room),
 // time runs top-to-bottom, and a set's HEIGHT is its duration. Overlaps are
@@ -48,6 +49,8 @@ export function TimelineGrid({
   now: { date: string; minutes: number };
   isToday: boolean;
 }) {
+  const locale = useLocale();
+  const dict = useDict();
   const [detail, setDetail] = useState<ScheduleEvent | null>(null);
   const events = useMemo(
     () =>
@@ -92,7 +95,7 @@ export function TimelineGrid({
     return (
       <div className="container-page pt-4">
         <p className="py-16 text-center text-moon-white/50">
-          Nothing scheduled for this day yet.
+          {dict.schedule.nothingScheduled}
         </p>
       </div>
     );
@@ -130,7 +133,7 @@ export function TimelineGrid({
           style={{ height: HEADER_H }}
         />
         {rows.map((stage) => {
-          const st = stageStyle(stage);
+          const st = stageStyle(stage, locale);
           return (
             <div
               key={stage}
@@ -170,7 +173,7 @@ export function TimelineGrid({
           )}
         </div>
         {rows.map((stage) => {
-          const st = stageStyle(stage);
+          const st = stageStyle(stage, locale);
           const colEvents = events.filter((e) => e.stage === stage);
           return (
             <div
@@ -185,7 +188,7 @@ export function TimelineGrid({
                   isToday &&
                   now.minutes >= slotMinutes(e.start) &&
                   now.minutes < slotMinutes(e.start) + e.durationMin;
-                const { primary, secondary } = eventLabels(e);
+                const { primary, secondary } = eventLabels(e, locale);
                 // Title leads and must never be clipped to make room for the
                 // extras, so we BUDGET its line count from the space left after
                 // them rather than guessing by height. The time footer is

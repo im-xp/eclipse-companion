@@ -12,6 +12,32 @@ npm install
 npm run dev
 ```
 
+## Languages & domains
+
+One deployment, two locales, no user-facing toggle — `src/proxy.ts` picks the
+language per request and rewrites into the hidden `app/[locale]/` tree (URLs
+stay clean, everything stays statically generated):
+
+- **app.icelandeclipse.com** (and any non-eclipse.is host) → always English
+- **app.eclipse.is** → Icelandic when `x-vercel-ip-country` is `IS`, else English
+
+UI strings live in `lib/i18n/{en,is}.ts` (typed — a missing Icelandic key
+fails the build). Guide articles are forked as `data/articles.is.ts`
+(structure locked to `data/articles.ts` by `scripts/check_i18n.mjs`, a
+prebuild step). Schedule content gets `title_is`/`bio_is` fields written by
+`scripts/translate_schedule.py` during the cron sync, cached in
+`data/schedule-i18n-cache.json` — to fix a translation, edit the `is` value
+in the cache (keyed on the English text's hash, so corrections persist).
+Side quests carry inline `is` blocks in `data/side-quests.json`.
+
+Testing a locale in dev/preview: `?debug-locale=is` (or the `x-debug-locale`
+header). Production ignores the override; Vercel owns the geo header there.
+All Icelandic copy is machine-drafted (2026-07-15) and pending native review.
+
+The home hero ticket CTA is per-locale: English → Fever
+(`feverup.com/m/416569`), Icelandic → tickets.moment.is (with
+`utm_source=eclipse.is`).
+
 ## Pages
 
 - `/map` — pinch/scroll-zoomable festival map (`public/festival-map.jpg`)

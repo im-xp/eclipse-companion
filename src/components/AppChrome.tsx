@@ -3,11 +3,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useDict } from "@/lib/i18n/LocaleProvider";
+import type { Dict } from "@/lib/i18n";
 
-const NAV_ITEMS = [
+const navItems = (dict: Dict) => [
   {
     href: "/",
-    label: "Home",
+    label: dict.nav.home,
     // exact: "/" is a prefix of every path, so match it exactly or Home would
     // stay highlighted on Map/Schedule/Guides too.
     exact: true,
@@ -20,7 +22,7 @@ const NAV_ITEMS = [
   },
   {
     href: "/map",
-    label: "Map",
+    label: dict.nav.map,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5">
         <polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21 3 6" />
@@ -31,7 +33,7 @@ const NAV_ITEMS = [
   },
   {
     href: "/schedule",
-    label: "Schedule",
+    label: dict.nav.schedule,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5">
         <rect x="3" y="4" width="18" height="18" rx="2" />
@@ -43,7 +45,7 @@ const NAV_ITEMS = [
   },
   {
     href: "/guides",
-    label: "Guides",
+    label: dict.nav.guides,
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-5">
         <path d="M12 7v14" />
@@ -53,7 +55,14 @@ const NAV_ITEMS = [
   },
 ];
 
+// The proxy rewrite means SSR sees /en/... or /is/... while the browser URL is
+// clean — normalize so active-state matches on both passes.
+function stripLocale(pathname: string): string {
+  return pathname.replace(/^\/(en|is)(?=\/|$)/, "") || "/";
+}
+
 export function AppHeader() {
+  const dict = useDict();
   return (
     <header className="fixed inset-x-0 top-0 z-40 border-b border-moon-white/10 backdrop-blur-md bg-eclipse-black/70">
       <div className="container-page flex items-center justify-between h-16 gap-4">
@@ -68,24 +77,25 @@ export function AppHeader() {
           />
         </Link>
         <nav className="hidden md:flex items-center gap-7 eyebrow text-moon-white/80">
-          {NAV_ITEMS.map((item) => (
+          {navItems(dict).map((item) => (
             <Link key={item.href} href={item.href} className="hover:text-moon-white transition-colors">
               {item.label}
             </Link>
           ))}
         </nav>
-        <span className="eyebrow text-ash-grey">11–15 Aug 2026</span>
+        <span className="eyebrow text-ash-grey">{dict.nav.dates}</span>
       </div>
     </header>
   );
 }
 
 export function AppNav() {
-  const pathname = usePathname();
+  const dict = useDict();
+  const pathname = stripLocale(usePathname());
   return (
     <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-moon-white/10 backdrop-blur-md bg-eclipse-black/80 pb-[env(safe-area-inset-bottom)]">
       <div className="mx-auto flex max-w-md items-stretch justify-around">
-        {NAV_ITEMS.map((item) => {
+        {navItems(dict).map((item) => {
           const active = item.exact
             ? pathname === item.href
             : pathname.startsWith(item.href);

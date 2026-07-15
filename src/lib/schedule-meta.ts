@@ -1,3 +1,5 @@
+import { getDict, type Locale } from "@/lib/i18n";
+
 export interface StageStyle {
   color: string;
   label: string;
@@ -20,8 +22,16 @@ export const STAGE_STYLES: Record<string, StageStyle> = {
   "SIDE QUESTS": { color: "#9bd1ff", label: "Side Quests", sub: "Ticketed Add-On" },
 };
 
-export function stageStyle(stage: string): StageStyle {
-  return STAGE_STYLES[stage] ?? { color: "#a7aaa6", label: stage };
+export function stageStyle(stage: string, locale: Locale = "en"): StageStyle {
+  const style = STAGE_STYLES[stage] ?? { color: "#a7aaa6", label: stage };
+  // Stage names are proper names and stay untouched; only the two English
+  // descriptor subs (Film Premieres, Ticketed Add-On) localize. Icelandic-name
+  // subs pass through the (empty) lookup unchanged.
+  if (locale !== "en" && style.sub) {
+    const sub = getDict(locale).stageSubs[style.sub];
+    if (sub) return { ...style, sub };
+  }
+  return style;
 }
 
 // Content-type tags on schedule cards: Elliot's color-coding compromise

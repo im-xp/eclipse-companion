@@ -1,11 +1,13 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useDict } from "@/lib/i18n/LocaleProvider";
 
 // Registers the offline service worker and surfaces a gentle refresh prompt
 // when a newer build is waiting (so a changed schedule can't silently stick
 // to a stale cache once the user is back online).
 export function ServiceWorkerRegister() {
+  const dict = useDict();
   const [waiting, setWaiting] = useState<ServiceWorker | null>(null);
 
   useEffect(() => {
@@ -42,14 +44,14 @@ export function ServiceWorkerRegister() {
   return (
     <div className="fixed inset-x-3 bottom-[calc(4.5rem+env(safe-area-inset-bottom))] z-50 mx-auto flex max-w-sm items-center justify-between gap-3 rounded-pill border border-signal-yellow/60 bg-deep-space/95 px-4 py-2.5 shadow-lg backdrop-blur">
       <span className="font-mono text-[11px] uppercase tracking-[0.1em] text-moon-white">
-        Schedule updated
+        {dict.sw.updated}
       </span>
       <button
         type="button"
         onClick={() => waiting.postMessage("SKIP_WAITING")}
         className="shrink-0 rounded-pill bg-signal-yellow px-4 py-1.5 font-mono text-[11px] font-bold uppercase tracking-[0.1em] text-eclipse-black transition-colors hover:bg-solar-corona"
       >
-        Refresh
+        {dict.sw.refresh}
       </button>
     </div>
   );

@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
 import { MapViewer } from "@/components/MapViewer";
+import { asLocale, getDict } from "@/lib/i18n";
 
-export const metadata: Metadata = {
-  title: "Festival Map — Iceland Eclipse",
-};
+interface PageProps {
+  params: Promise<{ locale: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  return { title: getDict(asLocale((await params).locale)).map.metaTitle };
+}
 
 export default function MapPage() {
   return (
