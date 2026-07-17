@@ -17,10 +17,10 @@ export PATH="/home/jon/.nvm/versions/node/v22.22.2/bin:/usr/local/bin:/usr/bin:/
 ROOT="/home/jon/imxp/eclipse-companion"
 SRC="$ROOT/src"
 # Production is deployed from a dedicated worktree pinned to `main`, NEVER from
-# this dev checkout (which rides feature branches like feat/profile-staging).
-# Otherwise a schedule change would ship whatever branch is checked out to prod.
-# Regenerate + compare + deploy all happen in PROD_SRC. After an intentional
-# promotion (merge into main), refresh it: git -C "$PROD_TREE" merge --ff-only main
+# this dev checkout (which rides feature branches). Otherwise a schedule change
+# would ship whatever branch is checked out to prod. Regenerate + compare +
+# deploy all happen in PROD_SRC. After an intentional promotion (merge into
+# main), refresh it: git -C "$PROD_TREE" merge --ff-only main
 PROD_TREE="/home/jon/imxp/eclipse-companion-prod"
 PROD_SRC="$PROD_TREE/src"
 CONF="$ROOT/.sync.env"
@@ -120,9 +120,28 @@ if ! python3 "$PROD_SRC/scripts/normalize_schedule.py" "$SRCFILE" "$TMP/schedule
   exit 1
 fi
 
-# Fetch + parse both worked — the pipeline is healthy, so reset the alert
-# throttle (a later failure will alert immediately rather than being suppressed).
-alert_clear
+# 2b. Add Icelandic fields (title_is/bio_is) for app.eclipse.is. Cache-backed:
+#     only new/changed strings hit the claude CLI, usually none. NON-FATAL by
+#     design — on failure the app just shows English for the missing fields,
+#     so the sync always proceeds. Runs BEFORE the changed-comparison so a
+#     reviewed correction to the cache alone still triggers a deploy.
+translate_ok=1
+if [ -f "$PROD_SRC/scripts/translate_schedule.py" ] && \
+   ! python3 "$PROD_SRC/scripts/translate_schedule.py" \
+    "$TMP/schedule.json" "$PROD_SRC/data/schedule-i18n-cache.json" >>"$LOG" 2>&1; then
+  translate_ok=0
+  log "translate_schedule.py failed — deploying with English fallback for new strings"
+  alert "translate" "🟡 *Eclipse schedule sync: Icelandic translation step failed*
+
+*Impact:* the schedule still syncs and deploys, but NEW schedule entries show English on app.eclipse.is until this is fixed (existing translations are cached and unaffected).
+*Likely cause:* the claude CLI is missing/unauthenticated on the sync host, or its output failed to parse.
+*Next step:* check ~/imxp/eclipse-companion/sync.log, then run: python3 ~/imxp/eclipse-companion/src/scripts/translate_schedule.py <schedule.json> <cache.json> by hand."
+fi
+
+# Everything worked — the pipeline is healthy, so reset the alert throttle
+# (a later failure will alert immediately rather than being suppressed).
+# Skipped while translate is failing so its 6h throttle state survives runs.
+[ "$translate_ok" = "1" ] && alert_clear
 
 # 3. Deploy only if the meaningful content changed (ignore generatedAt).
 changed="$(python3 - "$TMP/schedule.json" "$PROD_SRC/data/schedule.json" <<'PY'

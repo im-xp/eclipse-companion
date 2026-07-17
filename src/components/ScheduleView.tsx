@@ -23,6 +23,7 @@ import {
   slotMinutes,
   toMinutes,
 } from "@/lib/schedule-time";
+import { useDict, useLocale } from "@/lib/i18n/LocaleProvider";
 
 function isLive(event: ScheduleEvent, now: { date: string; minutes: number }): boolean {
   if (event.date !== now.date) return false;
@@ -37,6 +38,8 @@ export function ScheduleView({
   schedule: Schedule;
   loggedIn?: boolean;
 }) {
+  const locale = useLocale();
+  const dict = useDict();
   const { favorites, toggleFavorite } = useFavorites();
   const [favOnly, setFavOnly] = useState(false);
   const realNow = useMemo(() => nowInReykjavik(), []);
@@ -154,8 +157,8 @@ export function ScheduleView({
           <div className="flex gap-1 pt-3">
             {(
               [
-                ["schedule", "Schedule"],
-                ["lineup", "Lineup"],
+                ["schedule", dict.schedule.tabSchedule],
+                ["lineup", dict.schedule.tabLineup],
               ] as const
             ).map(([v, label]) => (
               <button
@@ -176,7 +179,7 @@ export function ScheduleView({
             <>
           <div className="flex gap-1 overflow-x-auto py-3 [scrollbar-width:none]">
             {festivalDays.map((d) => {
-              const { dow, dom } = formatDayTab(d);
+              const { dow, dom } = formatDayTab(d, locale);
               const active = d === day;
               return (
                 <button
@@ -210,8 +213,8 @@ export function ScheduleView({
             <div className="flex shrink-0 rounded-pill border border-moon-white/15 p-0.5">
               {(
                 [
-                  ["timeline", "Timeline"],
-                  ["list", "List"],
+                  ["timeline", dict.schedule.timeline],
+                  ["list", dict.schedule.list],
                 ] as const
               ).map(([m, label]) => (
                 <button
@@ -270,10 +273,10 @@ export function ScheduleView({
                       : "border-moon-white/25 text-moon-white/70 hover:border-moon-white/50"
                   }`}
                 >
-                  All stages
+                  {dict.schedule.allStages}
                 </button>
                 {stagesForDay.map((s) => {
-                  const st = stageStyle(s);
+                  const st = stageStyle(s, locale);
                   const active = stageFilter === s;
                   return (
                     <button
@@ -339,7 +342,7 @@ export function ScheduleView({
           <p className="py-16 text-center text-moon-white/50">
             {favOnly
               ? "No saved events on this day — tap the heart on a set to save it."
-              : "Nothing scheduled for this day yet."}
+              : dict.schedule.nothingScheduled}
           </p>
         )}
         {timeGroups.map(([time, events]) => (
@@ -350,14 +353,14 @@ export function ScheduleView({
               </span>
               {slotMinutes(time) >= 1440 && (
                 <span className="block font-mono text-[9px] uppercase tracking-[0.14em] text-moon-white/40">
-                  Late
+                  {dict.schedule.late}
                 </span>
               )}
             </div>
             <div className="flex min-w-0 flex-1 flex-col gap-2 border-l border-moon-white/10 pl-4">
               {events.map((e, i) => {
-                const st = stageStyle(e.stage);
-                const { primary, secondary } = eventLabels(e);
+                const st = stageStyle(e.stage, locale);
+                const { primary, secondary } = eventLabels(e, locale);
                 const speakers = eventSpeakers(e);
                 const isPanel = speakers.length > 1;
                 const key = `${e.date}-${e.start}-${e.stage}-${e.artist}-${i}`;
@@ -388,7 +391,7 @@ export function ScheduleView({
                         >
                           <span className="text-sm">{speakers.length}</span>
                           <span className="mt-0.5 font-mono text-[7px] uppercase tracking-[0.12em] text-moon-white/45">
-                            Panel
+                            {dict.schedule.panel}
                           </span>
                         </div>
                       ) : e.headshot ? (
@@ -416,12 +419,12 @@ export function ScheduleView({
                           {live && (
                             <span className="flex shrink-0 items-center gap-1.5 rounded-pill bg-aurora-cyan/15 px-2 py-0.5 font-mono text-[9px] font-bold uppercase tracking-[0.12em] text-aurora-cyan">
                               <span className="size-1.5 animate-pulse rounded-full bg-aurora-cyan" />
-                              Live
+                              {dict.schedule.live}
                             </span>
                           )}
                           {e.status === "pending" && (
                             <span className="shrink-0 rounded-pill border border-moon-white/25 px-2 py-0.5 font-mono text-[9px] uppercase tracking-[0.12em] text-moon-white/60">
-                              TBC
+                              {dict.schedule.tbc}
                             </span>
                           )}
                         </div>
@@ -543,7 +546,7 @@ export function ScheduleView({
           }}
           className="fixed bottom-[calc(4.5rem+env(safe-area-inset-bottom))] right-4 z-30 rounded-pill border border-signal-yellow bg-signal-yellow px-5 py-2.5 font-mono text-[11px] font-bold uppercase tracking-[0.08em] text-eclipse-black shadow-lg transition-all duration-200 hover:-translate-y-0.5 hover:border-solar-corona hover:bg-solar-corona"
         >
-          Now
+          {dict.schedule.now}
         </button>
       )}
     </div>

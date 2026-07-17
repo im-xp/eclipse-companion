@@ -6,6 +6,8 @@ import { buildSpeakerIndex, type Schedule, type ScheduleEvent } from "@/lib/sche
 import type { SocialLink } from "@/lib/socials";
 import { categoryColor, stageStyle } from "@/lib/schedule-meta";
 import { SocialRow } from "@/components/SocialRow";
+import { useDict, useLocale } from "@/lib/i18n/LocaleProvider";
+import { getDict, type Locale } from "@/lib/i18n";
 
 interface LineupEntry {
   artist: string;
@@ -17,13 +19,18 @@ interface LineupEntry {
   sets: ScheduleEvent[];
 }
 
-function formatSet(e: ScheduleEvent): string {
+function formatSet(e: ScheduleEvent, locale: Locale): string {
   const d = new Date(`${e.date}T12:00:00Z`);
-  const dow = d.toLocaleDateString("en-GB", { weekday: "short", timeZone: "UTC" });
+  const dow = d.toLocaleDateString(getDict(locale).dateLocale, {
+    weekday: "short",
+    timeZone: "UTC",
+  });
   return `${dow} ${e.start}`;
 }
 
 export function LineupList({ schedule }: { schedule: Schedule }) {
+  const locale = useLocale();
+  const dict = useDict();
   const [query, setQuery] = useState("");
   const [category, setCategory] = useState<string | null>(null);
   const [expanded, setExpanded] = useState<string | null>(null);
@@ -57,7 +64,7 @@ export function LineupList({ schedule }: { schedule: Schedule }) {
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search participants…"
+          placeholder={dict.schedule.searchPlaceholder}
           className="w-full rounded-pill border border-moon-white/20 bg-deep-space/50 px-4 py-2 text-sm text-moon-white placeholder:text-moon-white/40 focus:border-aurora-cyan/60 focus:outline-none sm:max-w-xs"
         />
         <div className="flex gap-2 overflow-x-auto [scrollbar-width:none]">
@@ -83,7 +90,7 @@ export function LineupList({ schedule }: { schedule: Schedule }) {
       </div>
 
       <p className="eyebrow pb-3 text-moon-white/50">
-        {filtered.length} participant{filtered.length === 1 ? "" : "s"}
+        {dict.schedule.nParticipants(filtered.length)}
       </p>
 
       <div className="flex flex-col gap-2">
@@ -128,14 +135,14 @@ export function LineupList({ schedule }: { schedule: Schedule }) {
                       </span>
                     ))}
                     {en.sets.map((s, i) => {
-                      const st = stageStyle(s.stage);
+                      const st = stageStyle(s.stage, locale);
                       return (
                         <span
                           key={i}
                           className="flex items-center gap-1.5 font-mono text-[10px] uppercase tracking-[0.12em] text-moon-white/50"
                         >
                           <span className="size-1.5 rounded-full" style={{ backgroundColor: st.color }} />
-                          {formatSet(s)} · {st.label}
+                          {formatSet(s, locale)} · {st.label}
                         </span>
                       );
                     })}
@@ -155,7 +162,7 @@ export function LineupList({ schedule }: { schedule: Schedule }) {
           );
         })}
         {filtered.length === 0 && (
-          <p className="py-16 text-center text-moon-white/50">No participants match.</p>
+          <p className="py-16 text-center text-moon-white/50">{dict.schedule.noMatch}</p>
         )}
       </div>
     </div>

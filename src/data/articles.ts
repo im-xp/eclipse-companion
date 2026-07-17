@@ -1,3 +1,6 @@
+import type { Locale } from "@/lib/i18n";
+import { ARTICLES_IS } from "./articles.is";
+
 export type ArticleCategory = "quick-guides" | "highlights-news";
 
 export type ArticleBlock =
@@ -1168,8 +1171,12 @@ export const ARTICLES: Article[] = [
   },
 ];
 
-export function getArticle(slug: string): Article | undefined {
-  return ARTICLES.find((a) => a.slug === slug);
+export function getArticles(locale: Locale = "en"): Article[] {
+  return locale === "is" ? ARTICLES_IS : ARTICLES;
+}
+
+export function getArticle(slug: string, locale: Locale = "en"): Article | undefined {
+  return getArticles(locale).find((a) => a.slug === slug);
 }
 
 export function getArticlesByCategory(category: ArticleCategory): Article[] {

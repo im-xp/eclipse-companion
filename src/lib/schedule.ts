@@ -2,6 +2,7 @@ import scheduleData from "@/data/schedule.json";
 import sideQuestData from "@/data/side-quests.json";
 import { getSocials, type SocialLink } from "@/lib/socials";
 import { stageStyle } from "@/lib/schedule-meta";
+import { getDict, type Locale } from "@/lib/i18n";
 
 // The order stages appear in the schedule UI, by chip label (Elliot 2026-07-09).
 const STAGE_ORDER = [
@@ -92,7 +93,10 @@ export function eventSpeakers(e: ScheduleEvent): Speaker[] {
 // What an event leads with. Talks/panels are known by their title; the
 // speaker(s) are secondary. Acts/ceremonies with no title ARE their own name,
 // so we fall back to the speaker as the headline rather than show a blank line.
-export function eventLabels(e: ScheduleEvent): {
+export function eventLabels(
+  e: ScheduleEvent,
+  locale: Locale = "en"
+): {
   primary: string;
   secondary: string | null;
 } {
@@ -100,7 +104,9 @@ export function eventLabels(e: ScheduleEvent): {
   if (!e.title) return { primary: names[0] ?? e.artist, secondary: null };
   // Two people read fine inline; a bigger panel just says how many.
   const secondary =
-    names.length > 2 ? `${names.length} speakers` : names.join(" · ");
+    names.length > 2
+      ? getDict(locale).schedule.nSpeakers(names.length)
+      : names.join(" · ");
   return { primary: e.title, secondary: secondary || null };
 }
 
@@ -174,12 +180,53 @@ export function buildSpeakerIndex(
   return map;
 }
 
-export function getSchedule(): Schedule {
+// Icelandic fields ride along on the raw records: schedule.json rows carry
+// title_is/bio_is/tagline_is written by scripts/translate_schedule.py at sync
+// time (missing = fall back to English); side-quests.json entries carry a
+// hand-maintained `is` block. Localizing BEFORE mergePanels keeps panel
+// merging consistent — all rows of a panel share one English title, so they
+// share one Icelandic title too.
+type RawEvent = ScheduleEvent & {
+  title_is?: string | null;
+  bio_is?: string | null;
+  tagline_is?: string | null;
+  is?: {
+    title?: string | null;
+    bio?: string | null;
+    tagline?: string | null;
+    linkLabel?: string | null;
+  };
+};
+
+function localizeEvent(e: RawEvent, locale: Locale): ScheduleEvent {
+  if (locale === "en") return e;
+  const inline = e.is;
+  const out: RawEvent = {
+    ...e,
+    title: inline?.title ?? e.title_is ?? e.title,
+    bio: inline?.bio ?? e.bio_is ?? e.bio,
+    tagline: inline?.tagline ?? e.tagline_is ?? e.tagline,
+  };
+  if (e.link && inline?.linkLabel) {
+    out.link = { ...e.link, label: inline.linkLabel };
+  }
+  delete out.title_is;
+  delete out.bio_is;
+  delete out.tagline_is;
+  delete out.is;
+  return out;
+}
+
+export function getSchedule(locale: Locale = "en"): Schedule {
   const data = scheduleData as Schedule;
   // Side quests live in their own file so regenerating schedule.json from
   // the ROS sheet never wipes them.
   const sideQuests = sideQuestData as ScheduleEvent[];
-  const withSocials = [...data.events.filter((e) => !e.isHostBlock), ...sideQuests]
+  const withSocials = [
+    ...data.events.filter((e) => !e.isHostBlock),
+    ...sideQuests,
+  ]
+    .map((e) => localizeEvent(e as RawEvent, locale))
     // Only confirmed events are published — the Status column is the on/off
     // switch. schedule.json is already confirmed-only (normalize_schedule.py
     // drops the rest), so this gates the side quests and anything unconfirmed
