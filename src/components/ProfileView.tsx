@@ -11,6 +11,23 @@ import {
 import type { CustomerProfile } from "@/lib/profile";
 import { EventsCalendar } from "@/components/EventsCalendar";
 
+// Admission passes the participant holds, counted from whichever signal knows
+// about the most: the EdgeOS portal product count (traits.edgeos.products_owned)
+// and non-portal admission (e.g. Fever), which only shows up as line items in
+// commerce.products. We take the max, not the sum, so a portal pass present in
+// both signals isn't double-counted. Add-ons — camping, parking, glamping, day
+// trips, side quests — are not admission and deliberately don't match.
+const ADMISSION_NAME_RE =
+  /(entry pass|festival pass|weekend pass|day pass|full festival|eclipse seeker|celestial voyager)/i;
+
+function countPasses(profile: CustomerProfile): number {
+  const portal = profile.traits?.edgeos?.products_owned ?? 0;
+  const nonPortal = (profile.commerce?.products ?? []).filter((p) =>
+    ADMISSION_NAME_RE.test(p)
+  ).length;
+  return Math.max(portal, nonPortal);
+}
+
 export function ProfileView({
   profile,
   contacts,
@@ -96,7 +113,12 @@ export function ProfileView({
         />
         <Stat
           label="Tickets"
-          value={edgeos?.products_owned != null ? String(edgeos.products_owned) : "—"}
+          value={
+            edgeos?.products_owned != null ||
+            (profile.commerce?.products?.length ?? 0) > 0
+              ? String(countPasses(profile))
+              : "—"
+          }
           accent="text-eclipse-orange"
         />
         <Stat
@@ -159,6 +181,7 @@ export function ProfileView({
 const SOURCE_LABELS: Record<string, string> = {
   fever: "Fever",
   stripe: "EdgeOS",
+  portal: "Portal",
 };
 
 function formatSpend(spend: Record<string, number> | undefined): string | null {
