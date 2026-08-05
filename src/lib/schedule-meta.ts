@@ -7,8 +7,10 @@ export interface StageStyle {
 }
 
 // sub = Icelandic name (Andrew 2026-07-06: Icelandic names replace the venue
-// descriptors). Full list confirmed by Elliot 2026-07-07. Campsite Yoga,
-// Röstin, and Side Quests have no Icelandic name yet, so they keep descriptors.
+// descriptors). Full list confirmed by Elliot 2026-07-07. Campsite Yoga and
+// Side Quests have no Icelandic name yet, so they keep descriptors.
+// Röstin cut from the festival 2026-08-04 (events archived in
+// data/rostin-archive.json in case they get re-homed to another stage).
 export const STAGE_STYLES: Record<string, StageStyle> = {
   "ECLIPSE (Main Stage)": { color: "#f7f4ea", label: "Eclipse", sub: "Sólmyrkvi" },
   "AURORA (Electronic Tent)": { color: "#ff5bce", label: "Aurora", sub: "Norðurljós" },
@@ -18,7 +20,6 @@ export const STAGE_STYLES: Record<string, StageStyle> = {
   "COSMIC CONNECTION (Wellness)": { color: "#9b74d8", label: "Cosmic Connection", sub: "Samhljómur" },
   "CAMPSITE YOGA": { color: "#1fe0d0", label: "Daybreak" },
   "STARSEEDS (Kids & Family)": { color: "#8fe08a", label: "Starseeds", sub: "Stjörnuskátar" },
-  "Röstin Film Premiers": { color: "#efff2a", label: "Röstin", sub: "Film Premieres" },
   "SIDE QUESTS": { color: "#9bd1ff", label: "Side Quests", sub: "Ticketed Add-On" },
 };
 

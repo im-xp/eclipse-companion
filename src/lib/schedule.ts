@@ -12,7 +12,6 @@ const STAGE_ORDER = [
   "Polaris",
   "Cosmic Connection",
   "Sacred Fire",
-  "Röstin",
 ];
 
 function stageRank(label: string): number {
