@@ -86,6 +86,8 @@ const is: Dict = {
   },
   map: {
     metaTitle: "Hátíðarkort — Iceland Eclipse",
+    festival: "Hátíðarsvæði",
+    campground: "Tjaldsvæði",
   },
   sponsors: {
     metaTitle: "Samstarfsaðilar — Iceland Eclipse",

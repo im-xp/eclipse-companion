@@ -82,6 +82,8 @@ const en = {
   },
   map: {
     metaTitle: "Festival Map — Iceland Eclipse",
+    festival: "Festival",
+    campground: "Campground",
   },
   sponsors: {
     metaTitle: "Partners — Iceland Eclipse",
