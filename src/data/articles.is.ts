@@ -11,6 +11,260 @@ const EVERYONE_BRINGS_IS =
   "Allt á „Allir taka með“-listanum í pökkunarhandbókinni";
 
 export const ARTICLES_IS: Article[] = [
+  {
+    slug: "know-before-you-go",
+    title: "Komuleiðarvísir",
+    subtitle: "Gott að vita fyrir ferðina",
+    category: "quick-guides",
+    // Machine-drafted Icelandic, not yet natively reviewed — hidden from the
+    // /is tree until it is. Remove this line to publish.
+    draft: true,
+    hero: "/articles/know-before-you-go.jpg",
+    heroAlt: "Loftmynd af strönd Snæfellsness í kvöldljósi, vegurinn liggur inn framhjá byggðinni",
+    summary:
+      "Heimilisföng, skutlur, bílastæði, opnunartími miðasölu og allt annað sem þú þarft fyrir ferðina á staðinn.",
+    sectionNav: true,
+    sections: [
+      {
+        id: "arrival",
+        title: "Koma og heimilisföng",
+        blocks: [
+          {
+            kind: "lede",
+            text:
+              "Allt sem þú þarft fyrir ferðina á staðinn — hvert þú átt að fara, hvenær er opnað og hvað gerist við komuna.",
+          },
+          {
+            kind: "facts",
+            rows: [
+              { label: "Hátíðin", value: "Útnesvegur 360, 360 Hellissandur" },
+              { label: "Týndur poki", value: "Snæfellsás 2, 360 Hellissandur (afhending á seinkuðum farangri)" },
+              { label: "Tjaldsvæði", value: "Opnar 9. ágúst kl. 12:00" },
+              { label: "Athöfn", value: "Opnunarathöfn 11. ágúst kl. 16:00" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "getting-there",
+        title: "Að komast á staðinn",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "**Skutla frá Reykjavík** — stoppistöð nr. 5, Harpa, Faxagata, 101 Reykjavík.",
+              "**Keflavíkurflugvöllur** — leitaðu að Iceland Eclipse-skiltinu í komusal og starfsfólkið vísar þér veginn.",
+              "**Mikil umferð verður á sólmyrkvadaginn.** Komdu fyrir 12. ágúst ef þú getur.",
+              "Ein skutla fer 12. ágúst: frá Keflavíkurflugvelli kl. 10:30, með stoppi í Reykjavík kl. 11:30.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "by-car",
+        title: "Að koma á bíl",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Ekki er hægt að koma með bíla inn á tjaldsvæðið sjálft.",
+              "Leggðu á tilgreindu stæði og taktu svo skutluna til að flytja búnaðinn og komast á tjaldstæðið þitt.",
+              "Á Rifsflugvelli fær þú límmerki á bílinn eftir gistingu þinni og starfsmaður á eftirlitsstöðinni gefur þér leiðbeiningar.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "parking",
+        title: "Bílastæði",
+        blocks: [
+          {
+            kind: "facts",
+            rows: [
+              { label: "Staðsetning", value: "Rifsflugvöllur — BIRF, W57J+33Q, Flugplatz, 360 Rif" },
+              { label: "Gjald", value: "50 USD, skylda" },
+              { label: "Aðalstæði", value: "Lagt í upphafi og stendur alla hátíðina" },
+              { label: "Dagsstæði", value: "Frelsi til að koma og fara fyrir daggesti" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "box-office",
+        title: "Miðasala",
+        blocks: [
+          {
+            kind: "facts",
+            rows: [
+              { label: "Staðsetning", value: "Fyrir utan Daybreak-miðstöðina" },
+              { label: "Opnunartími", value: "10:00 – 22:00" },
+            ],
+          },
+          {
+            kind: "list",
+            items: [
+              "Ekki er unnt að nálgast armbönd og skilríki utan þess tíma.",
+              "Gestir sem koma með skutlu fá sín skilríki við komuna.",
+              "Spurningar um gistingu: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
+            ],
+          },
+        ],
+      },
+      {
+        id: "local-shuttle",
+        title: "Skutla á svæðinu",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Fer á 45 til 60 mínútna fresti og tengir hátíðarsvæðið, bílastæðið, Rif og Ólafsvík.",
+              "Tímarnir eru ólíkir frá degi til dags — skoðaðu [dagskrána í þessu appi](https://app.icelandeclipse.com/schedule) fyrir tíma dagsins.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "campground-zones",
+        title: "Svæði á tjaldstæðinu",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "**Daybreak** — Easy Camping, Base Glamping, BYO Tent, Grab n Go og Self Drive gestir.",
+              "**Moonrise** — Premium Glamping, Turnkey RV og Turnkey Camper gestir.",
+              "Armbönd eru athuguð við innganga.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "food-market",
+        title: "Matur og markaður",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Morgunmatur og léttur hádegismatur er til sölu í miðstöðvunum 9.–11. ágúst.",
+              "Markaðssalar opna 11. ágúst.",
+              "Matsalar eru opnir kl. 12:00 – 04:00 á hátíðinni, 12.–15. ágúst.",
+              "Kaupðu matvörur í Reykjavík eða Borgarnesi á leiðinni.",
+              "N1-verslun á svæðinu er með gaskúta, drykki, snarl og fleira.",
+              "Litlar færanlegar gashellur eru leyfðar á tjaldsvæðinu.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "hubs",
+        title: "Miðstöðvar og sturtur",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Heitt vatn, hleðslustöðvar og Wi-Fi eru í bæði Daybreak- og Moonrise-miðstöðinni.",
+              "Taktu með hleðslubanka eða sólarhleðslu til vara.",
+              "Sturtur kosta 2.000 kr. í hvert skipti.",
+              "Engin þvottahús eru á svæðinu — handþvottur og þurrkun á snúru eingöngu.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "money",
+        title: "Greiðslur",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Hátíðin er reiðufjárlaus — eingöngu kortagreiðslur.",
+              "Hraðbankar eru við bæjarstjórnarhúsið á Hellissandi og í Ólafsvík.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "alcohol",
+        title: "Alkóhól og vímuefni",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Hámarkið er einn kassi af bjór og einn kassi af víni á mann. Takmarkað magn sterkra drykkja til einkanota er leyft.",
+              "Engar glerflöskur eða glerkrukkur.",
+              "Duty Free-verslunin á Keflavíkurflugvelli er eftir tollinum, rétt fyrir farangursbandið. Verslunin í flugstöðinni sjálfri er eingöngu fyrir farþega á förum.",
+              "**Fíkniefnahundar verða á svæðinu. Vímuefni eru ekki leyfð.**",
+            ],
+          },
+        ],
+      },
+      {
+        id: "accessibility",
+        title: "Aðgengi",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Aðgengisskilríki eru afhent við innritun.",
+              "Aðgengileg snyrting víðs vegar á svæðinu.",
+              "Sérstakir aðgengilegir útsýnispallar við sviðin.",
+              "Fremsta röðin í skutlunni er ætluð gestum með aðgengisþarfir.",
+              "Ferðaþjónusta innan svæðisins er í boði — nánari upplýsingar við innritun.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "weather-packing",
+        title: "Veður og pökkun",
+        blocks: [
+          {
+            kind: "facts",
+            rows: [
+              { label: "Dagar", value: "8–15°C" },
+              { label: "Nætur", value: "5–8°C" },
+            ],
+          },
+          {
+            kind: "list",
+            items: [
+              "Pakkaðu lögum, vatnsheldri jakka og hlýjum nátfötum.",
+              "Svefngríma er ráðlögð — það verður varla dimmt í ágúst.",
+              "Á Íslandi eru F-týpu innstungur, svo taktu millistykki með.",
+              "[Pökkunarhandbókin í þessu appi](https://app.icelandeclipse.com/guides/packing-guide) er með fullan lista.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "eclipse-day",
+        title: "Sólmyrkvadagurinn",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Eigin myndavélar eru velkomnar til að fylgjast með sólmyrkvanum 12. ágúst.",
+              "Sólmyrkvagleraugu eru afhent öllum gestum.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "in-this-app",
+        title: "Í þessu appi",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "[Opnaðu dagskrána í þessu appi](https://app.icelandeclipse.com/schedule) — hvert atriði og viðburður, fimm daga og níu svið.",
+              "[Opnaðu hátíðar- og tjaldsvæðiskortið í þessu appi](https://app.icelandeclipse.com/map) — svið, matur, vatn og læknishjálp.",
+              "[Skoðaðu alla leiðarvísa í þessu appi](https://app.icelandeclipse.com/guides) — pökkun, tjaldsvæði, athafnir og hliðarferðir.",
+              "Spurningar um gistingu: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
+            ],
+          },
+        ],
+      },
+    ],
+  },
 {
   slug: "packing-guide",
   title: "Pökkunarhandbók",

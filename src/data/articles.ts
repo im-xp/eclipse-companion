@@ -21,12 +21,21 @@ export interface ArticleSection {
 export interface Article {
   slug: string;
   title: string;
+  /** Optional deck under the hero title. */
+  subtitle?: string;
   category: ArticleCategory;
   hero: string;
   heroAlt: string;
   summary: string;
   sectionNav?: boolean;
   sections: ArticleSection[];
+  /**
+   * Hide from the guides list and 404 the detail page for this locale only.
+   * Lets an unreviewed translation sit in articles.is.ts — which check_i18n
+   * requires to stay structurally mirrored 1:1 — without publishing it. Not a
+   * fingerprinted key, so setting it on one side never trips the prebuild gate.
+   */
+  draft?: boolean;
 }
 
 export const CATEGORY_LABELS: Record<ArticleCategory, string> = {
@@ -37,6 +46,259 @@ export const CATEGORY_LABELS: Record<ArticleCategory, string> = {
 const EVERYONE_BRINGS = "Everything in the Packing Guide's Everyone Brings list";
 
 export const ARTICLES: Article[] = [
+  {
+    slug: "know-before-you-go",
+    title: "Arrival Guide",
+    subtitle: "Know Before You Go",
+    category: "quick-guides",
+    hero: "/articles/know-before-you-go.jpg",
+    heroAlt: "Aerial view of the Snæfellsnes coast at dusk, the road running in past the village",
+    summary:
+      "Addresses, shuttles, parking, box office hours, and everything else you need for the journey in.",
+    sectionNav: true,
+    sections: [
+      {
+        id: "arrival",
+        title: "Arrival & Address",
+        blocks: [
+          {
+            kind: "lede",
+            text:
+              "Everything you need for the journey in — where to go, when the gates open, and what happens when you arrive.",
+          },
+          {
+            kind: "facts",
+            rows: [
+              { label: "Festival", value: "Útnesvegur 360, 360 Hellissandur, Iceland" },
+              { label: "Baggage", value: "Snæfellsás 2, 360 Hellissandur (delayed baggage delivery)" },
+              { label: "Campground", value: "Opens 9 August, 12:00" },
+              { label: "Ceremony", value: "Opening Ceremony 11 August, 16:00" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "getting-there",
+        title: "Getting There",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "**Reykjavík shuttle pickup** — Bus Stop #5, Harpa Concert Hall, Faxagata, 101 Reykjavík.",
+              "**KEF Airport** — look for the Iceland Eclipse sign at Arrivals and the team will point you in the right direction.",
+              "**Traffic on eclipse day will be heavy.** Arrive before 12 August if you can.",
+              "One shuttle runs on 12 August: departs KEF at 10:30, stops in Reykjavík at 11:30.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "by-car",
+        title: "Arriving by Car",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Cars cannot be brought into the campsite itself.",
+              "Park in the designated lot, then take the shuttle to load your belongings and get to your camping spot.",
+              "At Rif Airport you'll be issued a vehicle decal based on your accommodation, and the attendant at the checkpoint will give you instructions.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "parking",
+        title: "Parking",
+        blocks: [
+          {
+            kind: "facts",
+            rows: [
+              { label: "Location", value: "Rif Airport — BIRF, W57J+33Q, Flugplatz, 360 Rif" },
+              { label: "Pass", value: "US$50, required" },
+              { label: "Main lot", value: "Park in and stay for the duration of the festival" },
+              { label: "Day lot", value: "In and out flexibility for day visitors" },
+            ],
+          },
+        ],
+      },
+      {
+        id: "box-office",
+        title: "Box Office",
+        blocks: [
+          {
+            kind: "facts",
+            rows: [
+              { label: "Location", value: "Outside the Daybreak hub" },
+              { label: "Hours", value: "10:00 – 22:00" },
+            ],
+          },
+          {
+            kind: "list",
+            items: [
+              "Credentials cannot be collected outside those hours.",
+              "Guests arriving on shuttles receive their credentials on arrival.",
+              "Accommodation questions: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
+            ],
+          },
+        ],
+      },
+      {
+        id: "local-shuttle",
+        title: "Local Shuttle",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Runs every 45 minutes to an hour, connecting the festival grounds, the parking area, Rif, and Ólafsvík.",
+              "The schedule varies by day — check [the Schedule in this app](https://app.icelandeclipse.com/schedule) for the current day's times.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "campground-zones",
+        title: "Campground Zones",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "**Daybreak** — Easy Camping, Base Glamping, BYO Tent, Grab n Go, and Self Drive guests.",
+              "**Moonrise** — Premium Glamping, Turnkey RV, and Turnkey Camper guests.",
+              "Wristbands are checked at entry points.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "food-market",
+        title: "Food & Market",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Breakfast and light lunch are available to buy at the hubs from 9–11 August.",
+              "Market vendors open 11 August.",
+              "Food vendors are open 12:00 – 04:00 during the festival, 12–15 August.",
+              "Stock up on groceries in Reykjavík or Borgarnes on the drive in.",
+              "An N1 store on site carries gas canisters, drinks, snacks and more.",
+              "Small portable gas stoves are permitted in the campground.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "hubs",
+        title: "Hubs & Showers",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Hot water, charging stations, and Wi-Fi are available in both the Daybreak and Moonrise hubs.",
+              "Bring a power bank or solar charger as a backup.",
+              "Showers are 2,000 ISK per use.",
+              "There are no laundry facilities on site — hand wash and hang dry only.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "money",
+        title: "Money",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "The festival is cashless — card payments only.",
+              "ATMs are available at the Mayor's office in Hellissandur and in Ólafsvík.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "alcohol",
+        title: "Alcohol & Substances",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "The limit is one case of beer and one box of wine per person. A limited personal quantity of spirits is permitted.",
+              "No glass containers.",
+              "The Duty Free store at KEF is after Customs, just before baggage claim. The store in the terminal is for departures only.",
+              "**Detection dogs will be on site. Substances are not permitted.**",
+            ],
+          },
+        ],
+      },
+      {
+        id: "accessibility",
+        title: "Accessibility",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Accessibility credentials are provided during check-in.",
+              "Accessible restrooms across the site.",
+              "Designated accessible viewing platforms at the stages.",
+              "The first row of the local shuttle is reserved for guests with accessibility needs.",
+              "Mobility transport is available on site — more information at check-in.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "weather-packing",
+        title: "Weather & Packing",
+        blocks: [
+          {
+            kind: "facts",
+            rows: [
+              { label: "Days", value: "8–15°C" },
+              { label: "Nights", value: "5–8°C" },
+            ],
+          },
+          {
+            kind: "list",
+            items: [
+              "Pack layers, a waterproof jacket, and warm sleepwear.",
+              "A sleep mask is recommended — it barely gets dark in August.",
+              "Iceland uses Type F sockets, so bring an adapter.",
+              "[The Packing Guide in this app](https://app.icelandeclipse.com/guides/packing-guide) has the full list.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "eclipse-day",
+        title: "Eclipse Day",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Personal cameras are welcome for eclipse viewing on 12 August.",
+              "Eclipse glasses are provided to all attendees.",
+            ],
+          },
+        ],
+      },
+      {
+        // Absolute URLs on purpose: this section is the one attendees reach from
+        // email and social, where relative links would break.
+        id: "in-this-app",
+        title: "In This App",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "[Open the Schedule in this app](https://app.icelandeclipse.com/schedule) — every set and session, across five days and nine stages.",
+              "[Open the Festival & Campground Map in this app](https://app.icelandeclipse.com/map) — stages, food, water, and medical.",
+              "[Browse all the Guides in this app](https://app.icelandeclipse.com/guides) — packing, camping, ceremonies, and side quests.",
+              "Accommodation questions: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
+            ],
+          },
+        ],
+      },
+    ],
+  },
   {
     slug: "packing-guide",
     title: "Packing Guide",
@@ -1172,7 +1434,7 @@ export const ARTICLES: Article[] = [
 ];
 
 export function getArticles(locale: Locale = "en"): Article[] {
-  return locale === "is" ? ARTICLES_IS : ARTICLES;
+  return (locale === "is" ? ARTICLES_IS : ARTICLES).filter((a) => !a.draft);
 }
 
 export function getArticle(slug: string, locale: Locale = "en"): Article | undefined {
@@ -1180,5 +1442,5 @@ export function getArticle(slug: string, locale: Locale = "en"): Article | undef
 }
 
 export function getArticlesByCategory(category: ArticleCategory): Article[] {
-  return ARTICLES.filter((a) => a.category === category);
+  return getArticles().filter((a) => a.category === category);
 }

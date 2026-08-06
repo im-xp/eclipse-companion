@@ -54,6 +54,11 @@ export default async function GuidePage({ params }: GuidePageProps) {
           <h1 className="mt-3 max-w-3xl font-display font-extrabold uppercase text-moon-white text-[clamp(1.9rem,6vw,3.25rem)] leading-[0.95] tracking-[-0.035em] [text-shadow:0_2px_20px_rgba(3,4,10,0.7)]">
             {article.title}
           </h1>
+          {article.subtitle && (
+            <p className="eyebrow mt-3 max-w-2xl text-moon-white/70 [text-shadow:0_1px_12px_rgba(3,4,10,0.9)]">
+              {article.subtitle}
+            </p>
+          )}
         </div>
       </div>
 
