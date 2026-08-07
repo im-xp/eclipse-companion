@@ -30,15 +30,10 @@ export const ARTICLES_IS: Article[] = [
         title: "Koma og heimilisföng",
         blocks: [
           {
-            kind: "lede",
-            text:
-              "Allt sem þú þarft fyrir ferðina á staðinn — hvert þú átt að fara, hvenær er opnað og hvað gerist við komuna.",
-          },
-          {
             kind: "facts",
             rows: [
               { label: "Hátíðin", value: "Útnesvegur 360, 360 Hellissandur" },
-              { label: "Týndur poki", value: "Snæfellsás 2, 360 Hellissandur (afhending á seinkuðum farangri)" },
+              { label: "Farangur", value: "Snæfellsás 2, 360 Hellissandur (afhending á seinkuðum farangri)" },
               { label: "Tjaldsvæði", value: "Opnar 9. ágúst kl. 12:00" },
               { label: "Athöfn", value: "Opnunarathöfn 11. ágúst kl. 16:00" },
             ],
@@ -54,7 +49,7 @@ export const ARTICLES_IS: Article[] = [
             items: [
               "**Skutla frá Reykjavík** — stoppistöð nr. 5, Harpa, Faxagata, 101 Reykjavík.",
               "**Keflavíkurflugvöllur** — leitaðu að Iceland Eclipse-skiltinu í komusal og starfsfólkið vísar þér veginn.",
-              "**Mikil umferð verður á sólmyrkvadaginn.** Komdu fyrir 12. ágúst ef þú getur.",
+              "**Mikil umferð verður á sólmyrkvadaginn (12. ágúst).** Komdu fyrir 12. ef mögulegt er.",
               "Ein skutla fer 12. ágúst: frá Keflavíkurflugvelli kl. 10:30, með stoppi í Reykjavík kl. 11:30.",
             ],
           },
@@ -67,9 +62,9 @@ export const ARTICLES_IS: Article[] = [
           {
             kind: "list",
             items: [
+              "Þegar þú kemur á Rifsflugvöll til að leggja færðu límmerki á bílinn eftir gistingu þinni og leiðbeiningar frá starfsmanni á eftirlitsstöðinni.",
               "Ekki er hægt að koma með bíla inn á tjaldsvæðið sjálft.",
-              "Leggðu á tilgreindu stæði og taktu svo skutluna til að flytja búnaðinn og komast á tjaldstæðið þitt.",
-              "Á Rifsflugvelli fær þú límmerki á bílinn eftir gistingu þinni og starfsmaður á eftirlitsstöðinni gefur þér leiðbeiningar.",
+              "Leggðu á tilgreindu stæði og taktu skutluna til að flytja búnaðinn og komast á tjaldstæðið þitt.",
             ],
           },
         ],
@@ -79,12 +74,12 @@ export const ARTICLES_IS: Article[] = [
         title: "Bílastæði",
         blocks: [
           {
-            kind: "facts",
-            rows: [
-              { label: "Staðsetning", value: "Rifsflugvöllur — BIRF, W57J+33Q, Flugplatz, 360 Rif" },
-              { label: "Gjald", value: "50 USD, skylda" },
-              { label: "Aðalstæði", value: "Lagt í upphafi og stendur alla hátíðina" },
-              { label: "Dagsstæði", value: "Frelsi til að koma og fara fyrir daggesti" },
+            kind: "list",
+            items: [
+              "Bílastæði utan svæðis á Rifsflugvelli: BIRF, W57J+33Q, Flugplatz, 360 Rif.",
+              "Aðalstæðið er lagt í upphafi og stendur alla hátíðina.",
+              "Dagsstæði er í boði fyrir þá sem þurfa að koma og fara.",
+              "**Bílastæðapassi er skylda: 50 USD.**",
             ],
           },
         ],
@@ -118,7 +113,7 @@ export const ARTICLES_IS: Article[] = [
             kind: "list",
             items: [
               "Fer á 45 til 60 mínútna fresti og tengir hátíðarsvæðið, bílastæðið, Rif og Ólafsvík.",
-              "Tímarnir eru ólíkir frá degi til dags — skoðaðu [dagskrána í þessu appi](https://app.icelandeclipse.com/schedule) fyrir tíma dagsins.",
+              "Tímarnir eru ólíkir frá degi til dags — heildardagskrána má finna í [dagskránni í þessu appi](https://app.icelandeclipse.com/schedule).",
             ],
           },
         ],
@@ -130,8 +125,8 @@ export const ARTICLES_IS: Article[] = [
           {
             kind: "list",
             items: [
-              "**Daybreak** — Easy Camping, Base Glamping, BYO Tent, Grab n Go og Self Drive gestir.",
-              "**Moonrise** — Premium Glamping, Turnkey RV og Turnkey Camper gestir.",
+              "**Daybreak-svæðið** — Easy Camping, Base Glamping, BYO Tent, Grab n Go og Self Drive gestir.",
+              "**Moonrise-svæðið** — Premium Glamping, Turnkey RV og Turnkey Camper gestir.",
               "Armbönd eru athuguð við innganga.",
             ],
           },
@@ -146,54 +141,70 @@ export const ARTICLES_IS: Article[] = [
             items: [
               "Morgunmatur og léttur hádegismatur er til sölu í miðstöðvunum 9.–11. ágúst.",
               "Markaðssalar opna 11. ágúst.",
-              "Matsalar eru opnir kl. 12:00 – 04:00 á hátíðinni, 12.–15. ágúst.",
-              "Kaupðu matvörur í Reykjavík eða Borgarnesi á leiðinni.",
-              "N1-verslun á svæðinu er með gaskúta, drykki, snarl og fleira.",
-              "Litlar færanlegar gashellur eru leyfðar á tjaldsvæðinu.",
+              "Matsalar eru opnir kl. 12:00 – 04:00 á hátíðinni (12.–15. ágúst).",
+              "Kauptu matvörur í Reykjavík eða Borgarnesi á leiðinni.",
+              "N1-verslun verður á svæðinu með gaskúta, drykki, snarl og fleira.",
             ],
           },
         ],
       },
       {
-        id: "hubs",
-        title: "Miðstöðvar og sturtur",
+        id: "campsite-hubs",
+        title: "Miðstöðvar á tjaldsvæðinu",
         blocks: [
           {
             kind: "list",
             items: [
-              "Heitt vatn, hleðslustöðvar og Wi-Fi eru í bæði Daybreak- og Moonrise-miðstöðinni.",
+              "Heitt vatn er í bæði Daybreak- og Moonrise-miðstöðinni.",
+              "Hleðslustöðvar eru í báðum miðstöðvum.",
+              "Wi-Fi er í báðum miðstöðvum.",
               "Taktu með hleðslubanka eða sólarhleðslu til vara.",
-              "Sturtur kosta 2.000 kr. í hvert skipti.",
-              "Engin þvottahús eru á svæðinu — handþvottur og þurrkun á snúru eingöngu.",
             ],
           },
         ],
       },
       {
-        id: "money",
-        title: "Greiðslur",
+        id: "showers",
+        title: "Sturtur",
         blocks: [
           {
             kind: "list",
-            items: [
-              "Hátíðin er reiðufjárlaus — eingöngu kortagreiðslur.",
-              "Hraðbankar eru við bæjarstjórnarhúsið á Hellissandi og í Ólafsvík.",
-            ],
+            items: ["Sturtur kosta 2.000 kr. í hvert skipti."],
+          },
+        ],
+      },
+      {
+        id: "atm",
+        title: "Hraðbankar",
+        blocks: [
+          {
+            kind: "list",
+            items: ["Hraðbankar eru við bæjarstjórnarhúsið á Hellissandi og í Ólafsvík."],
           },
         ],
       },
       {
         id: "alcohol",
-        title: "Alkóhól og vímuefni",
+        title: "Áfengi",
         blocks: [
           {
             kind: "list",
             items: [
-              "Hámarkið er einn kassi af bjór og einn kassi af víni á mann. Takmarkað magn sterkra drykkja til einkanota er leyft.",
-              "Engar glerflöskur eða glerkrukkur.",
+              "Hámarkið er einn kassi af bjór og einn kassi af víni á mann.",
+              "Takmarkað magn sterkra drykkja til einkanota er leyft.",
+              "Engar glerumbúðir.",
               "Duty Free-verslunin á Keflavíkurflugvelli er eftir tollinum, rétt fyrir farangursbandið. Verslunin í flugstöðinni sjálfri er eingöngu fyrir farþega á förum.",
-              "**Fíkniefnahundar verða á svæðinu. Vímuefni eru ekki leyfð.**",
             ],
+          },
+        ],
+      },
+      {
+        id: "substances",
+        title: "Vímuefni",
+        blocks: [
+          {
+            kind: "list",
+            items: ["**Fíkniefnahundar verða á svæðinu. Vímuefni eru ekki leyfð.**"],
           },
         ],
       },
@@ -214,30 +225,37 @@ export const ARTICLES_IS: Article[] = [
         ],
       },
       {
-        id: "weather-packing",
-        title: "Veður og pökkun",
+        id: "laundry",
+        title: "Þvottur",
         blocks: [
-          {
-            kind: "facts",
-            rows: [
-              { label: "Dagar", value: "8–15°C" },
-              { label: "Nætur", value: "5–8°C" },
-            ],
-          },
           {
             kind: "list",
             items: [
-              "Pakkaðu lögum, vatnsheldri jakka og hlýjum nátfötum.",
-              "Svefngríma er ráðlögð — það verður varla dimmt í ágúst.",
-              "Á Íslandi eru F-týpu innstungur, svo taktu millistykki með.",
-              "[Pökkunarhandbókin í þessu appi](https://app.icelandeclipse.com/guides/packing-guide) er með fullan lista.",
+              "Engin þvottahús eru á svæðinu.",
+              "Handþvottur og þurrkun á snúru eingöngu.",
             ],
           },
         ],
       },
       {
-        id: "eclipse-day",
-        title: "Sólmyrkvadagurinn",
+        id: "weather-packing",
+        title: "Veður og pökkun",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "Pakkaðu lögum, vatnsheldri jakka og hlýjum náttfötum.",
+              "Hiti í ágúst: 8–15°C á daginn, 5–8°C á nóttunni.",
+              "Svefngríma er ráðlögð (það verður varla dimmt í ágúst).",
+              "F-týpu millistykki þarf á Íslandi.",
+              "Heildarpökkunarlistann má finna í [leiðarvísunum í þessu appi](https://app.icelandeclipse.com/guides/packing-guide).",
+            ],
+          },
+        ],
+      },
+      {
+        id: "cameras",
+        title: "Myndavélar",
         blocks: [
           {
             kind: "list",
@@ -249,16 +267,20 @@ export const ARTICLES_IS: Article[] = [
         ],
       },
       {
-        id: "in-this-app",
-        title: "Í þessu appi",
+        id: "general",
+        title: "Almennt",
         blocks: [
           {
             kind: "list",
             items: [
-              "[Opnaðu dagskrána í þessu appi](https://app.icelandeclipse.com/schedule) — hvert atriði og viðburður, fimm daga og níu svið.",
-              "[Opnaðu hátíðar- og tjaldsvæðiskortið í þessu appi](https://app.icelandeclipse.com/map) — svið, matur, vatn og læknishjálp.",
-              "[Skoðaðu alla leiðarvísa í þessu appi](https://app.icelandeclipse.com/guides) — pökkun, tjaldsvæði, athafnir og hliðarferðir.",
+              "Hátíðin er reiðufjárlaus — eingöngu kortagreiðslur.",
+              "Litlar færanlegar gashellur eru leyfðar á tjaldsvæðinu.",
+              "Gaskútar fást í N1-versluninni.",
               "Spurningar um gistingu: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
+              "Dagskrá hátíðarinnar: [app.icelandeclipse.com/schedule](https://app.icelandeclipse.com/schedule)",
+              "Hátíðar- og tjaldsvæðiskort: [app.icelandeclipse.com/map](https://app.icelandeclipse.com/map)",
+              "Leiðarvísar hátíðarinnar: [app.icelandeclipse.com/guides](https://app.icelandeclipse.com/guides)",
+              "Sæktu opinbera Iceland Eclipse-appið: [Eclipse Festival 2026 í App Store](https://apps.apple.com/app/id6769218865)",
             ],
           },
         ],

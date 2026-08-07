@@ -62,11 +62,6 @@ export const ARTICLES: Article[] = [
         title: "Arrival & Address",
         blocks: [
           {
-            kind: "lede",
-            text:
-              "Everything you need for the journey in — where to go, when the gates open, and what happens when you arrive.",
-          },
-          {
             kind: "facts",
             rows: [
               { label: "Festival", value: "Útnesvegur 360, 360 Hellissandur, Iceland" },
@@ -86,7 +81,7 @@ export const ARTICLES: Article[] = [
             items: [
               "**Reykjavík shuttle pickup** — Bus Stop #5, Harpa Concert Hall, Faxagata, 101 Reykjavík.",
               "**KEF Airport** — look for the Iceland Eclipse sign at Arrivals and the team will point you in the right direction.",
-              "**Traffic on eclipse day will be heavy.** Arrive before 12 August if you can.",
+              "**Traffic on eclipse day (12 August) will be heavy.** Arrive before the 12th if possible.",
               "One shuttle runs on 12 August: departs KEF at 10:30, stops in Reykjavík at 11:30.",
             ],
           },
@@ -99,9 +94,9 @@ export const ARTICLES: Article[] = [
           {
             kind: "list",
             items: [
+              "When arriving at Rif Airport to park, you'll be issued a vehicle decal based on your accommodation and receive instructions from the attendant at the checkpoint.",
               "Cars cannot be brought into the campsite itself.",
-              "Park in the designated lot, then take the shuttle to load your belongings and get to your camping spot.",
-              "At Rif Airport you'll be issued a vehicle decal based on your accommodation, and the attendant at the checkpoint will give you instructions.",
+              "Park in the designated lot and take the shuttle to load your belongings and get to your camping spot.",
             ],
           },
         ],
@@ -111,12 +106,12 @@ export const ARTICLES: Article[] = [
         title: "Parking",
         blocks: [
           {
-            kind: "facts",
-            rows: [
-              { label: "Location", value: "Rif Airport — BIRF, W57J+33Q, Flugplatz, 360 Rif" },
-              { label: "Pass", value: "US$50, required" },
-              { label: "Main lot", value: "Park in and stay for the duration of the festival" },
-              { label: "Day lot", value: "In and out flexibility for day visitors" },
+            kind: "list",
+            items: [
+              "Off-site parking at Rif Airport: BIRF, W57J+33Q, Flugplatz, 360 Rif.",
+              "The main lot is park-in-and-stay for the duration of the festival.",
+              "A day visitor lot is available for in/out flexibility.",
+              "**Parking pass required: US$50.**",
             ],
           },
         ],
@@ -135,8 +130,8 @@ export const ARTICLES: Article[] = [
           {
             kind: "list",
             items: [
-              "Credentials cannot be collected outside those hours.",
-              "Guests arriving on shuttles receive their credentials on arrival.",
+              "Credentials cannot be collected outside of those hours.",
+              "Guests arriving on shuttles will receive their credentials upon arrival.",
               "Accommodation questions: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
             ],
           },
@@ -150,7 +145,7 @@ export const ARTICLES: Article[] = [
             kind: "list",
             items: [
               "Runs every 45 minutes to an hour, connecting the festival grounds, the parking area, Rif, and Ólafsvík.",
-              "The schedule varies by day — check [the Schedule in this app](https://app.icelandeclipse.com/schedule) for the current day's times.",
+              "Schedule varies by day — full schedule available in [the Schedule in this app](https://app.icelandeclipse.com/schedule).",
             ],
           },
         ],
@@ -162,9 +157,9 @@ export const ARTICLES: Article[] = [
           {
             kind: "list",
             items: [
-              "**Daybreak** — Easy Camping, Base Glamping, BYO Tent, Grab n Go, and Self Drive guests.",
-              "**Moonrise** — Premium Glamping, Turnkey RV, and Turnkey Camper guests.",
-              "Wristbands are checked at entry points.",
+              "**Daybreak zone** — Easy Camping, Base Glamping, BYO Tent, Grab n Go, and Self Drive guests.",
+              "**Moonrise zone** — Premium Glamping, Turnkey RV, and Turnkey Camper guests.",
+              "Wristbands will be checked at entry points.",
             ],
           },
         ],
@@ -176,56 +171,72 @@ export const ARTICLES: Article[] = [
           {
             kind: "list",
             items: [
-              "Breakfast and light lunch are available to buy at the hubs from 9–11 August.",
-              "Market vendors open 11 August.",
-              "Food vendors are open 12:00 – 04:00 during the festival, 12–15 August.",
+              "Breakfast and light lunch options available for purchase at the hubs from 9–11 August.",
+              "Market vendors open from 11 August.",
+              "Food vendors open 12:00 – 04:00 during the festival (12–15 August).",
               "Stock up on groceries in Reykjavík or Borgarnes on the drive in.",
-              "An N1 store on site carries gas canisters, drinks, snacks and more.",
-              "Small portable gas stoves are permitted in the campground.",
+              "An N1 store will be available with gas canisters, drinks, snacks, and more.",
             ],
           },
         ],
       },
       {
-        id: "hubs",
-        title: "Hubs & Showers",
+        id: "campsite-hubs",
+        title: "Campsite Hubs",
         blocks: [
           {
             kind: "list",
             items: [
-              "Hot water, charging stations, and Wi-Fi are available in both the Daybreak and Moonrise hubs.",
-              "Bring a power bank or solar charger as a backup.",
-              "Showers are 2,000 ISK per use.",
-              "There are no laundry facilities on site — hand wash and hang dry only.",
+              "Hot water available in both the Daybreak and Moonrise hubs.",
+              "Charging stations available in both hubs.",
+              "Wi-Fi available in both hubs.",
+              "Bring a power bank or solar charger as backup.",
             ],
           },
         ],
       },
       {
-        id: "money",
-        title: "Money",
+        id: "showers",
+        title: "Showers",
         blocks: [
           {
             kind: "list",
-            items: [
-              "The festival is cashless — card payments only.",
-              "ATMs are available at the Mayor's office in Hellissandur and in Ólafsvík.",
-            ],
+            items: ["Showers available at 2,000 ISK per use."],
+          },
+        ],
+      },
+      {
+        id: "atm",
+        title: "ATM",
+        blocks: [
+          {
+            kind: "list",
+            items: ["ATMs available at the Mayor's office in Hellissandur and in Ólafsvík."],
           },
         ],
       },
       {
         id: "alcohol",
-        title: "Alcohol & Substances",
+        title: "Alcohol",
         blocks: [
           {
             kind: "list",
             items: [
-              "The limit is one case of beer and one box of wine per person. A limited personal quantity of spirits is permitted.",
+              "The limit is one case of beer and one box of wine per person.",
+              "A limited personal quantity of spirits is permitted.",
               "No glass containers.",
-              "The Duty Free store at KEF is after Customs, just before baggage claim. The store in the terminal is for departures only.",
-              "**Detection dogs will be on site. Substances are not permitted.**",
+              "The Duty Free store at KEF is located after Customs and just before baggage claim. The Duty Free store in the terminal is for departures only.",
             ],
+          },
+        ],
+      },
+      {
+        id: "substances",
+        title: "Substances",
+        blocks: [
+          {
+            kind: "list",
+            items: ["**Detection dogs will be on site. Substances are not permitted.**"],
           },
         ],
       },
@@ -236,11 +247,24 @@ export const ARTICLES: Article[] = [
           {
             kind: "list",
             items: [
-              "Accessibility credentials are provided during check-in.",
+              "Accessibility credentials will be provided during check-in.",
               "Accessible restrooms across the site.",
-              "Designated accessible viewing platforms at the stages.",
-              "The first row of the local shuttle is reserved for guests with accessibility needs.",
-              "Mobility transport is available on site — more information at check-in.",
+              "Designated accessible viewing platforms at stages.",
+              "First row of the local shuttle reserved for guests with accessibility needs.",
+              "Mobility transport will be available on site — additional information will be shared at check-in.",
+            ],
+          },
+        ],
+      },
+      {
+        id: "laundry",
+        title: "Laundry",
+        blocks: [
+          {
+            kind: "list",
+            items: [
+              "No laundry facilities on site.",
+              "Hand wash and hang dry only.",
             ],
           },
         ],
@@ -250,49 +274,45 @@ export const ARTICLES: Article[] = [
         title: "Weather & Packing",
         blocks: [
           {
-            kind: "facts",
-            rows: [
-              { label: "Days", value: "8–15°C" },
-              { label: "Nights", value: "5–8°C" },
-            ],
-          },
-          {
             kind: "list",
             items: [
               "Pack layers, a waterproof jacket, and warm sleepwear.",
-              "A sleep mask is recommended — it barely gets dark in August.",
-              "Iceland uses Type F sockets, so bring an adapter.",
-              "[The Packing Guide in this app](https://app.icelandeclipse.com/guides/packing-guide) has the full list.",
+              "August temps: 8–15°C days, 5–8°C nights.",
+              "Sleep mask recommended (it barely gets dark in August).",
+              "Type F adapters needed for Iceland.",
+              "Full packing guide available in [the Guides in this app](https://app.icelandeclipse.com/guides/packing-guide).",
             ],
           },
         ],
       },
       {
-        id: "eclipse-day",
-        title: "Eclipse Day",
+        id: "cameras",
+        title: "Cameras",
         blocks: [
           {
             kind: "list",
             items: [
-              "Personal cameras are welcome for eclipse viewing on 12 August.",
-              "Eclipse glasses are provided to all attendees.",
+              "Personal cameras welcome for eclipse viewing on 12 August.",
+              "Eclipse glasses provided to all attendees.",
             ],
           },
         ],
       },
       {
-        // Absolute URLs on purpose: this section is the one attendees reach from
-        // email and social, where relative links would break.
-        id: "in-this-app",
-        title: "In This App",
+        id: "general",
+        title: "General",
         blocks: [
           {
             kind: "list",
             items: [
-              "[Open the Schedule in this app](https://app.icelandeclipse.com/schedule) — every set and session, across five days and nine stages.",
-              "[Open the Festival & Campground Map in this app](https://app.icelandeclipse.com/map) — stages, food, water, and medical.",
-              "[Browse all the Guides in this app](https://app.icelandeclipse.com/guides) — packing, camping, ceremonies, and side quests.",
-              "Accommodation questions: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
+              "Cashless festival — card payments only.",
+              "Small portable gas stoves permitted in the campground.",
+              "Gas canisters available at the N1 store.",
+              "For accommodation questions: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
+              "Festival Schedule: [app.icelandeclipse.com/schedule](https://app.icelandeclipse.com/schedule)",
+              "Festival & Campground Map: [app.icelandeclipse.com/map](https://app.icelandeclipse.com/map)",
+              "Festival Guides: [app.icelandeclipse.com/guides](https://app.icelandeclipse.com/guides)",
+              "Download the official Iceland Eclipse app: [Eclipse Festival 2026 on the App Store](https://apps.apple.com/app/id6769218865)",
             ],
           },
         ],
