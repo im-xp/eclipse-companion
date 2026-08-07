@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 # Auto-sync the Iceland Eclipse companion schedule.
-#   ROS Google Sheet  ->  schedule.json  ->  Vercel production
+#   ROS Google Sheet  ->  schedule.json  ->  commit+push to main  ->  Vercel production
 #
-# Runs from cron on hermes. Credential-free by design: it relies on the ROS
-# sheet being link-shared ("Anyone with the link: Viewer"), which makes the
-# xlsx export fetchable without auth. Deploys only when the schedule actually
-# changed (generatedAt timestamp is ignored in the comparison).
+# Runs from cron on hermes (the PROD_TREE copy of this script — keep cron
+# pointed there so the main-branch version always runs). Credential-free by
+# design: it relies on the ROS sheet being link-shared ("Anyone with the
+# link: Viewer"), which makes the xlsx export fetchable without auth. Deploys
+# only when the schedule actually changed (generatedAt timestamp is ignored
+# in the comparison). Regenerated data is committed and pushed to main so git
+# always matches production — a deploy from any fresh clone ships the current
+# schedule instead of rolling it back.
 #
 # Config: create $ROOT/.sync.env with:  SHEET_ID=<google-sheet-id>
 # (optional)  SLACK_NOTIFY=1  to post to #imxp-simplefi on each live update.
@@ -19,8 +23,9 @@ SRC="$ROOT/src"
 # Production is deployed from a dedicated worktree pinned to `main`, NEVER from
 # this dev checkout (which rides feature branches). Otherwise a schedule change
 # would ship whatever branch is checked out to prod. Regenerate + compare +
-# deploy all happen in PROD_SRC. After an intentional promotion (merge into
-# main), refresh it: git -C "$PROD_TREE" merge --ff-only main
+# deploy all happen in PROD_SRC. The worktree pulls origin/main each run, so
+# teammates' merges land here automatically (and deploy with the next schedule
+# change; merge-only deploys are still done by hand or by Vercel git deploys).
 PROD_TREE="/home/jon/imxp/eclipse-companion-prod"
 PROD_SRC="$PROD_TREE/src"
 CONF="$ROOT/.sync.env"
@@ -85,6 +90,12 @@ if [ ! -d "$PROD_SRC" ] || [ "$(git -C "$PROD_TREE" branch --show-current 2>/dev
   exit 1
 fi
 
+# Keep the worktree current with origin/main (teammates merge there). Rebase
+# keeps any schedule commit that failed to push last run; autostash covers a
+# dirty translate cache. Non-fatal — on failure we sync against the local tree.
+git -C "$PROD_TREE" pull --rebase --autostash --quiet origin main >>"$LOG" 2>&1 \
+  || log "git pull failed — syncing against local tree"
+
 TMP="$(mktemp -d)"
 trap 'rm -rf "$TMP"' EXIT
 
@@ -138,10 +149,11 @@ if [ -f "$PROD_SRC/scripts/translate_schedule.py" ] && \
 *Next step:* check ~/imxp/eclipse-companion/sync.log, then run: python3 ~/imxp/eclipse-companion/src/scripts/translate_schedule.py <schedule.json> <cache.json> by hand."
 fi
 
-# Everything worked — the pipeline is healthy, so reset the alert throttle
-# (a later failure will alert immediately rather than being suppressed).
-# Skipped while translate is failing so its 6h throttle state survives runs.
-[ "$translate_ok" = "1" ] && alert_clear
+# Alert-throttle reset (alert_clear) happens at the exit points below, after
+# every fallible step has run — clearing here would wipe a push failure's 6h
+# throttle each run. Skipped while translate/push is failing so their state
+# survives runs.
+push_ok=1
 
 # 3. Deploy only if the meaningful content changed (ignore generatedAt).
 changed="$(python3 - "$TMP/schedule.json" "$PROD_SRC/data/schedule.json" <<'PY'
@@ -157,10 +169,30 @@ PY
 )"
 if [ "$changed" = "0" ]; then
   log "no schedule change"
+  [ "$translate_ok" = "1" ] && alert_clear
   exit 0
 fi
 
 cp "$TMP/schedule.json" "$PROD_SRC/data/schedule.json"
+
+# Git is the source of truth for the generated schedule: commit + push BEFORE
+# deploying, so even a failed deploy leaves the repo current and a teammate's
+# deploy from a fresh clone can never roll the live schedule back.
+git -C "$PROD_TREE" add src/data/schedule.json src/data/schedule-i18n-cache.json
+if ! git -C "$PROD_TREE" diff --cached --quiet; then
+  git -C "$PROD_TREE" commit -q -m "schedule: auto-sync from ROS sheet" >>"$LOG" 2>&1 \
+    || log "schedule commit failed"
+  if ! git -C "$PROD_TREE" push -q origin main >>"$LOG" 2>&1; then
+    push_ok=0
+    log "push failed — schedule committed locally; next run rebases and retries"
+    alert "gitpush" "🟡 *Eclipse schedule sync: couldn't push the updated schedule to GitHub*
+
+*Impact:* production is deploying the new schedule fine, but the repo on GitHub is falling behind — anyone deploying from their own checkout would ship stale data until this clears.
+*Likely cause:* GitHub credentials on the sync host expired, or main diverged in a way that needs a manual rebase.
+*Next step:* run: git -C ~/imxp/eclipse-companion-prod pull --rebase --autostash origin main && git -C ~/imxp/eclipse-companion-prod push origin main"
+  fi
+fi
+
 log "schedule changed — deploying main to production"
 cd "$PROD_SRC"
 url="$(vercel --prod --yes --scope imxp 2>>"$LOG" | grep -oE 'https://[a-z0-9-]+\.vercel\.app' | head -1 || true)"
@@ -173,4 +205,5 @@ if [ -z "$url" ]; then
   exit 1
 fi
 log "deployed: $url"
+{ [ "$translate_ok" = "1" ] && [ "$push_ok" = "1" ] && alert_clear; } || true
 # No Slack post on success — #pat-health only hears about failures (Jon, 2026-07-07).
