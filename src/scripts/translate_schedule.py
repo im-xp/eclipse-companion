@@ -39,7 +39,9 @@ Iceland Eclipse companion app (a music/culture festival on Snæfellsnes, August 
 Translate each entry's "en" text to natural, idiomatic Icelandic (informal tone, \
 "þú" address). Rules:
 - Artist names, band names, brand names, and set/track titles that are proper \
-names stay EXACTLY as-is — if the whole string is a proper name, return it verbatim.
+names stay EXACTLY as-is — if the whole string is a proper name, return it verbatim. \
+Never "correct" a name toward an Icelandic one (e.g. the artist Annu must never \
+become Anna).
 - Place names use their correct Icelandic forms.
 - Keep prices, times, and units unchanged.
 - Markdown like [text](url): translate the text, never the url.

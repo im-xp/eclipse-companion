@@ -5,7 +5,9 @@
 // Bump VERSION on any strategy change to retire old caches.
 // v2: [locale] segment restructure changed RSC payload shapes — a clean cache
 // avoids serving pre-i18n cached RSC against the new router tree.
-const VERSION = "ie-v2";
+// v3: 2026-08-04 map art replaced (Rostin cut, Portal added) + campground map
+// added — retire caches holding the old precached festival-map.jpg.
+const VERSION = "ie-v3";
 const PRECACHE = `ie-precache-${VERSION}`;
 const RUNTIME = `ie-runtime-${VERSION}`;
 
@@ -19,6 +21,7 @@ const CORE = [
   "/guides",
   "/manifest.webmanifest",
   "/festival-map.jpg",
+  "/campground-map.jpg",
   "/iceland-eclipse-logo.png",
   "/icon-192.png",
   "/icon-512.png",

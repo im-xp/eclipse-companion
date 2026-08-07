@@ -37,6 +37,11 @@ def load_rows(path):
     return list(wb["ROS Chart (auto)"].iter_rows(values_only=True))
 
 
+# Sheet "Head shot" is stale for these artists; serve a local replacement.
+HEADSHOT_OVERRIDES = {
+    "Daði Freyr": "/participants/dadi-freyr.jpg",  # new photo, Andrew 2026-07-28
+}
+
 rows = load_rows(SRC)
 header = [str(h).strip() if h else "" for h in rows[0]]
 idx = {h: i for i, h in enumerate(header)}
@@ -108,11 +113,22 @@ for row in rows[1:]:
         "start": start_s,
         "durationMin": duration_min,
         "stage": stage,
-        "headshot": get(row, "Head shot"),
+        "headshot": HEADSHOT_OVERRIDES.get(billing) or get(row, "Head shot"),
         "bio": get(row, "website BIO"),
         "tagline": get(row, "website TAGLINE"),
         "emcee": get(row, "Emcee"),
     })
+
+# Röstin cut from the festival (Andrew 2026-08-04). Hold its rows out of the
+# public schedule but write them aside — programming may re-home the film
+# screenings to another stage.
+CUT_STAGES = {"Röstin Film Premiers"}
+cut_events = [e for e in events if e["stage"] in CUT_STAGES]
+events = [e for e in events if e["stage"] not in CUT_STAGES]
+if cut_events:
+    cut_path = os.path.join(os.path.dirname(os.path.abspath(OUT)), "rostin-archive.json")
+    with open(cut_path, "w") as f:
+        json.dump(cut_events, f, ensure_ascii=False, indent=1)
 
 events.sort(key=lambda e: (e["date"], e["start"], e["stage"]))
 stages = sorted({e["stage"] for e in events})
