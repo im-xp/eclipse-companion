@@ -1,0 +1,30 @@
+name: Deploy to Vercel (production)
+
+# Any push to main deploys the app, no matter who authored it.
+# Schedule-data pushes are excluded: the sync cron on Jon's machine already
+# deploys those directly via the Vercel CLI (scripts/sync_schedule.sh).
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "src/data/schedule.json"
+      - "src/data/schedule-i18n-cache.json"
+  workflow_dispatch:
+
+# Queue deploys instead of running them concurrently so an older commit can
+# never finish after (and overwrite) a newer one.
+concurrency:
+  group: vercel-prod-deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      VERCEL_ORG_ID: team_PdMx3I39pi51WEI2VFXukkDj
+      VERCEL_PROJECT_ID: prj_wa4YKl0EK8h98wLgNlyGowLafPjd
+    steps:
+      - uses: actions/checkout@v4
+      - name: Deploy to Vercel
+        working-directory: src
+        run: npx vercel@latest deploy --prod --yes --token "${{ secrets.VERCEL_TOKEN }}"
