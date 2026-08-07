@@ -124,14 +124,15 @@ export const ARTICLES: Article[] = [
             kind: "facts",
             rows: [
               { label: "Location", value: "Outside the Daybreak hub" },
-              { label: "Hours", value: "10:00 – 22:00" },
+              { label: "9 Aug", value: "12:00 – 22:00" },
+              { label: "10–16 Aug", value: "10:00 – 22:00" },
             ],
           },
           {
             kind: "list",
             items: [
-              "Credentials cannot be collected outside of those hours.",
-              "Guests arriving on shuttles will receive their credentials upon arrival.",
+              "Guests not arriving on shuttles must plan to arrive within these hours.",
+              "Guests arriving on shuttles will receive their credentials upon arrival, regardless of time.",
               "Accommodation questions: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
             ],
           },

@@ -92,14 +92,15 @@ export const ARTICLES_IS: Article[] = [
             kind: "facts",
             rows: [
               { label: "Staðsetning", value: "Fyrir utan Daybreak-miðstöðina" },
-              { label: "Opnunartími", value: "10:00 – 22:00" },
+              { label: "9. ágúst", value: "12:00 – 22:00" },
+              { label: "10.–16. ágúst", value: "10:00 – 22:00" },
             ],
           },
           {
             kind: "list",
             items: [
-              "Ekki er unnt að nálgast armbönd og skilríki utan þess tíma.",
-              "Gestir sem koma með skutlu fá sín skilríki við komuna.",
+              "Gestir sem koma ekki með skutlu þurfa að skipuleggja komu sína innan þessara tíma.",
+              "Gestir sem koma með skutlu fá sín skilríki við komuna, óháð tíma.",
               "Spurningar um gistingu: [camping@icelandeclipse.com](mailto:camping@icelandeclipse.com)",
             ],
           },
