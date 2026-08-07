@@ -6,6 +6,12 @@
    "is": "Óli Björn er jógakennari með þjálfun í Hatha Vinyasa og Solar Yoga-hefðinni. Hann er samfélagsskapari sem brennur fyrir því að leiða fólk saman og leggur áherslu á að halda styðjandi rými fyrir hreyfingu, könnun og tengsl.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "0078273a8885f09d": {
+   "en": "Imogen Heap is a British musician and technology innovator who created the Mi.Mu Gloves — wearable instruments that translate hand gestures into music, pioneering new modes of live performance.",
+   "field": "bio",
+   "is": "Imogen Heap er breskur tónlistarmaður og tækninýjungakona sem skapaði Mi.Mu Gloves — hljóðfæri sem þú ber á þér og sem breyta handahreyfingum í tónlist og hafa rutt brautina fyrir nýjar leiðir í lifandi flutningi.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "0163eba7236f67f1": {
    "en": "James Ellington is a producer, DJ, film composer, and co-founder of the electronic music collective RVDIOVCTIVE. Known for his eclectic sets, he creates dynamic musical journeys that balance infectious grooves with thoughtful listening",
    "field": "bio",
@@ -24,11 +30,23 @@
    "is": "Joey er hljóð- og ljóslistamaður í London sem skapar teknó, ambient og DNB með plöntum og lífendurgjafartækjum sem hljóðfærum — og hefur komið fram á Glastonbury, Burning Man og í Barbican.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "03a2493f096b0e04": {
+   "en": "JT Marino is building Marino, an advanced R&D lab creating a future of non-obsolescence through products designed in service to people, planet, and humanity.",
+   "field": "bio",
+   "is": "JT Marino er að byggja upp Marino, framsækna rannsóknar- og þróunarstofu sem skapar framtíð án úreldingar með vörum sem eru hannaðar í þágu fólks, jarðarinnar og mannkyns.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "04d02c667eb3f354": {
    "en": "The Power of Music to Transform Communities",
    "field": "title",
    "is": "Máttur tónlistar til að umbreyta samfélögum",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "0532e287a4d87649": {
+   "en": "Gwen Bethel Riley is a music and content executive shaping artist-driven storytelling across global platforms. A former leader at Disney and Peloton, she has collaborated with icons like Beyoncé, The Beatles, and Lady Gaga to redefine how audiences experience sound and story.",
+   "field": "bio",
+   "is": "Gwen Bethel Riley er stjórnandi í tónlist og efnissköpun sem mótar listamannadrifna frásögn þvert á alþjóðlega vettvanga. Hún var áður leiðtogi hjá Disney og Peloton og hefur unnið með táknmyndum á borð við Beyoncé, The Beatles og Lady Gaga til að endurskilgreina hvernig áhorfendur upplifa hljóð og sögu.",
+   "translatedAt": "2026-07-17T22:30:02+00:00"
   },
   "0561c9829c79f279": {
    "en": "Blankiflur is the multi-dimensional creative alter-ego of Icelandic musical artist Inga Birna Friðjónsdóttir.\nKnown for her soaring outer-worldly voice, dynamic and genre-defying arrangements, and unique blend of electronic pop and ethereal songwriting,  she all at once carves a deep musical space that is truly a one of a kind experience.",
@@ -101,6 +119,12 @@
    "field": "bio",
    "is": "Dr. Aneil Mallavarapu er vísindamaður, uppfinningamaður og fjárfestir með doktorsgráðu frá UCSF. Vinna hans í kerfislíffræði leiddi til Virtual Cell-verkefnis Harvard og í dag fjárfestir hann í gervigreind og heilsutækni ásamt Lindu Avey, meðstofnanda 23andMe.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "0bf2fe5ae2bc1974": {
+   "en": "Gathering of the Tribes: Prayers, Songs and Stories from Traditions Around the World",
+   "field": "title",
+   "is": "Samkoma þjóðflokkanna: Bænir, söngvar og sögur úr hefðum víða um heim",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "0bfe87c7ab1a8083": {
    "en": "Winter Jendayi is a singer, musician, and ceremonialist rooted in earth-based healing arts, with over a decade of devoted study in Indigenous traditions and a deep reclamation of her ancestral ways. Her music—woven from sacred study and lineage—carries the medicines of the Four Directions, and her voice, described as both angelic and strong, has brought healing to many.",
@@ -216,11 +240,23 @@
    "is": "Lifandi flutningur Eduardo Castillo sameinar tónlist og myndefni til að kanna hvernig sólmyrkvar spegla leyndardóma vitundarinnar, í gegnum raftónlist og margmiðlun.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "154bd076af5f3aa4": {
+   "en": "Acro Yoga",
+   "field": "title",
+   "is": "Acro Yoga",
+   "translatedAt": "2026-08-06T15:30:02+00:00"
+  },
   "16ecebdd07d3a1ed": {
    "en": "Shadows of Enlightenment",
    "field": "title",
    "is": "Skuggar uppljómunarinnar",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "172f5d83d8d2e0f1": {
+   "en": "Shaun Reeves is an internationally acclaimed DJ, producer, and founding member of underground house collective Visionquest — known for sophisticated minimal productions and dynamic underground sets.",
+   "field": "bio",
+   "is": "Shaun Reeves er alþjóðlega virtur plötusnúður, tónlistarframleiðandi og einn af stofnendum neðanjarðar house-kollektífsins Visionquest — þekktur fyrir fágaðar mínímal-útgáfur og kraftmikil neðanjarðarsett.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "17a4da777471ecc6": {
    "en": "Anouk Wipprecht is a pioneering FashionTech designer and engineer known for robotic, interactive garments at the intersection of wearable technology and fashion.",
@@ -288,6 +324,12 @@
    "is": "Plötusnúður og pródúser, þekktur fyrir djúpt dáleiðandi og seiðandi sett sín og fyrir að stofna hina goðsagnakenndu viðburðaröð, kollektíf og útgáfu Sheik N Beik í New York, auk Okeechobee Music & Arts Festival í Flórída. Rechulski er einnig meðstofnandi Sungai Design og situr í stjórn Sungai Watch, sem vinnur að því að hreinsa ár Indónesíu af plastmengun.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "1c326650a8ac2a80": {
+   "en": "A fresh talent in the local reykjavík dance scene, weaving uplifting and heavy dance tracks, pop and the underground together into a cohesive genre blending dance journey",
+   "field": "bio",
+   "is": "Ferskur hæfileikamaður í reykvísku danssenunni sem fléttar saman upplyftandi og þung danslög, popp og neðanjarðartónlist í eitt samstætt dansferðalag þar sem stílarnir renna saman.",
+   "translatedAt": "2026-07-21T05:00:03+00:00"
+  },
   "1d82dc6d61c34daa": {
    "en": "Ethical tech in the age of AI: data ownership, decentralization and open-source",
    "field": "title",
@@ -311,6 +353,12 @@
    "field": "bio",
    "is": "Arc De Soleil er sækadelískt heimsfönk-verkefni tónskáldsins Daniel Kadawatha, þar sem brimgítar, sál og grúv úr öllum heimshornum renna saman.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "209c0e8524e6f2e0": {
+   "en": "Nana Marina Cruz is a mayan elder sharing the wisdom of the mayan culture.",
+   "field": "bio",
+   "is": "Nana Marina Cruz er öldungur úr Maya-samfélaginu og deilir visku Maya-menningarinnar.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
   },
   "218fd83a0dc17288": {
    "en": "Entering the Living Field: Group Coherence, Flow, and the Intelligence of the Heart",
@@ -342,6 +390,12 @@
    "is": "Pöddusmiðja",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "22846545fb9e15f3": {
+   "en": "Allen Hulsey, Vincent Bruneau",
+   "field": "title",
+   "is": "Allen Hulsey, Vincent Bruneau",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "228ab5bc24ba0d45": {
    "en": "Freyr Friðfinnsson works with KLAK Icelandic Startups, supporting founders and strengthening the Nordic innovation ecosystem.",
    "field": "bio",
@@ -353,6 +407,12 @@
    "field": "bio",
    "is": "Söngvari, höfundur, pródúser, plötusnúður og félagslegur gullgerðarmaður sem fléttar danstónlist heimsins saman við eteríska söngrödd í helgisiðakenndum settum — og breytir dansgólfinu í athöfn. Frá Electric Forest til Red Rocks.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "22ff9e1523e52719": {
+   "en": "presents 'The Overview Effect'",
+   "field": "title",
+   "is": "kynnir 'The Overview Effect'",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "244b14b9c66d9b5e": {
    "en": "Films on Feelings",
@@ -384,6 +444,12 @@
    "is": "Mold og sál: Villtari hugur, villtari diskur",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "255d674957eca912": {
+   "en": "Glacial Resonance: Live Soundscape",
+   "field": "title",
+   "is": "Jökulhljómur: Lifandi hljóðmynd",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "259f2496215bec6a": {
    "en": "Sara Ahmadian is a Venture Advisor across emerging markets specializing in building startup ecosystems and expanding access to frontier technologies like AI.",
    "field": "bio",
@@ -414,6 +480,12 @@
    "is": "Leidd orkustöðvahugleiðsla",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "2a528e1cfa4adfb6": {
+   "en": "Rohan Roberts",
+   "field": "title",
+   "is": "Rohan Roberts",
+   "translatedAt": "2026-07-21T05:00:03+00:00"
+  },
   "2c63cfcc0e882f6e": {
    "en": "AI and the Return to Being Human: How Technology Can Give Leaders Their Life Back",
    "field": "title",
@@ -431,6 +503,12 @@
    "field": "title",
    "is": "Samskara",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "2eb006bfcef973da": {
+   "en": "Ceremonial Concert",
+   "field": "title",
+   "is": "Athafnatónleikar",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
   },
   "300005af0fb2aa31": {
    "en": "How Burning Man Trained Me to be an Alien",
@@ -450,11 +528,23 @@
    "is": "Náttúruverndartækni með réttlæti að leiðarljósi",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "315bd8340087027b": {
+   "en": "AI Democratized Entrepreneurship. Community Enables Scaling.",
+   "field": "title",
+   "is": "Gervigreindin lýðræðisvæddi frumkvöðlastarfið. Samfélagið gerir stækkunina mögulega.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "3192e78343072956": {
    "en": "Poranguí is a world-renowned musician, healer, and producer, weaving ancestral songs and\nindigenous rhythms to uplift and transform audiences worldwide.",
    "field": "bio",
    "is": "Poranguí er heimsþekktur tónlistarmaður, heilari og upptökustjóri sem fléttar saman söngva forfeðranna og frumbyggjatakta til að lyfta og umbreyta áheyrendum um allan heim.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "31df5ac01a7b97f7": {
+   "en": "Community Builds the New World: From Pop-up Cities Across the World to Frontier Residency in San Francisco",
+   "field": "title",
+   "is": "Samfélagið byggir nýja heiminn: Frá pop-up borgum um allan heim til Frontier Residency í San Francisco",
+   "translatedAt": "2026-08-06T16:00:02+00:00"
   },
   "32ddf1785fe1a46c": {
    "en": "Christopher Breedlove builds systems, stories, and spaces that bring people together. Drawing from decades of work with Burning Man, Burners Without Borders, and grassroots cultural movements, he explores how creativity, participation, and regenerative culture can shape more connected futures.",
@@ -467,6 +557,18 @@
    "field": "bio",
    "is": "Shanin Blake er sjálfskapuð tónlistarkona og framsýn listakona sem þverar tónlistarstefnur og blandar saman svífandi söngrödd, meðvituðum textum og hrárri tilfinningalegri orku. Með yfir 3 milljónir fylgjenda og myndbönd sem hafa náð yfir 25 milljónum áhorfa tekur hún upp og gefur út tónlist sína algjörlega upp á eigin spýtur. Hún er einstæð móðir sem reis upp úr því að búa í sendibíl, hefur verið aðalnúmer á uppseldum tónleikaferðum um Bandaríkin og byggt upp einstaklega tryggan aðdáendahóp sem heillast af sögu hennar um bata, seiglu og uppgang.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "3354634b4ba0c6a7": {
+   "en": "A collective of individuals sharing medicine through sound and vibration.",
+   "field": "bio",
+   "is": "Hópur einstaklinga sem deilir lækningu með hljóði og sveiflum.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
+  "33ffb8e6d73585c9": {
+   "en": "Mimu Gloves Demo",
+   "field": "title",
+   "is": "Mimu Gloves – sýnikennsla",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
   },
   "34a0fbb77aa0e84a": {
    "en": "Gio Israel is the creator and director of Seekers, building the world’s largest accessible collection of human wisdom. For two decades, he has documented rituals and ceremonies globally. An initiated Sufi (Mevlevi Order), he co-founded Frequency (acquired), led strategy for Midburn (Burning Man’s largest regional event), and built the world’s largest ceremonial instrument collection on Splice.",
@@ -491,6 +593,24 @@
    "field": "bio",
    "is": "BigRedMachine er plötusnúður og samfélagssmiður sem var meðal stofnenda ETHDenver",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "36ae564b57915aa7": {
+   "en": "Thorgerdur is an Icelandic DJ and producer based in Oslo, curating groovy, mysterious sets rooted in house and techno. A former classical pianist, she's built a global following since 2015, playing clubs from Reykjavik to Berlin to New York.",
+   "field": "bio",
+   "is": "Thorgerdur er íslenskur DJ og pródúsent með búsetu í Osló sem setur saman grúvuð og dularfull sett með rætur í house og techno. Hún var áður klassískur píanóleikari og hefur byggt upp alþjóðlegan aðdáendaskara síðan 2015, og spilað á klúbbum frá Reykjavík til Berlínar og New York.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "370810f01e8b3abe": {
+   "en": "Allen Hulsey creates cinematic live electronic performances integrating kanun, voice, and contemporary production. Drawing from international traditions and jazz composition, his immersive sets move between global dancefloors and curated art spaces with layered instrumentation and improvisational precision.",
+   "field": "bio",
+   "is": "Allen Hulsey skapar kvikmyndalega, lifandi elektróníska tónleika þar sem kanun, söngur og nútímaleg hljóðvinnsla renna saman. Hann sækir í hefðir víða um heim og djasstónsmíðar, og sett hans umlykja þig og færast á milli dansgólfa heimsins og valinna listrýma með lagskiptri hljóðfæraskipan og nákvæmum spuna.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "37f6c0664df6a3dd": {
+   "en": "Rick Doblin, Ph.D., is the founder and president of the 40-year-old MAPS. His professional goal is to help develop legal contexts for the beneficial uses of empathogens and entheogens, primarily as prescription medicines but also for personal growth for otherwise healthy people.",
+   "field": "bio",
+   "is": "Rick Doblin, Ph.D., er stofnandi og forseti MAPS, sem hefur starfað í 40 ár. Starfsmarkmið hans er að stuðla að því að skapa lagalegan grundvöll fyrir gagnlega notkun empatógena og enteógena, fyrst og fremst sem lyfseðilsskyld lyf en einnig til persónulegs þroska fyrir fólk sem er að öðru leyti heilbrigt.",
+   "translatedAt": "2026-08-06T01:30:02+00:00"
   },
   "389accee0077c52a": {
    "en": "Tristan Semmelhack, Co-Founder & CTO, has spent 10+ years building flying vehicles, from bedroom quadcopters to Zipline's Delivery Droid, and now leads engineering at Reflect Orbital.",
@@ -540,6 +660,12 @@
    "is": "Dr. Alexander Layendecker er stofnandi og forstöðumaður Advanced SpaceLife Research Institute og brautryðjandi í rannsóknum á kynlífi og æxlun manna utan jarðar. Hann er fyrrverandi leitar- og björgunarflugmaður í bandaríska flughernum og brúar bilið milli geimreksturs og framtíðar mannsins í geimnum.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "3c9f6b443dfc9ee6": {
+   "en": "Turbo Amore is a Swiss DJ serving high-energy Neo Italo sets inspired by the 80s. He takes the dance floor on a journey through time, blending genres into a playful, body-rooted story arc. People leave sweaty, smiling, and lighter hearted.",
+   "field": "bio",
+   "is": "Turbo Amore er svissneskur DJ sem spilar orkumikil Neo Italo sett innblásin af níunda áratugnum. Hann tekur dansgólfið með í tímaflakk og blandar stefnum saman í leikandi sögu sem á rætur í líkamanum. Fólk fer út sveitt, með bros á vör og léttara í lund.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "3ccbdc8ed4259300": {
    "en": "Yasmine El Baggari is a travel and experience researcher with Voyaj, working on meaningful, sustainable, and transformative travel experiences for conscious tourism.",
    "field": "bio",
@@ -563,6 +689,12 @@
    "field": "bio",
    "is": "Tony Cho er rannsakandi í borgarskipulagi og framtíðarfræðingur hjá Future of Cities og vinnur að sjálfbærri borgarþróun og snjallborgarverkefnum fyrir lífvænlegra og þolnara umhverfi.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "3ea380aae2b5e3ff": {
+   "en": "Dr. Chris Boshuizen is an Australian astronaut, physicist, and entrepreneur who flew on Blue Origin’s NS-18 mission. Co-founder of Planet Labs, he pioneered nanosatellite fleets and now invests in deep-tech startups via Interplanetary Capital.",
+   "field": "bio",
+   "is": "Dr. Chris Boshuizen er áströlskur geimfari, eðlisfræðingur og frumkvöðull sem flaug með NS-18 ferð Blue Origin. Hann er einn af stofnendum Planet Labs, var brautryðjandi í flotum nanógervihnatta og fjárfestir nú í djúptæknisprotafyrirtækjum í gegnum Interplanetary Capital.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "3ee3bccfaa87c5bd": {
    "en": "Mason Lee Lynaugh is the Executive Director of Stand With Crypto, America's largest crypto advocacy organization representing over 2.7 million advocates nationwide. As SWC's first hire, he built the organization's grassroots operation from the ground up, expanding chapters to all 50 states and helping get the GENIUS Act signed into law.",
@@ -594,11 +726,29 @@
    "is": "Tómas Oddur Eiríksson, DJ Margeir",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "40fb06190fadee78": {
+   "en": "Lunacy: The Explosive Past, and Future, of Earth’s Strange Moon",
+   "field": "title",
+   "is": "Lunacy: Sprengifull fortíð – og framtíð – hins undarlega mána jarðar",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
+  "4166c4ce05bf186c": {
+   "en": "Edge City: Community Lightning Talks",
+   "field": "title",
+   "is": "Edge City: Hraðfyrirlestrar samfélagsins",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "41f1eb8979d640b5": {
    "en": "One-third of LA underground collective Droog and co-founder of the Culprit label. A two-decade fixture of deep house and techno who's played Fabric London, Crosstown Rebels, and beyond.",
    "field": "bio",
    "is": "Einn þriðji af neðanjarðarkollektífinu Droog frá Los Angeles og annar stofnenda útgáfunnar Culprit. Fastastærð í deep house og teknói í tvo áratugi sem hefur spilað á Fabric í London, fyrir Crosstown Rebels og víðar.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "428151fd9e93157b": {
+   "en": "Tómas is an experienced movement facilitator whose work explores the relationship between body, space, and non-verbal expression. With a background in Human Geography, Dance Movement Therapy, and yoga, he creates meaningful connections and uplifting embodied experiences through movement, music, playfulness, and presence.",
+   "field": "bio",
+   "is": "Tómas er reyndur hreyfileiðbeinandi sem kannar í starfi sínu sambandið milli líkama, rýmis og ómálbundinnar tjáningar. Með bakgrunn í mannvistarlandfræði, dans- og hreyfiterapíu og jóga skapar hann innihaldsrík tengsl og upplífgandi líkamlega reynslu með hreyfingu, tónlist, leikgleði og nærveru.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "42fbef65c26487e6": {
    "en": "How to Overcome Adversity and Achieve Your Dreams",
@@ -660,6 +810,12 @@
    "is": "Plötusnúður fæddur á Tenerife með ítalskar rætur sem hefur spilað frá 14 ára aldri. Hann er fastagestur á Papagayo á Tenerife og hefur spilað á Blue Marlin Ibiza, Pacha Barcelona og FIB Benicàssim – og vann Heineken Rising Stars 2024.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "4a6bb844cd51cb87": {
+   "en": "Bear Kittay is a social alchemist and investor who builds global networks across culture, innovation, and regenerative development.",
+   "field": "bio",
+   "is": "Bear Kittay er félagslegur gullgerðarmaður og fjárfestir sem byggir alþjóðleg tengslanet á sviði menningar, nýsköpunar og endurnýjandi þróunar.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "4acf805885787a5b": {
    "en": "Lóránt Czárán is a space law and policy researcher specializing in international space governance and the legal and regulatory dimensions of space exploration and commercialization.",
    "field": "bio",
@@ -677,6 +833,18 @@
    "field": "title",
    "is": "Raddgullgerðarathöfn + söng- og hljóðferðalag",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "4c5a45a1c15d91bd": {
+   "en": "Tech and Happiness: developing a personal and collective strategy",
+   "field": "title",
+   "is": "Tækni og hamingja: að þróa persónulega og samfélagslega stefnu",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "4c8a8211a8579ae0": {
+   "en": "Ryan Crosson is an American DJ, producer, and Visionquest collective member, known for sophisticated releases and dynamic sets in the minimal techno and house music scenes.",
+   "field": "bio",
+   "is": "Ryan Crosson er bandarískur plötusnúður, tónlistarframleiðandi og meðlimur í Visionquest-kollektífinu, þekktur fyrir fágaðar útgáfur og kraftmikil sett í mínímal-tekknó- og house-tónlistarheiminum.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "4cde881417ac0f7d": {
    "en": "The State of Emergency",
@@ -744,6 +912,30 @@
    "is": "Sjómaður í ellefta ættlið og vörslumaður íslenskrar strandarfleifðar — lifir eftir fornum takti hafsins og deilir sögum af lífsháttum sem hafa mótað þetta land um aldir.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "5268a4077a3d59c6": {
+   "en": "Katia Yakovleva is co-founder of ContentRadar.ai, an AI-powered marketing platform. Her journey from Coca-Cola to early Spotify to founder reflects her belief that AI should assist, not replace, human creativity.",
+   "field": "bio",
+   "is": "Katia Yakovleva er meðstofnandi ContentRadar.ai, markaðsvettvangs sem byggir á gervigreind. Leið hennar frá Coca-Cola til Spotify á fyrstu árum fyrirtækisins og þaðan í frumkvöðlasætið endurspeglar þá trú hennar að gervigreind eigi að styðja mannlega sköpun, ekki koma í staðinn fyrir hana.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "526f51dcd9446e09": {
+   "en": "Tim Mullen",
+   "field": "title",
+   "is": "Tim Mullen",
+   "translatedAt": "2026-07-17T22:30:02+00:00"
+  },
+  "535fe931e0b7e73a": {
+   "en": "Shaun Reeves, Ryan Crosson",
+   "field": "title",
+   "is": "Shaun Reeves, Ryan Crosson",
+   "translatedAt": "2026-08-01T02:00:02+00:00"
+  },
+  "54219ee9f79276c4": {
+   "en": "Christian Van Camp",
+   "field": "title",
+   "is": "Christian Van Camp",
+   "translatedAt": "2026-07-21T05:00:03+00:00"
+  },
   "54900adfe73bafb4": {
    "en": "Luana is a Brazilian DJ, singer, and ceremonialist sharing music at conscious gatherings across Bali, Tulum, Europe, and Latin America.",
    "field": "bio",
@@ -798,11 +990,23 @@
    "is": "Að vaxa í gegnum leik",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "5911c90f85f60f47": {
+   "en": "Third contact. The Sun reappears and the partial phase runs out until fourth contact, when the eclipse ends.",
+   "field": "bio",
+   "is": "Þriðja snerting. Sólin kemur aftur í ljós og deildarmyrkvinn heldur áfram þar til fjórðu snertingar, þegar sólmyrkvanum lýkur.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "5a1b965010e46272": {
    "en": "Icelandic electronic band from Reykjavík formed in 1995, blending techno, house, and ambient across three decades of boundary-pushing music. One of Iceland's most internationally recognized acts.",
    "field": "bio",
    "is": "Íslensk rafsveit frá Reykjavík, stofnuð 1995, sem hefur blandað saman teknói, house og ambient í þrjá áratugi af tónlist sem þenur mörkin. Ein af þekktustu sveitum Íslands á alþjóðavettvangi.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "5bad6bd4b7235a44": {
+   "en": "Robin George Andrews is a doctor of volcanoes and a multi-award-winning science journalist who regularly tells tales of Earth and space-based dramatics for the New York Times, National Geographic, Scientific American, Quanta Magazine and many others. I’m also the author of two non-fiction books: Super Volcanoes, and How to Kill an Asteroid.",
+   "field": "bio",
+   "is": "Robin George Andrews er doktor í eldfjöllum og margverðlaunaður vísindablaðamaður sem segir reglulega sögur af dramatíkinni á jörðinni og í geimnum fyrir New York Times, National Geographic, Scientific American, Quanta Magazine og mörg fleiri. Ég er líka höfundur tveggja fræðibóka: Super Volcanoes og How to Kill an Asteroid.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "5c374bde3028ed00": {
    "en": "East Forest is Trevor Oswalt — American multi-instrumentalist known for cinematic, meditative music blending ambient, classical, and world influences toward healing and awakening.",
@@ -833,6 +1037,12 @@
    "field": "bio",
    "is": "Rick Doblin, Ph.D., er stofnandi og forseti MAPS (Multidisciplinary Association for Psychedelic Studies), sem hafa starfað í 40 ár. Markmið hans í starfi er að stuðla að löglegri umgjörð um gagnleg not hugvíkkandi efna og maríjúana, fyrst og fremst sem lyfseðilsskyld lyf en einnig til persónulegs þroska fyrir annars heilbrigt fólk.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "5e5490677c261e75": {
+   "en": "Fireside Chat",
+   "field": "title",
+   "is": "Spjall við arineldinn",
+   "translatedAt": "2026-07-27T17:30:02+00:00"
   },
   "5e617ce338788a47": {
    "en": "Joycelyn Longdon is an award-winning doctoral researcher, technologist and writer bridging the worlds of ecology, technology and environmental justice.",
@@ -882,11 +1092,29 @@
    "is": "Vök er íslensk rafsveit frá Reykjavík, þekkt fyrir draumkenndan dream-pop hljóðheim sinn þar sem rafræn framleiðsla mætir indí-næmi, og rómuð fyrir tónlist sem snertir djúpa strengi.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "61a7c9fc164c0c58": {
+   "en": "Proof Of Knowing",
+   "field": "title",
+   "is": "Proof Of Knowing",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "622b8a58b616e252": {
+   "en": "Bioelectricity: The Spark of the Soul",
+   "field": "title",
+   "is": "Lífrafmagn: Neisti sálarinnar",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "62b976976a8d7873": {
    "en": "The project of Canadian DJ and producer Jonny White, Art Department emerged from the Toronto underground to become one of electronic music’s most decorated acts, known for a raw, synth-driven sound that earned DC10 residency, a Beatport Track of the Year, and consistent recognition from outlets across the dance music world.",
    "field": "bio",
    "is": "Art Department er verkefni kanadíska plötusnúðsins og pródúsersins Jonny White. Það spratt upp úr neðanjarðarsenunni í Toronto og varð eitt margverðlaunaðasta nafn raftónlistarinnar, þekkt fyrir hráan, hljóðgervladrifinn hljóm sem skilaði fastasettum á DC10, Beatport-lagi ársins og stöðugri viðurkenningu miðla um allan danstónlistarheiminn.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "62d2d953d5883380": {
+   "en": "Larry Dvoskin is a thought leader at the nexus of music and tech. As a musician he has worked with David Bowie, Sean Lennon, MGMT, The Beach Boys, and toured opening for Queen, Tom Petty and others.",
+   "field": "bio",
+   "is": "Larry Dvoskin er hugmyndaleiðtogi þar sem tónlist og tækni mætast. Sem tónlistarmaður hefur hann unnið með David Bowie, Sean Lennon, MGMT og The Beach Boys og túrað sem upphitunaratriði fyrir Queen, Tom Petty og fleiri.",
+   "translatedAt": "2026-08-06T01:30:02+00:00"
   },
   "63791e53893aa689": {
    "en": "Reggie Watts is an American comedian, musician, and beatboxer whose entirely improvised sets — built from voice, keyboard, and a looping machine — delight and disorient in equal measure.",
@@ -924,6 +1152,12 @@
    "is": "Vincent Bruneau er raðfrumkvöðull og flinkur töframaður sem nýtti sérþekkingu sína á að fanga athygli áhorfenda til að skapa Sparkup — verkfæri sem breytir fundum og viðburðum í raunverulega gagnvirka upplifun.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "66bf8ec21add338c": {
+   "en": "When Nature Conducts: How the cosmos becomes music, and music becomes connection",
+   "field": "title",
+   "is": "Þegar náttúran stjórnar: Hvernig alheimurinn verður að tónlist, og tónlistin verður að tengingu",
+   "translatedAt": "2026-07-17T22:30:02+00:00"
+  },
   "67952b3ea1ccb497": {
    "en": "Macro/micro is the electronic music project of Tommy Simpson.  Based in Los Angeles, his music is a search for deeper, intuitive truths about the relationship between inner and outer space.",
    "field": "bio",
@@ -948,11 +1182,23 @@
    "is": "Satchitananda Vinyasa",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "6962fa7e5c402236": {
+   "en": "Luca Donzelli b2b Mar-T",
+   "field": "title",
+   "is": "Luca Donzelli b2b Mar-T",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "6ab222c84782e92a": {
    "en": "Curawaka, Ayla Schafer, Tao Txana, Winter Jendayi, Rojellio Carrillo Carrillo, Nana Marina",
    "field": "title",
    "is": "Curawaka, Ayla Schafer, Tao Txana, Winter Jendayi, Rojellio Carrillo Carrillo, Nana Marina",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "6ab6f0db8df5c046": {
+   "en": "The Alchemy of Totality",
+   "field": "title",
+   "is": "Gullgerðarlist almyrkvans",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
   },
   "6bcbf0cc6247be64": {
    "en": "Crypto Panel",
@@ -984,11 +1230,23 @@
    "is": "Shanti er heilari og kennari í jóga og öndunarvinnu. Hún leiðir fólk aftur heim til sjálfs sín og hjálpar því að lifa í líkamanum sem andlegar verur, út frá áreynsluleysi og jarðtengdri nærveru — og endurheimta þannig sjálfræði sitt og heild.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "6fad1a4b553a4232": {
+   "en": "Future Tech Panel (No AI)",
+   "field": "title",
+   "is": "Pallborð um framtíðartækni (engin gervigreind)",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "70ac17dfe9ff96cf": {
    "en": "gugusar is an electronic music producer creating experimental compositions that blend ambient and rhythmic elements, exploring themes of nature and technology through electronic soundscapes.",
    "field": "bio",
    "is": "gugusar er raftónlistarframleiðandi sem skapar tilraunakenndar tónsmíðar þar sem ambient og taktföst element renna saman og þemu um náttúru og tækni eru könnuð í rafrænum hljóðheimum.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "714901b4e8af9207": {
+   "en": "INNA is a Nutritionist, music therapist, and DJ, and founder of BEEATS. She creates immersive events exploring taste, sound, and movement through embodied sensory experiences.",
+   "field": "bio",
+   "is": "INNA er næringarfræðingur, tónlistarterapisti og plötusnúður og stofnandi BEEATS. Hún skapar umlykjandi viðburði sem kanna bragð, hljóð og hreyfingu með líkamlegri skynreynslu.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "7187f4c1eb19c062": {
    "en": "Austin Mao is the founder of Ceremonia, a platform for plant medicine and consciousness exploration through ceremonial experiences and programs rooted in ancient wisdom traditions.",
@@ -1032,6 +1290,12 @@
    "is": "Carla Rose er íslenskur plötusnúður og tónlistarframleiðandi sem hefur skipað sér sess í raftónlistarsenu Reykjavíkur og er þekkt fyrir orkumikil sett sem spanna house, teknó og tilraunakennda tónlist.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "74233b259b7b01e0": {
+   "en": "Lambert Hogenhout is Chief Data and AI at the United Nations Secretariat. He is also an author, keynote speaker and advisor on AI and responsible use of technology. He is a researcher at the Institute for Calculated Futures where he studies the effects of technology on society.",
+   "field": "bio",
+   "is": "Lambert Hogenhout er yfirmaður gagna og gervigreindar hjá aðalskrifstofu Sameinuðu þjóðanna. Hann er líka höfundur, fyrirlesari og ráðgjafi um gervigreind og ábyrga notkun tækni. Hann starfar sem rannsakandi hjá Institute for Calculated Futures þar sem hann rannsakar áhrif tækni á samfélagið.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "756f23a6dd95293d": {
    "en": "Wixarika Creation Story Fire Prayer",
    "field": "title",
@@ -1056,17 +1320,35 @@
    "is": "Mimu-hanskarnir",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "784cbff9da3481e6": {
+   "en": "Reykjavík-born DJ and producer inspired by Iceland's rugged natural beauty. Co-founder of Nordic Voyage and Ethereality Recordings — releasing on Dialtone, 3rd Avenue, The Purr, and more.",
+   "field": "bio",
+   "is": "Plötusnúður og pródúser, fæddur í Reykjavík, sem sækir innblástur í hrjóstruga náttúrufegurð Íslands. Meðstofnandi Nordic Voyage og Ethereality Recordings — gefur út hjá Dialtone, 3rd Avenue, The Purr og fleirum.",
+   "translatedAt": "2026-07-16T19:00:02+00:00"
+  },
   "793759ea47ad7019": {
    "en": "Catalan-born, Reykjavík-based artist who makes music with glaciers — field recordings, voice, and electronics woven into intimate meditations on Arctic landscapes and impermanence.",
    "field": "bio",
    "is": "Listamaður fæddur í Katalóníu og búsettur í Reykjavík sem semur tónlist með jöklum — vettvangsupptökur, rödd og raftónar fléttast saman í nánar hugleiðingar um landslag norðurslóða og hverfulleika.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "7a2b336ec89cf660": {
+   "en": "Eclipse Cosmology",
+   "field": "title",
+   "is": "Heimsfræði sólmyrkvans",
+   "translatedAt": "2026-08-04T18:00:02+00:00"
+  },
   "7a6d93692f44ef98": {
    "en": "Nick Warren is a British DJ and producer known for his influential Global Underground mix series and decades of shaping the progressive house and electronic music scenes.",
    "field": "bio",
    "is": "Nick Warren er breskur plötusnúður og pródúser, þekktur fyrir hina áhrifamiklu Global Underground mix-seríu sína og fyrir að hafa mótað progressive house og raftónlistarsenuna í áratugi.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "7b8bc635cecaf650": {
+   "en": "Totality Integration: A Homecoming Ceremony",
+   "field": "title",
+   "is": "Úrvinnsla almyrkvans: Heimkomuathöfn",
+   "translatedAt": "2026-08-06T18:30:02+00:00"
   },
   "7bd851b0a5619f13": {
    "en": "Earth to Star: Frequency Attunement",
@@ -1116,6 +1398,12 @@
    "is": "Kári Viðarsson er eigandi Frystiklefans, verðlaunaðrar menningarmiðstöðvar og farfuglaheimilis í gamalli fiskvinnslu á Snæfellsnesi. Hann er leikari, aktívisti og frumkvöðull sem hefur varið áratug í að blása lífi í vesturhluta Íslands.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "81ced82634a5580e": {
+   "en": "VisionQuest",
+   "field": "title",
+   "is": "VisionQuest",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "823093727f43299a": {
    "en": "Permaculture: Weaving people back to place.",
    "field": "title",
@@ -1152,6 +1440,12 @@
    "is": "Pallborð um framtíðartækni (ENGIN gervigreind)",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "895cf9ebdbf96923": {
+   "en": "Kyter Steffes is an artist whose work addresses the imperceptible and the immanent through immersive environments that explore memory, presence, and place. Informed by a decade of architectural practice- including hospitality, museums, cultural institutions, and the immersive design of Sphere Las Vegas - he creates installations and experiences where architecture, sound, light, and technology become instruments for reimagining our relationship to space and time.",
+   "field": "bio",
+   "is": "Kyter Steffes er listamaður sem fæst við hið óskynjanlega og hið nálæga í gegnum umlykjandi rými sem kanna minni, nærveru og stað. Með áratug af arkitektúrvinnu að baki — þar á meðal gestamóttöku, söfnum, menningarstofnunum og umlykjandi hönnun Sphere Las Vegas — skapar hann innsetningar og upplifanir þar sem arkitektúr, hljóð, ljós og tækni verða að hljóðfærum til að endurhugsa samband okkar við rými og tíma.",
+   "translatedAt": "2026-07-17T22:30:02+00:00"
+  },
   "89e9d0d164fae6b2": {
    "en": "Ida Engberg is a Swedish DJ and producer, one of the most prominent figures in the Nordic electronic music scene, known for energetic techno and house sets at major festivals worldwide.",
    "field": "bio",
@@ -1169,6 +1463,12 @@
    "field": "bio",
    "is": "Ramble Jon Krohn, þekktur sem RJD2, er bandarískur tónlistarmaður og pródúser, eigandi RJ's Electrical Connections, og þekktur fyrir verk sín á sviði hipphopps og raftónlistar, meðal annars með Soul Position.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "8ac0ed01d9bb5861": {
+   "en": "Second contact",
+   "field": "title",
+   "is": "Önnur snerting",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "8b032845a75212ea": {
    "en": "Holy Shift: An Irreverent Ritual to Prepare for the Eclipse",
@@ -1206,11 +1506,23 @@
    "is": "Ben Rein, PhD, er margverðlaunaður taugavísindamaður, rithöfundur og þekktur vísindamiðlari. Hann er yfirmaður vísinda hjá Mind Science Foundation, stundakennari við Stanford-háskóla og klínískur lektor við SUNY Buffalo. Hann hefur birt yfir 20 ritrýndar greinar um taugavísindi félagslegrar hegðunar og er höfundur bókarinnar Why Brains Need Friends: The Neuroscience of Social Connection.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "8ec3e638e2032d3b": {
+   "en": "How To Succeed Thru Human Networks",
+   "field": "title",
+   "is": "Hvernig þú nærð árangri í gegnum mannleg tengslanet",
+   "translatedAt": "2026-07-31T02:00:03+00:00"
+  },
   "8f072dfc150c4fd4": {
    "en": "DJ Andrea Jóns is an electronic music DJ known for diverse sets spanning multiple genres, celebrated for her ability to create energetic and engaging dance experiences.",
    "field": "bio",
    "is": "DJ Andrea Jóns er raftónlistarplötusnúður, þekkt fyrir fjölbreytt sett þvert á stefnur og rómuð fyrir að skapa orkumikla og hrífandi dansupplifun.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "905b6498cda77611": {
+   "en": "Zoey Wind is a movement facilitator and somatic practitioner leading workshops in embodied movement, dance therapy, and expressive arts combined with mindfulness for healing.",
+   "field": "bio",
+   "is": "Zoey Wind er hreyfileiðbeinandi og sómatískur meðferðaraðili sem leiðir vinnustofur í líkamsmiðaðri hreyfingu, dansmeðferð og skapandi listum í sameiningu við gjörhygli til heilunar.",
+   "translatedAt": "2026-08-03T18:30:02+00:00"
   },
   "912bff4abd174fa7": {
    "en": "Agzilla helped pioneer Reykjavík's underground rave scene, spinning Drum & Bass since 1990. A longtime part of Goldie's Metalheadz circle, he toured the US on the Timeless tour and released his debut album, Cats Can Hear Ultrasound, on Metalheadz in 2019.",
@@ -1242,6 +1554,24 @@
    "is": "MOON 2033",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "93925f8eb009b11a": {
+   "en": "Matt McKibbin is Co-Founder and Chief Decentralization Officer of DecentraNet, an early investor in Ethereum and other pioneering token sales, and cofounder of d10e, the world's largest decentralization conference.",
+   "field": "bio",
+   "is": "Matt McKibbin er meðstofnandi og yfirmaður valddreifingar (Chief Decentralization Officer) hjá DecentraNet, var snemma á ferðinni sem fjárfestir í Ethereum og öðrum brautryðjandi rafmyntaútboðum, og er meðstofnandi d10e, stærstu valddreifingarráðstefnu heims.",
+   "translatedAt": "2026-08-06T19:00:03+00:00"
+  },
+  "94195e53fa802063": {
+   "en": "Whitney Silverstein is co-founder of Playing for Change Foundation, expanding music education to 164 locations globally. Tony-nominated Broadway producer, global impact leader, Dancer, Wife and Mother.",
+   "field": "bio",
+   "is": "Whitney Silverstein er meðstofnandi Playing for Change Foundation og hefur útvíkkað tónlistarkennslu til 164 staða um allan heim. Broadway-framleiðandi tilnefnd til Tony-verðlauna, leiðtogi í alþjóðlegum samfélagsáhrifum, dansari, eiginkona og móðir.",
+   "translatedAt": "2026-08-06T15:30:02+00:00"
+  },
+  "94ffbcf9fb4e4a03": {
+   "en": "with Live visuals by Android Jones",
+   "field": "title",
+   "is": "með lifandi sjónlist frá Android Jones",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "958d26093025919a": {
    "en": "Dynamic Vinyasa Flow",
    "field": "title",
@@ -1266,6 +1596,12 @@
    "is": "Ryan Horst er forstjóri Altcoin Pro og sérfræðingur í viðskiptastefnumótun og sölu sem hefur leiðbeint yfir 200 frumkvöðlum. Hann nýtir bakgrunn sinn í sálfræði og samskiptum til að gera fjárfestingar í rafmyntum aðgengilegar og hagnýtar.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "97e28341e13ac92e": {
+   "en": "Him Gone Watts",
+   "field": "title",
+   "is": "Him Gone Watts",
+   "translatedAt": "2026-08-06T01:30:02+00:00"
+  },
   "9868db6588952ec4": {
    "en": "Ásgeir Trausti Einarsson is an Icelandic singer-songwriter known for ethereal folk-pop and a distinctive falsetto. His debut became one of Iceland's best-selling debut albums of all time.",
    "field": "bio",
@@ -1284,11 +1620,23 @@
    "is": "Daði Freyr Pétursson er íslenskur tónlistarmaður sem sló í gegn á alþjóðavísu í Eurovision, þekktur fyrir grípandi rafpopp og sérstakan retróstíl sem hefur gert hann að einni af einkennisröddum Íslands.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "9bd64fb514104273": {
+   "en": "Telamon Ardavanis is Head of Partnerships & Scouting at Edge City, leading partnerships, scouting, and programming across a global network of popup villages. He co-launched Argentina's Crecimiento movement and built 8+ villages on four continents.",
+   "field": "bio",
+   "is": "Telamon Ardavanis er yfirmaður samstarfs og leitarstarfs hjá Edge City og leiðir samstarf, leit og dagskrárgerð í alþjóðlegu neti sprettiþorpa. Hann var einn af þeim sem settu Crecimiento-hreyfinguna í Argentínu á fót og hefur byggt upp yfir 8 þorp í fjórum heimsálfum.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "9c4c0323d625f215": {
    "en": "Emily is a public policy expert whose work spans the White House, State Department, and emerging technology innovation.",
    "field": "bio",
    "is": "Emily er sérfræðingur í opinberri stefnumótun og hefur meðal annars starfað í Hvíta húsinu, bandaríska utanríkisráðuneytinu og að nýsköpun á sviði framsækinnar tækni.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "9dea570173072cde": {
+   "en": "Second contact. The Moon covers the Sun completely and the corona becomes visible.",
+   "field": "bio",
+   "is": "Önnur snerting. Máninn hylur sólina algjörlega og kórónan verður sýnileg.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "9e6bd3d0b3fc87ef": {
    "en": "The Blue Lions are Sikh warrior musicians from the Akali Nihang Singh lineage, performing sacred kirtan that blends mantra and raga to uplift mind and spirit. Their path embodies seva, devotion, sovereignty, and joyful service to all creation.",
@@ -1320,6 +1668,24 @@
    "is": "Hjálmar er íslensk hljómsveit sem blandar saman reggí og raftónlist með karíbskum áhrifum — þekkt fyrir einstaka menningarblöndu sína og kraftmikla sviðsframkomu.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "a114fdbbf898c9ab": {
+   "en": "First contact. The Moon’s disc first touches the Sun and the partial phase begins, deepening until totality.",
+   "field": "bio",
+   "is": "Fyrsta snerting. Skífa mánans snertir sólina í fyrsta sinn og deildarmyrkvinn byrjar og dýpkar þar til almyrkvi verður.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
+  "a1193de3bc565d4b": {
+   "en": "First contact",
+   "field": "title",
+   "is": "Fyrsta snerting",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
+  "a1810a5d58132b72": {
+   "en": "0:00",
+   "field": "title",
+   "is": "0:00",
+   "translatedAt": "2026-08-06T01:30:02+00:00"
+  },
   "a1858e9f02b7d69d": {
    "en": "Gudrun \"Runa\" Bergmann been a the forefront of the self-empowement since 1990, running workshops, events and writing books. An intuitive since childhood, an astrologer and lover of the land I live on.",
    "field": "bio",
@@ -1331,6 +1697,12 @@
    "field": "title",
    "is": "Hvalasöngvar",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "a1be896b5146f040": {
+   "en": "Frontier Tower: Community Lightning Talks",
+   "field": "title",
+   "is": "Frontier Tower: Hraðfyrirlestrar samfélagsins",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "a1dbef37d0928ef1": {
    "en": "Taye is a mycologist, naturalist, and educator exploring the intersections of fungal ecology, conservation, and community science. Currently pursuing her MSc, she researches fungal biodiversity within rare and threatened ecosystems in California.",
@@ -1410,6 +1782,12 @@
    "is": "Íslenskur talsmaður hjá Eden Foundation sem kannar fyrirbæri sólmyrkva, umhverfisvitund og visku forfeðranna.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "a6bddc36857479c8": {
+   "en": "Rock Thomas and David Osborn, Co-founders of GoBundance, bring 37 years of real estate success and a shared belief in the power of community and connection. Both fathers, both adventurers, both mentors to thousands.",
+   "field": "bio",
+   "is": "Rock Thomas og David Osborn, meðstofnendur GoBundance, búa að 37 ára velgengni í fasteignabransanum og sameiginlegri trú á mátt samfélags og tengsla. Báðir feður, báðir ævintýramenn og báðir lærimeistarar þúsunda.",
+   "translatedAt": "2026-07-16T19:00:02+00:00"
+  },
   "a7aefe3f83349397": {
    "en": "Free Your Voice",
    "field": "title",
@@ -1428,6 +1806,12 @@
    "is": "Jason Silva er bandarískur kvikmyndagerðarmaður og fyrirlesari, þekktur fyrir heimspekilegar stuttmyndir á mörkum tækni, sköpunar og mannlegrar vitundar.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "a80f7cb7805e7492": {
+   "en": "Michael Jelen",
+   "field": "title",
+   "is": "Michael Jelen",
+   "translatedAt": "2026-07-21T05:00:03+00:00"
+  },
   "a92578481b6fb486": {
    "en": "About their Solstice Series: All over the world, artists are called upon through dreams and visions by a cosmic entity, the Architecture. To prevent earth’s collapse and restore balance to the universe, they must explore forgotten memories and transform their creations into powerful acts of restoration, rewriting the past and reshaping the future to heal reality itself.",
    "field": "bio",
@@ -1439,6 +1823,12 @@
    "field": "bio",
    "is": "Tucker Garrison stofnaði Imlak'esh Organics ásamt öðrum eftir ferðalag um Perú sem breytti lífi hans, þar sem hann tengdist bændum og ræktendum ofurfæðu frá Amasón til Andesfjalla. Í dag færir hann þennan sama ævintýraanda inn í verkefnið.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "aac6632afc626535": {
+   "en": "Kayla Knopp, Chandra Khalifian, Skylar Kelsven",
+   "field": "title",
+   "is": "Kayla Knopp, Chandra Khalifian, Skylar Kelsven",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "aba6dd0df88953ae": {
    "en": "SOLSTICE/ SUMARSÓLSTÖÐUR",
@@ -1524,6 +1914,18 @@
    "is": "Suduaya er franskur psy-dub-, chill- og progressive-tónlistarframleiðandi og gítarleikari en svífandi hljóðheimar hans blanda saman seiðandi laglínum, drífandi bassalínum og lifandi gítarleik. Frá 2011 hefur tónlist hans borið hlustendur inn í víðáttumikla, himneska heima.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "b11ea0b46cef0850": {
+   "en": "AI pioneer who built the first global online translator that led to Google Translate — now researching how machines can better understand human language and communication.",
+   "field": "bio",
+   "is": "Frumkvöðull í gervigreind sem byggði fyrsta alþjóðlega vefþýðandann, sem varð undanfari Google Translate — rannsakar nú hvernig vélar geta skilið mannlegt mál og samskipti betur.",
+   "translatedAt": "2026-07-27T17:30:02+00:00"
+  },
+  "b2d9bfa83102665b": {
+   "en": "Future-Proofing Your Kids in the Age of AI.",
+   "field": "title",
+   "is": "Að búa börnin þín undir framtíðina á tímum gervigreindar.",
+   "translatedAt": "2026-08-03T13:30:03+00:00"
+  },
   "b3b7db4b84b55f7b": {
    "en": "Enamory: Pre-Eclipse prep",
    "field": "title",
@@ -1566,6 +1968,12 @@
    "is": "Moli er nýsköpunarhakkari sem leiddi vistræktarhreyfinguna á Íslandi og tengdist um leið landinu í gegnum helgisiði og íhugun.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "b8ff7e64d2f09a33": {
+   "en": "Ragnhildur Sigurðardóttir is the manager for Snæfellsnes National park and a local story teller. She has lived here, on a sheep farm on Snæfellsnes for 29 years and now in Hellissandur",
+   "field": "bio",
+   "is": "Ragnhildur Sigurðardóttir stýrir þjóðgarðinum á Snæfellsnesi og er sagnakona úr héraðinu. Hún hefur búið hér á Snæfellsnesi í 29 ár, á sauðfjárbæ, og býr núna í Hellissandi",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "b9080c1b891e4f32": {
    "en": "Johanna Maggy is an Icelandic artist and cultural facilitator who works in community arts and cultural preservation.",
    "field": "bio",
@@ -1577,6 +1985,12 @@
    "field": "bio",
    "is": "Óskarstilnefndur leikstjóri Pi, Requiem for a Dream, Black Swan og The Fountain. Ævilangur umhverfisverndarsinni sem tók upp Noah á Íslandi — og snýr nú aftur til landsins sem mótaði sýn hans.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "b98181f9c19a7650": {
+   "en": "Cynthia Cramblett and Benjamin Moore lead The Sacred Synthesis, a psychedelic spiritual community supporting members with access, education, ceremony and integration. Their mission empowers members to become their own healers and deepen their connection with their Higher Self and Unity Consciousness.",
+   "field": "bio",
+   "is": "Cynthia Cramblett og Benjamin Moore leiða The Sacred Synthesis, andlegt samfélag um hugvíkkandi efni sem styður meðlimi sína með aðgengi, fræðslu, athöfnum og samþættingu. Markmið þeirra er að styrkja meðlimi í að verða sínir eigin heilarar og dýpka tengsl sín við sitt hærra sjálf og einingarvitund.",
+   "translatedAt": "2026-08-06T01:30:02+00:00"
   },
   "b9b863243767a297": {
    "en": "Emmy-winning documentary filmmaker known for films exploring justice, civil rights, and social issues — creating work that illuminates the human stories behind important social questions.",
@@ -1601,6 +2015,12 @@
    "field": "title",
    "is": "Future of Cities",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "bb0784620cd3966f": {
+   "en": "Through carefully curated menu of immersive experiences , including VR, MR, haptics, stroboscopic lights, and interactive installations we showcase cyberdelic technologies aimed to help you learn how to navigate states and turn them into traits",
+   "field": "bio",
+   "is": "Með vandlega valinni dagskrá af altækum upplifunum – VR, MR, haptík, strobóljósum og gagnvirkum innsetningum – sýnum við cyberdelíska tækni sem er hugsuð til að hjálpa þér að læra að ferðast um hugarástönd og breyta þeim í varanlega eiginleika",
+   "translatedAt": "2026-07-29T05:30:02+00:00"
   },
   "bb5b69548b81ec67": {
    "en": "UK duo Chris Davids and Liam Ivory. Architects of an organic electronic sound — bass-heavy and melodic, weaving UK club music, vintage soul and field recordings from across the world.",
@@ -1638,6 +2058,12 @@
    "is": "Undirbúningur fyrir myrkvann",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "bd3087494a9de5d8": {
+   "en": "Creating the Community of your Dreams!",
+   "field": "title",
+   "is": "Búðu til samfélagið sem þú hefur alltaf dreymt um!",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "be342db12a88a950": {
    "en": "Heimir Logi was raised among horses on Iceland's north coast, where nature shapes every life. He spends his summers riding the highlands alone, and lives outside Reykjavík rather than the city, tending his own sweat lodge for thirty years.",
    "field": "bio",
@@ -1655,6 +2081,12 @@
    "field": "title",
    "is": "Skaparinn: Heilsa, sannleikur og sjálfræði á tímum hávaða",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "beafcb0cd7251d8a": {
+   "en": "Icelandic DJ Holmar Filipsson — formerly half of Thugfucker, now solo Acid Tourist — known for psychedelic house and a deep, long-running presence in underground club culture.",
+   "field": "bio",
+   "is": "Íslenski plötusnúðurinn Holmar Filipsson — áður annar helmingur Thugfucker, nú sóló undir nafninu Acid Tourist — er þekktur fyrir sækadelískt house og djúpa og langvarandi þátttöku í neðanjarðarklúbbamenningu.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "c0801e7ad62ffa58": {
    "en": "The God Molecule & Sacred Union",
@@ -1680,6 +2112,12 @@
    "is": "Hinrik Jóhannesson er íslenskur náttúruleiðsögumaður sem leiðir óbyggðaferðir þar sem sauna, köld böð og náttúrutengd andleg iðkun fléttast saman í íslensku landslagi.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "c36895d570a622cc": {
+   "en": "Katia Yakovleva",
+   "field": "title",
+   "is": "Katia Yakovleva",
+   "translatedAt": "2026-07-16T19:00:02+00:00"
+  },
   "c3a1accf4ce38eed": {
    "en": "Seekers Movie Screening",
    "field": "title",
@@ -1697,6 +2135,12 @@
    "field": "bio",
    "is": "Lindsay Brandon er stofnandi Permaculture Canada og Armagarden. Ástríða hennar felst í að vefa fólk aftur inn í vef náttúrunnar. Með því að lesa sögurnar sem skráðar eru í landslagið skapar hún samhljóm milli íbúa og lands með endurnýjandi hönnunarkerfum.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "c50741fcedc4c038": {
+   "en": "Wixarika Creation Myth Prayer",
+   "field": "title",
+   "is": "Bæn úr sköpunarsögu Wixarika",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
   },
   "c5edc710caacdaae": {
    "en": "The Future of the Human Brain",
@@ -1776,6 +2220,18 @@
    "is": "Jackie Knechtel er meðstofnandi Flow Consciousness Institute og alþjóðlegur fyrirlesari, leiðbeinandi, markþjálfi og mikil tengslamanneskja. Í meira en áratug hefur hún helgað sig því að hanna umbreytandi þjálfun og upplifanir um allan heim sem styðja djúpa innri vinnu og heilun og leiða einstaklinga og samfélög inn í dýpri nærveru, samstillingu og flæði.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "d0e7172467b52b2d": {
+   "en": "Our AI Moment & The Human Movement",
+   "field": "title",
+   "is": "Gervigreindarstundin okkar og mannlega hreyfingin",
+   "translatedAt": "2026-07-31T02:00:03+00:00"
+  },
+  "d0f81ff5a92b762e": {
+   "en": "Yoga Moves",
+   "field": "title",
+   "is": "Jógahreyfingar",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "d1423b634755fbf1": {
    "en": "Roberto Carlino has spent the past decade turning science fiction into reality, from free-flying robots aboard the International Space Station to solar sails and next-generation satellites.",
    "field": "bio",
@@ -1788,6 +2244,18 @@
    "is": "Íslensk athafnastýra og leiðbeinandi í líkamsvitund sem skapar kakóathafnir, kyrrðardvalir og umbreytandi upplifanir sem eiga rætur í hjartamiðaðri vitund.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "d228f0fd54ce8785": {
+   "en": "Fire Puja",
+   "field": "title",
+   "is": "Fire Puja",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "d2a878b7b9d3e9c3": {
+   "en": "A Renaissance woman working at the crossroads of sound, healing, and storytelling. Multi-instrumentalist, frequency alchemist, filmmaker, and devoted guardian of earth and water.",
+   "field": "bio",
+   "is": "Þúsundþjalasmiður sem starfar á mótum hljóðs, heilunar og sagnalistar. Fjölhljóðfæraleikari, gullgerðarkona tíðna, kvikmyndagerðarkona og einlægur verndari jarðar og vatns.",
+   "translatedAt": "2026-08-06T18:30:02+00:00"
+  },
   "d2c4123fd4a14ad9": {
    "en": "The Magic Circle: A Metamodern Ritual Experience",
    "field": "title",
@@ -1799,6 +2267,18 @@
    "field": "title",
    "is": "Sveppir: hinar duldu verur sem móta heiminn okkar",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "d39d6a77d0eb9f6a": {
+   "en": "Parag Bhandari is an American entrepreneur, musician, author, and founder/CEO of entertainment marketing firm UG Strategies (UGS), and sits at the intersection of music, culture, technology, and emerging industries.",
+   "field": "bio",
+   "is": "Parag Bhandari er bandarískur frumkvöðull, tónlistarmaður, höfundur og stofnandi og forstjóri afþreyingarmarkaðsfyrirtækisins UG Strategies (UGS), og starfar á mótum tónlistar, menningar, tækni og nýrra atvinnugreina.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "d3ce64b3c4c881b9": {
+   "en": "More than Music panel",
+   "field": "title",
+   "is": "Pallborðsumræður: Meira en tónlist",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
   },
   "d47151359321abf0": {
    "en": "Sound for film: Totality",
@@ -1817,6 +2297,12 @@
    "field": "bio",
    "is": "Karlakórinn Heiðbjört er íslenskur karlakór þekktur fyrir kraftmikinn söng og nútímalega nálgun á kórtónlist, allt frá hefðbundnum íslenskum lögum til nýrra tónsmíða.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "d5ad53ac2a04e802": {
+   "en": "Cynthia Cramblett, Somatic Sexologist, and Benjamin Moore, Army Veteran and Medicine man, lead a non-dogmatic spiritual community built around one radical idea: that people can become their own healers.",
+   "field": "bio",
+   "is": "Cynthia Cramblett, sómatískur kynfræðingur, og Benjamin Moore, fyrrverandi hermaður og lækningamaður, leiða andlegt samfélag án kreddu sem byggist á einni róttækri hugmynd: að fólk geti orðið sínir eigin græðarar.",
+   "translatedAt": "2026-07-21T05:00:03+00:00"
   },
   "d62ea1cc34368cc9": {
    "en": "Tannya Jajal is a keynote speaker and Founder/CEO of AIDEN, an AI education company on a mission to help humans become truly extraordinary in the age of AI. An ultramarathoner, she's spoken at 40+ conferences worldwide.",
@@ -1853,6 +2339,12 @@
    "field": "title",
    "is": "Öndunarvinna",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "d90d7b8fe5291880": {
+   "en": "Music project from technologist De Kai",
+   "field": "bio",
+   "is": "Tónlistarverkefni tæknifrömuðarins De Kai",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "d980cd77d85bc311": {
    "en": "When Nature Conducts",
@@ -1902,6 +2394,18 @@
    "is": "SACRED EXPLORER, hið ljómandi verkefni Jose Manuel Elias Verdera, er visjónerískur leiðsögumaður og upplifunarhönnuður sem fléttar saman fornri visku, helgisiðum og nýsköpun. Í meira en tvo áratugi hefur hann sett saman umbreytandi pílagrímsferðir, athafnir og umlykjandi samkomur um allan heim.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "df65b0640f3ef2ba": {
+   "en": "Ollie Rankin",
+   "field": "title",
+   "is": "Ollie Rankin",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "dfca2bac0189a182": {
+   "en": "REW, named for the rewind button on old cassette players, blends live performance with DJ culture and archival sound. Created by Benni B-Ruff and Kjartan Trauner, they've shared stages with DJ Shadow and The Pharcyde.",
+   "field": "bio",
+   "is": "REW, nefnt eftir rewind-hnappnum á gömlum snælduspilurum, blandar saman lifandi flutningi, plötusnúðamenningu og gömlum hljóðupptökum. Á bak við REW standa Benni B-Ruff og Kjartan Trauner, sem hafa deilt sviði með DJ Shadow og The Pharcyde.",
+   "translatedAt": "2026-07-21T05:00:03+00:00"
+  },
   "e02aea5f92d3e203": {
    "en": "GDubz is a DJ blending hip-hop, dubstep, and Indigenous powwow sounds into high-energy electronic performances.",
    "field": "bio",
@@ -1913,6 +2417,24 @@
    "field": "bio",
    "is": "Ryan Hope er raftónlistarpródúser sem kemur fram bæði einn og sem hluti af dúóinu Gabriels. Hann er þekktur fyrir sálarríka raftónlist með áhrifum frá house, diskói og nútíma R&B.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "e0b3238d5798bfb7": {
+   "en": "Interstellar Transmissions",
+   "field": "title",
+   "is": "Útsendingar milli stjarna",
+   "translatedAt": "2026-08-06T18:30:02+00:00"
+  },
+  "e1f49f1984a695ad": {
+   "en": "Third contact",
+   "field": "title",
+   "is": "Þriðja snerting",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
+  "e21278d72741d8d6": {
+   "en": "Future Dream Pop artist using synthesizers and MI.MU gloves to let gesture conduct sound and light, crafting audio-visual worlds where the vast Cosmos and the boundless interior meet.",
+   "field": "bio",
+   "is": "Future dream pop-listamaður sem notar hljóðgervla og MI.MU-hanska til að láta handahreyfingar stýra hljóði og ljósi og skapar hljóð- og myndheima þar sem hinn víðfeðmi alheimur og endalaus innri veröld mætast.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "e3a3c863549bdde3": {
    "en": "Comedy Amidst the Chaos",
@@ -1926,6 +2448,12 @@
    "is": "Brent Pella er uppistandari sem gerir í stafrænu efni sínu oft grín að andlegheitum, hugvíkkandi efnum og fáránleika nútímamenningar.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "e599d0b104961b9a": {
+   "en": "The End of Materialism",
+   "field": "title",
+   "is": "Endalok efnishyggjunnar",
+   "translatedAt": "2026-07-31T16:30:03+00:00"
+  },
   "e6e6664bd74f5429": {
    "en": "SciArt Exchange: How Art & Science Shape Life in Extreme Places",
    "field": "title",
@@ -1938,6 +2466,12 @@
    "is": "Dr. Jordan Amadio er taugavísindamaður og vitundarrannsakandi sem kannar mót heilavísinda, mannlegra möguleika og umbreytandi upplifana.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "e7fc93a8ca600cfd": {
+   "en": "Enamory is the world’s only integrated clinic, training institute, and research foundation dedicated to empathogen-assisted couple therapy.",
+   "field": "bio",
+   "is": "Enamory er eina samþætta heilsugæslan, þjálfunarstofnunin og rannsóknarsjóðurinn í heiminum sem helgar sig parameðferð með stuðningi empatógena.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "e894f06b24cd3d20": {
    "en": "Reflect Orbital: Sunlight After Dark",
    "field": "title",
@@ -1949,6 +2483,12 @@
    "field": "title",
    "is": "Kynlíf í geimnum: Að sá fræjum framtíðar mannkyns utan jarðar",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "eb287a139a87d7c9": {
+   "en": "Ceremonial Fireside Jam",
+   "field": "title",
+   "is": "Hátíðlegt jam við eldinn",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
   },
   "ebd324314130e2ce": {
    "en": "Dr. Tim Mullen is a neuroscientist, entrepreneur, and investor with over two decades of leadership in neurotechnology innovation, working with leading government, academic, and industry organizations. He is a founder of multiple neurotech companies and leads neurotech investments at Lionheart Ventures.",
@@ -1992,6 +2532,12 @@
    "is": "Brasilíski plötusnúðurinn Ana Miranda byrjaði 14 ára á næturklúbbi föður síns í São Paulo. Hún er alþjóðlegt stórveldi í teknói með útgáfur hjá Afterlife, Drumcode og Kompakt — og hefur spilað á Coachella, Time Warp og Sónar.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "eec87d51815131fe": {
+   "en": "Sofiah Thom is a visionary ritual artist and founder of Temple Body Arts®, guiding embodied feminine leadership through ritual and performance. As co-founder of Envision Festival and Danyasa Eco-Retreat, she helps catalyze culture rooted in creativity, devotion, and regeneration.",
+   "field": "bio",
+   "is": "Sofiah Thom er framsýn helgiathafnalistakona og stofnandi Temple Body Arts®, sem leiðir kvenlega forystu í gegnum líkamann með helgiathöfnum og listflutningi. Sem meðstofnandi Envision Festival og Danyasa Eco-Retreat hjálpar hún til við að hlúa að menningu sem á rætur í sköpun, helgun og endurnýjun.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "efadcebd30bd6bdc": {
    "en": "Overview Effect Panel",
    "field": "title",
@@ -2016,6 +2562,12 @@
    "is": "Elliot From Earth er plötusnúður og viðburðahaldari frá New Orleans, þekktur fyrir að senda dansgólf á sporbraut. Í settunum sínum hoppar hann leikandi á milli house, teknós og bassaþungra smella og skilar fersku sándi sem passar fullkomlega við augnablikið",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "f02e16b3486665f0": {
+   "en": "Innovation 101: How To Get Good Business Ideas",
+   "field": "title",
+   "is": "Nýsköpun 101: Hvernig þú fær góðar viðskiptahugmyndir",
+   "translatedAt": "2026-08-06T01:30:02+00:00"
+  },
   "f0f1151772946bc5": {
    "en": "Creativity as a Spiritual Practice",
    "field": "title",
@@ -2034,11 +2586,35 @@
    "is": "Dhamika er sænskur raftónlistarframleiðandi sem skapar ambient-, chillout- og downtempo-hljóðheima, innblásna af trance-rótum sínum.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "f315f437681707d8": {
+   "en": "Justin Natoli, JD, LMFT is a psychotherapist, empathogen educator, and founder of the Queer Medicine Community. He speaks internationally on empathogens, sexuality, and authenticity, and advises the Chacruna Institute for Empathogenic Plant Medicines.",
+   "field": "bio",
+   "is": "Justin Natoli, JD, LMFT er sálfræðimeðferðaraðili, fræðari um empatógen og stofnandi Queer Medicine Community. Hann heldur fyrirlestra á alþjóðavettvangi um empatógen, kynverund og einlægni, og er ráðgjafi hjá Chacruna Institute for Empathogenic Plant Medicines.",
+   "translatedAt": "2026-08-06T01:30:02+00:00"
+  },
+  "f5c0c5918fbe2742": {
+   "en": "Coco Reilly is a producer and founder of ONNA, a regenerative record label that channels support back into nature conservation. Drawing on two decades as a musical artist, she served as Head of Production for immersive DJ Chris Holmes (Paul McCartney) at Fascinated by Everything, where she produced The Psychedelic Mixtape for Cosm's 12K dome in Los Angeles. She is now a partner at Planetary Collective, creators of Overview and Orbital, crafting perspective-shifting narratives that invite audiences to reconsider their place in the cosmos.",
+   "field": "bio",
+   "is": "Coco Reilly er pródúsent og stofnandi ONNA, endurnýjandi plötufyrirtækis sem veitir stuðningi aftur til náttúruverndar. Hún byggir á tveggja áratuga reynslu sem tónlistarkona og var framleiðslustjóri fyrir upplifunar-DJ-inn Chris Holmes (Paul McCartney) hjá Fascinated by Everything, þar sem hún framleiddi The Psychedelic Mixtape fyrir 12K hvelfingu Cosm í Los Angeles. Nú er hún samstarfsaðili hjá Planetary Collective, sem standa á bak við Overview og Orbital og skapa sögur sem hnika til sjónarhorninu og bjóða áhorfendum að endurskoða stöðu sína í alheiminum.",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "f6002010205b1f3b": {
    "en": "Space For Every Genius",
    "field": "title",
    "is": "Geimur fyrir alla snillinga",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "f717b8ef4910423a": {
+   "en": "Celeste is a Psychic Strategist, Spiritual Muse, and Atmospheric Architect working at the intersection of intuitive intelligence and conscious leadership. Founder of Proof of Knowing, an online intuition-training platform and community, she leads virtual and live collective channeling experiences that expand humanity's capacity to receive and deploy intelligence for the evolution of global consciousness.",
+   "field": "bio",
+   "is": "Celeste er skyggn stefnusmiður, andleg músa og arkitekt andrúmslofts sem starfar þar sem innsæisgáfa og vitundarvakandi leiðtogafærni mætast. Hún er stofnandi Proof of Knowing, netvettvangs og samfélags fyrir innsæisþjálfun, og leiðir sameiginlegar miðlunarupplifanir, í streymi og í eigin persónu, sem auka getu mannkyns til að taka á móti og nýta visku í þágu þróunar heimsvitundar.",
+   "translatedAt": "2026-08-06T01:30:02+00:00"
+  },
+  "f7aea6fa8d4bb58b": {
+   "en": "The Economy Is Being Redesigned: Building Systems That Fund What Matters",
+   "field": "title",
+   "is": "Hagkerfið er í endurhönnun: Að byggja kerfi sem fjármagna það sem máli skiptir",
+   "translatedAt": "2026-07-31T19:00:03+00:00"
   },
   "f7b3715b3599867b": {
    "en": "Womb Wisdom: Shamanic Drumming Workshop",
@@ -2058,17 +2634,35 @@
    "is": "Orang Volante, fæddur Atli Már Þorvaldsson, er tónlistarframleiðandi og plötusnúður frá Reykjavík, þekktur fyrir sálarríka house-tónlist og framúrskarandi framleiðsluhæfileika.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "fab5d2ee52714077": {
+   "en": "Snæfellsnes; nature and culture",
+   "field": "title",
+   "is": "Snæfellsnes; náttúra og menning",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
   "fd81822e70ef53e9": {
    "en": "You: On the Other Side of the Sky",
    "field": "title",
    "is": "Þú: Hinum megin við himininn",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "fd9bfd745fa186eb": {
+   "en": "Chris Deckker has spent 30+ years shaping electronic music culture, cofounding Return to the Source and Medicine Drum, and founding Earthdance, the world's largest synchronized dance event for global peace.",
+   "field": "bio",
+   "is": "Chris Deckker hefur í meira en 30 ár mótað menningu elektrónískrar tónlistar, var einn af stofnendum Return to the Source og Medicine Drum og stofnaði Earthdance, stærsta samstillta dansviðburð heims í nafni heimsfriðar.",
+   "translatedAt": "2026-08-06T16:30:02+00:00"
+  },
   "fdba9d90ef70f8d2": {
    "en": "Have a Great Trip",
    "field": "title",
    "is": "Góða ferð – og gott tripp",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "fdc91469c0102df0": {
+   "en": "Coherence Education",
+   "field": "title",
+   "is": "Fræðsla um samhljóm",
+   "translatedAt": "2026-07-27T04:00:03+00:00"
   },
   "fe65db597d3e1fda": {
    "en": "Nationally recognized ritual designer and founder of Ritualist — the first creative studio for secular ritual design — creating large-scale participatory ceremonies at Hammerstein Ballroom and beyond.",
