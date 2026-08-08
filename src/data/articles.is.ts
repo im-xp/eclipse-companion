@@ -114,8 +114,9 @@ export const ARTICLES_IS: Article[] = [
           {
             kind: "list",
             items: [
-              "Fer á 45 til 60 mínútna fresti og tengir hátíðarsvæðið, bílastæðið, Rif og Ólafsvík.",
-              "Tímarnir eru ólíkir frá degi til dags — heildardagskrána má finna í [dagskránni í þessu appi](https://app.icelandeclipse.com/schedule).",
+              "Fer á 30 til 60 mínútna fresti í hring milli hátíðarsvæðisins, Rif Freezer, sundlaugarinnar og verslunarinnar í Ólafsvík og bílastæðis hátíðarinnar.",
+              "Fyrsta og síðasta brottför er ólík frá degi til dags — sjá [tíma skutlunnar](/shuttle).",
+              "**Dagur sólmyrkvans (12. ágúst): minni þjónusta, búast má við töfum og engin skutla gengur milli 17:00 og 18:30.**",
             ],
           },
         ],

@@ -146,8 +146,9 @@ export const ARTICLES: Article[] = [
           {
             kind: "list",
             items: [
-              "Runs every 45 minutes to an hour, connecting the festival grounds, the parking area, Rif, and Ólafsvík.",
-              "Schedule varies by day — full schedule available in [the Schedule in this app](https://app.icelandeclipse.com/schedule).",
+              "Runs every 30 minutes to an hour, looping between the festival grounds, Rif Freezer, the Ólafsvík pool and shop, and the festival parking area.",
+              "First and last departures vary by day — see the [local shuttle times](/shuttle).",
+              "**Eclipse day (12 August): reduced service, expect delays, and no shuttle between 17:00 and 18:30.**",
             ],
           },
         ],

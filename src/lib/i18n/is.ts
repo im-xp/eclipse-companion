@@ -89,6 +89,36 @@ const is: Dict = {
       "highlights-news": "Hápunktar og fréttir",
     },
   },
+  shuttle: {
+    metaTitle: "Skutla á svæðinu — Iceland Eclipse",
+    metaDescription:
+      "Fyrsta og síðasta brottför skutlunnar milli hátíðarsvæðisins, Rifs og Ólafsvíkur.",
+    eyebrow: "Að komast um",
+    title: "Skutla á svæðinu",
+    intro:
+      "Samfelldur hringur milli hátíðarsvæðisins, Rifs og Ólafsvíkur. Hún fer á 30 mínútna til klukkutíma fresti — mættu bara á stoppistöð frekar en að miða við ákveðna ferð.",
+    routeTitle: "Hringurinn",
+    stops: [
+      "Hátíðarsvæðið",
+      "Rif Freezer",
+      "Sundlaug Ólafsvíkur",
+      "Verslun í Ólafsvík",
+      "Bílastæði hátíðarinnar",
+    ],
+    routeNote: "Hringurinn endar aftur á hátíðarsvæðinu, svo þú getur farið í báðar áttir.",
+    scheduleTitle: "Fyrsta og síðasta brottför",
+    scheduleNote:
+      "Tímarnir eiga við fyrstu og síðustu brottför frá hátíðarsvæðinu. Tími merktur +1 er eftir miðnætti, morguninn eftir.",
+    first: "Fyrsta",
+    last: "Síðasta",
+    nextDay: "+1",
+    eclipseLabel: "Dagur sólmyrkvans",
+    eclipseNote:
+      "Minni þjónusta á degi sólmyrkvans og búast má við töfum. Engin skutla gengur milli 17:00 og 18:30.",
+    weekdays: ["Sun", "Mán", "Þri", "Mið", "Fim", "Fös", "Lau"],
+    month: "ágúst",
+    sourceNote: "Tímar eins og flutningateymið staðfesti þá 8. ágúst 2026.",
+  },
   map: {
     metaTitle: "Hátíðarkort — Iceland Eclipse",
     festival: "Hátíðarsvæði",

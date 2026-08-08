@@ -85,6 +85,36 @@ const en = {
       "highlights-news": "Highlights & News",
     } as Record<string, string>,
   },
+  shuttle: {
+    metaTitle: "Local Shuttle — Iceland Eclipse",
+    metaDescription:
+      "First and last departures for the local shuttle loop between the festival, Rif and Ólafsvík.",
+    eyebrow: "Getting around",
+    title: "Local Shuttle",
+    intro:
+      "A continuous loop between the festival, Rif and Ólafsvík. It runs every 30 minutes to an hour — turn up at a stop rather than timing a specific bus.",
+    routeTitle: "The loop",
+    stops: [
+      "Festival",
+      "Rif Freezer",
+      "Ólafsvík pool",
+      "Ólafsvík shop",
+      "Festival parking",
+    ],
+    routeNote: "The loop returns to the festival, so you can ride it in either direction.",
+    scheduleTitle: "First and last departures",
+    scheduleNote:
+      "Times are the first and last departures from the festival. A time marked +1 is after midnight, on the following morning.",
+    first: "First",
+    last: "Last",
+    nextDay: "+1",
+    eclipseLabel: "Eclipse day",
+    eclipseNote:
+      "Reduced service on eclipse day, and expect delays. There is no shuttle between 17:00 and 18:30.",
+    weekdays: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
+    month: "August",
+    sourceNote: "Times as confirmed by the transport team on 8 August 2026.",
+  },
   map: {
     metaTitle: "Festival Map — Iceland Eclipse",
     festival: "Festival",
