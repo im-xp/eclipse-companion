@@ -20,7 +20,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: c
       ? `${c.name} — Arrival Instructions`
       : "Accommodation Arrival Instructions",
-    robots: { index: false, follow: false },
   };
 }
 

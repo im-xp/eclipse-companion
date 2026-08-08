@@ -24,7 +24,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     title: found
       ? `${found.accommodation.name} — Arrival Instructions`
       : "Accommodation Arrival Instructions",
-    robots: { index: false, follow: false },
   };
 }
 
@@ -162,6 +161,25 @@ export default async function AccommodationPage({ params }: PageProps) {
                 </li>
               ))}
             </ol>
+            {/* The box office moves mid-week, so it gets its own block rather
+                than becoming steps in the numbered list. */}
+            <div className="rounded-[12px] border border-solar-corona/30 bg-deep-space/40 p-4 sm:p-5">
+              <p className="eyebrow text-solar-corona">Where to collect credentials</p>
+              <ul className="mt-3 space-y-2">
+                {campground.boxOffice.map((line, i) => (
+                  <li
+                    key={i}
+                    className="flex gap-3 text-sm leading-relaxed text-moon-white/75"
+                  >
+                    <span
+                      aria-hidden
+                      className="mt-[0.6em] size-1.5 shrink-0 rotate-45 bg-solar-corona/70"
+                    />
+                    <span>{renderInline(line)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
             <p className="pt-1 text-sm text-moon-white/60">
               Your camping hub is the {renderInline(`**${campground.hub}**`)}.
             </p>

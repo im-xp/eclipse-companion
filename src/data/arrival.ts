@@ -2,13 +2,13 @@
 // "[TEMPLATE] ... CAMPING ARRIVAL INSTRUCTIONS" docs, restructured so a guest
 // can find only their own accommodation instead of reading past everyone else's.
 //
-// Unlisted by design: /arrival is not in AppNav and not linked from anywhere.
-// It is reachable only by typing the URL, so Deja and Andrew can review it live
-// before it goes to guests.
+// Public since 2026-08-08: linked from /guides so guests can reach it without
+// the URL. Still not in AppNav — it's a pre-arrival read, not a during-event tab.
 //
-// Copy is English-only and deliberately kept out of lib/i18n — a dictionary
-// entry would have to be mirrored in is.ts to pass the build, and this page is
-// a review artifact, not shipped attendee content yet.
+// Copy is English-only and deliberately kept out of lib/i18n — the page body has
+// no dictionary entries to mirror in is.ts. Only the /guides card that points
+// here is translated. Icelandic guests get an English page; translating the full
+// arrival copy is open work, not a regression.
 
 export type Group = "glamping" | "camping" | "rv";
 
@@ -46,11 +46,21 @@ export interface Campground {
   hub: string;
   hubAmenities: string[];
   checkIn: string[];
+  /** Where and when to collect credentials. Same for both campgrounds. */
+  boxOffice: string[];
   power: string[];
 }
 
 const ACCESS_BEGINS = "9 August 2026, 12:00";
 const CHECKOUT_TIME = "10:00";
+// The box office moves mid-week (Pam, 2026-08-08): camping box office at
+// Daybreak for the arrival days, festival box office once the gates open.
+// Kept out of `checkIn` so the numbered steps stay actions, not reference info.
+const BOX_OFFICE = [
+  "**9–12 August** — the camping box office, outside the Daybreak hub.",
+  "**13–15 August** — the camping box office is closed. Credentials move to the **festival box office, next to the main gate**.",
+  "**Hours** — 12:00 – 22:00 on 9 August, then 10:00 – 22:00. If you are driving in, plan to arrive within these hours.",
+];
 const HOST_STAND = "24/7 on-site Host Stand for guest support";
 const CONCIERGE = "Exclusive 24/7 on-site concierge";
 
@@ -69,9 +79,10 @@ export const CAMPGROUNDS: Campground[] = [
       "Food vendor",
     ],
     checkIn: [
-      "Pick up your festival wristband and your camping wristband at the **Daybreak Box Office**.",
+      "Pick up your festival wristband and your camping wristband at the box office.",
       "Once you have your credentials, go to the **Concierge Desk** to check into your accommodation. Our team will escort you from there.",
     ],
+    boxOffice: BOX_OFFICE,
     power: [
       "**This area does not have power.** Prepare accordingly.",
       "US hair dryers, curling irons, clothing steamers and electric toothbrushes will burn out, overheat, break or cause a fire if plugged in. Leave them at home.",
@@ -235,10 +246,10 @@ export const CAMPGROUNDS: Campground[] = [
       "Food vendor",
     ],
     checkIn: [
-      "Pick up your festival wristband and your premium camping wristband at the **Box Office**.",
-      "Once you have your credentials at the Daybreak Box Office, take a **shuttle to the Moonrise camping hub** to check into your accommodation. Our team will escort you from there.",
-      "**If you are driving in, arrive during Box Office hours: 10:00 – 22:00.**",
+      "Pick up your festival wristband and your premium camping wristband at the box office.",
+      "Once you have your credentials, take a **shuttle to the Moonrise camping hub** to check into your accommodation. Our team will escort you from there.",
     ],
+    boxOffice: BOX_OFFICE,
     power: [
       "Premium tents include an in-tent electrical outlet (10 Amp) for charging small electronic devices.",
       "US hair dryers, curling irons, clothing steamers and electric toothbrushes will burn out, overheat, break or cause a fire if plugged in. Don't bring them — you can use the hair dryers provided in the Moonrise hub.",
@@ -330,7 +341,7 @@ export const SHARED = {
     "Add your accommodation guest to your booking so they can check in without you present if you're delayed.",
     "**Don't forget your eye mask.** It barely gets dark in August.",
   ],
-  contact: "camping@icelandeclipse.com",
+  contact: "hallo@icelandeclipse.com",
 };
 
 export function getCampground(slug: string): Campground | undefined {

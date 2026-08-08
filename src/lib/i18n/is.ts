@@ -79,6 +79,11 @@ const is: Dict = {
     intro:
       "Allt sem vert er að lesa fyrir hátíðina og á meðan á henni stendur: pökkun, tjaldbúðir, sólmyrkvinn sjálfur og það sem gerir Snæfellsnes einstakt.",
     allGuides: "Allir leiðarvísar",
+    arrivalEyebrow: "Bókaðir þú tjaldsvæði?",
+    arrivalTitle: "Leiðbeiningar um komu í gistingu",
+    arrivalSummary:
+      "Innritun, opnunartími miðasölunnar og hvað fylgir — fyrir þína gistingu sérstaklega.",
+    arrivalAlt: "Handmálað tréskilti með tjöldum og ör, á grasi vaxinni íslenskri hlíð",
     categoryLabels: {
       "quick-guides": "Stuttir leiðarvísar",
       "highlights-news": "Hápunktar og fréttir",

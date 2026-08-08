@@ -75,6 +75,11 @@ const en = {
     intro:
       "Everything worth reading before and during the gathering: packing, camping, the eclipse itself, and what makes this peninsula special.",
     allGuides: "All guides",
+    arrivalEyebrow: "Booked a campground?",
+    arrivalTitle: "Accommodation Arrival Instructions",
+    arrivalSummary:
+      "Check-in steps, box office hours, and what's included — for your accommodation specifically.",
+    arrivalAlt: "Hand-painted wooden signpost with tents drawn on it, pointing across a grassy Icelandic hillside",
     categoryLabels: {
       "quick-guides": "Quick Guides",
       "highlights-news": "Highlights & News",

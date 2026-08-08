@@ -3,10 +3,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { CAMPGROUNDS } from "@/data/arrival";
 
-// Unlisted: no nav entry, no inbound links. Reachable only by typing /arrival.
+// Public, and linked from /guides. Not in AppNav — it's a pre-arrival read.
 export const metadata: Metadata = {
   title: "Accommodation Arrival Instructions — Iceland Eclipse",
-  robots: { index: false, follow: false },
 };
 
 export default function ArrivalPage() {
@@ -82,10 +81,10 @@ export default function ArrivalPage() {
         <p className="mt-6 text-sm text-moon-white/50">
           Not sure which one you're in? Your campground is on your pass, or email{" "}
           <a
-            href="mailto:camping@icelandeclipse.com"
+            href="mailto:hallo@icelandeclipse.com"
             className="text-aurora-cyan underline decoration-aurora-cyan/40 underline-offset-2"
           >
-            camping@icelandeclipse.com
+            hallo@icelandeclipse.com
           </a>
           .
         </p>
