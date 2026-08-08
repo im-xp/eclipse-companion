@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T14:00:02+00:00",
+  "generatedAt": "2026-08-08T19:30:02+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -490,7 +490,7 @@
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/cyberdelic-society.png",
       "bio": "Through carefully curated menu of immersive experiences , including VR, MR, haptics, stroboscopic lights, and interactive installations we showcase cyberdelic technologies aimed to help you learn how to navigate states and turn them into traits",
       "tagline": null,
-      "emcee": "Jason Silva",
+      "emcee": null,
       "bio_is": "Með vandlega valinni dagskrá af altækum upplifunum – VR, MR, haptík, strobóljósum og gagnvirkum innsetningum – sýnum við cyberdelíska tækni sem er hugsuð til að hjálpa þér að læra að ferðast um hugarástönd og breyta þeim í varanlega eiginleika"
     },
     {
@@ -602,7 +602,7 @@
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/carl-hayden-smith.webp",
       "bio": "Co-founder of the Cyberdelics Society and Museum of Consciousness. UEL Associate Professor with 30 years exploring technology as a catalyst for expanding human perception.",
       "tagline": null,
-      "emcee": "Jason Silva",
+      "emcee": null,
       "title_is": "The Museum of Consciousness",
       "bio_is": "Meðstofnandi Cyberdelics Society og Museum of Consciousness. Dósent við UEL með 30 ára reynslu af því að kanna tækni sem hvata til að víkka mannlega skynjun."
     },
@@ -701,23 +701,23 @@
       "bio_is": "Roberto Carlino hefur síðastliðinn áratug breytt vísindaskáldskap í veruleika, allt frá fljúgandi vélmennum um borð í Alþjóðlegu geimstöðinni til sólsegla og næstu kynslóðar gervitungla."
     },
     {
-      "artist": "Jason Silva",
-      "title": "Films on Feelings",
+      "artist": "Alex Grey & Allyson Grey",
+      "title": "Creativity as a Spiritual Practice",
       "isHostBlock": false,
       "status": "confirmed",
       "category": "Inner Space",
-      "subcategory": null,
+      "subcategory": "Artists",
       "date": "2026-08-12",
       "day": "Wednesday 12 August",
       "start": "14:00",
-      "durationMin": 25,
+      "durationMin": 50,
       "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jason-silva.jpeg",
-      "bio": "Jason Silva is an American filmmaker and public speaker known for philosophical short films at the intersection of technology, creativity, and human consciousness.",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/alex-allyson-grey.png",
+      "bio": "Alex Grey & Allyson Grey are visionary artists and co-founders of Chapel of Sacred Mirrors (CoSM), a sanctuary for visionary art and creativity",
       "tagline": null,
-      "emcee": "Jason Silva",
-      "title_is": "Kvikmyndir um tilfinningar",
-      "bio_is": "Jason Silva er bandarískur kvikmyndagerðarmaður og fyrirlesari, þekktur fyrir heimspekilegar stuttmyndir á mörkum tækni, sköpunar og mannlegrar vitundar."
+      "emcee": null,
+      "title_is": "Sköpun sem andleg iðkun",
+      "bio_is": "Alex Grey & Allyson Grey eru listamenn á sviði sýnarlistar (visionary art) og meðstofnendur Chapel of Sacred Mirrors (CoSM), griðastaðar fyrir sýnarlist og sköpun"
     },
     {
       "artist": "Christopher Breedlove",
@@ -737,25 +737,6 @@
       "emcee": "Stephen Brooks",
       "title_is": "Lifandi helgisiður: Að tengjast á ný fyrir óvissa framtíð",
       "bio_is": "Christopher Breedlove byggir upp kerfi, sögur og rými sem leiða fólk saman. Með áratuga reynslu af starfi með Burning Man, Burners Without Borders og grasrótarmenningarhreyfingum kannar hann hvernig sköpun, þátttaka og endurnærandi menning geta mótað samtengdari framtíð."
-    },
-    {
-      "artist": "Alex Grey & Allyson Grey",
-      "title": "Creativity as a Spiritual Practice",
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Inner Space",
-      "subcategory": "Artists",
-      "date": "2026-08-12",
-      "day": "Wednesday 12 August",
-      "start": "14:30",
-      "durationMin": 50,
-      "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/alex-allyson-grey.png",
-      "bio": "Alex Grey & Allyson Grey are visionary artists and co-founders of Chapel of Sacred Mirrors (CoSM), a sanctuary for visionary art and creativity",
-      "tagline": null,
-      "emcee": "Jason Silva",
-      "title_is": "Sköpun sem andleg iðkun",
-      "bio_is": "Alex Grey & Allyson Grey eru listamenn á sviði sýnarlistar (visionary art) og meðstofnendur Chapel of Sacred Mirrors (CoSM), griðastaðar fyrir sýnarlist og sköpun"
     },
     {
       "artist": "Lóránt Czárán",
@@ -812,6 +793,25 @@
       "emcee": "Ari Eisenstat",
       "title_is": "Þú: Hinum megin við himininn",
       "bio_is": "Christopher Huie er geimfari hjá Virgin Galactic og flug- og geimverkfræðingur sem flaug í geimferðinni Unity 25."
+    },
+    {
+      "artist": "Sofiah Thom",
+      "title": "Temple Body Activation",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Dance",
+      "subcategory": null,
+      "date": "2026-08-12",
+      "day": "Wednesday 12 August",
+      "start": "15:15",
+      "durationMin": 60,
+      "stage": "AFTERGLOW (Dome)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sofiah-thom.jpg",
+      "bio": "Sofiah Thom is a visionary ritual artist and founder of Temple Body Arts®, guiding embodied feminine leadership through ritual and performance. As co-founder of Envision Festival and Danyasa Eco-Retreat, she helps catalyze culture rooted in creativity, devotion, and regeneration.",
+      "tagline": null,
+      "emcee": null,
+      "title_is": "Virkjun musterislíkamans",
+      "bio_is": "Sofiah Thom er framsýn helgiathafnalistakona og stofnandi Temple Body Arts®, sem leiðir kvenlega forystu í gegnum líkamann með helgiathöfnum og listflutningi. Sem meðstofnandi Envision Festival og Danyasa Eco-Retreat hjálpar hún til við að hlúa að menningu sem á rætur í sköpun, helgun og endurnýjun."
     },
     {
       "artist": "Stephen Brooks",
@@ -922,25 +922,6 @@
       "tagline": null,
       "emcee": null,
       "bio_is": "Ayla Schafer er þjóðlagatónlistarkona og athafnastýra, þekkt fyrir sálarríka rödd sína og helga söngva. Hún leiðir heilandi tónlistarhringi þar sem keltneskar og alþjóðlegar tónlistarhefðir fléttast saman."
-    },
-    {
-      "artist": "Sofiah Thom",
-      "title": "Temple Body Activation",
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Dance",
-      "subcategory": null,
-      "date": "2026-08-12",
-      "day": "Wednesday 12 August",
-      "start": "15:30",
-      "durationMin": 60,
-      "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/sofiah-thom.jpg",
-      "bio": "Sofiah Thom is a visionary ritual artist and founder of Temple Body Arts®, guiding embodied feminine leadership through ritual and performance. As co-founder of Envision Festival and Danyasa Eco-Retreat, she helps catalyze culture rooted in creativity, devotion, and regeneration.",
-      "tagline": null,
-      "emcee": "Jason Silva",
-      "title_is": "Virkjun musterislíkamans",
-      "bio_is": "Sofiah Thom er framsýn helgiathafnalistakona og stofnandi Temple Body Arts®, sem leiðir kvenlega forystu í gegnum líkamann með helgiathöfnum og listflutningi. Sem meðstofnandi Envision Festival og Danyasa Eco-Retreat hjálpar hún til við að hlúa að menningu sem á rætur í sköpun, helgun og endurnýjun."
     },
     {
       "artist": "Dr. Sian Proctor",
@@ -4855,25 +4836,6 @@
       "emcee": null,
       "title_is": "Frelsaðu röddina",
       "bio_is": "Luana er brasilískur plötusnúður, söngkona og athafnastýra sem deilir tónlist sinni á meðvituðum samkomum á Balí, í Tulum, Evrópu og Rómönsku Ameríku."
-    },
-    {
-      "artist": "Larry Dvoskin",
-      "title": "How To Succeed Thru Human Networks",
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Community Space",
-      "subcategory": null,
-      "date": "2026-08-15",
-      "day": "Saturday 15 August",
-      "start": "11:00",
-      "durationMin": 50,
-      "stage": "POLARIS",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Larry%20Dvoskin%202026.jpg",
-      "bio": "Larry Dvoskin is a thought leader at the nexus of music and tech. As a musician he has worked with David Bowie, Sean Lennon, MGMT, The Beach Boys, and toured opening for Queen, Tom Petty and others.",
-      "tagline": null,
-      "emcee": null,
-      "title_is": "Hvernig þú nærð árangri í gegnum mannleg tengslanet",
-      "bio_is": "Larry Dvoskin er hugmyndaleiðtogi þar sem tónlist og tækni mætast. Sem tónlistarmaður hefur hann unnið með David Bowie, Sean Lennon, MGMT og The Beach Boys og túrað sem upphitunaratriði fyrir Queen, Tom Petty og fleiri."
     },
     {
       "artist": "Dr. Rick Doblin",
