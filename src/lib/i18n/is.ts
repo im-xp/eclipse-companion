@@ -29,6 +29,9 @@ const is: Dict = {
     ticketHref:
       "https://tickets.moment.is/event/iceland-eclipse-2026-juvfyj?utm_source=eclipse.is&utm_medium=Ticket+button&utm_campaign=Get+Tickets+Button",
     planTrip: "Skipuleggðu ferðina",
+    arrivalTitle: "Leiðbeiningar um komu",
+    arrivalBlurb:
+      "Innritun, opnunartími miðasölunnar og hvað fylgir — fyrir þína gistingu sérstaklega.",
     shuttlesTitle: "Rútuferðir",
     shuttlesBlurb: "Bókaðu far á hátíðarsvæðið og til baka.",
     experiencesTitle: "Upplifanir",

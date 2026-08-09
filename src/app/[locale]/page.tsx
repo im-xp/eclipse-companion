@@ -41,18 +41,30 @@ function sections(dict: Dict) {
   ];
 }
 
-// External upsell links (Fever). Open in a new tab so attendees keep the app.
+// Plan-your-trip cards. Arrival is internal (root-relative, no locale prefix);
+// the Fever upsells are external and open in a new tab so attendees keep the app.
 function quickLinks(dict: Dict) {
   return [
+    {
+      href: "/arrival",
+      title: dict.home.arrivalTitle,
+      blurb: dict.home.arrivalBlurb,
+      external: false,
+      wide: true,
+    },
     {
       href: "https://feverup.com/m/570327",
       title: dict.home.shuttlesTitle,
       blurb: dict.home.shuttlesBlurb,
+      external: true,
+      wide: false,
     },
     {
       href: "https://feverup.com/m/474974?session_ids=296955961",
       title: dict.home.experiencesTitle,
       blurb: dict.home.experiencesBlurb,
+      external: true,
+      wide: false,
     },
   ];
 }
@@ -93,28 +105,44 @@ export default async function HomePage({
       <section className="pb-12">
         <h2 className="eyebrow text-aurora-cyan">{dict.home.planTrip}</h2>
         <div className="mt-4 grid gap-3 sm:grid-cols-2">
-          {quickLinks(dict).map((q) => (
-            <a
-              key={q.href}
-              href={q.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group flex items-center justify-between gap-4 rounded-[20px] border border-moon-white/10 bg-deep-space/60 p-5 transition-all duration-200 hover:border-moon-white/25 hover:-translate-y-0.5"
-            >
-              <span>
-                <span className="block font-display text-lg font-extrabold uppercase tracking-[-0.02em] text-moon-white">
-                  {q.title}
+          {quickLinks(dict).map((q) => {
+            const Card = q.external ? "a" : Link;
+            const linkProps = q.external
+              ? { target: "_blank", rel: "noopener noreferrer" }
+              : {};
+            return (
+              <Card
+                key={q.href}
+                href={q.href}
+                {...linkProps}
+                className={`group flex items-center justify-between gap-4 rounded-[20px] border border-moon-white/10 bg-deep-space/60 p-5 transition-all duration-200 hover:border-moon-white/25 hover:-translate-y-0.5${
+                  q.wide ? " sm:col-span-2" : ""
+                }`}
+              >
+                <span>
+                  <span className="block font-display text-lg font-extrabold uppercase tracking-[-0.02em] text-moon-white">
+                    {q.title}
+                  </span>
+                  <span className="mt-1 block text-sm text-moon-white/70 leading-relaxed">
+                    {q.blurb}
+                  </span>
                 </span>
-                <span className="mt-1 block text-sm text-moon-white/70 leading-relaxed">
-                  {q.blurb}
-                </span>
-              </span>
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-4 shrink-0 text-moon-white/50 group-hover:text-moon-white transition-colors">
-                <path d="M7 17 17 7" />
-                <path d="M7 7h10v10" />
-              </svg>
-            </a>
-          ))}
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-4 shrink-0 text-moon-white/50 group-hover:text-moon-white transition-colors">
+                  {q.external ? (
+                    <>
+                      <path d="M7 17 17 7" />
+                      <path d="M7 7h10v10" />
+                    </>
+                  ) : (
+                    <>
+                      <path d="M5 12h14" />
+                      <path d="m12 5 7 7-7 7" />
+                    </>
+                  )}
+                </svg>
+              </Card>
+            );
+          })}
         </div>
       </section>
 

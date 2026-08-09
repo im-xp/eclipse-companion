@@ -28,6 +28,9 @@ const en = {
     ticketCta: "Secure your spot now",
     ticketHref: "https://feverup.com/m/416569",
     planTrip: "Plan your trip",
+    arrivalTitle: "Arrival Instructions",
+    arrivalBlurb:
+      "Check-in steps, box office hours and what's included — for your accommodation specifically.",
     shuttlesTitle: "Shuttles",
     shuttlesBlurb: "Book your ride to and from the site.",
     experiencesTitle: "Experiences",
