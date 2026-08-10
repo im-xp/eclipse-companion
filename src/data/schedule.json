@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T19:30:02+00:00",
+  "generatedAt": "2026-08-10T04:30:02+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -2995,7 +2995,7 @@
       "date": "2026-08-13",
       "day": "Thursday 13 August",
       "start": "23:15",
-      "durationMin": 120,
+      "durationMin": 90,
       "stage": "POLARIS",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/amelie-ravalec-vincent-ravalec.webp",
       "bio": "About their Solstice Series: All over the world, artists are called upon through dreams and visions by a cosmic entity, the Architecture. To prevent earth’s collapse and restore balance to the universe, they must explore forgotten memories and transform their creations into powerful acts of restoration, rewriting the past and reshaping the future to heal reality itself.",
@@ -3491,7 +3491,7 @@
       "bio_is": "Samwise er íslenskur raftónlistarframleiðandi þekktur fyrir melódískar og stemningsfullar tónsmíðar þar sem raftónlist mætir norrænum áhrifum og kvikmyndalegum hljóðheimum."
     },
     {
-      "artist": "Whitney Silverstein",
+      "artist": "Parag Bhandari",
       "title": "The Power of Music to Transform Communities",
       "isHostBlock": false,
       "status": "confirmed",
@@ -3502,12 +3502,12 @@
       "start": "13:30",
       "durationMin": 25,
       "stage": "POLARIS",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/whitney-kroenke.webp",
-      "bio": "Whitney Silverstein is co-founder of Playing for Change Foundation, expanding music education to 164 locations globally. Tony-nominated Broadway producer, global impact leader, Dancer, Wife and Mother.",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/parag-bhandari.jpeg",
+      "bio": "Parag Bhandari is an American entrepreneur, musician, author, and founder/CEO of entertainment marketing firm UG Strategies (UGS), and sits at the intersection of music, culture, technology, and emerging industries.",
       "tagline": null,
       "emcee": "Gwen Riley",
       "title_is": "Máttur tónlistar til að umbreyta samfélögum",
-      "bio_is": "Whitney Silverstein er meðstofnandi Playing for Change Foundation og hefur útvíkkað tónlistarkennslu til 164 staða um allan heim. Broadway-framleiðandi tilnefnd til Tony-verðlauna, leiðtogi í alþjóðlegum samfélagsáhrifum, dansari, eiginkona og móðir."
+      "bio_is": "Parag Bhandari er bandarískur frumkvöðull, tónlistarmaður, höfundur og stofnandi og forstjóri afþreyingarmarkaðsfyrirtækisins UG Strategies (UGS), og starfar á mótum tónlistar, menningar, tækni og nýrra atvinnugreina."
     },
     {
       "artist": "Zero 7 (DJ Set)",
@@ -5336,11 +5336,11 @@
       "durationMin": 25,
       "stage": "POLARIS",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ari-eisenstat.jpg",
-      "bio": "International Futurist at University of Hawaiʻi Research Organization — where futures studies meets lived experience as a person with disabilities, reimagining how we build more inclusive worlds.",
+      "bio": "Ari Eisenstat is a Partner at IMXP, producing the Eclipse Festival Trilogy across Iceland, Egypt, and New Zealand. An International Futurist at the University of Hawai'i, he chairs Space for Humanity's Advisory Board, bridging space, art, and human futures.",
       "tagline": null,
       "emcee": "Chris Huie",
       "title_is": "Kynlíf í geimnum: Að sá fræjum framtíðar mannkyns utan jarðar",
-      "bio_is": "Alþjóðlegur framtíðarfræðingur hjá rannsóknastofnun Háskólans á Havaí — þar sem framtíðarfræðin mætir lifaðri reynslu fatlaðrar manneskju og endurhugsar hvernig við byggjum heim sem rúmar öll."
+      "bio_is": "Ari Eisenstat er meðeigandi hjá IMXP og framleiðir Eclipse Festival Trilogy á Íslandi, í Egyptalandi og á Nýja-Sjálandi. Hann er alþjóðlegur framtíðarfræðingur við Háskólann á Hawai'i og fer fyrir ráðgjafarráði Space for Humanity, þar sem hann tengir saman geiminn, listir og framtíð mannkyns."
     },
     {
       "artist": "Ben Haldeman",
