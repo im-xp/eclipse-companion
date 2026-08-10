@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T04:30:02+00:00",
+  "generatedAt": "2026-08-10T17:00:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -1200,8 +1200,8 @@
       "bio_is": "Emilíana Torrini er íslensk söngkona og lagahöfundur, þekkt fyrir sérstæða rödd sína og margrómaðar plötur, og hlaut alþjóðlega viðurkenningu fyrir 'Gollum's Song' úr The Lord of the Rings."
     },
     {
-      "artist": "Eduardo Castillo Presents 'The Overview Effect'",
-      "title": "presents 'The Overview Effect'",
+      "artist": "Eduardo Castillo presents 'The Overview Effect'",
+      "title": null,
       "isHostBlock": false,
       "status": "confirmed",
       "category": "Dance",
@@ -1215,7 +1215,6 @@
       "bio": "Eduardo Castillo's live presentation combines music and visuals to explore how eclipses mirror the mysteries of consciousness, through electronic music and multimedia.",
       "tagline": null,
       "emcee": null,
-      "title_is": "kynnir 'The Overview Effect'",
       "bio_is": "Lifandi flutningur Eduardo Castillo sameinar tónlist og myndefni til að kanna hvernig sólmyrkvar spegla leyndardóma vitundarinnar, í gegnum raftónlist og margmiðlun."
     },
     {
@@ -2457,22 +2456,22 @@
       "bio_is": "Katy Bohinc er stofnandi og framkvæmdastjóri The Ratio og starfar á mörkum tækni, stefnumótunar og jafns aðgengis."
     },
     {
-      "artist": "Alex Grey & Allyson Grey",
+      "artist": "Carbon Based Lifeforms w/ Alex Grey & Allyson Grey Live Painting",
       "title": null,
       "isHostBlock": false,
       "status": "confirmed",
       "category": "Dance",
-      "subcategory": "Artists",
+      "subcategory": null,
       "date": "2026-08-13",
       "day": "Thursday 13 August",
       "start": "16:20",
       "durationMin": 90,
       "stage": "ECLIPSE (Main Stage)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/alex-allyson-grey.png",
-      "bio": "Alex Grey & Allyson Grey are visionary artists and co-founders of Chapel of Sacred Mirrors (CoSM), a sanctuary for visionary art and creativity",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/carbon-based-lifeforms.jpg",
+      "bio": "Swedish ambient electronic duo known for luminous downtempo music exploring space, nature, and consciousness.",
       "tagline": null,
       "emcee": null,
-      "bio_is": "Alex Grey & Allyson Grey eru listamenn á sviði sýnarlistar (visionary art) og meðstofnendur Chapel of Sacred Mirrors (CoSM), griðastaðar fyrir sýnarlist og sköpun"
+      "bio_is": "Sænskt ambient-rafdúó þekkt fyrir ljómandi downtempo-tónlist sem kannar geiminn, náttúruna og vitundina."
     },
     {
       "artist": "Dr. Robin George Andrews",
@@ -4305,7 +4304,7 @@
       "emcee": null
     },
     {
-      "artist": "Bear Kittay",
+      "artist": "Bear Kittay presents Topia",
       "title": null,
       "isHostBlock": false,
       "status": "confirmed",
@@ -4360,8 +4359,8 @@
       "bio_is": "Rojelio Carrillo Carrillo er Marakame — athafnaleiðtogi og seiðmaður Wixarika-þjóðarinnar í Mexíkó — sem ber lifandi hefðir forfeðra sinna áfram í gegnum sögur, bænir og helgar athafnir."
     },
     {
-      "artist": "CloZee",
-      "title": "with Live visuals by Android Jones",
+      "artist": "CloZee with Live visuals by Android Jones",
+      "title": null,
       "isHostBlock": false,
       "status": "confirmed",
       "category": "Dance",
@@ -4375,7 +4374,6 @@
       "bio": "Chloé Herry, known as CloZee, is a French DJ and producer blending UK bass, dubstep, and world music into an organic, rhythmic sound that evokes a spiritual electronic atmosphere.",
       "tagline": null,
       "emcee": null,
-      "title_is": "með lifandi sjónlist frá Android Jones",
       "bio_is": "Chloé Herry, þekkt sem CloZee, er franskur plötusnúður og pródúser sem blandar saman breskri bassatónlist, dubstep og heimstónlist í lífrænan, taktfastan hljóðheim sem kallar fram andlega, rafræna stemningu."
     },
     {
@@ -5263,11 +5261,12 @@
       "start": "14:30",
       "durationMin": 50,
       "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
-      "bio": null,
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/justin-rosenstein.jpeg",
+      "bio": "Justin Rosenstein is a software programmer and entrepreneur who co-founded Asana and the One Project, after shaping foundational tech products at Google and Facebook.",
       "tagline": null,
       "emcee": null,
-      "title_is": "Pallborð um framtíðartækni (engin gervigreind)"
+      "title_is": "Pallborð um framtíðartækni (engin gervigreind)",
+      "bio_is": "Justin Rosenstein er forritari og frumkvöðull sem var meðstofnandi Asana og One Project, eftir að hafa mótað grundvallartæknivörur hjá Google og Facebook."
     },
     {
       "artist": "Joel Dietz",

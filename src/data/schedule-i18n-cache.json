@@ -1230,6 +1230,12 @@
    "is": "Illi Adato er alþjóðlega þekktur meðferðaraðili, hópstjórnandi og kennari á sviði kerfisbundinna fjölskylduuppstillinga og Systemic Ritual®️. Hann hefur þróað einstakar og áhrifaríkar meðferðaraðferðir sem færa eiginleika vitundar inn í kjarna heilunarferlisins.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "6db20b3d343d6523": {
+   "en": "Justin Rosenstein is a software programmer and entrepreneur who co-founded Asana and the One Project, after shaping foundational tech products at Google and Facebook.",
+   "field": "bio",
+   "is": "Justin Rosenstein er forritari og frumkvöðull sem var meðstofnandi Asana og One Project, eftir að hafa mótað grundvallartæknivörur hjá Google og Facebook.",
+   "translatedAt": "2026-08-10T17:00:03+00:00"
+  },
   "6e7ee0ecaf011b77": {
    "en": "Born from the creative synergy of dear friends Bogdan and Matias, AWARË builds immersive sonic ceremonies — intertwined harmonies and live instrumentation converging into collective celebration.",
    "field": "bio",
@@ -2669,6 +2675,12 @@
    "field": "title",
    "is": "Snæfellsnes; náttúra og menning",
    "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "fc6b2f108463e9a6": {
+   "en": "Swedish ambient electronic duo known for luminous downtempo music exploring space, nature, and consciousness.",
+   "field": "bio",
+   "is": "Sænskt ambient-rafdúó þekkt fyrir ljómandi downtempo-tónlist sem kannar geiminn, náttúruna og vitundina.",
+   "translatedAt": "2026-08-10T17:00:03+00:00"
   },
   "fd81822e70ef53e9": {
    "en": "You: On the Other Side of the Sky",
