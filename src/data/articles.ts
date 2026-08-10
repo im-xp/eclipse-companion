@@ -523,7 +523,6 @@ export const ARTICLES: Article[] = [
               "Closed-cell foam sleeping pads",
               "Insulated sleeping bags",
               "Battery-operated lantern and tent lock",
-              "Towels",
               "Access to restrooms",
               "Hot showers (small fee)",
             ],
@@ -559,6 +558,8 @@ export const ARTICLES: Article[] = [
               "Folding camp chair (campground only, not festival grounds)",
               "Ziplock bags for keeping things dry",
               "Trash bags (leave no trace)",
+              // Appended, not inserted — GuideChecklist persists by index.
+              "Quick-dry towel",
             ],
           },
         ],

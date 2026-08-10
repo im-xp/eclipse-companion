@@ -491,7 +491,6 @@ export const ARTICLES_IS: Article[] = [
             "Þéttar svampsvefndýnur",
             "Einangraðir svefnpokar",
             "Rafhlöðuljósker og tjaldlás",
-            "Handklæði",
             "Aðgangur að salernum",
             "Heitar sturtur (vægt gjald)",
           ],
@@ -527,6 +526,8 @@ export const ARTICLES_IS: Article[] = [
             "Samanbrjótanlegur útilegustóll (aðeins á tjaldsvæðinu, ekki á hátíðarsvæðinu)",
             "Rennilásapokar til að halda hlutum þurrum",
             "Ruslapokar (skiljum ekkert eftir)",
+            // Appended, not inserted — GuideChecklist persists by index.
+            "Fljótþornandi handklæði",
           ],
         },
       ],
