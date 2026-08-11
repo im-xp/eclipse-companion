@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:30:03+00:00",
+  "generatedAt": "2026-08-11T18:30:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -1497,6 +1497,25 @@
       "tagline": null,
       "emcee": null,
       "bio_is": "Bloomurian er raftónlistarsamstarf með söngkonunni Saoirse Watters í fararbroddi, þekkt fyrir seiðandi og stemningsríka tónlist sem sameinar downtempo-takta og annarsheimslegan söng."
+    },
+    {
+      "artist": "Reggie Watts",
+      "title": "Him Gone Watts",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Dance",
+      "subcategory": null,
+      "date": "2026-08-12",
+      "day": "Wednesday 12 August",
+      "start": "22:00",
+      "durationMin": 60,
+      "stage": "POLARIS",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/reggie-watts.jpg",
+      "bio": "Reggie Watts is an American comedian, musician, and beatboxer whose entirely improvised sets — built from voice, keyboard, and a looping machine — delight and disorient in equal measure.",
+      "tagline": null,
+      "emcee": null,
+      "title_is": "Him Gone Watts",
+      "bio_is": "Reggie Watts er bandarískur grínisti, tónlistarmaður og beatbox-listamaður. Sett hans eru spunnin frá grunni — byggð á rödd, hljómborði og lúppuvél — og heilla og rugla áhorfendur í jöfnum hlutföllum."
     },
     {
       "artist": "Him Gone Ape",
@@ -4377,7 +4396,7 @@
     },
     {
       "artist": "Joaqopelli Tribute: GDubz & Mena Domina",
-      "title": null,
+      "title": "Joaqopelli Tribute",
       "isHostBlock": false,
       "status": "confirmed",
       "category": "Dance",
@@ -4391,6 +4410,7 @@
       "bio": "GDubz is a DJ blending hip-hop, dubstep, and Indigenous powwow sounds into high-energy electronic performances.",
       "tagline": null,
       "emcee": null,
+      "title_is": "Joaqopelli-heiðurstónleikar",
       "bio_is": "GDubz er plötusnúður sem blandar saman hipphoppi, dubstep og powwow-tónlist frumbyggja í kraftmikinn rafrænan flutning."
     },
     {
@@ -5508,7 +5528,7 @@
     },
     {
       "artist": "Alex Jay & DJ McLov3n",
-      "title": null,
+      "title": "Alex Jay b2b DJ McLov3n",
       "isHostBlock": false,
       "status": "confirmed",
       "category": "Dance",
@@ -5522,6 +5542,7 @@
       "bio": "DJ McLov3n has spent 20+ years building dance floors from Austin house parties to Electric Forest, while Alex J. Moscow has spent 14 years crafting transformative live experiences for top entrepreneurs. Together, pure energy.",
       "tagline": null,
       "emcee": null,
+      "title_is": "Alex Jay b2b DJ McLov3n",
       "bio_is": "DJ McLov3n hefur í yfir 20 ár fyllt dansgólf, allt frá húspartíum í Austin til Electric Forest, en Alex J. Moscow hefur í 14 ár skapað umbreytandi lifandi upplifanir fyrir fremstu frumkvöðla. Saman: hrein orka."
     },
     {
