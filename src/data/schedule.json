@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T17:00:03+00:00",
+  "generatedAt": "2026-08-11T02:00:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -191,6 +191,25 @@
       "bio_is": "Dr. Mary Dohrmann er höfundur NeuroWellness Protocol™ og stofnandi The Rose Institute, þekkt fyrir nákvæmnisvinnu sína í taugaupplýstri geðheilbrigðisþjónustu og afburðaárangri. Hún fléttar saman qEEG, taugatækni og hugvíkkandi meðferð og vinnur um allan heim með afburðafólki og leiðtogum að því að bæta heilastarfsemi, tilfinningastjórnun og langlífi."
     },
     {
+      "artist": "Josh Whiton",
+      "title": "Keynote",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Digital Space",
+      "subcategory": null,
+      "date": "2026-08-12",
+      "day": "Wednesday 12 August",
+      "start": "10:00",
+      "durationMin": 25,
+      "stage": "AURORA (Electronic Tent)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Josh%20Whiton.jpeg",
+      "bio": "Josh Whiton is a philosopher-builder wielding technology in service to nature and humanity's evolution. Founder of MakeSoil.org, he's also a cyberneticist studying AI's potential for human symbiosis and planetary flourishing.",
+      "tagline": null,
+      "emcee": "Christian Van Camp",
+      "title_is": "Aðalfyrirlestur",
+      "bio_is": "Josh Whiton er heimspekingur og frumkvöðull sem beitir tækni í þágu náttúrunnar og þróunar mannkyns. Hann er stofnandi MakeSoil.org og jafnframt stýrifræðingur sem rannsakar möguleika gervigreindar á samlífi við mannkynið og blómstrandi jörð."
+    },
+    {
       "artist": "Zoey Wind",
       "title": "Eclipse Cosmology",
       "isHostBlock": false,
@@ -243,7 +262,7 @@
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/christian-van-camp.jpg",
       "bio": "Holistic Lifestyle & Performance Coach and founder of CVC Wellness — helping individuals optimize health through ancestral living principles, functional movement, and nature-based practices.",
       "tagline": null,
-      "emcee": null,
+      "emcee": "Christian Van Camp",
       "title_is": "Skaparinn: Heilsa, sannleikur og sjálfræði á tímum hávaða",
       "bio_is": "Heildrænn lífsstíls- og árangursþjálfari og stofnandi CVC Wellness — hjálpar fólki að bæta heilsuna með lífsháttum að hætti forfeðranna, hagnýtri hreyfingu og náttúrutengdum aðferðum."
     },
@@ -300,7 +319,7 @@
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/de-kai.jpg",
       "bio": "AI pioneer who built the first global online translator that led to Google Translate — now researching how machines can better understand human language and communication.",
       "tagline": null,
-      "emcee": null,
+      "emcee": "Christian Van Camp",
       "title_is": "Spjall við arineldinn",
       "bio_is": "Frumkvöðull í gervigreind sem byggði fyrsta alþjóðlega vefþýðandann, sem varð undanfari Google Translate — rannsakar nú hvernig vélar geta skilið mannlegt mál og samskipti betur."
     },
@@ -319,7 +338,7 @@
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/him-gone-ape.jpg",
       "bio": "Him Gone Ape is an anagram persona of Imogen Heap focused on raw, improvised musical experimentation.",
       "tagline": null,
-      "emcee": null,
+      "emcee": "Christian Van Camp",
       "title_is": "Spjall við arineldinn",
       "bio_is": "Him Gone Ape er hliðarsjálf Imogen Heap — stafavíxl af nafni hennar — með áherslu á hráar, spunakenndar tónlistartilraunir."
     },
@@ -395,7 +414,7 @@
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/michael-jelen.jpg",
       "bio": "Michael Jelen is a media-tech founder and live experience innovator building Ekho, a platform that transforms music into a fan-powered force. His work merges technology, performance, and collective energy to turn audiences into active participants.",
       "tagline": null,
-      "emcee": null,
+      "emcee": "Christian Van Camp",
       "title_is": "Finndu Ekho: Lifandi upplifun af tónlist, orku og tengslum",
       "bio_is": "Michael Jelen er frumkvöðull í miðlunartækni og lifandi upplifunum sem byggir upp Ekho, vettvang sem breytir tónlist í afl knúið áfram af aðdáendum. Verk hans flétta saman tækni, sviðslist og sameiginlega orku til að gera áhorfendur að virkum þátttakendum."
     },
@@ -2153,6 +2172,23 @@
       "bio_is": "Hjaltalín er íslensk indírokkhljómsveit, þekkt fyrir hljómsveitarútsetningar og leikræna sviðsframkomu þar sem indírokki er blandað saman við klassík og þjóðlagatónlist, og hefur hlotið alþjóðlega viðurkenningu."
     },
     {
+      "artist": "Dr. Will Linn",
+      "title": null,
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Inner Space",
+      "subcategory": null,
+      "date": "2026-08-13",
+      "day": "Thursday 13 August",
+      "start": "13:45",
+      "durationMin": 25,
+      "stage": "AFTERGLOW (Dome)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
+      "bio": null,
+      "tagline": null,
+      "emcee": "Jordan Amadio + Tim Mullen"
+    },
+    {
       "artist": "Tucker Garrison",
       "title": "Soil & Soul: Rewilding the Mind and the Plate",
       "isHostBlock": false,
@@ -2400,7 +2436,7 @@
       "bio_is": "Ebtesam Mahmoud er egypskur andlegur leiðsögumaður, egyptalandsfræðingur og stofnandi launhelgaskóla sem er helgaður fornegypskri visku. Með helgum kenningum og hofferðum hjálpar hún leitendum að dýpka tengslin við sjálfa sig, hið guðdómlega og hinar tímalausu launhelgar Egyptalands."
     },
     {
-      "artist": "Parag Bhandari",
+      "artist": "Justin Rosenstein",
       "title": "The Economy Is Being Redesigned: Building Systems That Fund What Matters",
       "isHostBlock": false,
       "status": "confirmed",
@@ -2411,12 +2447,12 @@
       "start": "16:00",
       "durationMin": 45,
       "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/parag-bhandari.jpeg",
-      "bio": "Parag Bhandari is an American entrepreneur, musician, author, and founder/CEO of entertainment marketing firm UG Strategies (UGS), and sits at the intersection of music, culture, technology, and emerging industries.",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/justin-rosenstein.jpeg",
+      "bio": "Justin Rosenstein is a software programmer and entrepreneur who co-founded Asana and the One Project, after shaping foundational tech products at Google and Facebook.",
       "tagline": null,
       "emcee": null,
       "title_is": "Hagkerfið er í endurhönnun: Að byggja kerfi sem fjármagna það sem máli skiptir",
-      "bio_is": "Parag Bhandari er bandarískur frumkvöðull, tónlistarmaður, höfundur og stofnandi og forstjóri afþreyingarmarkaðsfyrirtækisins UG Strategies (UGS), og starfar á mótum tónlistar, menningar, tækni og nýrra atvinnugreina."
+      "bio_is": "Justin Rosenstein er forritari og frumkvöðull sem var meðstofnandi Asana og One Project, eftir að hafa mótað grundvallartæknivörur hjá Google og Facebook."
     },
     {
       "artist": "Davíð Svanur",
@@ -4124,7 +4160,7 @@
       "bio_is": "Vök er íslensk rafsveit frá Reykjavík, þekkt fyrir draumkenndan dream-pop hljóðheim sinn þar sem rafræn framleiðsla mætir indí-næmi, og rómuð fyrir tónlist sem snertir djúpa strengi."
     },
     {
-      "artist": "DJ BINX",
+      "artist": "DJ Binx",
       "title": null,
       "isHostBlock": false,
       "status": "confirmed",
@@ -4135,10 +4171,11 @@
       "start": "17:30",
       "durationMin": 45,
       "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
-      "bio": null,
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/dj-binx.png",
+      "bio": "DJ BINX is 6 years old. Crowds have been losing their minds from her and her ‘thick beats’ since she was 5.",
       "tagline": null,
-      "emcee": null
+      "emcee": null,
+      "bio_is": "DJ BINX er 6 ára. Hún hefur trylllt áhorfendur með „þéttu töktunum“ sínum síðan hún var 5 ára."
     },
     {
       "artist": "Gio Israel",
@@ -4834,6 +4871,98 @@
       "emcee": null,
       "title_is": "Frelsaðu röddina",
       "bio_is": "Luana er brasilískur plötusnúður, söngkona og athafnastýra sem deilir tónlist sinni á meðvituðum samkomum á Balí, í Tulum, Evrópu og Rómönsku Ameríku."
+    },
+    {
+      "artist": "Harper Smith",
+      "title": "The Future of AI, Space, and Quantum Computing",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Community Space",
+      "subcategory": null,
+      "date": "2026-08-15",
+      "day": "Saturday 15 August",
+      "start": "11:00",
+      "durationMin": 50,
+      "stage": "POLARIS",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
+      "bio": null,
+      "tagline": null,
+      "emcee": null,
+      "title_is": "Framtíð gervigreindar, geimsins og skammtatölvunar"
+    },
+    {
+      "artist": "Scott Zajac",
+      "title": "The Future of AI, Space, and Quantum Computing",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Community Space",
+      "subcategory": null,
+      "date": "2026-08-15",
+      "day": "Saturday 15 August",
+      "start": "11:00",
+      "durationMin": 50,
+      "stage": "POLARIS",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
+      "bio": null,
+      "tagline": null,
+      "emcee": null,
+      "title_is": "Framtíð gervigreindar, geimsins og skammtatölvunar"
+    },
+    {
+      "artist": "Jaynee Morrow",
+      "title": "The Future of AI, Space, and Quantum Computing",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Community Space",
+      "subcategory": null,
+      "date": "2026-08-15",
+      "day": "Saturday 15 August",
+      "start": "11:00",
+      "durationMin": 50,
+      "stage": "POLARIS",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
+      "bio": null,
+      "tagline": null,
+      "emcee": null,
+      "title_is": "Framtíð gervigreindar, geimsins og skammtatölvunar"
+    },
+    {
+      "artist": "Lambert Hogenhout",
+      "title": "The Future of AI, Space, and Quantum Computing",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Community Space",
+      "subcategory": "Technologist",
+      "date": "2026-08-15",
+      "day": "Saturday 15 August",
+      "start": "11:00",
+      "durationMin": 50,
+      "stage": "POLARIS",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/lambert-hogenhout.jpg",
+      "bio": "Lambert Hogenhout is Chief Data and AI at the United Nations Secretariat. He is also an author, keynote speaker and advisor on AI and responsible use of technology. He is a researcher at the Institute for Calculated Futures where he studies the effects of technology on society.",
+      "tagline": null,
+      "emcee": null,
+      "title_is": "Framtíð gervigreindar, geimsins og skammtatölvunar",
+      "bio_is": "Lambert Hogenhout er yfirmaður gagna og gervigreindar hjá aðalskrifstofu Sameinuðu þjóðanna. Hann er líka höfundur, fyrirlesari og ráðgjafi um gervigreind og ábyrga notkun tækni. Hann starfar sem rannsakandi hjá Institute for Calculated Futures þar sem hann rannsakar áhrif tækni á samfélagið."
+    },
+    {
+      "artist": "Dr. Chris Boshuizen",
+      "title": "The Future of AI, Space, and Quantum Computing",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Community Space",
+      "subcategory": "Astronaut",
+      "date": "2026-08-15",
+      "day": "Saturday 15 August",
+      "start": "11:00",
+      "durationMin": 50,
+      "stage": "POLARIS",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/chris-boshuizen.jpg",
+      "bio": "Dr. Chris Boshuizen is an Australian astronaut, physicist, and entrepreneur who flew on Blue Origin’s NS-18 mission. Co-founder of Planet Labs, he pioneered nanosatellite fleets and now invests in deep-tech startups via Interplanetary Capital.",
+      "tagline": null,
+      "emcee": null,
+      "title_is": "Framtíð gervigreindar, geimsins og skammtatölvunar",
+      "bio_is": "Dr. Chris Boshuizen er áströlskur geimfari, eðlisfræðingur og frumkvöðull sem flaug með NS-18 ferð Blue Origin. Hann er einn af stofnendum Planet Labs, var brautryðjandi í flotum nanógervihnatta og fjárfestir nú í djúptæknisprotafyrirtækjum í gegnum Interplanetary Capital."
     },
     {
       "artist": "Dr. Rick Doblin",
