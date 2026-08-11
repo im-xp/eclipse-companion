@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:00:04+00:00",
+  "generatedAt": "2026-08-11T17:30:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -27,23 +27,6 @@
     "Outer Space"
   ],
   "events": [
-    {
-      "artist": "Jasmine Rose",
-      "title": null,
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Cosmic Space",
-      "subcategory": null,
-      "date": "2026-08-11",
-      "day": "Tuesday 11 August",
-      "start": "09:00",
-      "durationMin": 90,
-      "stage": "CAMPSITE YOGA",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
-      "bio": null,
-      "tagline": null,
-      "emcee": null
-    },
     {
       "artist": "OPEN CEREMONY",
       "title": null,
@@ -142,7 +125,7 @@
       "subcategory": null,
       "date": "2026-08-12",
       "day": "Wednesday 12 August",
-      "start": "08:00",
+      "start": "09:00",
       "durationMin": 60,
       "stage": "CAMPSITE YOGA",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/atma-silvia-bok.jpg",
@@ -151,25 +134,6 @@
       "emcee": null,
       "title_is": "Morgunhugleiðsla",
       "bio_is": "Atma Silvia Bök leiðir Osho-hugleiðslu í heilunarsetrinu Leiðin heim í Reykjavík, þar sem hún heldur utan um kraftmikla hugleiðslu og fjölskyldustillingar."
-    },
-    {
-      "artist": "Óli Björn Karlsson",
-      "title": "Yoga",
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Cosmic Space",
-      "subcategory": null,
-      "date": "2026-08-12",
-      "day": "Wednesday 12 August",
-      "start": "09:00",
-      "durationMin": 90,
-      "stage": "CAMPSITE YOGA",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/oli-bjorn-karlsson.png",
-      "bio": "Óli Björn is a yoga teacher trained in Hatha Vinyasa and the Solar Yoga lineage. A community creator devoted to bringing people together. His work focuses on holding supportive spaces for movement, exploration, and connection.",
-      "tagline": null,
-      "emcee": null,
-      "title_is": "Jóga",
-      "bio_is": "Óli Björn er jógakennari með þjálfun í Hatha Vinyasa og Solar Yoga-hefðinni. Hann er samfélagsskapari sem brennur fyrir því að leiða fólk saman og leggur áherslu á að halda styðjandi rými fyrir hreyfingu, könnun og tengsl."
     },
     {
       "artist": "Dr. Mary Dohrmann",
@@ -208,6 +172,25 @@
       "emcee": "Christian Van Camp",
       "title_is": "Aðalfyrirlestur",
       "bio_is": "Josh Whiton er heimspekingur og frumkvöðull sem beitir tækni í þágu náttúrunnar og þróunar mannkyns. Hann er stofnandi MakeSoil.org og jafnframt stýrifræðingur sem rannsakar möguleika gervigreindar á samlífi við mannkynið og blómstrandi jörð."
+    },
+    {
+      "artist": "Óli Björn Karlsson",
+      "title": "Yoga",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Cosmic Space",
+      "subcategory": null,
+      "date": "2026-08-12",
+      "day": "Wednesday 12 August",
+      "start": "10:00",
+      "durationMin": 90,
+      "stage": "CAMPSITE YOGA",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/oli-bjorn-karlsson.png",
+      "bio": "Óli Björn is a yoga teacher trained in Hatha Vinyasa and the Solar Yoga lineage. A community creator devoted to bringing people together. His work focuses on holding supportive spaces for movement, exploration, and connection.",
+      "tagline": null,
+      "emcee": null,
+      "title_is": "Jóga",
+      "bio_is": "Óli Björn er jógakennari með þjálfun í Hatha Vinyasa og Solar Yoga-hefðinni. Hann er samfélagsskapari sem brennur fyrir því að leiða fólk saman og leggur áherslu á að halda styðjandi rými fyrir hreyfingu, könnun og tengsl."
     },
     {
       "artist": "Zoey Wind",
@@ -314,7 +297,7 @@
       "date": "2026-08-12",
       "day": "Wednesday 12 August",
       "start": "11:00",
-      "durationMin": 30,
+      "durationMin": 25,
       "stage": "AURORA (Electronic Tent)",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/de-kai.jpg",
       "bio": "AI pioneer who built the first global online translator that led to Google Translate — now researching how machines can better understand human language and communication.",
@@ -322,25 +305,6 @@
       "emcee": "Christian Van Camp",
       "title_is": "Spjall við arineldinn",
       "bio_is": "Frumkvöðull í gervigreind sem byggði fyrsta alþjóðlega vefþýðandann, sem varð undanfari Google Translate — rannsakar nú hvernig vélar geta skilið mannlegt mál og samskipti betur."
-    },
-    {
-      "artist": "Him Gone Ape",
-      "title": "Fireside Chat",
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Digital Space",
-      "subcategory": null,
-      "date": "2026-08-12",
-      "day": "Wednesday 12 August",
-      "start": "11:00",
-      "durationMin": 30,
-      "stage": "AURORA (Electronic Tent)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/him-gone-ape.jpg",
-      "bio": "Him Gone Ape is an anagram persona of Imogen Heap focused on raw, improvised musical experimentation.",
-      "tagline": null,
-      "emcee": "Christian Van Camp",
-      "title_is": "Spjall við arineldinn",
-      "bio_is": "Him Gone Ape er hliðarsjálf Imogen Heap — stafavíxl af nafni hennar — með áherslu á hráar, spunakenndar tónlistartilraunir."
     },
     {
       "artist": "Michael Turner",
@@ -1701,7 +1665,7 @@
       "bio_is": "Captain Hook er sviðsnafn ísraelska psytrance-framleiðandans Reshef Harari, sem er áberandi í alþjóðlegu psytrance-senunni og þekktur fyrir progressive og full-on psytrance-lög sín."
     },
     {
-      "artist": "The Blue Lions",
+      "artist": "Kim Booth",
       "title": "Morning Meditation",
       "isHostBlock": false,
       "status": "confirmed",
@@ -1709,15 +1673,15 @@
       "subcategory": null,
       "date": "2026-08-13",
       "day": "Thursday 13 August",
-      "start": "08:15",
+      "start": "09:00",
       "durationMin": 60,
       "stage": "CAMPSITE YOGA",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/the-blue-lions.jpeg",
-      "bio": "The Blue Lions are Sikh warrior musicians from the Akali Nihang Singh lineage, performing sacred kirtan that blends mantra and raga to uplift mind and spirit. Their path embodies seva, devotion, sovereignty, and joyful service to all creation.",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/kim-booth.jpeg",
+      "bio": "Kim Booth is a creative producer with Cosmic Pineapple, focused on consciousness-expanding events that combine art, music, and transformative practices.",
       "tagline": null,
       "emcee": null,
       "title_is": "Morgunhugleiðsla",
-      "bio_is": "The Blue Lions eru sikh-stríðstónlistarmenn af ætt Akali Nihang Singh og flytja helgan kirtan-söng sem fléttar saman möntrur og raga til að lyfta huga og anda. Leið þeirra einkennist af seva, hollustu, fullveldi og gleðiríkri þjónustu við alla sköpunina."
+      "bio_is": "Kim Booth er skapandi framleiðandi hjá Cosmic Pineapple og einbeitir sér að vitundarvíkkandi viðburðum sem sameina list, tónlist og umbreytandi iðkun."
     },
     {
       "artist": "Marisa Radha Weppner",
@@ -1728,7 +1692,7 @@
       "subcategory": null,
       "date": "2026-08-13",
       "day": "Thursday 13 August",
-      "start": "09:15",
+      "start": "10:00",
       "durationMin": 90,
       "stage": "CAMPSITE YOGA",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/marisa-radha-weppner.jpg",
