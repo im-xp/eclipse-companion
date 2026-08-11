@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T18:30:03+00:00",
+  "generatedAt": "2026-08-11T23:00:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -1684,8 +1684,8 @@
       "bio_is": "Captain Hook er sviðsnafn ísraelska psytrance-framleiðandans Reshef Harari, sem er áberandi í alþjóðlegu psytrance-senunni og þekktur fyrir progressive og full-on psytrance-lög sín."
     },
     {
-      "artist": "Kim Booth",
-      "title": "Morning Meditation",
+      "artist": "Jasmine Rose",
+      "title": "Kundalini Activation Ceremony",
       "isHostBlock": false,
       "status": "confirmed",
       "category": "Cosmic Space",
@@ -1695,12 +1695,11 @@
       "start": "09:00",
       "durationMin": 60,
       "stage": "CAMPSITE YOGA",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/kim-booth.jpeg",
-      "bio": "Kim Booth is a creative producer with Cosmic Pineapple, focused on consciousness-expanding events that combine art, music, and transformative practices.",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
+      "bio": null,
       "tagline": null,
       "emcee": null,
-      "title_is": "Morgunhugleiðsla",
-      "bio_is": "Kim Booth er skapandi framleiðandi hjá Cosmic Pineapple og einbeitir sér að vitundarvíkkandi viðburðum sem sameina list, tónlist og umbreytandi iðkun."
+      "title_is": "Kundalini-vakningarathöfn"
     },
     {
       "artist": "Marisa Radha Weppner",
@@ -2016,11 +2015,12 @@
       "start": "12:30",
       "durationMin": 45,
       "stage": "AURORA (Electronic Tent)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
-      "bio": null,
+      "headshot": "https://storage.googleapis.com/egypt-eclipse/participants/mitch-morales.png",
+      "bio": "Founder of IMXP, organizer of Iceland Eclipse, and experience seeker.",
       "tagline": null,
       "emcee": "David Webber",
-      "title_is": "Gathers Gathering: Pallborðsumræður"
+      "title_is": "Gathers Gathering: Pallborðsumræður",
+      "bio_is": "Stofnandi IMXP, skipuleggjandi Iceland Eclipse og sífellt í leit að nýjum upplifunum."
     },
     {
       "artist": "Rechulski",
@@ -2211,7 +2211,7 @@
       "bio_is": "Illi Adato er alþjóðlega þekktur meðferðaraðili, hópstjórnandi og kennari á sviði kerfisbundinna fjölskylduuppstillinga og Systemic Ritual®️. Hann hefur þróað einstakar og áhrifaríkar meðferðaraðferðir sem færa eiginleika vitundar inn í kjarna heilunarferlisins."
     },
     {
-      "artist": "Dr victor sound",
+      "artist": "Dr Victor Sound",
       "title": null,
       "isHostBlock": false,
       "status": "confirmed",
@@ -2447,7 +2447,7 @@
       "start": "16:00",
       "durationMin": 45,
       "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/justin-rosenstein.jpeg",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/justin-rosenstein.jpg",
       "bio": "Justin Rosenstein is a software programmer and entrepreneur who co-founded Asana and the One Project, after shaping foundational tech products at Google and Facebook.",
       "tagline": null,
       "emcee": null,
@@ -3065,7 +3065,7 @@
       "subcategory": null,
       "date": "2026-08-14",
       "day": "Friday 14 August",
-      "start": "08:00",
+      "start": "09:00",
       "durationMin": 60,
       "stage": "CAMPSITE YOGA",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/patrick-kronfli.png",
@@ -3084,7 +3084,7 @@
       "subcategory": null,
       "date": "2026-08-14",
       "day": "Friday 14 August",
-      "start": "09:00",
+      "start": "10:00",
       "durationMin": 90,
       "stage": "CAMPSITE YOGA",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/airi-triin-teder.jpg",
@@ -4141,7 +4141,7 @@
       "bio_is": "Vök er íslensk rafsveit frá Reykjavík, þekkt fyrir draumkenndan dream-pop hljóðheim sinn þar sem rafræn framleiðsla mætir indí-næmi, og rómuð fyrir tónlist sem snertir djúpa strengi."
     },
     {
-      "artist": "DJ Binx",
+      "artist": "DJ BINX",
       "title": null,
       "isHostBlock": false,
       "status": "confirmed",
@@ -4262,11 +4262,12 @@
       "start": "18:30",
       "durationMin": 45,
       "stage": "COSMIC CONNECTION (Wellness)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
-      "bio": null,
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/johan-matton.jpeg",
+      "bio": "Founder & CEO at Pulse MindfulnessTM",
       "tagline": null,
       "emcee": null,
-      "title_is": "Úrvinnsla almyrkvans: Heimkomuathöfn"
+      "title_is": "Úrvinnsla almyrkvans: Heimkomuathöfn",
+      "bio_is": "Stofnandi og framkvæmdastjóri hjá Pulse MindfulnessTM"
     },
     {
       "artist": "Ali Love",
@@ -4750,7 +4751,7 @@
       "subcategory": null,
       "date": "2026-08-15",
       "day": "Saturday 15 August",
-      "start": "08:00",
+      "start": "09:00",
       "durationMin": 60,
       "stage": "CAMPSITE YOGA",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Lisa%20love%20Rueff.jpg",
@@ -4769,14 +4770,15 @@
       "subcategory": null,
       "date": "2026-08-15",
       "day": "Saturday 15 August",
-      "start": "09:00",
+      "start": "10:00",
       "durationMin": 90,
       "stage": "CAMPSITE YOGA",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
-      "bio": null,
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/rizenthrive.jpg",
+      "bio": "a series of AcroYoga workshops and communities co-led by international instructors Jacob Wood and Tinna. Together, they facilitate immersive experiences focused on partner acrobatics, connection, and mindful movement",
       "tagline": null,
       "emcee": null,
-      "title_is": "Acro Yoga"
+      "title_is": "Acro Yoga",
+      "bio_is": "röð AcroYoga-vinnustofa og samfélaga sem alþjóðlegu kennararnir Jacob Wood og Tinna leiða saman. Saman skapa þau lifandi upplifanir með áherslu á fimleika í pörum, tengsl og meðvitaða hreyfingu"
     },
     {
       "artist": "INNA",
@@ -5372,7 +5374,7 @@
       "start": "14:30",
       "durationMin": 50,
       "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/justin-rosenstein.jpeg",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/justin-rosenstein.jpg",
       "bio": "Justin Rosenstein is a software programmer and entrepreneur who co-founded Asana and the One Project, after shaping foundational tech products at Google and Facebook.",
       "tagline": null,
       "emcee": null,
@@ -5482,11 +5484,12 @@
       "start": "15:15",
       "durationMin": 25,
       "stage": "POLARIS",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
-      "bio": null,
+      "headshot": "https://storage.googleapis.com/egypt-eclipse/participants/mitch-morales.png",
+      "bio": "Founder of IMXP, organizer of Iceland Eclipse, and experience seeker.",
       "tagline": null,
       "emcee": "Chris Huie",
-      "title_is": "MOON 2033"
+      "title_is": "MOON 2033",
+      "bio_is": "Stofnandi IMXP, skipuleggjandi Iceland Eclipse og sífellt í leit að nýjum upplifunum."
     },
     {
       "artist": "Scarlett de la torre",

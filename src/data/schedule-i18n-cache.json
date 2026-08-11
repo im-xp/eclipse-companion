@@ -456,6 +456,12 @@
    "is": "Jökulhljómur: Lifandi hljóðmynd",
    "translatedAt": "2026-08-06T16:30:02+00:00"
   },
+  "25986aa7b3b9862b": {
+   "en": "Founder of IMXP, organizer of Iceland Eclipse, and experience seeker.",
+   "field": "bio",
+   "is": "Stofnandi IMXP, skipuleggjandi Iceland Eclipse og sífellt í leit að nýjum upplifunum.",
+   "translatedAt": "2026-08-11T23:00:03+00:00"
+  },
   "259f2496215bec6a": {
    "en": "Sara Ahmadian is a Venture Advisor across emerging markets specializing in building startup ecosystems and expanding access to frontier technologies like AI.",
    "field": "bio",
@@ -491,6 +497,12 @@
    "field": "title",
    "is": "Rohan Roberts",
    "translatedAt": "2026-07-21T05:00:03+00:00"
+  },
+  "2a9045c4a072c8bc": {
+   "en": "Founder & CEO at Pulse MindfulnessTM",
+   "field": "bio",
+   "is": "Stofnandi og framkvæmdastjóri hjá Pulse MindfulnessTM",
+   "translatedAt": "2026-08-11T23:00:03+00:00"
   },
   "2c63cfcc0e882f6e": {
    "en": "AI and the Return to Being Human: How Technology Can Give Leaders Their Life Back",
@@ -1704,6 +1716,12 @@
    "is": "Önnur snerting. Máninn hylur sólina algjörlega og kórónan verður sýnileg.",
    "translatedAt": "2026-08-06T16:30:02+00:00"
   },
+  "9e15a6a0138d5aac": {
+   "en": "Kundalini Activation Ceremony",
+   "field": "title",
+   "is": "Kundalini-vakningarathöfn",
+   "translatedAt": "2026-08-11T23:00:03+00:00"
+  },
   "9e6bd3d0b3fc87ef": {
    "en": "The Blue Lions are Sikh warrior musicians from the Akali Nihang Singh lineage, performing sacred kirtan that blends mantra and raga to uplift mind and spirit. Their path embodies seva, devotion, sovereignty, and joyful service to all creation.",
    "field": "bio",
@@ -2525,6 +2543,12 @@
    "field": "bio",
    "is": "Brent Pella er uppistandari sem gerir í stafrænu efni sínu oft grín að andlegheitum, hugvíkkandi efnum og fáránleika nútímamenningar.",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "e4c9aa750f9158ad": {
+   "en": "a series of AcroYoga workshops and communities co-led by international instructors Jacob Wood and Tinna. Together, they facilitate immersive experiences focused on partner acrobatics, connection, and mindful movement",
+   "field": "bio",
+   "is": "röð AcroYoga-vinnustofa og samfélaga sem alþjóðlegu kennararnir Jacob Wood og Tinna leiða saman. Saman skapa þau lifandi upplifanir með áherslu á fimleika í pörum, tengsl og meðvitaða hreyfingu",
+   "translatedAt": "2026-08-11T23:00:03+00:00"
   },
   "e599d0b104961b9a": {
    "en": "The End of Materialism",
