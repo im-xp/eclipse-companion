@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:00:03+00:00",
+  "generatedAt": "2026-08-11T17:00:04+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -2572,7 +2572,7 @@
       "date": "2026-08-13",
       "day": "Thursday 13 August",
       "start": "17:10",
-      "durationMin": 40,
+      "durationMin": 20,
       "stage": "AURORA (Electronic Tent)",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/cell7.jpeg",
       "bio": "Cell7 is a trailblazer in Icelandic hip hop, one of the few women to break through in a male dominated scene. Her album Is Anybody Listening? won the Icelandic Music Award for Best Hip Hop Album, and now she's back with Deep Cuts.",
@@ -2597,6 +2597,24 @@
       "tagline": null,
       "emcee": null,
       "bio_is": "Him Gone Ape er hliðarsjálf Imogen Heap — stafavíxl af nafni hennar — með áherslu á hráar, spunakenndar tónlistartilraunir."
+    },
+    {
+      "artist": "CiCi",
+      "title": null,
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Dance",
+      "subcategory": null,
+      "date": "2026-08-13",
+      "day": "Thursday 13 August",
+      "start": "17:30",
+      "durationMin": 90,
+      "stage": "AURORA (Electronic Tent)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/cici.jpg",
+      "bio": "Cici is an Irish DJ and producer known for eclectic sets blending techno, house, acid, and electro.",
+      "tagline": null,
+      "emcee": null,
+      "bio_is": "Cici er írskur plötusnúður og pródúser, þekkt fyrir fjölbreytt sett þar sem teknó, house, acid og elektró renna saman."
     },
     {
       "artist": "Josh Draper",
@@ -2635,24 +2653,6 @@
       "emcee": null,
       "title_is": "Að vaxa í gegnum leik",
       "bio_is": "Brent Pella er uppistandari sem gerir í stafrænu efni sínu oft grín að andlegheitum, hugvíkkandi efnum og fáránleika nútímamenningar."
-    },
-    {
-      "artist": "CiCi",
-      "title": null,
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Dance",
-      "subcategory": null,
-      "date": "2026-08-13",
-      "day": "Thursday 13 August",
-      "start": "18:00",
-      "durationMin": 90,
-      "stage": "AURORA (Electronic Tent)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/cici.jpg",
-      "bio": "Cici is an Irish DJ and producer known for eclectic sets blending techno, house, acid, and electro.",
-      "tagline": null,
-      "emcee": null,
-      "bio_is": "Cici er írskur plötusnúður og pródúser, þekkt fyrir fjölbreytt sett þar sem teknó, house, acid og elektró renna saman."
     },
     {
       "artist": "Gisli Palmi",
@@ -2882,7 +2882,7 @@
       "date": "2026-08-13",
       "day": "Thursday 13 August",
       "start": "21:00",
-      "durationMin": 90,
+      "durationMin": 120,
       "stage": "AURORA (Electronic Tent)",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/LucaDonzellimain.jpeg",
       "bio": "Rooted in the Tuscan club scene and now a fixture in Ibiza’s summer circuit, Florentine DJ and producer Luca Donzelli brings a refined, groove-driven approach to house and tech-house, with a residency at Amnesia Ibiza’s Pyramid party cementing his reputation on the international stage.",
@@ -2984,24 +2984,6 @@
       "bio_is": "Vincent Bruneau er raðfrumkvöðull og flinkur töframaður sem nýtti sérþekkingu sína á að fanga athygli áhorfenda til að skapa Sparkup — verkfæri sem breytir fundum og viðburðum í raunverulega gagnvirka upplifun."
     },
     {
-      "artist": "Art Department",
-      "title": null,
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Dance",
-      "subcategory": null,
-      "date": "2026-08-13",
-      "day": "Thursday 13 August",
-      "start": "22:30",
-      "durationMin": 90,
-      "stage": "AURORA (Electronic Tent)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/artdepartment.jpeg",
-      "bio": "The project of Canadian DJ and producer Jonny White, Art Department emerged from the Toronto underground to become one of electronic music’s most decorated acts, known for a raw, synth-driven sound that earned DC10 residency, a Beatport Track of the Year, and consistent recognition from outlets across the dance music world.",
-      "tagline": null,
-      "emcee": null,
-      "bio_is": "Art Department er verkefni kanadíska plötusnúðsins og pródúsersins Jonny White. Það spratt upp úr neðanjarðarsenunni í Toronto og varð eitt margverðlaunaðasta nafn raftónlistarinnar, þekkt fyrir hráan, hljóðgervladrifinn hljóm sem skilaði fastasettum á DC10, Beatport-lagi ársins og stöðugri viðurkenningu miðla um allan danstónlistarheiminn."
-    },
-    {
       "artist": "Ruby Chase",
       "title": null,
       "isHostBlock": false,
@@ -3018,6 +3000,24 @@
       "tagline": null,
       "emcee": null,
       "bio_is": "Söngvari, höfundur, pródúser, plötusnúður og félagslegur gullgerðarmaður sem fléttar danstónlist heimsins saman við eteríska söngrödd í helgisiðakenndum settum — og breytir dansgólfinu í athöfn. Frá Electric Forest til Red Rocks."
+    },
+    {
+      "artist": "Tiga",
+      "title": null,
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Dance",
+      "subcategory": null,
+      "date": "2026-08-13",
+      "day": "Thursday 13 August",
+      "start": "23:00",
+      "durationMin": 90,
+      "stage": "AURORA (Electronic Tent)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/TIGA.jpeg",
+      "bio": "A Montreal-born DJ, producer, and founder of Turbo Recordings, Tiga has spent decades shaping underground electronic music with a catalog that bridges techno’s raw edge and pop’s infectious sensibility, earning him a place among the genre’s most distinctive and enduring voices",
+      "tagline": null,
+      "emcee": null,
+      "bio_is": "Tiga er plötusnúður og pródúser, fæddur í Montreal, og stofnandi Turbo Recordings. Hann hefur mótað neðanjarðarraftónlist í áratugi með útgáfum sem brúa hráa hlið teknósins og smitandi poppnæmi og skipað sér sess meðal sérstæðustu og þrautseigustu radda stefnunnar."
     },
     {
       "artist": "Amélie Ravalec & Vincent Ravalec",
@@ -3039,24 +3039,6 @@
       "bio_is": "Um Solstice-seríuna þeirra: Um allan heim kallar kosmísk vera, Arkitektúrinn, á listafólk í gegnum drauma og sýnir. Til að afstýra hruni jarðar og koma aftur á jafnvægi í alheiminum þarf það að kanna gleymdar minningar og umbreyta sköpunarverkum sínum í máttugar endurreisnarathafnir — endurskrifa fortíðina og endurmóta framtíðina til að græða sjálfan veruleikann."
     },
     {
-      "artist": "Tiga",
-      "title": null,
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Dance",
-      "subcategory": null,
-      "date": "2026-08-14",
-      "day": "Friday 14 August",
-      "start": "00:00",
-      "durationMin": 120,
-      "stage": "AURORA (Electronic Tent)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/TIGA.jpeg",
-      "bio": "A Montreal-born DJ, producer, and founder of Turbo Recordings, Tiga has spent decades shaping underground electronic music with a catalog that bridges techno’s raw edge and pop’s infectious sensibility, earning him a place among the genre’s most distinctive and enduring voices",
-      "tagline": null,
-      "emcee": null,
-      "bio_is": "Tiga er plötusnúður og pródúser, fæddur í Montreal, og stofnandi Turbo Recordings. Hann hefur mótað neðanjarðarraftónlist í áratugi með útgáfum sem brúa hráa hlið teknósins og smitandi poppnæmi og skipað sér sess meðal sérstæðustu og þrautseigustu radda stefnunnar."
-    },
-    {
       "artist": "East Forest",
       "title": null,
       "isHostBlock": false,
@@ -3073,6 +3055,23 @@
       "tagline": null,
       "emcee": null,
       "bio_is": "East Forest er Trevor Oswalt — bandarískur fjölhljóðfæraleikari, þekktur fyrir kvikmyndalega, hugleiðslukennda tónlist sem blandar saman ambient, klassík og heimstónlist í átt að heilun og vakningu."
+    },
+    {
+      "artist": "Secret Guests",
+      "title": null,
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Dance",
+      "subcategory": null,
+      "date": "2026-08-14",
+      "day": "Friday 14 August",
+      "start": "00:30",
+      "durationMin": 105,
+      "stage": "AURORA (Electronic Tent)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
+      "bio": null,
+      "tagline": null,
+      "emcee": null
     },
     {
       "artist": "Patrick Kronfli",
@@ -5154,24 +5153,6 @@
       "bio_is": "Freyr Friðfinnsson starfar hjá KLAK Icelandic Startups, styður við frumkvöðla og eflir norræna nýsköpunarumhverfið."
     },
     {
-      "artist": "Nightmares on Wax",
-      "title": null,
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Dance",
-      "subcategory": null,
-      "date": "2026-08-15",
-      "day": "Saturday 15 August",
-      "start": "13:00",
-      "durationMin": 210,
-      "stage": "ECLIPSE (Main Stage)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/nightmares-on-wax.jpg",
-      "bio": "Nightmares on Wax is George Herbert Evelyn — credited with inventing the 'chillout' genre on Warp Records since 1990, blending soul, hip-hop, and electronic music into warm, hypnotic sets.",
-      "tagline": null,
-      "emcee": null,
-      "bio_is": "Nightmares on Wax er George Herbert Evelyn — sagður hafa fundið upp 'chillout'-stefnuna hjá Warp Records frá 1990 og blandar saman soul, hipphoppi og raftónlist í hlý og dáleiðandi sett."
-    },
-    {
       "artist": "DJ Andrea Jóns",
       "title": null,
       "isHostBlock": false,
@@ -5244,6 +5225,24 @@
       "tagline": null,
       "emcee": null,
       "title_is": "Lífrafmagn: Neisti sálarinnar"
+    },
+    {
+      "artist": "Nightmares on Wax",
+      "title": null,
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Dance",
+      "subcategory": null,
+      "date": "2026-08-15",
+      "day": "Saturday 15 August",
+      "start": "14:00",
+      "durationMin": 150,
+      "stage": "ECLIPSE (Main Stage)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/nightmares-on-wax.jpg",
+      "bio": "Nightmares on Wax is George Herbert Evelyn — credited with inventing the 'chillout' genre on Warp Records since 1990, blending soul, hip-hop, and electronic music into warm, hypnotic sets.",
+      "tagline": null,
+      "emcee": null,
+      "bio_is": "Nightmares on Wax er George Herbert Evelyn — sagður hafa fundið upp 'chillout'-stefnuna hjá Warp Records frá 1990 og blandar saman soul, hipphoppi og raftónlist í hlý og dáleiðandi sett."
     },
     {
       "artist": "MaryLiz mod",
