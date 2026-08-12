@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T23:00:03+00:00",
+  "generatedAt": "2026-08-12T10:30:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -167,11 +167,11 @@
       "durationMin": 25,
       "stage": "AURORA (Electronic Tent)",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Josh%20Whiton.jpeg",
-      "bio": "Josh Whiton is a philosopher-builder wielding technology in service to nature and humanity's evolution. Founder of MakeSoil.org, he's also a cyberneticist studying AI's potential for human symbiosis and planetary flourishing.",
+      "bio": "Josh is the founder of MakeSoil.org - a global movement of grassroots regeneration, and a cyberneticist studying the emerging mind of AI. His work seeks to harmonize the forces of technology and nature for the flourishing of all.",
       "tagline": null,
       "emcee": "Christian Van Camp",
       "title_is": "Aðalfyrirlestur",
-      "bio_is": "Josh Whiton er heimspekingur og frumkvöðull sem beitir tækni í þágu náttúrunnar og þróunar mannkyns. Hann er stofnandi MakeSoil.org og jafnframt stýrifræðingur sem rannsakar möguleika gervigreindar á samlífi við mannkynið og blómstrandi jörð."
+      "bio_is": "Josh er stofnandi MakeSoil.org – hnattrænnar grasrótarhreyfingar um endurnýjun náttúrunnar – og stýrifræðingur sem rannsakar hugann sem er að mótast í gervigreindinni. Með starfi sínu leitast hann við að samstilla krafta tækni og náttúru svo að allt fái að blómstra."
     },
     {
       "artist": "Óli Björn Karlsson",
@@ -289,7 +289,7 @@
     },
     {
       "artist": "De Kai",
-      "title": "Fireside Chat",
+      "title": "Imogen Heap and De Kai on Raising AI",
       "isHostBlock": false,
       "status": "confirmed",
       "category": "Digital Space",
@@ -303,12 +303,31 @@
       "bio": "AI pioneer who built the first global online translator that led to Google Translate — now researching how machines can better understand human language and communication.",
       "tagline": null,
       "emcee": "Christian Van Camp",
-      "title_is": "Spjall við arineldinn",
+      "title_is": "Imogen Heap og De Kai um uppeldi gervigreindar",
       "bio_is": "Frumkvöðull í gervigreind sem byggði fyrsta alþjóðlega vefþýðandann, sem varð undanfari Google Translate — rannsakar nú hvernig vélar geta skilið mannlegt mál og samskipti betur."
     },
     {
+      "artist": "Imogen Heap",
+      "title": "Imogen Heap and De Kai on Raising AI",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Digital Space",
+      "subcategory": null,
+      "date": "2026-08-12",
+      "day": "Wednesday 12 August",
+      "start": "11:00",
+      "durationMin": 25,
+      "stage": "AURORA (Electronic Tent)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/imogen-heap.jpg",
+      "bio": "Imogen Heap is a British musician and technology innovator who created the Mi.Mu Gloves — wearable instruments that translate hand gestures into music, pioneering new modes of live performance.",
+      "tagline": null,
+      "emcee": "Christian Van Camp",
+      "title_is": "Imogen Heap og De Kai um uppeldi gervigreindar",
+      "bio_is": "Imogen Heap er breskur tónlistarmaður og tækninýjungakona sem skapaði Mi.Mu Gloves — hljóðfæri sem þú ber á þér og sem breyta handahreyfingum í tónlist og hafa rutt brautina fyrir nýjar leiðir í lifandi flutningi."
+    },
+    {
       "artist": "Michael Turner",
-      "title": "Pheonix Ranch",
+      "title": "Pheonix",
       "isHostBlock": false,
       "status": "confirmed",
       "category": "Community Space",
@@ -322,7 +341,7 @@
       "bio": "Michael Turner is a social innovation advocate working to replace youth detention in the USA with therapeutic ranch-based programs and nature-based healing.",
       "tagline": null,
       "emcee": "Hinrik Jóhannesson",
-      "title_is": "Pheonix Ranch",
+      "title_is": "Pheonix",
       "bio_is": "Michael Turner er talsmaður samfélagslegrar nýsköpunar sem vinnur að því að leysa fangelsun ungmenna í Bandaríkjunum af hólmi með meðferðarúrræðum á búgörðum og náttúrutengdri heilun."
     },
     {
