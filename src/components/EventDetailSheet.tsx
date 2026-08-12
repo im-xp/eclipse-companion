@@ -181,6 +181,15 @@ export function EventDetailSheet({
           )}
         </div>
 
+        {/* What this session IS — sits above the speaker profiles, which say who
+            the people are. Event-level, so a panel shows it once rather than
+            repeating it under every name. */}
+        {e.description && (
+          <p className="mt-4 text-sm leading-relaxed text-moon-white/85">
+            {e.description}
+          </p>
+        )}
+
         {!isPanel ? (
           renderSoloBody(speakers[0])
         ) : (

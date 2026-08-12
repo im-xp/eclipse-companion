@@ -51,6 +51,11 @@ export interface ScheduleEvent {
   headshot: string | null;
   bio: string | null;
   tagline: string | null;
+  // Per-EVENT copy from the ROS chart's hand-maintained "event description"
+  // column: what THIS session is. `bio` is per-person and repeats across every
+  // set they play, so the two are not interchangeable. Optional because
+  // schedule.json predates the column and side quests don't set it.
+  description?: string | null;
   emcee: string | null;
   link?: EventLink;
   // Social links joined from the public lineup page by artist name (see
@@ -143,6 +148,10 @@ function mergePanels(events: ScheduleEvent[]): ScheduleEvent[] {
       ...rows[0],
       // Rows should agree on duration; take the longest to be safe.
       durationMin: Math.max(...rows.map((r) => r.durationMin)),
+      // The description belongs to the session, so it only needs typing on one
+      // of a panel's rows — don't lose it if that wasn't the first one.
+      description:
+        rows.map((r) => r.description).find((d) => d && d.trim()) ?? null,
       speakers: rows.map(speakerFromEvent),
     };
   });
@@ -185,10 +194,12 @@ type RawEvent = ScheduleEvent & {
   title_is?: string | null;
   bio_is?: string | null;
   tagline_is?: string | null;
+  description_is?: string | null;
   is?: {
     title?: string | null;
     bio?: string | null;
     tagline?: string | null;
+    description?: string | null;
     linkLabel?: string | null;
   };
 };
@@ -201,6 +212,7 @@ function localizeEvent(e: RawEvent, locale: Locale): ScheduleEvent {
     title: inline?.title ?? e.title_is ?? e.title,
     bio: inline?.bio ?? e.bio_is ?? e.bio,
     tagline: inline?.tagline ?? e.tagline_is ?? e.tagline,
+    description: inline?.description ?? e.description_is ?? e.description,
   };
   if (e.link && inline?.linkLabel) {
     out.link = { ...e.link, label: inline.linkLabel };
@@ -208,6 +220,7 @@ function localizeEvent(e: RawEvent, locale: Locale): ScheduleEvent {
   delete out.title_is;
   delete out.bio_is;
   delete out.tagline_is;
+  delete out.description_is;
   delete out.is;
   return out;
 }

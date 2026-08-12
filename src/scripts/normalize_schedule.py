@@ -115,6 +115,10 @@ for row in rows[1:]:
         "stage": stage,
         "headshot": HEADSHOT_OVERRIDES.get(billing) or get(row, "Head shot"),
         "bio": get(row, "website BIO"),
+        # Per-EVENT copy, hand-written in the ROS chart's "event description"
+        # column. Distinct from "website BIO", which is per-PERSON and repeats
+        # across every set that person plays.
+        "description": get(row, "event description"),
         "tagline": get(row, "website TAGLINE"),
         "emcee": get(row, "Emcee"),
     })

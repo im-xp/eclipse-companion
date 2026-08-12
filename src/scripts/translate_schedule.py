@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Add Icelandic fields (title_is/bio_is/tagline_is) to a schedule.json, in place.
+"""Add Icelandic fields (title_is/bio_is/tagline_is/description_is) to a schedule.json, in place.
 
 Called by scripts/sync_schedule.sh between normalize and the changed-comparison.
 Machine translation runs through the `claude` CLI (headless, OAuth-authed on the
@@ -29,7 +29,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 
-FIELDS = ("title", "bio", "tagline")
+FIELDS = ("title", "bio", "tagline", "description")
 BATCH = 40  # strings per claude call; bios are long, keep outputs comfortably small
 CLAUDE_TIMEOUT = 300  # seconds per call
 
