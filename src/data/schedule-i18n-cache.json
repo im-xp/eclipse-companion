@@ -216,6 +216,12 @@
    "is": "Pallborð sólmyrkvaveiðara",
    "translatedAt": "2026-07-15T16:54:38+00:00"
   },
+  "0f44ff0e57441b89": {
+   "en": "Phoenix",
+   "field": "title",
+   "is": "Phoenix",
+   "translatedAt": "2026-08-12T22:30:04+00:00"
+  },
   "0f4d73140d6249c4": {
    "en": "A Montreal-born DJ, producer, and founder of Turbo Recordings, Tiga has spent decades shaping underground electronic music with a catalog that bridges techno’s raw edge and pop’s infectious sensibility, earning him a place among the genre’s most distinctive and enduring voices",
    "field": "bio",
@@ -1625,6 +1631,12 @@
    "field": "bio",
    "is": "Lambert Hogenhout er yfirmaður gagna og gervigreindar hjá aðalskrifstofu Sameinuðu þjóðanna. Hann er líka höfundur, fyrirlesari og ráðgjafi um gervigreind og ábyrga notkun tækni. Hann starfar sem rannsakandi hjá Institute for Calculated Futures þar sem hann rannsakar áhrif tækni á samfélagið.",
    "translatedAt": "2026-07-27T04:00:03+00:00"
+  },
+  "74931136e06eb37e": {
+   "en": "Bear Kittay is a musician, songwriter, producer, and sonic explorer whose work moves between folk intimacy, psychedelia, electronic music, and open-ended improvisation.\n\nA partner and musical ambassador of Baja California’s iconic Hotel El Ganzo and its recording studio, Bear has spent years building musical communities around spontaneous collaboration. His El Ganzo Collective brings together a constantly evolving cast of artists for genre-crossing, largely improvisational performances where the music is created in the moment.\n\nHis collaborations have included Goose, Erlend Øye, Alex Ebert, North Mississippi Allstars, Jerry Harrison of Talking Heads, Catching Flies, Allen Hulsey, The Human Experience, and many others.\n\nHis projects range from his singer-songwriter catalog and the El Ganzo Collective to electronic project Thieves of the Sun and Topia, his newest long-form musical odyssey combining original music, a live band, film, and immersive storytelling.\n\nAcross all of it is one idea: music as participation. Every performance is an invitation to listen, improvise, connect, and discover something that could only happen once.",
+   "field": "bio",
+   "is": "Bear Kittay er tónlistarmaður, lagahöfundur, upptökustjóri og hljóðkönnuður sem hreyfist á milli þjóðlagalegrar nándar, sýrutónlistar, raftónlistar og opins spuna.\n\nBear er meðeigandi og tónlistarsendiherra hins rómaða Hotel El Ganzo í Baja California og hljóðvers þess, og hefur um árabil byggt upp tónlistarsamfélög í kringum sjálfsprottið samstarf. El Ganzo Collective hans leiðir saman síbreytilegan hóp listafólks í tónleikum sem fara þvert á stefnur og byggjast að mestu á spuna — þar sem tónlistin verður til á staðnum.\n\nMeðal þeirra sem hann hefur unnið með eru Goose, Erlend Øye, Alex Ebert, North Mississippi Allstars, Jerry Harrison úr Talking Heads, Catching Flies, Allen Hulsey, The Human Experience og mörg fleiri.\n\nVerkefni hans spanna allt frá eigin lagasmíðum og El Ganzo Collective til raftónlistarverkefnisins Thieves of the Sun og Topia, nýjustu og viðamestu tónlistarferðar hans, sem fléttar saman frumsamda tónlist, hljómsveit á sviði, kvikmynd og umlykjandi frásagnarlist.\n\nÍ gegnum þetta allt gengur ein hugmynd: tónlist sem þátttaka. Hver flutningur er boð um að hlusta, spinna, tengjast og uppgötva eitthvað sem gæti aðeins gerst einu sinni.",
+   "translatedAt": "2026-08-12T22:30:04+00:00"
   },
   "749e789e3685cfb8": {
    "en": "A total solar eclipse is more than a spectacular celestial event; it’s a rare chance to witness the Universe from a different perspective. Through captivating imagery and the story behind totality, discover how two minutes of darkness can transform the way you see the cosmos… and yourself.",
