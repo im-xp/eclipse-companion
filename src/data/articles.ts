@@ -125,7 +125,7 @@ export const ARTICLES: Article[] = [
             rows: [
               { label: "9 Aug", value: "**Camping box office**, outside the Daybreak hub · 12:00 – 22:00" },
               { label: "10–12 Aug", value: "**Camping box office**, outside the Daybreak hub · 10:00 – 22:00" },
-              { label: "13–15 Aug", value: "**Festival box office**, next to the main gate · 10:00 – 22:00" },
+              { label: "13–15 Aug", value: "**Festival box office**, next to the main gate · 12:00 – 22:00" },
             ],
           },
           {

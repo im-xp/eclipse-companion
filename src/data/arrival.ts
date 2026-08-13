@@ -59,7 +59,9 @@ const CHECKOUT_TIME = "10:00";
 const BOX_OFFICE = [
   "**9–12 August** — the camping box office, outside the Daybreak hub.",
   "**13–15 August** — the camping box office is closed. Credentials move to the **festival box office, next to the main gate**.",
-  "**Hours** — 12:00 – 22:00 on 9 August, then 10:00 – 22:00. If you are driving in, plan to arrive within these hours.",
+  // 13–15 Aug moved to a 12:00 open (Regan, 2026-08-13). The 10–12 Aug camping
+  // box office kept its 10:00 open, but those days have passed.
+  "**Hours** — 10:00 – 22:00 through 12 August, then 12:00 – 22:00 at the festival box office. If you are driving in, plan to arrive within these hours.",
 ];
 const HOST_STAND = "24/7 on-site Host Stand for guest support";
 const CONCIERGE = "Exclusive 24/7 on-site concierge";

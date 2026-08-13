@@ -93,7 +93,7 @@ export const ARTICLES_IS: Article[] = [
             rows: [
               { label: "9. ágúst", value: "**Miðasala tjaldsvæðisins**, fyrir utan Daybreak-miðstöðina · 12:00 – 22:00" },
               { label: "10.–12. ágúst", value: "**Miðasala tjaldsvæðisins**, fyrir utan Daybreak-miðstöðina · 10:00 – 22:00" },
-              { label: "13.–15. ágúst", value: "**Miðasala hátíðarinnar**, við aðalhliðið · 10:00 – 22:00" },
+              { label: "13.–15. ágúst", value: "**Miðasala hátíðarinnar**, við aðalhliðið · 12:00 – 22:00" },
             ],
           },
           {
