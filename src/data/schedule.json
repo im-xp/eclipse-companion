@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T23:30:03+00:00",
+  "generatedAt": "2026-08-13T00:00:06+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -2932,11 +2932,12 @@
       "stage": "COSMIC CONNECTION (Wellness)",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/tina-rodriguez.jpg",
       "bio": "A Renaissance woman working at the crossroads of sound, healing, and storytelling. Multi-instrumentalist, frequency alchemist, filmmaker, and devoted guardian of earth and water.",
-      "description": null,
+      "description": "Interstellar Transmissions is live sound channeled from beyond — ethereal vocals, live looping, carrying frequencies and messages from other realms, dimensions and star lineages. The intention of each transmission is to bring healing and harmony",
       "tagline": null,
       "emcee": null,
       "title_is": "Útsendingar milli stjarna",
-      "bio_is": "Þúsundþjalasmiður sem starfar á mótum hljóðs, heilunar og sagnalistar. Fjölhljóðfæraleikari, gullgerðarkona tíðna, kvikmyndagerðarkona og einlægur verndari jarðar og vatns."
+      "bio_is": "Þúsundþjalasmiður sem starfar á mótum hljóðs, heilunar og sagnalistar. Fjölhljóðfæraleikari, gullgerðarkona tíðna, kvikmyndagerðarkona og einlægur verndari jarðar og vatns.",
+      "description_is": "Interstellar Transmissions er lifandi hljóð miðlað að handan — svífandi söngraddir og lúppur í rauntíma sem bera með sér tíðnir og skilaboð frá öðrum heimum, víddum og stjörnuættum. Ætlunin með hverri sendingu er að færa heilun og samhljóm"
     },
     {
       "artist": "Ryan Hope",
