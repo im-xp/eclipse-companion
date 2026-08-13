@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T00:00:06+00:00",
+  "generatedAt": "2026-08-13T14:30:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -2378,7 +2378,7 @@
       "description_is": "Uppstillingar – hlutar sjálfsins og listin að vera fulltrúi, með Atma Silvia Bök & Illi Adato. Í gegnum sameiginlegar uppstillingar og fulltrúavinnu kannar þessi vinnustofa ólíku hlutana innra með okkur sem móta tilfinningar okkar, mynstur, sambönd og sjálfsmynd. Í jarðtengdu og upplifunarmiðuðu rými er þátttakendum boðið að kanna saman og tengjast á ný hlutunum sem gera okkur að því sem við erum."
     },
     {
-      "artist": "Dr Victor Sound",
+      "artist": "Meduso",
       "title": null,
       "isHostBlock": false,
       "status": "confirmed",
@@ -2389,11 +2389,12 @@
       "start": "14:00",
       "durationMin": 60,
       "stage": "ECLIPSE (Main Stage)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
-      "bio": null,
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/meduso.jpeg",
+      "bio": "Immerse yourself in the mysterious & entrancing world of Meduso, a vanguard of music production & design from Boston, Massachusetts. Meduso blends the electrifying energy of contemporary bass with the gritty essence of progressive rock, drawing inspiration from icons like Linkin Park & Deftones, while also weaving in the innovative spirit of hip-hop sampling that adds a unique layer to his sets & sound.",
       "description": null,
       "tagline": null,
-      "emcee": null
+      "emcee": null,
+      "bio_is": "Sökktu þér niður í dularfullan og heillandi heim Meduso, brautryðjanda í tónlistarframleiðslu og hönnun frá Boston í Massachusetts. Meduso blandar rafmagnaðri orku nútímabassatónlistar saman við hráan kjarna framsækins rokks, sækir innblástur til goðsagna á borð við Linkin Park og Deftones og fléttar um leið inn nýskapandi anda hipphopp-sömplunar sem gefur settunum hans og hljóðheimi einstaka vídd."
     },
     {
       "artist": "Alex & Jennifer Moscow",
