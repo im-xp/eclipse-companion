@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T16:00:04+00:00",
+  "generatedAt": "2026-08-14T04:00:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -6213,7 +6213,7 @@
       "bio_is": "Android Jones er stafrænn málari, þekktur fyrir lagskipt sækadelísk verk og umlykjandi lifandi gjörninga með sérsmíðuðum stafrænum búnaði. Verk hans snúast um andleg efni og breytt vitundarástand, þar sem tækni og andleg myndlist renna saman í því sem hann kallar Electro-Mineralism."
     },
     {
-      "artist": "Jamie Clarke (Either)",
+      "artist": "Eyvi",
       "title": null,
       "isHostBlock": false,
       "status": "confirmed",
@@ -6224,12 +6224,11 @@
       "start": "19:10",
       "durationMin": 80,
       "stage": "AURORA (Electronic Tent)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/jamie-clarke-either.jpg",
-      "bio": "Founder of Either Recording, an electronic music label built on an uncompromising approach to forward-thinking sound — driven by the belief that music should push edges, not meet expectations.",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
+      "bio": null,
       "description": null,
       "tagline": null,
-      "emcee": null,
-      "bio_is": "Stofnandi Either Recording, raftónlistarútgáfu sem byggir á ósveigjanlegri nálgun á framsækinn hljóðheim – drifin áfram af þeirri trú að tónlist eigi að þenja mörkin, ekki mæta væntingum."
+      "emcee": null
     },
     {
       "artist": "Curawaka",
