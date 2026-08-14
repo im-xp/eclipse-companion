@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T12:30:03+00:00",
+  "generatedAt": "2026-08-14T15:30:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -4169,7 +4169,7 @@
       "date": "2026-08-14",
       "day": "Friday 14 August",
       "start": "16:00",
-      "durationMin": 45,
+      "durationMin": 30,
       "stage": "POLARIS",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/east-forest.webp",
       "bio": "East Forest is Trevor Oswalt — American multi-instrumentalist known for cinematic, meditative music blending ambient, classical, and world influences toward healing and awakening.",
@@ -4189,7 +4189,7 @@
       "date": "2026-08-14",
       "day": "Friday 14 August",
       "start": "16:00",
-      "durationMin": 45,
+      "durationMin": 30,
       "stage": "POLARIS",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/reggie-watts.jpg",
       "bio": "Reggie Watts is an American comedian, musician, and beatboxer whose entirely improvised sets — built from voice, keyboard, and a looping machine — delight and disorient in equal measure.",
