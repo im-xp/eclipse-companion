@@ -1212,6 +1212,12 @@
    "is": "Christian Van Camp",
    "translatedAt": "2026-07-21T05:00:03+00:00"
   },
+  "5489aaf02c636c5e": {
+   "en": "CEREMONY",
+   "field": "title",
+   "is": "ATHÖFN",
+   "translatedAt": "2026-08-14T17:00:04+00:00"
+  },
   "54900adfe73bafb4": {
    "en": "Luana is a Brazilian DJ, singer, and ceremonialist sharing music at conscious gatherings across Bali, Tulum, Europe, and Latin America.",
    "field": "bio",
@@ -2429,6 +2435,12 @@
    "field": "title",
    "is": "Ákall til hinna helgu dverga sem aðstoða við mótun göfugra manna",
    "translatedAt": "2026-07-15T16:54:38+00:00"
+  },
+  "af8db2748719c923": {
+   "en": "CEREMONY: HOWL OF THE WOLF PACK, Cacao & Blue Lotus Ceremony",
+   "field": "title",
+   "is": "ATHÖFN: ÝLFUR ÚLFAHJARÐARINNAR, kakó- og blálótusathöfn",
+   "translatedAt": "2026-08-14T17:00:04+00:00"
   },
   "af98cb5492ba0cc1": {
    "en": "When I was in medical school, I witnessed my first eclipse in the UK.  Although I wasnt in the path of totality, we have as a family witnessed several more. Through my medical training, I have since been fortunate enough to provide medical care at multiple medical festivals.  My children have grown up with the eclipse.",
