@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T21:30:03+00:00",
+  "generatedAt": "2026-08-15T03:00:04+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -5191,26 +5191,6 @@
       "bio_is": "röð AcroYoga-vinnustofa og samfélaga sem alþjóðlegu kennararnir Jacob Wood og Tinna leiða saman. Saman skapa þau lifandi upplifanir með áherslu á fimleika í pörum, tengsl og meðvitaða hreyfingu"
     },
     {
-      "artist": "INNA",
-      "title": "Gastromusical Cacao Experience: Sound, Taste & Movement",
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Dance",
-      "subcategory": null,
-      "date": "2026-08-15",
-      "day": "Saturday 15 August",
-      "start": "12:00",
-      "durationMin": 60,
-      "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/inna.jpg",
-      "bio": "INNA is a Nutritionist, music therapist, and DJ, and founder of BEEATS. She creates immersive events exploring taste, sound, and movement through embodied sensory experiences.",
-      "description": null,
-      "tagline": null,
-      "emcee": null,
-      "title_is": "Gastró-músíkölsk kakóupplifun: Hljóð, bragð og hreyfing",
-      "bio_is": "INNA er næringarfræðingur, tónlistarterapisti og plötusnúður og stofnandi BEEATS. Hún skapar umlykjandi viðburði sem kanna bragð, hljóð og hreyfingu með líkamlegri skynreynslu."
-    },
-    {
       "artist": "Austin Mao",
       "title": "Have a Great Trip",
       "isHostBlock": false,
@@ -5388,6 +5368,26 @@
       "bio_is": "Rick Doblin, Ph.D., er stofnandi og forseti MAPS, sem hefur starfað í 40 ár. Starfsmarkmið hans er að stuðla að því að skapa lagalegan grundvöll fyrir gagnlega notkun empatógena og enteógena, fyrst og fremst sem lyfseðilsskyld lyf en einnig til persónulegs þroska fyrir fólk sem er að öðru leyti heilbrigt."
     },
     {
+      "artist": "INNA",
+      "title": "Gastromusical Cacao Experience: Sound, Taste & Movement",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Dance",
+      "subcategory": null,
+      "date": "2026-08-15",
+      "day": "Saturday 15 August",
+      "start": "12:45",
+      "durationMin": 60,
+      "stage": "AFTERGLOW (Dome)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/inna.jpg",
+      "bio": "INNA is a Nutritionist, music therapist, and DJ, and founder of BEEATS. She creates immersive events exploring taste, sound, and movement through embodied sensory experiences.",
+      "description": null,
+      "tagline": null,
+      "emcee": null,
+      "title_is": "Gastró-músíkölsk kakóupplifun: Hljóð, bragð og hreyfing",
+      "bio_is": "INNA er næringarfræðingur, tónlistarterapisti og plötusnúður og stofnandi BEEATS. Hún skapar umlykjandi viðburði sem kanna bragð, hljóð og hreyfingu með líkamlegri skynreynslu."
+    },
+    {
       "artist": "Simeon Schnapper",
       "title": "How Ethnogenic Medicines are Shaping the Future of Mental Health",
       "isHostBlock": false,
@@ -5526,26 +5526,6 @@
       "emcee": null,
       "title_is": "Visiontrain & Art Church",
       "bio_is": "Alex Grey & Allyson Grey eru listamenn á sviði sýnarlistar (visionary art) og meðstofnendur Chapel of Sacred Mirrors (CoSM), griðastaðar fyrir sýnarlist og sköpun"
-    },
-    {
-      "artist": "Olafur Sigurvinsson",
-      "title": "Distributed Edge GPU centers in EU",
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Digital Space",
-      "subcategory": null,
-      "date": "2026-08-15",
-      "day": "Saturday 15 August",
-      "start": "13:30",
-      "durationMin": 25,
-      "stage": "AFTERGLOW (Dome)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Olafur%20Sigurvinsson.jpeg",
-      "bio": "Building the digital infrastructure of tomorrow. 30+ years pioneering ISPs, data centers, and AI-powered edge computing across Europe.",
-      "description": null,
-      "tagline": null,
-      "emcee": null,
-      "title_is": "Dreifð GPU-jaðargagnaver í ESB",
-      "bio_is": "Byggir stafræna innviði morgundagsins. Yfir 30 ár í fararbroddi með netveitur, gagnaver og gervigreindardrifna jaðartölvuvinnslu um alla Evrópu."
     },
     {
       "artist": "Freyr Friðfinnsson",
@@ -5989,6 +5969,24 @@
       "bio_is": "FRDRK er breskur söngvari, lagahöfundur, plötusnúður og tónlistarmaður, þekktur fyrir að koma fram í raunveruleikaþættinum Made in Chelsea"
     },
     {
+      "artist": "Haraldur Thorleifsson",
+      "title": "Function + Feeling",
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Community Space",
+      "subcategory": null,
+      "date": "2026-08-15",
+      "day": "Saturday 15 August",
+      "start": "17:00",
+      "durationMin": 25,
+      "stage": "POLARIS",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/Haraldur_Thorleifsson.jpg",
+      "bio": "Haraldur Thorleifsson is an Icelandic entrepreneur, designer, and accessibility advocate. He founded the digital agency Ueno, which was acquired by Twitter in 2021. He is also the founder of Ramp Up and hafnar.haus, both initiatives dedicated to improving accessibility and strengthening Iceland’s creative community.",
+      "description": null,
+      "tagline": null,
+      "emcee": "Jason Achiles"
+    },
+    {
       "artist": "Néfur",
       "title": "Glacial Resonance: Live Soundscape",
       "isHostBlock": false,
@@ -6169,7 +6167,7 @@
       "bio_is": "Android Jones er stafrænn málari, þekktur fyrir lagskipt sækadelísk verk og umlykjandi lifandi gjörninga með sérsmíðuðum stafrænum búnaði. Verk hans snúast um andleg efni og breytt vitundarástand, þar sem tækni og andleg myndlist renna saman í því sem hann kallar Electro-Mineralism."
     },
     {
-      "artist": "Ali Love",
+      "artist": "BenSöl",
       "title": null,
       "isHostBlock": false,
       "status": "confirmed",
@@ -6178,14 +6176,14 @@
       "date": "2026-08-15",
       "day": "Saturday 15 August",
       "start": "19:10",
-      "durationMin": 80,
+      "durationMin": 90,
       "stage": "AURORA (Electronic Tent)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ali-love.jpg",
-      "bio": "Ali Love is a London-born DJ, singer, and songwriter, known for collaborations with Justice, Chemical Brothers, and Hot Natured.",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/bensol.jpg",
+      "bio": "Ben Sol is an Icelandic DJ and electronic music producer known for his work with underground techno collective Træangular.",
       "description": null,
       "tagline": null,
       "emcee": null,
-      "bio_is": "Ali Love er plötusnúður, söngvari og lagahöfundur frá London, þekktur fyrir samstarf við Justice, Chemical Brothers og Hot Natured."
+      "bio_is": "Ben Sol er íslenskur plötusnúður og raftónlistarframleiðandi, þekktur fyrir störf sín með neðanjarðarteknó-hópnum Træangular."
     },
     {
       "artist": "Curawaka",
@@ -6286,25 +6284,6 @@
       "bio_is": "James Ellington er framleiðandi, plötusnúður, kvikmyndatónskáld og annar stofnenda raftónlistarkollektífsins RVDIOVCTIVE. Hann er þekktur fyrir fjölbreytt sett og skapar kraftmikil tónlistarferðalög sem tvinna saman smitandi grúv og íhugula hlustun"
     },
     {
-      "artist": "BenSöl",
-      "title": null,
-      "isHostBlock": false,
-      "status": "confirmed",
-      "category": "Dance",
-      "subcategory": null,
-      "date": "2026-08-15",
-      "day": "Saturday 15 August",
-      "start": "20:30",
-      "durationMin": 90,
-      "stage": "AURORA (Electronic Tent)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/bensol.jpg",
-      "bio": "Ben Sol is an Icelandic DJ and electronic music producer known for his work with underground techno collective Træangular.",
-      "description": null,
-      "tagline": null,
-      "emcee": null,
-      "bio_is": "Ben Sol er íslenskur plötusnúður og raftónlistarframleiðandi, þekktur fyrir störf sín með neðanjarðarteknó-hópnum Træangular."
-    },
-    {
       "artist": "Arc De Soleil",
       "title": null,
       "isHostBlock": false,
@@ -6322,6 +6301,24 @@
       "tagline": null,
       "emcee": null,
       "bio_is": "Arc De Soleil er sækadelískt heimsfönk-verkefni tónskáldsins Daniel Kadawatha, þar sem brimgítar, sál og grúv úr öllum heimshornum renna saman."
+    },
+    {
+      "artist": "Erik Hammer",
+      "title": null,
+      "isHostBlock": false,
+      "status": "confirmed",
+      "category": "Dance",
+      "subcategory": null,
+      "date": "2026-08-15",
+      "day": "Saturday 15 August",
+      "start": "20:40",
+      "durationMin": 80,
+      "stage": "AURORA (Electronic Tent)",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/erik-hammer.jpeg",
+      "bio": null,
+      "description": null,
+      "tagline": null,
+      "emcee": null
     },
     {
       "artist": "Ollie Rankin",
