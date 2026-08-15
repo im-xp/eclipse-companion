@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T03:00:04+00:00",
+  "generatedAt": "2026-08-15T12:00:04+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -6303,7 +6303,7 @@
       "bio_is": "Arc De Soleil er sækadelískt heimsfönk-verkefni tónskáldsins Daniel Kadawatha, þar sem brimgítar, sál og grúv úr öllum heimshornum renna saman."
     },
     {
-      "artist": "Erik Hammer",
+      "artist": "Ali Love with Erik Hammer",
       "title": null,
       "isHostBlock": false,
       "status": "confirmed",
@@ -6314,7 +6314,7 @@
       "start": "20:40",
       "durationMin": 80,
       "stage": "AURORA (Electronic Tent)",
-      "headshot": "https://storage.googleapis.com/icelandeclipse/participants/erik-hammer.jpeg",
+      "headshot": "https://storage.googleapis.com/icelandeclipse/portal_participants/astronaut-fill.png",
       "bio": null,
       "description": null,
       "tagline": null,
