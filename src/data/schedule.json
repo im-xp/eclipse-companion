@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T03:00:04+00:00",
+  "generatedAt": "2026-08-16T04:00:03+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -5656,11 +5656,12 @@
       "stage": "POLARIS",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/alexander-layendecker.webp",
       "bio": "Dr. Alexander Layendecker is founder and Director of the Advanced SpaceLife Research Institute, pioneering research on human sexuality and reproduction in off-Earth environments. A former USAF Combat Search and Rescue pilot, he bridges space operations with human futures in space.",
-      "description": null,
+      "description": "\"Fireside chat\"-style discussion between Dr. Alexander Layendecker, Director of the Advanced SpaceLife Research Institute (ASRI), and Ari Eisenstat on the newest scientific findings around sex and reproduction in outer space.",
       "tagline": null,
       "emcee": "Chris Huie",
       "title_is": "Kynlíf í geimnum: Að sá fræjum framtíðar mannkyns utan jarðar",
-      "bio_is": "Dr. Alexander Layendecker er stofnandi og forstöðumaður Advanced SpaceLife Research Institute og brautryðjandi í rannsóknum á kynlífi og æxlun manna utan jarðar. Hann er fyrrverandi leitar- og björgunarflugmaður í bandaríska flughernum og brúar bilið milli geimreksturs og framtíðar mannsins í geimnum."
+      "bio_is": "Dr. Alexander Layendecker er stofnandi og forstöðumaður Advanced SpaceLife Research Institute og brautryðjandi í rannsóknum á kynlífi og æxlun manna utan jarðar. Hann er fyrrverandi leitar- og björgunarflugmaður í bandaríska flughernum og brúar bilið milli geimreksturs og framtíðar mannsins í geimnum.",
+      "description_is": "Samtal í „arineldsstíl“ milli dr. Alexander Layendecker, forstöðumanns Advanced SpaceLife Research Institute (ASRI), og Ari Eisenstat um nýjustu vísindaniðurstöðurnar um kynlíf og æxlun úti í geimnum."
     },
     {
       "artist": "Ari Eisenstat",
@@ -5676,11 +5677,12 @@
       "stage": "POLARIS",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ari-eisenstat.jpg",
       "bio": "Ari Eisenstat is a Partner at IMXP, producing the Eclipse Festival Trilogy across Iceland, Egypt, and New Zealand. An International Futurist at the University of Hawai'i, he chairs Space for Humanity's Advisory Board, bridging space, art, and human futures.",
-      "description": null,
+      "description": "\"Fireside chat\"-style discussion between Dr. Alexander Layendecker, Director of the Advanced SpaceLife Research Institute (ASRI), and Ari Eisenstat on the newest scientific findings around sex and reproduction in outer space.",
       "tagline": null,
       "emcee": "Chris Huie",
       "title_is": "Kynlíf í geimnum: Að sá fræjum framtíðar mannkyns utan jarðar",
-      "bio_is": "Ari Eisenstat er meðeigandi hjá IMXP og framleiðir Eclipse Festival Trilogy á Íslandi, í Egyptalandi og á Nýja-Sjálandi. Hann er alþjóðlegur framtíðarfræðingur við Háskólann á Hawai'i og fer fyrir ráðgjafarráði Space for Humanity, þar sem hann tengir saman geiminn, listir og framtíð mannkyns."
+      "bio_is": "Ari Eisenstat er meðeigandi hjá IMXP og framleiðir Eclipse Festival Trilogy á Íslandi, í Egyptalandi og á Nýja-Sjálandi. Hann er alþjóðlegur framtíðarfræðingur við Háskólann á Hawai'i og fer fyrir ráðgjafarráði Space for Humanity, þar sem hann tengir saman geiminn, listir og framtíð mannkyns.",
+      "description_is": "Samtal í „arineldsstíl“ milli dr. Alexander Layendecker, forstöðumanns Advanced SpaceLife Research Institute (ASRI), og Ari Eisenstat um nýjustu vísindaniðurstöðurnar um kynlíf og æxlun úti í geimnum."
     },
     {
       "artist": "La Brújería Herbal Ceremony",
@@ -5714,10 +5716,11 @@
       "stage": "POLARIS",
       "headshot": "https://storage.googleapis.com/icelandeclipse/participants/ben-haldeman.webp",
       "bio": null,
-      "description": null,
+      "description": "Iceland Eclipse founder Mitch Morales and LifeShip founder Ben Haldeman explore a bold vision: an eclipse festival on the Moon in 2033, and the community-powered movement carrying this culture outward as we settle space. Imagine watching Earth eclipse the Sun from the lunar surface, a first step toward space cities and our becoming a galactic species.",
       "tagline": null,
       "emcee": "Chris Huie",
-      "title_is": "MOON 2033"
+      "title_is": "MOON 2033",
+      "description_is": "Mitch Morales, stofnandi Iceland Eclipse, og Ben Haldeman, stofnandi LifeShip, kanna djarfa framtíðarsýn: sólmyrkvahátíð á tunglinu árið 2033 og samfélagsdrifna hreyfingu sem ber þessa menningu út á við þegar við nemum land í geimnum. Ímyndaðu þér að horfa á jörðina myrkva sólina af yfirborði tunglsins – fyrsta skrefið í átt að geimborgum og því að við verðum vetrarbrautartegund."
     },
     {
       "artist": "Mitch Morales",
@@ -5733,11 +5736,12 @@
       "stage": "POLARIS",
       "headshot": "https://storage.googleapis.com/egypt-eclipse/participants/mitch-morales.png",
       "bio": "Founder of IMXP, organizer of Iceland Eclipse, and experience seeker.",
-      "description": null,
+      "description": "Iceland Eclipse founder Mitch Morales and LifeShip founder Ben Haldeman explore a bold vision: an eclipse festival on the Moon in 2033, and the community-powered movement carrying this culture outward as we settle space. Imagine watching Earth eclipse the Sun from the lunar surface, a first step toward space cities and our becoming a galactic species.",
       "tagline": null,
       "emcee": "Chris Huie",
       "title_is": "MOON 2033",
-      "bio_is": "Stofnandi IMXP, skipuleggjandi Iceland Eclipse og sífellt í leit að nýjum upplifunum."
+      "bio_is": "Stofnandi IMXP, skipuleggjandi Iceland Eclipse og sífellt í leit að nýjum upplifunum.",
+      "description_is": "Mitch Morales, stofnandi Iceland Eclipse, og Ben Haldeman, stofnandi LifeShip, kanna djarfa framtíðarsýn: sólmyrkvahátíð á tunglinu árið 2033 og samfélagsdrifna hreyfingu sem ber þessa menningu út á við þegar við nemum land í geimnum. Ímyndaðu þér að horfa á jörðina myrkva sólina af yfirborði tunglsins – fyrsta skrefið í átt að geimborgum og því að við verðum vetrarbrautartegund."
     },
     {
       "artist": "Ragnhildur Sigurðardóttir",
