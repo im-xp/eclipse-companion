@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T04:00:03+00:00",
+  "generatedAt": "2026-08-17T12:00:02+00:00",
   "days": [
     "2026-08-11",
     "2026-08-12",
@@ -5581,7 +5581,8 @@
       "bio": null,
       "description": null,
       "tagline": null,
-      "emcee": "Chris Huie"
+      "emcee": "Chris Huie",
+      "title_is": "Eclipse-frumsýning með sérstökum geimgestum í umsjón Pacific.Space"
     },
     {
       "artist": "Red Owl Medicine Woman",
@@ -5620,6 +5621,7 @@
       "description": null,
       "tagline": null,
       "emcee": null,
+      "title_is": "Framtíð tækninnar",
       "bio_is": "Michael Jelen er frumkvöðull í miðlunartækni og lifandi upplifunum sem byggir upp Ekho, vettvang sem breytir tónlist í afl knúið áfram af aðdáendum. Verk hans flétta saman tækni, sviðslist og sameiginlega orku til að gera áhorfendur að virkum þátttakendum."
     },
     {
@@ -5942,7 +5944,9 @@
       "bio": "Haraldur Thorleifsson is an Icelandic entrepreneur, designer, and accessibility advocate. He founded the digital agency Ueno, which was acquired by Twitter in 2021. He is also the founder of Ramp Up and hafnar.haus, both initiatives dedicated to improving accessibility and strengthening Iceland’s creative community.",
       "description": null,
       "tagline": null,
-      "emcee": "Jason Achiles"
+      "emcee": "Jason Achiles",
+      "title_is": "Virkni + tilfinning",
+      "bio_is": "Haraldur Thorleifsson er íslenskur frumkvöðull, hönnuður og talsmaður aðgengismála. Hann stofnaði stafrænu stofuna Ueno, sem Twitter keypti árið 2021. Hann er einnig stofnandi Ramp Up og hafnar.haus, en bæði verkefnin miða að því að bæta aðgengi og efla skapandi samfélag á Íslandi."
     },
     {
       "artist": "Néfur",
@@ -6585,7 +6589,9 @@
       "bio": "Unify is an organization focused on social impact and community building, working to bring people together through shared experiences and positive social change initiatives.",
       "description": null,
       "tagline": null,
-      "emcee": null
+      "emcee": null,
+      "title_is": "Lokaathöfn",
+      "bio_is": "Unify eru samtök sem leggja áherslu á samfélagsleg áhrif og uppbyggingu samfélags og vinna að því að leiða fólk saman í gegnum sameiginlega upplifun og verkefni sem stuðla að jákvæðum breytingum í samfélaginu."
     }
   ]
 }
